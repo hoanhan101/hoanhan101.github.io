@@ -1,51 +1,282 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Gray - Single column blog and portfolio Jekyll theme</title>
+ <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-05T02:03:49-05:00</updated>
+ <updated>2020-01-05T18:21:58-05:00</updated>
  <id></id>
  <author>
-   <name></name>
-   <email></email>
+   <name>Hoanh An</name>
+   <email>hoanhan101@gmai.com</email>
  </author>
 
  
  <entry>
-   <title>Scalable Press</title>
-   <link href="/2020/01/02/scalable-press"/>
-   <updated>2020-01-02T00:00:00-05:00</updated>
-   <id>/2020/01/02/scalable-press</id>
-   <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
+   <title>LeetCode's Array/String</title>
+   <link href="/2019/10/08/leetcode-array-string"/>
+   <updated>2019-10-08T00:00:00-04:00</updated>
+   <id>/2019/10/08/leetcode-array-string</id>
+   <content type="html">&lt;h3 id=&quot;1-given-an-array-of-integers-return-indices-of-the-two-numbers-such-that-they-add-up-to-a-specific-target&quot;&gt;1. Given an array of integers, return indices of the two numbers such that they add up to a specific target.&lt;/h3&gt;
 
-&lt;p&gt;Efficient custom printing on demand.&lt;/p&gt;
+&lt;p&gt;You may assume that each input would have exactly one solution, and you may not use the same element twice.&lt;/p&gt;
 
-&lt;h3 id=&quot;what-is-its-current-revenue-monthly-yearly&quot;&gt;What is its current revenue (monthly, yearly)?&lt;/h3&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: nums = []int{2, 5, 4}, target = 6
+  Output: [0, 2] since nums[0] + nums[2] = 2 + 4 = 6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;100 millions a year.&lt;/p&gt;
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use a hash map to store the value and its index as we iterate through the
+  list.
+- Within each iteration, look up the difference of target and the current
+  value to see if we have seen that number.
+- Simply return two cached indices once that condition meets.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Subscription.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/two_sum_i_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea-what-was-the-context&quot;&gt;How did the founder come up with their idea? What was the context?&lt;/h3&gt;
+&lt;h3 id=&quot;2-given-a-sorted-array-of-integers-return-indices-of-the-two-numbers-such-that-they-add-up-to-a-specific-target&quot;&gt;2. Given a sorted array of integers, return indices of the two numbers such that they add up to a specific target.&lt;/h3&gt;
 
-&lt;p&gt;Had a friend, Raymond, working in the time T shirt business, Teespring, was booming. He also dropped out the same time, but because he had made 1 millions in revenue selling T shirts. Utilized cheap manufacturing, sold at 40% cheaper prices, were price leaders. Eric joined to build their own printing infrastructure to a even more automated, cheaper, efficient process.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: nums = []int{2, 3, 4}, target = 6
+  Output: [0, 2] since nums[0] + nums[2] = 2 + 4 = 6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Built the API first and posted in Hackernews. Went after T shirt business, found Teechip, competed with Teespring (YC). Expanded to other industry too based on the API.&lt;/p&gt;
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Since the array is sorted, can use two-pointer approach that has one point
+  to the start of the list while the other point at the end and move the
+  toward each other.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;how-did-they-find-the-right-problems-to-work-on&quot;&gt;How did they find the right problems to work on?&lt;/h3&gt;
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time and O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/two_sum_ii_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;how-did-they-achieve-productmarket-fit&quot;&gt;How did they achieve product/market fit?&lt;/h3&gt;
+&lt;h3 id=&quot;3-given-a-string-determine-if-it-is-a-palindrome-considering-only-alphanumeric-characters-and-ignoring-cases&quot;&gt;3. Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.&lt;/h3&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: &quot;A man, a plan, a canal: Panama&quot;
+  Output: true
+- Input: &quot;race a car&quot;
+  Output: false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use two pointers approach that have one point to the start of the string and
+  the other point at the end.
+- Move them toward each other and compare if they're the same characters while
+  skipping non-alphanumeric characters and ignoring cases.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/valid_palindrome_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-implement-strstr-that-finds-the-first-occurrence-of-the-substring-needle-in-the-string-haystack-it-returns--1-if-needle-is-not-part-of-the-haystack&quot;&gt;4. Implement strstr() that finds the first occurrence of the substring needle in the string haystack. It returns -1 if needle is not part of the haystack.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: haystack = &quot;aaabacd&quot;, needle = &quot;ba&quot;
+  Output: 3, because needle &quot;ba&quot; starts at index 3 in the haystack.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Scan the needle with the haystack from its first position and start matching
+  all subsequent letters one by one.
+- If one letter does not match, start again with the next position in the
+  haystack.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(nm) time, O(1) space, where n is the length of haystack while m is the
+  length of needle.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/strstr_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-given-a-string-reverse-it-word-by-word&quot;&gt;5. Given a string, reverse it word by word.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: &quot;hard so be to have not does interview coding&quot;
+  Output: &quot;coding interview does not have to be so hard&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Approach with a two-pass solution.
+- The first pass is to split the string into an array of words separated by
+  spaces.
+- The second pass is to reverse the order of words in the array by using
+  two-pointer approach: swap two values on both ends as we move toward the
+  middle.
+- Concatenate the values of ordered array to create a final string.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/reverse_words_string_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;6-given-a-string-find-the-length-of-the-longest-substring-without-repeating-characters&quot;&gt;6. Given a string, find the length of the longest substring without repeating characters.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: &quot;abcabcbb&quot;
+  Output: 3
+  Explanation: The longest substring is &quot;abc&quot; with the length of 3.
+- Input: &quot;bbbbb&quot;
+  Output: 1
+  Explanation: The longest substring is &quot;b&quot; with the length of 1.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Iterate through the string and keep track of the maximum length of non-repeating
+  characters using a hashmap that maps characters to their indices.
+- Could skip characters immediately if we found a repeating character.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(m) cost where m &amp;lt; n and  n is the length of the string.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/longest_substring_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;7-given-a-sorted-integer-array-where-the-range-of-elements-are-0-99-inclusive-return-its-missing-ranges&quot;&gt;7. Given a sorted integer array where the range of elements are [0, 99] inclusive, return its missing ranges.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{0, 1, 6, 16, 66, 99}
+  Output: []string{&quot;2-5&quot;, &quot;7-15&quot;, &quot;17-65&quot;, &quot;67-98&quot;}
+- Input: []int{6, 16, 66}
+  Output: []string{&quot;0-5&quot;, &quot;7-15&quot;, &quot;17-65&quot;, &quot;67-99&quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Keep two pointers where one is ahead of the other by 1 index.
+- Iterate through the list, calculate the difference of two consecutive numbers
+  in the list at each step and append it to a new list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(m) space, where m &amp;lt; n and n is the size of the input.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/missing_ranges_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;8-given-two-strings-determine-if-they-are-both-one-edit-distance-apart&quot;&gt;8. Given two strings, determine if they are both one edit distance apart.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: &quot;abcde&quot;, &quot;abXde&quot;
+  Output: true
+  Explanation: Only &quot;c&quot; in S is replaced by &quot;X&quot; in T.
+- Input: &quot;abcde&quot;, &quot;abcXde&quot;
+  Output: true
+  Explanation: &quot;X&quot; is inserted between &quot;c&quot; and &quot;d&quot; in S to get T.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use two-pointer approach to traverse both strings at the same time and
+  keep track of count of difference characters.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/one_edit_distance_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interview Cake's Linked Lists</title>
+   <link href="/2019/10/01/interviewcake-linked-list"/>
+   <updated>2019-10-01T00:00:00-04:00</updated>
+   <id>/2019/10/01/interviewcake-linked-list</id>
+   <content type="html">&lt;h3 id=&quot;1-delete-a-node-from-a-singly-linked-list-given-only-a-pointer-to-that-node&quot;&gt;1. Delete a node from a singly-linked list, given only a pointer to that node.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Since we don't have access to the previous node, simply copy the value and
+  pointer of the next node and copy them into the current node.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(1) time and O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/delete_node_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-determine-if-a-singly-linked-list-has-a-cycle&quot;&gt;2. Determine if a singly-linked list has a cycle.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Keep two pointers starting at the first node such that: every time one moves
+  one node ahead, the other moves 2 nodes ahead.
+- If the linked list has a cycle, the faster one will catch up with the slow
+  one. Otherwise, the faster one will each the end.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time and O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/linked_list_cycle_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-reverse-a-linked-list-in-place&quot;&gt;3. Reverse a linked list in-place.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Iterate through the list and point each node's next pointer to the previous item.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/reverse_linked_list_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-find-the-kth-to-last-node-in-a-linked-list&quot;&gt;4. Find the kth to last node in a linked list.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: list = 1 -&amp;gt; 2 -&amp;gt; 3 -&amp;gt; 4 -&amp;gt; 5 -&amp;gt; 6, k = 2
+  Output: 5, because 5 is the 2nd to the last node (6)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use two pointers such that one starts at the beginning and the other one
+  starts at k distance apart.
+- Walk both at the same speed toward the end.
+- When one hits the tail, the other one is on the target node.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/kth_to_last_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
  </entry>
  
@@ -392,7 +623,516 @@ these counts to compute each item's index in the final sorted array.
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;If you’re interested in getting updates for these content like this, consider
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interview Cake's Queues and Stacks</title>
+   <link href="/2019/09/17/interviewcake-queue-stack"/>
+   <updated>2019-09-17T00:00:00-04:00</updated>
+   <id>/2019/09/17/interviewcake-queue-stack</id>
+   <content type="html">&lt;h3 id=&quot;1-implement-a-stack-with-a-method-getmax-that-returns-the-largest-element-in-the-stack-in-o1-time&quot;&gt;1. Implement a stack with a method getMax() that returns the largest element in the stack in O(1) time.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- We use two stack implementation themselves: one holds all the items and the
+  other holds all the maximum values after each push() and pop().
+- That way, we could keep track of your maximum value up to date in constant
+  time.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(1) time, O(m) space where m is the number of operations performed on the
+  stack.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/largest_stack_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-implement-a-queue-with-2-stacks&quot;&gt;2. Implement a queue with 2 stacks.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use one stack for enqueuing item and the other to reverse the order them for
+  dequeuing/popping item.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(1) time, O(m) space m is the number of operations.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/queue_two_stacks_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-sentence-as-string-and-the-position-of-an-opening-parenthesis-position-find-the-matching-closing-one-position&quot;&gt;3. Given a sentence as string, and the position of an opening parenthesis position, find the matching closing one position.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: &quot;I ((like) (nesting) parenthesis)&quot;, opening parenthesis position = 2
+  Output: 31, because the matching parenthesis of the one in position 2 is at
+  index 31.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Iterate through the string and keep a count of matching parenthesis at each
+  step.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/parenthesis_matching_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-a-string-determine-if-its-brackets-are-properly-nested&quot;&gt;4. Given a string, determine if its brackets are properly nested.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: &quot;{[]()}&quot;
+  Output: true
+- Input: &quot;{[(])}&quot;
+  Output: false
+- Input: &quot;{[}&quot;
+  Output: false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use a stack to keep track of matching parenthesis as we iterate
+  through the string.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time and O(n) space, where n is the number of operations.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/bracket_validator_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interview Cake's Trees and Graphs</title>
+   <link href="/2019/08/31/interviewcake-tree-graph"/>
+   <updated>2019-08-31T00:00:00-04:00</updated>
+   <id>/2019/08/31/interviewcake-tree-graph</id>
+   <content type="html">&lt;h3 id=&quot;1-given-a-binary-tree-determine-if-it-is-superbalanced---the-difference-between-the-depths-of-any-two-leaf-nodes-is-no-greater-than-1&quot;&gt;1. Given a binary tree, determine if it is “superbalanced” - the difference between the depths of any two leaf nodes is no greater than 1.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+         1
+      2     3
+    4   5      7
+          6  8   9
+                   10
+  Output: false
+  Even though this tree is balanced by definition, it is not &quot;superbalanced&quot;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use a depth-first walk through the tree and keep track of the depth as we
+  go.
+- Every time we found a leaf with a new depth, there are two ways that the
+  tree could be unbalanced:
+   - There are more than 2 different leaf depths.
+   - There are exactly 2 depths but they are more than 1 apart.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+- The worst case is that we have to iterate all nodes in the tree so the time
+  complexity is O(n). For space complexity, we have to keep track of the all
+  the nodes at every depth. Hence, it is O(n).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/balanced_binary_tree_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-a-binary-tree-determine-if-it-is-a-binary-search-tree&quot;&gt;2. Given a binary tree, determine if it is a binary search tree.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+          5
+      3       8
+    2   4   7   9
+  1               11
+  Output: true, because for each node, its value is greater than all values in
+  the left subtree and less than all values in the right one.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use a depth-first walk through the tree and validate each node as we go.
+- If a node appears in the left subtree, it must be less than its ancestor and
+  vice versa.
+- Instead of keeping track of every ancestor to check the inequalities, just
+  need to check the largest number it must be greater than and the smallest one
+  it must be less than, aka lower bound and upper bound.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+- The worst case is that we have to iterate all nodes in the tree so the time
+  complexity is O(n). For space complexity, we have to keep track of the lower
+  bound and upper bound as we traverse the tree via a stack. Hence, the worst
+  case is O(n).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/binary_search_tree_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-binary-search-tree-find-the-2nd-largest-item&quot;&gt;3. Given a binary search tree, find the 2nd largest item.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+          5
+      3       8
+    2   4   7   9
+  1               11
+  Output: 9
+- Input:
+           5
+      3        8
+    2   4   7     16
+                11
+              9   12
+  Output: 12
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- The largest item in a binary search tree is the rightmost item. Can
+  simply traverse down the tree recursively to find one.
+- The 2nd largest item could be the parent of the largest but it's not
+  necessary since the largest could have a left subtree and there might exist
+  one there.
+- Still, the second largest one when the largest has a left subtree is basically
+  the largest one in that left subtree.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(h) time, O(1) space, where h is the height of the tree.
+- If the tree is balanced, the time complexity is (Olgn). Otherwise, it's O(n).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/2nd_largest_item_bst_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-an-undirected-graph-with-maximum-degree-d-find-a-graph-coloring-using-at-most-d--1-colors-assume-that-there-is-no-node-with-a-loop&quot;&gt;4. Given an undirected graph, with maximum degree d, find a graph coloring using at most d + 1 colors. Assume that there is no node with a loop.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- For a graph with degree 3, we could use at most 4 colors.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use a greedy approach to iterate over the graph and assign each node the
+  first non-taken color that we found.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(m) time and O(d) space, where m is sum of all the nodes and edges, d is
+  the number of all colors.
+- Even though it seems like we have an outer and inner loop, we carefully walk
+  through the graph one node at a time and stop checking for colors as soon as
+  we found one that is non-taken.
+- About the space complexity, it makes sense that we have to store all
+  available colors in the worst case. Hence it takes up O(d) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/graph_coloring_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interview Cake's Greedy algorithms</title>
+   <link href="/2019/08/24/interviewcake-greedy-algorithms"/>
+   <updated>2019-08-24T00:00:00-04:00</updated>
+   <id>/2019/08/24/interviewcake-greedy-algorithms</id>
+   <content type="html">&lt;h3 id=&quot;1-given-a-list-of-stock-prices-integer-in-chronological-order-return-the-max-profit-from-buying-at-earlier-time-and-selling-at-later-time&quot;&gt;1. Given a list of stock prices (integer) in chronological order, return the max profit from buying at earlier time and selling at later time.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{10, 7, 5, 8, 11, 9}
+  Output: 6, because one can buy at 5 and sell at 11
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use a greedy approach to keep track of the minimum price and the maximum
+  profit for each value while iterating through the list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/apple_stocks_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-a-list-of-integers-return-the-highest-product-of-three-numbers&quot;&gt;2. Given a list of integers, return the highest product of three numbers.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{-10, -10, 1, 3, 2}
+  Output: 300, because -10.-10.3 gives the highest product
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use a greedy approach to keep track of the current highest, current lowest,
+  highest of three, highest of two and lowest of two for every value as we
+  iterate through the list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/highest_product_of_three_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-list-of-integers-return-a-corresponding-list-where-every-index-holds-the-product-of-every-other-values-except-the-value-in-that-index-and-you-cant-use-division&quot;&gt;3. Given a list of integers, return a corresponding list where every index holds the product of every other values except the value in that index. And, you can’t use division!&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 7, 3, 4}
+  Output: []int{84, 12, 28, 21}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Iterate through the list and at each step, calculate the product of all
+  the integers before each index and the product of all the integers after
+  each index.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/product_of_others_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-a-list-of-integers-shuffle-its-location-in-place&quot;&gt;4. Given a list of integers, shuffle its location in-place.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 2, 3, 4, 5}
+  Output: []int{2, 1, 4, 3, 5}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Iterate through the list, swap current value with a value in a randomized
+  index that is between the current and last index.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/inplace_shuffle_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interview Cake's Hashing problems</title>
+   <link href="/2019/08/23/interview-cake-hashing-problems"/>
+   <updated>2019-08-23T00:00:00-04:00</updated>
+   <id>/2019/08/23/interview-cake-hashing-problems</id>
+   <content type="html">&lt;h3 id=&quot;1-given-a-list-of-movie-lengths-and-a-total-flight-length-determine-if-there-exist-two-movies-that-add-up-to-the-total-length&quot;&gt;1. Given a list of movie lengths and a total flight length, determine if there exist two movies that add up to the total length.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: list=[]int{2, 3, 4}, length=6
+  Output: true, because there exists 2 and 4 that add up to 6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Could use hashmap to keep track of movie lengths that we've seen so far and
+  look it up as we iterate through the list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/inflight_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-a-string-check-if-its-permutation-is-a-palindrome&quot;&gt;2. Given a string, check if its permutation is a palindrome.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: &quot;ivicc&quot;
+  Output: true
+- Input: &quot;civic&quot;
+  Output: true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- To determine if a permutation is a palindrome, need to check if each
+  character in the string appears an even number of times, allowing for
+  only one character to appear an odd time, that is the middle one.
+- Could use a hashmap store the characters and their number of occurrences.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/permutation_palindrome_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-sentence-string-return-its-word-count-map&quot;&gt;3. Given a sentence (string), return its word count map.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: &quot;Cliff finished his cake and paid the bill. Bill finished his cake at the edge of the cliff.&quot;
+  Output: map[string]int{&quot;cliff&quot;: 1, &quot;Cliff&quot;: 1, &quot;finished&quot;: 2, &quot;his&quot;: 2, &quot;cake&quot;: 2, &quot;and&quot;: 1, &quot;paid&quot;: 1, &quot;the&quot;: 3, &quot;bill&quot;: 1, &quot;Bill&quot;: 1, &quot;at&quot;: 1, &quot;edge&quot;: 1, &quot;of&quot;: 1}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- First get rid of special characters, then use a hashmap to keep counts of words
+  as we iterate through the string.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/word_cloud_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-an-unsorted-list-scores-integer-and-a-highest-possible-score-integer-return-a-sorted-list-utilizing-that-fact&quot;&gt;4. Given an unsorted list scores (integer) and a highest possible score (integer), return a sorted list utilizing that fact.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{37, 89, 41, 65, 91, 53}, 100
+  Output: []int{91, 89, 65, 53, 41, 37}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Utilize the highest score to allocate a fix-sized list ahead of time where
+  where its indices represent the scores themselves and its values represent
+  how many time these scores appear in the list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/top_scores_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interview Cake's Array and string manipulation</title>
+   <link href="/2019/08/21/interviewcake-array-string-manipulation"/>
+   <updated>2019-08-21T00:00:00-04:00</updated>
+   <id>/2019/08/21/interviewcake-array-string-manipulation</id>
+   <content type="html">&lt;h3 id=&quot;1-given-a-list-of-unsorted-independent-meetings-returns-a-list-of-a-merged-one&quot;&gt;1. Given a list of unsorted, independent meetings, returns a list of a merged one.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []meeting{ {1, 2}, {2, 3}, {4, 5} }
+  Output: []meeting{ {1, 3}, {4, 5} }
+- Input: []meeting{ {1, 5}, {2, 3} }
+  Output: []meeting{ {1, 5} }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Sort the list in ascending order so that meetings that might need to be
+  merged are next to each other.
+- Can merge two meetings together if the first one's end time is greater or
+  or equal than the second one's start time.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(nlogn) time, O(n) space.
+- Because we sort all meeting first, the runtime is O(nlogn). We create a new
+  list of merged meeting times, so the space cost is O(n).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/merge_meetings_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-a-list-of-string-reverse-its-order&quot;&gt;2. Given a list of string, reverse its order.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []string{&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;}
+  Output: []string{&quot;d&quot;, &quot;c&quot;, &quot;b&quot;, &quot;a&quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use two pointers approach to swap two values on both ends as we move toward
+  the middle.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/reverse_string_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-list-of-string-that-is-made-up-of-word-but-in-reverse-return-the-correct-order-in-place&quot;&gt;3. Given a list of string that is made up of word but in reverse, return the correct order in-place.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []string{&quot;w&quot;, &quot;o&quot;, &quot;r&quot;, &quot;l&quot;, &quot;d&quot;, &quot;&quot;, &quot;h&quot;, &quot;e&quot;, &quot;l&quot;, &quot;l&quot;, &quot;o&quot;, &quot;&quot;, &quot;s&quot;, &quot;a&quot;, &quot;y&quot;}
+  Output: []string{&quot;s&quot;, &quot;a&quot;, &quot;y&quot;, &quot;&quot;, &quot;h&quot;, &quot;e&quot;, &quot;l&quot;, &quot;l&quot;, &quot;o&quot;, &quot;&quot;, &quot;w&quot;, &quot;o&quot;, &quot;r&quot;, &quot;l&quot;, &quot;d&quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to reversing string, use the same idea to reverse all the characters
+  in the list first so that we could have a list of words in the right order, not
+  its characters.
+- Iterate through the list again and reverse its characters.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/reverse_word_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-merge-two-sorted-arrays&quot;&gt;4. Merge two sorted arrays.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 3, 5}, []int{2, 4, 6}
+  Output: []int{1, 2, 3, 4, 5, 6}
+- Input: []int{1, 3, 5}, []int{2, 4, 6, 7}
+  Output: []int{1, 2, 3, 4, 5, 6, 7}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Since these arrays are sorted, can use two pointers approach to iterate
+  through both of them and append the smaller value to a new merged list at
+  each step.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/interviewcake/merge_sorted_arrays_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
   joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </content>
