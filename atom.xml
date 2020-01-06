@@ -4,13 +4,551 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-05T19:29:20-05:00</updated>
+ <updated>2020-01-06T12:40:16-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Grokking the Coding Interview's Tree breath first search</title>
+   <link href="/2019/12/24/gtci-tree-bfs"/>
+   <updated>2019-12-24T00:00:00-05:00</updated>
+   <id>/2019/12/24/gtci-tree-bfs</id>
+   <content type="html">&lt;h3 id=&quot;1-given-a-binary-tree-populate-the-values-of-all-nodes-of-each-level-from-left-to-right-in-separate-sub-arrays&quot;&gt;1. Given a binary tree, populate the values of all nodes of each level from left to right in separate sub-arrays.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+      1
+	2   3
+  4       5
+  Output: []interface{}{[]interface{}{1}, []interface{}{2, 3}, []interface{}{4, 5}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Start by pushing the root node to the queue.
+- Keep iterating until the queue is empty.
+- At each step,
+  - send the front of the queue and dequeue it
+  - enqueue its left and right child
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/level_order_traversal_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-a-binary-tree-populate-the-values-of-all-nodes-of-each-level-in-reverse-order-in-separate-sub-arrays&quot;&gt;2. Given a binary tree, populate the values of all nodes of each level in reverse order in separate sub-arrays.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+      1
+	2   3
+  4       5
+  Output: []interface{}{[]interface{}{4, 5}, []interface{}{2, 3}, []interface{}{1}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to level order reversal problem, except we append the current level's
+  value at the beginning of the output list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/reverse_level_order_traversal_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-binary-tree-populate-the-values-of-all-nodes-of-each-level-in-a-zigzag-order-in-separate-sub-arrays&quot;&gt;3. Given a binary tree, populate the values of all nodes of each level in a zigzag order in separate sub-arrays.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+      1
+	2   3
+  4       5
+  Output: [][]interface{}{[]interface{}{1}, []interface{}{3, 2}, []interface{}{4, 5}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Start by pushing the root node to a queue.
+- Keep iterating until the queue is empty.
+- At each step,
+  - use a linked list to push front or back depending on the zigzag direction
+  - enqueue its left and right child
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/zigzag_traversal_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-a-binary-tree-populate-an-array-to-represent-the-averages-of-all-of-its-levels&quot;&gt;4. Given a binary tree, populate an array to represent the averages of all of its levels.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+      1
+	2   3
+  4       5
+  Output: []float64{1, 2.5, 4.5}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to level order traversal problem, except we keep track of the sum
+  at each level and return the average in the end.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/level_avg_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-given-a-binary-tree-find-the-minimum-depth-aka-the-number-of-nodes-along-the-shortest-path-from-the-root-node-to-the-nearest-leaf-node&quot;&gt;5. Given a binary tree, find the minimum depth, aka the number of nodes along the shortest path from the root node to the nearest leaf node.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+      1
+	2   3
+  4       5
+        6   7
+      8
+  Output: 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to level order traversal problem, except we keep track of the minimum
+  depth at each level
+- Return it immediately once we find the leaf node.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/min_depth_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;6-given-a-binary-tree-find-the-maximum-depth&quot;&gt;6. Given a binary tree, find the maximum depth.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input:
+      1
+	2   3
+  4       5
+        6   7
+      8
+  Output: 5
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to minimum depth problem, we will keep traversing for all
+  levels, incrementing our maximum depth instead of returning as
+  soon as we find a leaf node.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/max_depth_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;7-given-a-binary-tree-and-a-node-find-the-level-order-successor-of-the-given-node-the-level-order-successor-is-the-node-that-appears-right-after-the-given-node-in-the-level-order-traversal&quot;&gt;7. Given a binary tree and a node, find the level order successor of the given node. The level order successor is the node that appears right after the given node in the level order traversal.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: target=6, tree=
+      1
+	2   3
+  4       5
+        6   7
+      8
+  Output: 6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to level order traversal problem, except we will not keep
+  track of all the levels.
+- Instead, we keep inserting the child node to the queue and return
+  the next node as soon as we find the target.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/level_order_successor_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Grokking the Coding Interview's Cyclic sort</title>
+   <link href="/2019/12/22/gtci-cyclic-sort"/>
+   <updated>2019-12-22T00:00:00-05:00</updated>
+   <id>/2019/12/22/gtci-cyclic-sort</id>
+   <content type="html">&lt;h3 id=&quot;1-cyclic-sort&quot;&gt;1. Cyclic sort&lt;/h3&gt;
+
+&lt;p&gt;Given an array containing n objects where each object, when created,
+was assigned a unique number from 1 to n based on their creation sequence.
+This means that the object with sequence number 3 was created just before
+the object with sequence number 4.&lt;/p&gt;
+
+&lt;p&gt;Write a function to sort the objects in-place on their creation sequence
+number in O(n) and without any extra space.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{6, 3, 5, 2, 4, 1}
+  Output: []int{1, 2, 3, 4, 5, 6}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use the fact that we are given a range of 1-n, can try placing each number at
+  its correct index in the array, say 1 at 0, 2 at 1, 3 at 2 and so on.
+- Iterate through the array and if the current number is not at the correct index,
+  swap it with the number at its correct index.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/cyclic_sort_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-an-array-containing-n-numbers-taken-from-the-range-1-to-n-it-can-have-duplicates-find-all-those-missing-numbers&quot;&gt;2. Given an array containing n numbers taken from the range 1 to n. It can have duplicates. Find all those missing numbers.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{2, 3, 1, 8, 2, 3, 5, 1}
+  Output: []int{4, 6, 7}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to missing number problem, can rearrange the array using cyclic
+  sort.
+- Those that do not have the correct indices are the missing ones.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time and O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/missing_number_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-an-array-containing-n-distinct-numbers-taken-from-the-range-0-to-n-since-the-array-has-only-n-numbers-out-of-the-total-n1-numbers-find-the-missing-number&quot;&gt;3. Given an array containing n distinct numbers taken from the range 0 to n. Since the array has only n numbers out of the total n+1 numbers, find the missing number.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{4, 0, 3, 1}
+  Output: 2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Sort the array using the cyclic sort first.
+- The one that does not have the correct index is the missing one.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/missing_numbers_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-an-array-containing-n1-numbers-taken-from-the-range-1-to-n-it-has-only-one-duplicate-number-but-can-be-repeated-over-time-find-that-one&quot;&gt;4. Given an array containing n+1 numbers taken from the range 1 to n. It has only one duplicate number but can be repeated over time. Find that one.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 4, 4, 3, 2}
+  Output: 4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to missing number problem, can place each number on its correct
+  index.
+- If while swapping the number with its index both the numbers being swapped
+  are same, we have found the duplicate.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/duplicate_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-given-an-array-containing-n-numbers-taken-from-the-range-1-to-n-it-can-have-some-duplicates-find-all-those-numbers&quot;&gt;5. Given an array containing n numbers taken from the range 1 to n. It can have some duplicates. Find all those numbers.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{5, 4, 7, 2, 3, 5, 3}
+  Output: []int{3, 5}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to missing number problem, can rearrange the array using cyclic
+  sort.
+- Those that do not have the correct indices are the duplicate ones.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/duplicates_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;6-given-an-array-containing-n1-numbers-taken-from-the-range-1-to-n-one-of-the-numbers-got-duplicated-which-also-resulted-in-one-number-going-missing-find-these-numbers&quot;&gt;6. Given an array containing n+1 numbers taken from the range 1 to n. One of the numbers got duplicated which also resulted in one number going missing. Find these numbers.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{3, 1, 2, 5, 2}
+  Output: []int{2, 4}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to finding duplicates problem, can place each number on its correct
+  index.
+- The one is not at its correct index is the duplicate and its index itself
+  is the missing number.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/corrupt_pair_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Grokking the Coding Interview's Merge Intervals</title>
+   <link href="/2019/12/20/gtci-merge-intervals"/>
+   <updated>2019-12-20T00:00:00-05:00</updated>
+   <id>/2019/12/20/gtci-merge-intervals</id>
+   <content type="html">&lt;h3 id=&quot;1-given-a-list-of-intervals-merge-all-the-overlapping-intervals-to-produce-a-list-that-has-only-mutually-exclusive-intervals&quot;&gt;1. Given a list of intervals, merge all the overlapping intervals to produce a list that has only mutually exclusive intervals.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []interval{ {1, 2}, {2, 3}, {4, 5} }
+  Output: []interval{ {1, 3}, {4, 5} }
+- Input: []interval{ {1, 5}, {2, 3} }
+  Output: []interval{ {1, 5} }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Sort the list in ascending order so that intervals that might need to be
+  merged are next to each other.
+- Can merge two intervals together if the first one's end time is greater or
+  or equal than the second one's start time.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(nlogn) time, O(n) space.
+- Because we sort all intervals first, the runtime is O(nlogn). We create a new
+  list of merged interval times, so the space cost is O(n).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/merge_intervals_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-a-list-of-non-overlapping-intervals-sorted-by-their-start-time-insert-a-given-interval-at-the-correct-position-and-merge-all-necessary-intervals-to-produce-a-list-that-has-only-mutually-exclusive-intervals&quot;&gt;2. Given a list of non-overlapping intervals sorted by their start time, insert a given interval at the correct position and merge all necessary intervals to produce a list that has only mutually exclusive intervals.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []interval{ {1, 3}, {5, 7}, {8, 12} }, interval{4, 6}
+  Output: []interval{ {1, 3}, {4, 7}, {8, 12} }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Since the list is sorted, can skip all the intervals where their end time is
+  less than the new interval's start time.
+- The merging process is similar to the one in merge interval problem.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/insert_interval_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-two-sorted-lists-of-intervals-find-the-intersection-between-them&quot;&gt;3. Given two sorted lists of intervals, find the intersection between them.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []interval{ {1, 3}, {5, 6}, {7, 9} }, []interval{ {2, 3}, {5, 7} }
+  Output: []interval{ {2, 3}, {5, 6}, {7, 7} }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Iterate through both list at the same time and check if two intervals
+  are overlapping at each step.
+- Opposite to the merging process, an overlapped interval has:
+  - a bigger start between the two intervals
+  - a smaller end between the two intervals
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/intervals_intersection_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-a-list-of-intervals-check-if-any-of-them-is-conflicting&quot;&gt;4. Given a list of intervals, check if any of them is conflicting.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []interval{ {1, 2}, {2, 3}, {4, 5} }
+  Output: false
+- Input: []interval{ {1, 5}, {2, 3} }
+  Output: true
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to merge intervals problem, need to return the true
+  immediately if any of them is conflicting.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(nlogn) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/conflict_appointment_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Grokking the Coding Interview's Fast and slow pointers</title>
+   <link href="/2019/12/18/gtci-fast-slow-pointers"/>
+   <updated>2019-12-18T00:00:00-05:00</updated>
+   <id>/2019/12/18/gtci-fast-slow-pointers</id>
+   <content type="html">&lt;h3 id=&quot;1-given-the-head-of-a-singly-linked-list-write-a-function-to-determine-if-it-contains-a-cycle&quot;&gt;1. Given the head of a singly linked list, write a function to determine if it contains a cycle.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Have a slow pointer move one step at a time while the fast one move
+  2 steps at a time.
+- If the linked list has a cycle, the fast pointer will catch the slow one.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/linked_list_cycle_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-the-head-of-a-singly-linked-list-write-a-function-to-find-the-starting-node-of-the-cycle&quot;&gt;2. Given the head of a singly linked list, write a function to find the starting node of the cycle.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to finding a cycle in a linked list problem, can also determine
+  the start of its cycle and calculate length k of the cycle.
+- Have one pointer at the beginning and one at kth node of the linked list.
+- Move both of them until they meet at the start.of the cycle.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time and O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/cycle_start_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-write-an-algorithm-to-determine-if-a-number-is-happy&quot;&gt;3. Write an algorithm to determine if a number is happy.&lt;/h3&gt;
+
+&lt;p&gt;Any number will be called a happy number if, after repeatedly replacing
+it with a number equal to the sum of the square of all of its digits,
+leads us to 1.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: 19
+  Output: true
+  Explanation:
+	  1^2 + 9^2 = 82
+	  8^2 + 2^2 = 68
+	  6^2 + 8^2 = 100
+	  1^2 + 0^2 + 0^2 = 1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Since the process always end in a cycle, we can use a similar approach to
+  finding a cycle in linked list problem.
+- Once is cycle is found, check if it is stuck on 1.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/happy_number_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-the-head-of-a-singly-linked-list-write-a-function-to-return-the-middle-value&quot;&gt;4. Given the head of a singly linked list, write a function to return the middle value.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Have a slow pointer move one step at a time while the fast one move
+  2 steps at a time.
+- Once the fast one reaches the end, the slow is in the middle.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/middle_list_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-given-the-head-of-a-singly-linked-list-write-a-function-to-determine-if-it-is-a-palindrome-in-constant-space&quot;&gt;5. Given the head of a singly linked list, write a function to determine if it is a palindrome in constant space.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Find the middle of the linked list and reverse a half list
+- After comparing the first half with the reversed half to check if it's
+  a palindrome, revert to the half to original form.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/palindrome_list_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;6-given-the-head-of-a-singly-linked-list-write-a-function-to-reorder-it-such-that-nodes-from-the-second-half-are-inserted-alternately-to-the-nodes-from-the-first-half-in-reverse-order&quot;&gt;6. Given the head of a singly linked list, write a function to reorder it such that nodes from the second half are inserted alternately to the nodes from the first half in reverse order.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to palindrome linked list problem, can also use a trick to
+  reverse the second half and rearrange them in the required order
+  using fast and slow pointers.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/reorder_list_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Grokking the Coding Interview's Two Pointers</title>

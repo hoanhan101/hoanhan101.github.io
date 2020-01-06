@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/about</loc>
-<lastmod>2020-01-05T19:29:20-05:00</lastmod>
+<lastmod>2020-01-06T12:40:16-05:00</lastmod>
 </url>
 <url>
 <loc>/tags</loc>
-<lastmod>2020-01-05T19:29:20-05:00</lastmod>
+<lastmod>2020-01-06T12:40:16-05:00</lastmod>
 </url>
 <url>
 <loc>/2019/08/21/interviewcake-array-string-manipulation</loc>
@@ -59,6 +59,22 @@
 <url>
 <loc>/2019/12/16/gtci-two-pointers</loc>
 <lastmod>2019-12-16T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/2019/12/18/gtci-fast-slow-pointers</loc>
+<lastmod>2019-12-18T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/2019/12/20/gtci-merge-intervals</loc>
+<lastmod>2019-12-20T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/2019/12/22/gtci-cyclic-sort</loc>
+<lastmod>2019-12-22T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>/2019/12/24/gtci-tree-bfs</loc>
+<lastmod>2019-12-24T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>/</loc>
