@@ -4,13 +4,524 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-05T18:21:58-05:00</updated>
+ <updated>2020-01-05T19:29:20-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Grokking the Coding Interview's Two Pointers</title>
+   <link href="/2019/12/16/gtci-two-pointers"/>
+   <updated>2019-12-16T00:00:00-05:00</updated>
+   <id>/2019/12/16/gtci-two-pointers</id>
+   <content type="html">&lt;h3 id=&quot;1-given-an-array-of-sorted-numbers-and-a-target-sum-find-a-pair-in-the-array-whose-sum-is-equal-to-the-given-target&quot;&gt;1. Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 2, 6, 8, 16, 26}, target=14
+  Output: []int{2, 3}
+  Explanation: 6 (index 2) + 8 (index 3) = 14
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Have one pointer start at the beginning and one at the end of the array.
+- At each step, see if the two pointers add up to the target sum and move
+  them toward each other accordingly.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/pair_target_sum_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-an-array-of-sorted-numbers-and-a-target-sum-find-a-pair-in-the-array-whose-sum-is-equal-to-the-given-target&quot;&gt;2. Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 2, 6, 8, 16, 26}, target=14
+  Output: []int{2, 3}
+  Explanation: 6 (index 2) + 8 (index 3) = 14
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Have one pointer iterate the array and one placing non-duplicate number.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/remove_duplicates_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-sorted-array-create-a-new-array-containing-squares-of-all-the-number-of-the-input-array-in-the-sorted-order&quot;&gt;3. Given a sorted array, create a new array containing squares of all the number of the input array in the sorted order.&lt;/h3&gt;
+
+&lt;p&gt;Assumption:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- The input can have negative numbers.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{-2, -1, 0, 1, 2}
+  Output: []int{0, 1, 1, 4, 4}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- The difficult part is to generate the output array with squares in sorted order because we have negative numbers and their squares are positive.
+- Have one pointer start at the beginning and one at the end and let them
+  move toward each other.
+- At each step, whichever bigger will be added to the output array, from
+  right to left.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/square_sorted_array_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-an-array-containing-0s-1s-and-2s-sort-the-array-in-place&quot;&gt;4. Given an array containing 0s, 1s and 2s, sort the array in-place.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 0, 2, 1, 0}
+  Output: []int{0, 0, 1, 1, 2}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Have one pointer start at the beginning and the other at the end
+  while iterating through the array.
+- We will move all 0s before that start pointer and 2s after the end
+  pointer so that all 1s would be between in the end.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/dutch_flag_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Grokking the Coding Interview's Sliding Window</title>
+   <link href="/2019/12/15/gtci-sliding-window"/>
+   <updated>2019-12-15T00:00:00-05:00</updated>
+   <id>/2019/12/15/gtci-sliding-window</id>
+   <content type="html">&lt;h3 id=&quot;1-given-an-array-find-the-average-of-all-contiguous-subarrays-of-size-k&quot;&gt;1. Given an array, find the average of all contiguous subarrays of size k.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 3, 2, 6, -1, 4, 1, 8, 2}, k=5
+  Output: []int{2.2, 2.8, 2.4, 3.6, 2.8}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- View each contiguous subarray as a sliding window of k elements.
+- As we move to the next subarray, slide the window by one element to
+  reuse the sum from previous array.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(k) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/avg_subarray_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-an-array-of-positive-numbers-and-a-positive-number-k-find-the-maximum-sum-of-any-contiguous-subarray-of-size-k&quot;&gt;2. Given an array of positive numbers and a positive number k, find the maximum sum of any contiguous subarray of size k.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: int{2, 1, 5, 1, 3, 2}, k=3
+  Output: 9
+  Explanation: Subarray with maximum sum is [5, 1, 3].
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- View each contiguous subarray as a sliding window of k elements.
+- As we move to the next subarray, slide the window by one element to
+  reuse the sum from previous array and update the maximum sum.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time and O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/max_subarray_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-an-array-of-positive-numbers-and-a-positive-number-s-find-the-length-of-the-smallest-contiguous-subarray-whose-sum-is-greater-than-or-equal-to-s&quot;&gt;3. Given an array of positive numbers and a positive number s, find the length of the smallest contiguous subarray whose sum is greater than or equal to s.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: array=int{2, 1, 5, 2, 3, 2}, s=7
+  Output: 2
+  Explanation: Smallest subarray with a sum great than or equal to 7 is [5, 2]
+  with length=2.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- The difference between the previous problem and this one is that the size of
+  the sliding window is not fixed.
+- Can still use the similar strategy to add up elements until their sum is greater
+  than equal to s and view them as our sliding window.
+- Shrink the window until the window's sum is smaller than s again while keep
+  updating the minimum length.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/valid_palindrome_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-a-string-find-the-length-of-the-longest-substring-in-it-with-no-more-than-k-distinct-characters&quot;&gt;4. Given a string, find the length of the longest substring in it with no more than k distinct characters.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: string=&quot;araaci&quot;, k=1
+  Output: 2
+  Explanation: Longest substring with no more than 1 distinct characters is &quot;aa&quot;.
+- Input: string=&quot;araaci&quot;, k=2
+  Output: 4
+  Explanation: Longest substring with no more than 2 distinct characters is &quot;araa&quot;.
+- Input: string=&quot;araaci&quot;, k=3
+  Output: 5
+  Explanation: Longest substring with no more than 3 distinct characters is &quot;araac&quot;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use a hashmap to remember the frequency of each character we have seen.
+- Insert characters until we have k distinct characters in the map to be consider a
+  window.
+- Shrink the window until there is no more k distinct characters in the map and keep
+  updating the maximum window length at each step.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(k) space where k is the number of characters in the map.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/longest_substring_k_distinct_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-given-an-array-of-characters-where-each-character-represents-a-fruit-tree-you-are-given-two-baskets-and-your-goal-is-to-put-maximum-number-of-fruits-in-each-basket&quot;&gt;5. Given an array of characters where each character represents a fruit tree, you are given two baskets and your goal is to put maximum number of fruits in each basket.&lt;/h3&gt;
+
+&lt;p&gt;Constraints:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Each basket can have only one type of fruit.
+- You can start with any tree, but once you have started you can’t skip a tree.
+  You will pick one fruit from each tree until you cannot, i.e., you will stop
+  when you have to pick from a third fruit type.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: fruits=[&quot;apple&quot;, &quot;orange&quot;, &quot;coconut&quot;, &quot;apple&quot;, &quot;coconut&quot;]
+  Output: 3
+  Explanation: Can put 2 &quot;cocunut&quot; in 1 basket and 1 &quot;apple&quot; in other from
+  subarray [&quot;coconut&quot;, &quot;apple&quot;, &quot;coconut&quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to &quot;longest substring with k distinct characters&quot; with k=2.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(k) space where k is the number of characters in the map.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/gtci/fruits_baskets_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>LeetCode's Binary tree</title>
+   <link href="/2019/12/05/leetcode-binary-tree"/>
+   <updated>2019-12-05T00:00:00-05:00</updated>
+   <id>/2019/12/05/leetcode-binary-tree</id>
+   <content type="html">&lt;h3 id=&quot;1-given-a-binary-tree-determine-if-it-is-a-valid-binary-search-tree&quot;&gt;1. Given a binary tree, determine if it is a valid binary search tree.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Traverse the tree and apply recursion to check at each step if:
+  - the current node's value is greater than the lower bound
+  - the current node's value is smaller than the upper bound
+  - the current node's left child follows
+  - the current node's left child follows
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time and O(n) stack space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/valid_bst_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-a-binary-tree-find-its-maximum-depth&quot;&gt;2. Given a binary tree, find its maximum depth.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- The maximum depth of the current node is the greater of the max height of the left
+  subtree and the right subtree plus one.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/max_depth_binary_tree_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-binary-tree-find-its-minimum-depth&quot;&gt;3. Given a binary tree, find its minimum depth.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Similar to finding maximum depth, the minimum depth of the current node is
+  the smaller of the min height of the left subtree and the right subtree plus one.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space where n is the length of a linked list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/min_depth_binary_tree_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4-given-a-binary-tree-determine-if-it-is-height-balanced&quot;&gt;4. Given a binary tree, determine if it is height-balanced.&lt;/h3&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Calculate max depth for the left subtree and right subtree.
+- If either the left subtree or right subtree is unbalanced, return right away.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) stack space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/balanced_binary_tree_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5-given-a-binary-tree-find-the-maximum-path-sum&quot;&gt;5. Given a binary tree, find the maximum path sum.&lt;/h3&gt;
+
+&lt;p&gt;Assumption:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- The path might start and end at any node in the tree.
+- Assume the tree is non-empty.
+- The node can contain negative number.
+- The maximum path does not have to go though the root node.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- At each node, the potential maximum path could be one of these cases:
+  - max(left subtree) + node
+  - max(right subtree) + node
+  - max(left subtree) + max(right subtree) + node
+  - the node itself
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(n) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/binary_tree_max_path_sum_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>LeetCode's Linked List</title>
+   <link href="/2019/11/16/leetcode-linked-list"/>
+   <updated>2019-11-16T00:00:00-05:00</updated>
+   <id>/2019/11/16/leetcode-linked-list</id>
+   <content type="html">&lt;h3 id=&quot;1-merge-two-sorted-linked-lists-and-return-it-as-a-new-list&quot;&gt;1. Merge two sorted linked lists and return it as a new list.&lt;/h3&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: 1 -&amp;gt; 3-&amp;gt; 5 &amp;amp; 2 -&amp;gt; 4-&amp;gt; 6
+  Output: 1 -&amp;gt; 2-&amp;gt; 3 -&amp;gt; 4 -&amp;gt; 5 -&amp;gt; 6
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Traverse both list at the same time, compare their values at each step and
+  add the smaller one to a new list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n|m) time, O(n+m) space where n and m are lengths of these two linked lists.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/merge_sorted_linked_list_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-two-linked-lists-representing-two-non-negative-number-add-them-together-and-return-it-as-a-linked-list&quot;&gt;2. Given two linked lists representing two non-negative number, add them together and return it as a linked list.&lt;/h3&gt;
+
+&lt;p&gt;Assumption:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- The digits are stored in reverse order.
+- Each node contains a single digit.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: (1 -&amp;gt; 6 -&amp;gt; 4) + (2 -&amp;gt; 4-&amp;gt; 1)
+  Output: (3 -&amp;gt; 0 -&amp;gt; 6)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Traverse both lists and keep track of the sum and carry for each
+  digit.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n|m) time, O(m|n) space where m and m are lengths of these two lists.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/add_two_numbers_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-given-a-linked-list-swap-every-two-adjacent-nodes-and-return-its-head&quot;&gt;3. Given a linked list, swap every two adjacent nodes and return its head.&lt;/h3&gt;
+
+&lt;p&gt;Assumption:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- If the length of the linked list is odd, the last node should not be swapped.
+- The solution should use constant space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: 1 -&amp;gt; 3-&amp;gt; 5 -&amp;gt; 2 -&amp;gt; 4-&amp;gt; 6
+  Output: 3 -&amp;gt; 1-&amp;gt; 2 -&amp;gt; 5 -&amp;gt; 6 -&amp;gt; 4
+- Input: 1 -&amp;gt; 3-&amp;gt; 5 -&amp;gt; 2 -&amp;gt; 4
+  Output: 3 -&amp;gt; 1-&amp;gt; 2 -&amp;gt; 5 -&amp;gt; 4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Traverse the list and swap the nodes pairwise by adjusting where it's pointing next.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space where n is the length of a linked list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/swap_nodes_in_pairs_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>LeetCode's Math</title>
+   <link href="/2019/10/18/leetcode-math"/>
+   <updated>2019-10-18T00:00:00-04:00</updated>
+   <id>/2019/10/18/leetcode-math</id>
+   <content type="html">&lt;h3 id=&quot;1-given-a-64-bit-integer-reverse-its-digits&quot;&gt;1. Given a 64-bit integer, reverse its digits.&lt;/h3&gt;
+
+&lt;p&gt;Assumption:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Negative numbers are also valid.
+- Must handle the case where the reversed integer is overflow.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: 123
+  Output: 321
+- Input: -123
+  Output: -321
+- Input: 8085774586302733229 Output: 0
+  Explanation: The reversed integer 9223372036854775808 overflows by 1 so we return 0.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use modulo by 10 to get a digit at ones' place of the input and
+  dividing by 10 to shift it to the right (eliminate the ones' place).
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(m) time, O(1) space, where m is log10 of the input.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/reverse_integer_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-given-a-number-represented-as-an-array-of-digits-plus-one-to-the-number&quot;&gt;2. Given a number represented as an array of digits, plus one to the number.&lt;/h3&gt;
+
+&lt;p&gt;Assumption:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- The input are non-negative.
+- The digits are stored such that the most significant digit is at the head of the list.
+- The number does not contain leading zeros.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: []int{1, 2, 5}
+  Output: []int{1, 2, 6}
+- Input: []int{1, 2, 9}
+  Output: []int{1, 3, 0}
+- Input: []int{1, 9, 9}
+  Output: []int{2, 0, 0}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Iterate through the list from right to left and add 1 to the current digit accordingly.
+  - If the current digit is less than 9, add 1 and update it.
+  - Otherwise, set it to 0.
+- If all the digits are 9, append an 0 in the end and update the first digit to 1.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space, where n is the length of the list.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/plus_one_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3-determine-whether-an-integer-is-a-palindrome&quot;&gt;3. Determine whether an integer is a palindrome.&lt;/h3&gt;
+
+&lt;p&gt;Assumption:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Do this without extra space.
+- Define negative integers as non-palindrome.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Input: 101
+  Output: true
+- Input: 106
+  Output: false
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Approach:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Use two-pointer approach where one starts at the first digit and one starts
+  at the last digit, have them walk toward the middle and compare them at each
+  step.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Cost:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- O(n) time, O(1) space.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/hoanhan101/algo/blob/master/leetcode/palindrome_number_test.go&quot;&gt;Link to solution →&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more coding problems, please visit
+  &lt;a href=&quot;https://github.com/hoanhan101/algo&quot;&gt;https://github.com/hoanhan101/algo&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you’re interested in getting updates for such content like these, consider
+  joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
  
  <entry>
    <title>LeetCode's Array/String</title>
