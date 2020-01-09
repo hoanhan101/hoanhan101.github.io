@@ -1,7 +1,8 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-# If a command fails then the deploy stops.
-set -e
+set -o errexit
+set -o pipefail
+set -o nounset
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
