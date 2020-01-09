@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-09T14:29:18-05:00</updated>
+ <updated>2020-01-09T15:40:44-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -2241,23 +2241,26 @@ these counts to compute each item's index in the final sorted array.
 
 &lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea&quot;&gt;How did the founder come up with their idea?&lt;/h3&gt;
 
-&lt;p&gt;Nathan used to design and write books on iOS and web app.&lt;/p&gt;
-
-&lt;p&gt;Was expert on email marketing and had built and grew his personal audience throughout the year.&lt;/p&gt;
-
-&lt;p&gt;One day he blogged about starting a SaaS company but had no idea to work on. Just basically set a public goal to hold accountability. Had ideas to interview businesses and identify their problems. But then decided to stay true to his problems - building a service that was better than Mailchimp.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Nathan used to design and write books on iOS and web app.&lt;/li&gt;
+  &lt;li&gt;Was expert on email marketing and had built and grew his personal audience throughout the year.&lt;/li&gt;
+  &lt;li&gt;One day he blogged about starting a SaaS company but had no idea to work on. Just basically set a public goal to hold accountability. Had ideas to interview businesses and identify their problems. But then decided to stay true to his problems - building a service that was better than Mailchimp.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;how-did-they-know-it-was-the-right-problem-to-work-on&quot;&gt;How did they know it was the right problem to work on?&lt;/h3&gt;
 
-&lt;p&gt;Bunch of similar products were out there and had huge market shares. Still went for it because it showed there were needs.&lt;/p&gt;
-
-&lt;p&gt;Knew about 10 people who were good at email marketing. Asked them about their frustrations, tried to understand their why, asked if they would pay for a solution.&lt;/p&gt;
-
-&lt;p&gt;Came back after a month with a MVP and asked to buy it - started to get real feedbacks, though only made 1 purchase though they all said yes.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bunch of similar products were out there and had huge market shares. Still went for it because it showed there were needs.&lt;/li&gt;
+  &lt;li&gt;Knew about 10 people who were good at email marketing. Asked them about their frustrations, tried to understand their why, asked if they would pay for a solution.&lt;/li&gt;
+  &lt;li&gt;Came back after a month with a MVP and asked to buy it - started to get real feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;how-did-they-achieve-productmarket-fit&quot;&gt;How did they achieve product/market fit?&lt;/h3&gt;
 
-&lt;p&gt;Focused on beginners more than high end accounts but then realized that it was very demanding because beginners churned frequently, asked more questions, took more time, money, effort to support. Then chased after big audience.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Focused on beginners more than high end accounts but then realized that it was very demanding because beginners churned frequently, asked more questions, took more time, money, effort to support.&lt;/li&gt;
+  &lt;li&gt;Then chased after big audience.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
 
@@ -2303,18 +2306,16 @@ topic everyweek. They should all have the tag &lt;a href=&quot;/tag/early-days&q
    <link href="/2019/06/06/earlyday-summary"/>
    <updated>2019-06-06T00:00:00-04:00</updated>
    <id>/2019/06/06/earlyday-summary</id>
-   <content type="html">&lt;p&gt;Dive deep into the industry and take advantage of your domain expertise to identify
-the “right” problems to work on.&lt;/p&gt;
-
-&lt;p&gt;Constantly launch/bootstrap products - as a lot of them have founded multiple
-businesses before and get their hand dirty on the business side of thing.&lt;/p&gt;
-
-&lt;p&gt;Actively seek for paying customers and TALK TO THEM, even before having a
-concrete product.&lt;/p&gt;
-
-&lt;p&gt;Blog to share your progress. Provide quality contents. Grow your audience.&lt;/p&gt;
-
-&lt;p&gt;Utilize social media to promote your products and get feedbacks.&lt;/p&gt;
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Dive deep into the industry and take advantage of your domain expertise to identify
+the “right” problems to work on.&lt;/li&gt;
+  &lt;li&gt;Constantly launch/bootstrap products - as a lot of them have founded multiple
+businesses before and get their hand dirty on the business side of thing.&lt;/li&gt;
+  &lt;li&gt;Actively seek for paying customers and TALK TO THEM, even before having a
+concrete product.&lt;/li&gt;
+  &lt;li&gt;Blog to share your progress. Provide quality contents. Grow your audience.&lt;/li&gt;
+  &lt;li&gt;Utilize social media to promote your products and get feedbacks.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
