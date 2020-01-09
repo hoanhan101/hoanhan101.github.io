@@ -6,7 +6,7 @@ set -e
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
 
 # Copy static site over hoanhan101.github.io
 cp -R _site/. ../hoanhan101.github.io

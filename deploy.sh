@@ -15,7 +15,7 @@ git commit -m "$msg"
 git push origin master
 
 # Push changes in hoanhan101.github.io directory.
-bundle exec jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
 
 # Copy static site over hoanhan101.github.io
 cp -R _site/. ../hoanhan101.github.io
