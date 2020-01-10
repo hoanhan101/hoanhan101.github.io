@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-09T15:47:21-05:00</updated>
+ <updated>2020-01-10T14:58:03-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -2223,10 +2223,115 @@ these counts to compute each item's index in the final sorted array.
  </entry>
  
  <entry>
-   <title>How Nathan Barry grew ConvertKit to a $600k/mo business in 2 years</title>
-   <link href="/2019/08/08/convertkit"/>
-   <updated>2019-08-08T00:00:00-04:00</updated>
-   <id>/2019/08/08/convertkit</id>
+   <title>Eric Zhang, Scalable Press, $100m/year</title>
+   <link href="/2019/06/09/scalable-press"/>
+   <updated>2019-06-09T00:00:00-04:00</updated>
+   <id>/2019/06/09/scalable-press</id>
+   <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
+
+&lt;p&gt;Efficient custom printing on demand - lower cost, better quality, better
+turnaround time.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
+
+&lt;p&gt;$100 millions a year.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
+
+&lt;p&gt;Manufacture.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea&quot;&gt;How did the founder come up with their idea?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Had a friend, Raymond, who sold T-shirt online. He was a high school
+student until he dropped out because he had made $1 millions in revenue.&lt;/li&gt;
+  &lt;li&gt;He did contracts with a Chinese factory at first, but wanted to improve
+the product quality and used a US factory instead.&lt;/li&gt;
+  &lt;li&gt;Eric later joined to build their own printing infrastructure to a even
+more automated, cheaper, efficient process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The T-shirt space was booming at that time, notably Teespring.&lt;/li&gt;
+  &lt;li&gt;They were doing alright and wanting to do it better,
+faster, and cheaper with their brand TeepChip.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-did-it-take-to-get-the-initial-product-out-the-door&quot;&gt;What did it take to get the initial product out the door?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Built the printing API first.&lt;/li&gt;
+  &lt;li&gt;Used profits to reinvest into the business then built the software team.&lt;/li&gt;
+  &lt;li&gt;Every step of the decision was made frugally because they did not have a lot
+of capital.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Had people signed up early for the API, a lot from Hacker News. A lot of them
+turned into customers.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>David Hauser, Grasshopper, $32m/year</title>
+   <link href="/2019/06/08/grasshopper"/>
+   <updated>2019-06-08T00:00:00-04:00</updated>
+   <id>/2019/06/08/grasshopper</id>
+   <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
+
+&lt;p&gt;Virtual phone system.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
+
+&lt;p&gt;$32 millions a year.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
+
+&lt;p&gt;Subscription.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea&quot;&gt;How did the founder come up with their idea?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Could not find a good solution for handling inbound calls professionally.&lt;/li&gt;
+  &lt;li&gt;Started right away, developed the software started selling as quickly as possible.&lt;/li&gt;
+  &lt;li&gt;Became profitable after 3 months.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;They have learned a lot over the years starting their own businesses so they knew there was a need.&lt;/li&gt;
+  &lt;li&gt;They were good at targeting the right group because of their experiences.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-did-it-take-to-get-the-initial-product-out-the-door&quot;&gt;What did it take to get the initial product out the door?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Had almost no money so aimed to get revenue as quickly as possible.&lt;/li&gt;
+  &lt;li&gt;Used funding from other ventures and borrowing from friends and relatives.&lt;/li&gt;
+  &lt;li&gt;Did a lot of of coding himself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There was no social media, PPC or AdWords back then.&lt;/li&gt;
+  &lt;li&gt;Bought keyword traffic from Omnitrure, used organic SEO, though he said these
+tatics wouldn’t work today. Basically test as many channels as possible, and
+get feedbacks quickly.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Nathan Barry, ConvertKit, $600k/month</title>
+   <link href="/2019/06/07/convertkit"/>
+   <updated>2019-06-07T00:00:00-04:00</updated>
+   <id>/2019/06/07/convertkit</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Email marketing tool for bloggers and content creators.&lt;/p&gt;
@@ -2243,28 +2348,38 @@ these counts to compute each item's index in the final sorted array.
 
 &lt;ul&gt;
   &lt;li&gt;Nathan used to design and write books on iOS and web app.&lt;/li&gt;
-  &lt;li&gt;Was expert on email marketing and had built and grew his personal audience throughout the year.&lt;/li&gt;
-  &lt;li&gt;One day he blogged about starting a SaaS company but had no idea to work on. Just basically set a public goal to hold accountability. Had ideas to interview businesses and identify their problems. But then decided to stay true to his problems - building a service that was better than Mailchimp.&lt;/li&gt;
+  &lt;li&gt;Was expert on email marketing and had built and grew his personal audience
+throughout the year.&lt;/li&gt;
+  &lt;li&gt;One day he blogged about starting a SaaS company but had no idea to work on.
+Just basically set a public goal to hold accountability.&lt;/li&gt;
+  &lt;li&gt;Came up with an idea to interview businesses in depth, tried to see what
+problems they were facing. But then decided to stay true to his problems -
+building a service that was better than Mailchimp.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Bunch of similar products were out there and had huge market shares. Still went for it because it showed there were needs.&lt;/li&gt;
-  &lt;li&gt;Knew about 10 people who were good at email marketing. Asked them about their frustrations, tried to understand their why, asked if they would pay for a solution.&lt;/li&gt;
-  &lt;li&gt;Came back after a month with a MVP and asked to buy it - started to get real feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
+  &lt;li&gt;Bunch of similar products were out there and had huge market shares.
+Still went for it because it showed there were needs and still rooms for
+improvements.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;how-did-they-achieve-product-market-fit&quot;&gt;How did they achieve product-market fit?&lt;/h3&gt;
+&lt;h3 id=&quot;what-did-it-take-to-get-the-initial-product-out-the-door&quot;&gt;What did it take to get the initial product out the door?&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Focused on beginners more than high end accounts but then realized that it was very demanding because beginners churned frequently, asked more questions, took more time, money, effort to support.&lt;/li&gt;
-  &lt;li&gt;Then chased after big audience.&lt;/li&gt;
+  &lt;li&gt;Knew about 10 people who were good at email marketing. Asked them about their
+frustrations, tried to understand their why, asked if they would pay for a solution.&lt;/li&gt;
+  &lt;li&gt;Came back after a month with a MVP and asked to buy it - started to get real
+feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
 
-&lt;p&gt;Personal connections and audiences via direct sales.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Through direct contact as above.&lt;/li&gt;
+  &lt;li&gt;Also launch pre-sale programs.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
@@ -2290,7 +2405,7 @@ actually got started.&lt;/p&gt;
   &lt;li&gt;What is the business model?&lt;/li&gt;
   &lt;li&gt;How did the founder come up with the idea?&lt;/li&gt;
   &lt;li&gt;How did they know it was the right one?&lt;/li&gt;
-  &lt;li&gt;How did they achieve product-market fit?&lt;/li&gt;
+  &lt;li&gt;What did it take to get the initial product out the door?&lt;/li&gt;
   &lt;li&gt;How did they get their first paying customers?&lt;/li&gt;
 &lt;/ul&gt;
 
