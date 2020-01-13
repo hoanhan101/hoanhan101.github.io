@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-11T17:16:38-05:00</updated>
+ <updated>2020-01-12T19:56:34-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -2219,6 +2219,59 @@ these counts to compute each item's index in the final sorted array.
   &lt;p&gt;If you’re interested in getting updates for such content like these, consider
   joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jason Grishkoff, SubmitHub, $50k/month</title>
+   <link href="/2019/06/10/submithub"/>
+   <updated>2019-06-10T00:00:00-04:00</updated>
+   <id>/2019/06/10/submithub</id>
+   <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
+
+&lt;p&gt;Allow musicians to connect with industry professionals.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
+
+&lt;p&gt;$50k a month&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Free/premium credit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea&quot;&gt;How did the founder come up with their idea?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Found Indie Shuffle blog that features good indie music. Realized that the
+more content on the blog, the more traffic it attracted. Hence, pushed out
+2-3 articles a day in the beginning then paid people to do so. Hit a point
+where there were 10 articles a day.&lt;/li&gt;
+  &lt;li&gt;Got attention from musicians themselves and started to connect with them to
+feature their music.&lt;/li&gt;
+  &lt;li&gt;Built SubmitHub for people to submit their requests instead of using emails.&lt;/li&gt;
+  &lt;li&gt;Later expanded to a service to help musicians with industry professionals.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;He knew it when musicians contacted him and wanted to submit their music too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-did-it-take-to-get-the-initial-product-out-the-door&quot;&gt;What did it take to get the initial product out the door?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Had to learn coding by himself.&lt;/li&gt;
+  &lt;li&gt;Had to talk to a lot of blogs and labels.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Many musicians turned into customers.&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
