@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-14T12:24:27-05:00</updated>
+ <updated>2020-01-14T13:53:33-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -2219,6 +2219,65 @@ these counts to compute each item's index in the final sorted array.
   &lt;p&gt;If you’re interested in getting updates for such content like these, consider
   joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chris Oliver, GoRails, $15k/month</title>
+   <link href="/2019/06/11/gorails"/>
+   <updated>2019-06-11T00:00:00-04:00</updated>
+   <id>/2019/06/11/gorails</id>
+   <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
+
+&lt;p&gt;Education site for Ruby on Rails developers.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
+
+&lt;p&gt;$15k a month&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
+
+&lt;p&gt;Subscription.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea&quot;&gt;How did the founder come up with their idea?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Was working as a Ruby on Rails consultant for many businesses and startups.
+Got tired of trading my time for money then decided to document Rails practices
+and turned them into a product.&lt;/li&gt;
+  &lt;li&gt;Published content for a year before launching paid courses.&lt;/li&gt;
+  &lt;li&gt;Collected email addresses along the way. Also built a forum to ask/answer
+questions publicly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Generated thousand visitors the first month by documenting some free guides
+on the blog, then decided to keep going because there was need.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-did-it-take-to-get-the-initial-product-out-the-door&quot;&gt;What did it take to get the initial product out the door?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Took 5 month to plan, record, edit screencasts for the first 2 courses.&lt;/li&gt;
+  &lt;li&gt;Setup Stripe and Wistia himself.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Launched and got 1 sale a week, 9 sales after 2 months.&lt;/li&gt;
+  &lt;li&gt;Decided to use subscription model with weekly screencasts instead. Got 14
+subscribers the second day.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.indiehackers.com/interview/rails-and-revenue-how-to-build-a-screencast-business-8999c7ac7f&quot;&gt;Rails and Revenue: How to Build a Screencast Business&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
