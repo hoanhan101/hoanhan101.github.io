@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-15T11:36:49-05:00</updated>
+ <updated>2020-01-17T12:28:00-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -2219,6 +2219,72 @@ these counts to compute each item's index in the final sorted array.
   &lt;p&gt;If you’re interested in getting updates for such content like these, consider
   joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mail list here →&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chris Chen, Instapainting, $32k/month</title>
+   <link href="/2019/06/12/instapainting"/>
+   <updated>2019-06-12T00:00:00-04:00</updated>
+   <id>/2019/06/12/instapainting</id>
+   <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
+
+&lt;p&gt;Custom painting by actual artists, delivered to your shipping address.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
+
+&lt;p&gt;$32k a month&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
+
+&lt;p&gt;Direct sale.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea&quot;&gt;How did the founder come up with their idea?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Raised money from YC after YC, spent about 2 years pivoting and trying
+different ideas. Focused on how to generate revenue immediately while running
+low on cash.&lt;/li&gt;
+  &lt;li&gt;Saw several sites were doing the same things but with oil paintings.
+Introduced a more mordern, cheaper, mixed media product.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It generated revenue immediately after trying to sell on r/startups
+subreddit.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-did-it-take-to-get-the-initial-product-out-the-door&quot;&gt;What did it take to get the initial product out the door?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Found one supplier that could do the work.&lt;/li&gt;
+  &lt;li&gt;The very first artists were his roommates.&lt;/li&gt;
+  &lt;li&gt;Had a basic interface for artist to check the order and manually brokered and
+managed transaction. Had to email back and forth because there was no
+messaging system in place yet.&lt;/li&gt;
+  &lt;li&gt;Barely managed to ship on time so even had to do the painting himself.&lt;/li&gt;
+  &lt;li&gt;Replied to email in timely fashion. Took great care of customers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tried to sell on r/startups subreddit, targeting gifts around New Year time.&lt;/li&gt;
+  &lt;li&gt;3 months later got a TechCrunch article, then Hacker News.&lt;/li&gt;
+  &lt;li&gt;Optimized for SEO.&lt;/li&gt;
+  &lt;li&gt;Did some cool content marketing strategies such as: making a robot to
+replicate artist’s painting, making a 2-player version of 2048 and having
+featured on top of Hacker News,…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.indiehackers.com/podcast/002-chris-chen-of-instapainting&quot;&gt;Fueling Growth with SEO and Content Marketing with Chris Chen of Instapainting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
