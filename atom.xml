@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-17T12:28:00-05:00</updated>
+ <updated>2020-01-18T14:28:53-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -2223,6 +2223,60 @@ these counts to compute each item's index in the final sorted array.
  </entry>
  
  <entry>
+   <title>Garrett Dimon, Sifter</title>
+   <link href="/2019/06/13/sifter"/>
+   <updated>2019-06-13T00:00:00-04:00</updated>
+   <id>/2019/06/13/sifter</id>
+   <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
+
+&lt;p&gt;Bug tracker for small teams and non-technical people.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
+
+&lt;p&gt;Subscription.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea&quot;&gt;How did the founder come up with their idea?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Was doing a lot of consulting work and found one of his biggest
+struggles was getting his non-technical clients to participate with
+the issue tracking, especially with small teams.&lt;/li&gt;
+  &lt;li&gt;After sharing the ideas around, peopled started expressing interests and
+encouraged him to do something like that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It was clear that people showed interests in the beginning and wanted to use
+something like that.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-did-it-take-to-get-the-initial-product-out-the-door&quot;&gt;What did it take to get the initial product out the door?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Had a simple Rails MySQL setup, built a billing system himself because Stripe
+was not there yet and Braintree was not so good. Took 11 months in total.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;People expressed interests and came to him in the first place.&lt;/li&gt;
+  &lt;li&gt;He kept blogging and sharing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.indiehackers.com/podcast/004-garrett-dimon-of-sifter&quot;&gt;Succeeding in a Crowded Market by Building a Niche Business with Garrett
+Dimon of Sifter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Chris Chen, Instapainting, $32k/month</title>
    <link href="/2019/06/12/instapainting"/>
    <updated>2019-06-12T00:00:00-04:00</updated>
@@ -2233,7 +2287,7 @@ these counts to compute each item's index in the final sorted array.
 
 &lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
 
-&lt;p&gt;$32k a month&lt;/p&gt;
+&lt;p&gt;$32k a month.&lt;/p&gt;
 
 &lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
 
@@ -2243,10 +2297,10 @@ these counts to compute each item's index in the final sorted array.
 
 &lt;ul&gt;
   &lt;li&gt;Raised money from YC after YC, spent about 2 years pivoting and trying
-different ideas. Focused on how to generate revenue immediately while running
-low on cash.&lt;/li&gt;
+different ideas. Focused on how to generate revenue immediately because he
+was running low on cash.&lt;/li&gt;
   &lt;li&gt;Saw several sites were doing the same things but with oil paintings.
-Introduced a more mordern, cheaper, mixed media product.&lt;/li&gt;
+Introduced a more modern, cheaper, mixed media product.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
@@ -2299,7 +2353,7 @@ featured on top of Hacker News,…&lt;/li&gt;
 
 &lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
 
-&lt;p&gt;$15k a month&lt;/p&gt;
+&lt;p&gt;$15k a month.&lt;/p&gt;
 
 &lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
 
@@ -2358,7 +2412,7 @@ subscribers the second day.&lt;/li&gt;
 
 &lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
 
-&lt;p&gt;$50k a month&lt;/p&gt;
+&lt;p&gt;$50k a month.&lt;/p&gt;
 
 &lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
 
@@ -2633,7 +2687,7 @@ the “right” problems to work on.&lt;/li&gt;
   &lt;li&gt;Constantly launch/bootstrap products - as a lot of them have founded multiple
 businesses before and get their hand dirty on the business side of thing.&lt;/li&gt;
   &lt;li&gt;Actively seek for paying customers and TALK TO THEM, even before having a
-concrete product.&lt;/li&gt;
+concrete product. Focus on how to generate revenue immediately.&lt;/li&gt;
   &lt;li&gt;Blog to share your progress. Provide quality contents. Grow your audience.&lt;/li&gt;
   &lt;li&gt;Utilize social media to promote your products and get feedbacks.&lt;/li&gt;
 &lt;/ul&gt;
