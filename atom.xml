@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-01-18T14:28:53-05:00</updated>
+ <updated>2020-01-23T09:22:24-05:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -2223,6 +2223,69 @@ these counts to compute each item's index in the final sorted array.
  </entry>
  
  <entry>
+   <title>Josh Pigford, Baremetrics, $70k/month</title>
+   <link href="/2019/06/14/baremetrics"/>
+   <updated>2019-06-14T00:00:00-04:00</updated>
+   <id>/2019/06/14/baremetrics</id>
+   <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
+
+&lt;p&gt;Subscription analytics and insights.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-its-current-revenue&quot;&gt;What is its current revenue?&lt;/h3&gt;
+
+&lt;p&gt;$14k/month after 6 months, $70K/month in 2017, $120k/month now.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-the-business-model&quot;&gt;What is the business model?&lt;/h3&gt;
+
+&lt;p&gt;Subscription.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-did-the-founder-come-up-with-their-idea&quot;&gt;How did the founder come up with their idea?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Was running 2 other SaaS products in the survey space and needed these
+numbers himself: monthly recurring revenue, lifetime value, churn,… There
+was no anything great that existed then.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-know-it-was-the-right-one&quot;&gt;How did they know it was the right one?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Realized that there was a pretty big need from talking to other SaaS friends.&lt;/li&gt;
+  &lt;li&gt;Launched the first version in November 2013 and it was clear by February that
+there was a much larger opportunity. Focused 100% on it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-did-it-take-to-get-the-initial-product-out-the-door&quot;&gt;What did it take to get the initial product out the door?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Vanilla Rails app, hosted on Heroku, just one big monolithic app.&lt;/li&gt;
+  &lt;li&gt;Later spent a lot of money running background jobs so that he did not have to
+spend time on infrastructure!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-did-they-get-their-first-paying-customers&quot;&gt;How did they get their first paying customers?&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Used Twitter connections to push for it, though he only had than 1k followers
+then.&lt;/li&gt;
+  &lt;li&gt;Start reaching out to random people he knew and they shared it.&lt;/li&gt;
+  &lt;li&gt;Sold to a $250/month customer in 8 days.&lt;/li&gt;
+  &lt;li&gt;Advised to have someone start using the product right away and try to have them
+pay for it, instead of getting stuck in the testing phase (building email list,
+building a landing page,…)&lt;/li&gt;
+  &lt;li&gt;Later wrote useful, educational content on the blog.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.indiehackers.com/podcast/006-josh-pigford-of-baremetrics&quot;&gt;Launching Your Product and Finding Customers Immediately with Josh Pigford of Baremetrics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Garrett Dimon, Sifter</title>
    <link href="/2019/06/13/sifter"/>
    <updated>2019-06-13T00:00:00-04:00</updated>
@@ -2689,6 +2752,9 @@ businesses before and get their hand dirty on the business side of thing.&lt;/li
   &lt;li&gt;Actively seek for paying customers and TALK TO THEM, even before having a
 concrete product. Focus on how to generate revenue immediately.&lt;/li&gt;
   &lt;li&gt;Blog to share your progress. Provide quality contents. Grow your audience.&lt;/li&gt;
+  &lt;li&gt;Don’t get trapped in testing phase where all you do is collecting emails and
+building lists… Hack a MVP and have actually customer use it then pay for
+it. This is the ultimate test.&lt;/li&gt;
   &lt;li&gt;Utilize social media to promote your products and get feedbacks.&lt;/li&gt;
 &lt;/ul&gt;
 </content>

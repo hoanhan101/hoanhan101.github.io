@@ -449,6 +449,30 @@
         },
     
         {
+            "id": "/2019/06/14/baremetrics",
+            "title": "Josh Pigford, Baremetrics, $70k/month",
+            "summary": null,
+            "content_text": "What is the product?Subscription analytics and insights.What is its current revenue?$14k/month after 6 months, $70K/month in 2017, $120k/month now.What is the business model?Subscription.How did the founder come up with their idea?  Was running 2 other SaaS products in the survey space and needed thesenumbers himself: monthly recurring revenue, lifetime value, churn,… Therewas no anything great that existed then.How did they know it was the right one?  Realized that there was a pretty big need from talking to other SaaS friends.  Launched the first version in November 2013 and it was clear by February thatthere was a much larger opportunity. Focused 100% on it.What did it take to get the initial product out the door?  Vanilla Rails app, hosted on Heroku, just one big monolithic app.  Later spent a lot of money running background jobs so that he did not have tospend time on infrastructure!How did they get their first paying customers?  Used Twitter connections to push for it, though he only had than 1k followersthen.  Start reaching out to random people he knew and they shared it.  Sold to a $250/month customer in 8 days.  Advised to have someone start using the product right away and try to have thempay for it, instead of getting stuck in the testing phase (building email list,building a landing page,…)  Later wrote useful, educational content on the blog.References:  Launching Your Product and Finding Customers Immediately with Josh Pigford of Baremetrics",
+            "content_html": "<h3 id=\"what-is-the-product\">What is the product?</h3><p>Subscription analytics and insights.</p><h3 id=\"what-is-its-current-revenue\">What is its current revenue?</h3><p>$14k/month after 6 months, $70K/month in 2017, $120k/month now.</p><h3 id=\"what-is-the-business-model\">What is the business model?</h3><p>Subscription.</p><h3 id=\"how-did-the-founder-come-up-with-their-idea\">How did the founder come up with their idea?</h3><ul>  <li>Was running 2 other SaaS products in the survey space and needed thesenumbers himself: monthly recurring revenue, lifetime value, churn,… Therewas no anything great that existed then.</li></ul><h3 id=\"how-did-they-know-it-was-the-right-one\">How did they know it was the right one?</h3><ul>  <li>Realized that there was a pretty big need from talking to other SaaS friends.</li>  <li>Launched the first version in November 2013 and it was clear by February thatthere was a much larger opportunity. Focused 100% on it.</li></ul><h3 id=\"what-did-it-take-to-get-the-initial-product-out-the-door\">What did it take to get the initial product out the door?</h3><ul>  <li>Vanilla Rails app, hosted on Heroku, just one big monolithic app.</li>  <li>Later spent a lot of money running background jobs so that he did not have tospend time on infrastructure!</li></ul><h3 id=\"how-did-they-get-their-first-paying-customers\">How did they get their first paying customers?</h3><ul>  <li>Used Twitter connections to push for it, though he only had than 1k followersthen.</li>  <li>Start reaching out to random people he knew and they shared it.</li>  <li>Sold to a $250/month customer in 8 days.</li>  <li>Advised to have someone start using the product right away and try to have thempay for it, instead of getting stuck in the testing phase (building email list,building a landing page,…)</li>  <li>Later wrote useful, educational content on the blog.</li></ul><p><br /></p><p>References:</p><ul>  <li><a href=\"https://www.indiehackers.com/podcast/006-josh-pigford-of-baremetrics\">Launching Your Product and Finding Customers Immediately with Josh Pigford of Baremetrics</a></li></ul>",
+            "url": "/2019/06/14/baremetrics",
+            
+            
+            
+            "tags": ["early-days","indiehackers"],
+            
+            "date_published": "2019-06-14T00:00:00-04:00",
+            "date_modified": "2019-06-14T00:00:00-04:00",
+            
+                "author":  {
+                "name": "Hoanh An",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "/2019/06/13/sifter",
             "title": "Garrett Dimon, Sifter",
             "summary": null,
@@ -644,8 +668,8 @@
             "id": "/2019/06/06/earlyday-summary",
             "title": "Early days of profitable internet businesses's summary",
             "summary": null,
-            "content_text": "  Dive deep into the industry and take advantage of your domain expertise to identifythe “right” problems to work on.  Constantly launch/bootstrap products - as a lot of them have founded multiplebusinesses before and get their hand dirty on the business side of thing.  Actively seek for paying customers and TALK TO THEM, even before having aconcrete product. Focus on how to generate revenue immediately.  Blog to share your progress. Provide quality contents. Grow your audience.  Utilize social media to promote your products and get feedbacks.",
-            "content_html": "<ul>  <li>Dive deep into the industry and take advantage of your domain expertise to identifythe “right” problems to work on.</li>  <li>Constantly launch/bootstrap products - as a lot of them have founded multiplebusinesses before and get their hand dirty on the business side of thing.</li>  <li>Actively seek for paying customers and TALK TO THEM, even before having aconcrete product. Focus on how to generate revenue immediately.</li>  <li>Blog to share your progress. Provide quality contents. Grow your audience.</li>  <li>Utilize social media to promote your products and get feedbacks.</li></ul>",
+            "content_text": "  Dive deep into the industry and take advantage of your domain expertise to identifythe “right” problems to work on.  Constantly launch/bootstrap products - as a lot of them have founded multiplebusinesses before and get their hand dirty on the business side of thing.  Actively seek for paying customers and TALK TO THEM, even before having aconcrete product. Focus on how to generate revenue immediately.  Blog to share your progress. Provide quality contents. Grow your audience.  Don’t get trapped in testing phase where all you do is collecting emails andbuilding lists… Hack a MVP and have actually customer use it then pay forit. This is the ultimate test.  Utilize social media to promote your products and get feedbacks.",
+            "content_html": "<ul>  <li>Dive deep into the industry and take advantage of your domain expertise to identifythe “right” problems to work on.</li>  <li>Constantly launch/bootstrap products - as a lot of them have founded multiplebusinesses before and get their hand dirty on the business side of thing.</li>  <li>Actively seek for paying customers and TALK TO THEM, even before having aconcrete product. Focus on how to generate revenue immediately.</li>  <li>Blog to share your progress. Provide quality contents. Grow your audience.</li>  <li>Don’t get trapped in testing phase where all you do is collecting emails andbuilding lists… Hack a MVP and have actually customer use it then pay forit. This is the ultimate test.</li>  <li>Utilize social media to promote your products and get feedbacks.</li></ul>",
             "url": "/2019/06/06/earlyday-summary",
             
             
