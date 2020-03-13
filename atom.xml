@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-13T00:06:16-04:00</updated>
+ <updated>2020-03-13T00:57:51-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -116,9 +116,11 @@
   &lt;li&gt;Define measurable milestones&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Reference: &lt;a href=&quot;https://www.goodreads.com/en/book/show/25238425-the-effective-engineer&quot;&gt;https://www.goodreads.com/en/book/show/25238425-the-effective-engineer&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.effectiveengineer.com/book&quot;&gt;https://www.effectiveengineer.com/book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
