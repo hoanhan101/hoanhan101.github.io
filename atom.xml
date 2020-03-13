@@ -4,13 +4,253 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-13T00:57:51-04:00</updated>
+ <updated>2020-03-13T01:28:30-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Jason Fried, Getting Real</title>
+   <link href="/2020/03/13/getting-real"/>
+   <updated>2020-03-13T00:00:00-04:00</updated>
+   <id>/2020/03/13/getting-real</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;The starting line
+    &lt;ul&gt;
+      &lt;li&gt;Build less: less features, options, people, meetings, promises&lt;/li&gt;
+      &lt;li&gt;Solve your problem
+        &lt;ul&gt;
+          &lt;li&gt;You know what’s is important and what’s not for the product itself&lt;/li&gt;
+          &lt;li&gt;It’s likely people have the same problem so now you have a market too&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Fund yourself - outside funding is plan B
+        &lt;ul&gt;
+          &lt;li&gt;Investors want their money back quickly -&amp;gt; overhead + other complicated things follow&lt;/li&gt;
+          &lt;li&gt;Money constraints force you to focus + allow creativity&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Fix time and budget, flex scope: better to launch great thing, on time, on a budget in small scope than big ones with many holes&lt;/li&gt;
+      &lt;li&gt;Pick up an enemy and use it as an motivation to tell better story&lt;/li&gt;
+      &lt;li&gt;If your app doesn’t excite you, something’s wrong&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Stay lean
+    &lt;ul&gt;
+      &lt;li&gt;Simplify + focus&lt;/li&gt;
+      &lt;li&gt;Lower the cost of change -&amp;gt; change faster (huge advantage over big company)&lt;/li&gt;
+      &lt;li&gt;Start with 3 people: a developer, a designer, and a sweeper who can roam between both world&lt;/li&gt;
+      &lt;li&gt;Work with your limited resources. Forget about VC, long release cycles, quick hires,…&lt;/li&gt;
+      &lt;li&gt;Stay small and friendly -&amp;gt; get closer to customer&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Priorities
+    &lt;ul&gt;
+      &lt;li&gt;What is the app vision? Why does it exit? What makes it different?&lt;/li&gt;
+      &lt;li&gt;Don’t get too deep in the details early one. Ship it first and optimize it later&lt;/li&gt;
+      &lt;li&gt;don’t waste time on problems you don’t have yet:
+        &lt;ul&gt;
+          &lt;li&gt;Scaling to millions of users? Stop dreaming! Majority of apps are never going to reach that phase. Worry about it later once it’s wildly successful.&lt;/li&gt;
+          &lt;li&gt;Make decisions in time&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Find the right audience
+        &lt;ul&gt;
+          &lt;li&gt;Narrow the market&lt;/li&gt;
+          &lt;li&gt;Focus on the nice or small group of people who wants the product the most&lt;/li&gt;
+          &lt;li&gt;Don’t try to please everyone&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Make opinionated software, choose side, like every great companies: Google, Apple,…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Feature selection
+    &lt;ul&gt;
+      &lt;li&gt;What is the heart of the app?
+        &lt;ul&gt;
+          &lt;li&gt;Forget milestone, TODO lists.&lt;/li&gt;
+          &lt;li&gt;Just focus on the essential.&lt;/li&gt;
+          &lt;li&gt;Let it gain traction. Then add to that foundation.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Focus on what matters, REALLY. Cut off everything else.&lt;/li&gt;
+      &lt;li&gt;Learn to say no because you have to do that a lot.&lt;/li&gt;
+      &lt;li&gt;For every new feature, you need to
+        &lt;ul&gt;
+          &lt;li&gt;Say no&lt;/li&gt;
+          &lt;li&gt;Force the feature to provide its value&lt;/li&gt;
+          &lt;li&gt;If no, end. If yes, continue&lt;/li&gt;
+          &lt;li&gt;Sketch the UI&lt;/li&gt;
+          &lt;li&gt;Design the UI&lt;/li&gt;
+          &lt;li&gt;Code&lt;/li&gt;
+          &lt;li&gt;Test, tweak, repeat&lt;/li&gt;
+          &lt;li&gt;Document&lt;/li&gt;
+          &lt;li&gt;Market&lt;/li&gt;
+          &lt;li&gt;Revisit pricing options, term of service,&lt;/li&gt;
+          &lt;li&gt;Launch&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Build something that you can manage, organizationally, strategically, financially&lt;/li&gt;
+      &lt;li&gt;Don’t worry too much about feature requests. Customers will constantly remind you about that.&lt;/li&gt;
+      &lt;li&gt;Ask customer what they don’t want too and simplify it if possible.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Process
+    &lt;ul&gt;
+      &lt;li&gt;Get something real up and running quickly: it’s ok to do less, skip details, take shortcuts
+        &lt;ul&gt;
+          &lt;li&gt;Fail fast and learn&lt;/li&gt;
+          &lt;li&gt;Avoid unproductive scheduling and action faking (doing bullshit works that feel “productive” that doesn’t get you closer to launching)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Idea-to-implementation cycle
+        &lt;ul&gt;
+          &lt;li&gt;What does the app need to do? What exactly are you going to make?&lt;/li&gt;
+          &lt;li&gt;Sketch it out on paper&lt;/li&gt;
+          &lt;li&gt;Create mock-up html screens&lt;/li&gt;
+          &lt;li&gt;Code&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Allowing options/preferences for customers is not necessarily helping them.
+        &lt;ul&gt;
+          &lt;li&gt;If you make a bad call, they will complain, then you can fix it.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Execute. Build momentum. Move on.&lt;/li&gt;
+      &lt;li&gt;Test in the wild.
+        &lt;ul&gt;
+          &lt;li&gt;Get it out there. Get real results + feedback&lt;/li&gt;
+          &lt;li&gt;Instead of having a beta version and a release version, have beta features in side the release one so you can have real data + workflow&lt;/li&gt;
+          &lt;li&gt;Break it down into smaller problems and solve it one by one.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Organization
+    &lt;ul&gt;
+      &lt;li&gt;Build a healthy organization&lt;/li&gt;
+      &lt;li&gt;Utilize your alone time to get work done&lt;/li&gt;
+      &lt;li&gt;Meetings are normally unproductive.&lt;/li&gt;
+      &lt;li&gt;Have fewer meetings&lt;/li&gt;
+      &lt;li&gt;Only have it with a clear agenda&lt;/li&gt;
+      &lt;li&gt;Release something today. Celebrate small victories.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Staffing
+    &lt;ul&gt;
+      &lt;li&gt;Hire less, only when it’s really needed.&lt;/li&gt;
+      &lt;li&gt;Working with prospective employees on a real project can give a lot of insights. However, not everyone has time for that.&lt;/li&gt;
+      &lt;li&gt;Look at people codes + contribution on open-source projects&lt;/li&gt;
+      &lt;li&gt;Go for quick learning generalists over ingrained specialists&lt;/li&gt;
+      &lt;li&gt;Go for happy one&lt;/li&gt;
+      &lt;li&gt;Hire good writers because they know how to communicate&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Interface
+    &lt;ul&gt;
+      &lt;li&gt;Design the interface before you start coding&lt;/li&gt;
+      &lt;li&gt;Start from the core page and build outward. Focus on what matters.&lt;/li&gt;
+      &lt;li&gt;For each page, consider these 3 states
+        &lt;ul&gt;
+          &lt;li&gt;Blank: the screen before data is entered // could insert quick tutorials, help blurbs, examples with mock data…&lt;/li&gt;
+          &lt;li&gt;Regular: normal page&lt;/li&gt;
+          &lt;li&gt;Error: when shit happens&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;It’s ok to be inconsistent if your design makes more sense that way&lt;/li&gt;
+      &lt;li&gt;Every letter matters.
+        &lt;ul&gt;
+          &lt;li&gt;Don’t sound like an engineer talking to another engineer&lt;/li&gt;
+          &lt;li&gt;Keep it short and sweet&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Incorporate admin function into public interfaces so you don’t need to manage 2 different versions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code
+    &lt;ul&gt;
+      &lt;li&gt;Keep it simple. But be mindful about technical debt.&lt;/li&gt;
+      &lt;li&gt;Less maintenance and support work&lt;/li&gt;
+      &lt;li&gt;Low cost of change&lt;/li&gt;
+      &lt;li&gt;Fewer bugs&lt;/li&gt;
+      &lt;li&gt;Choose the tools that everyone is happy and productive with&lt;/li&gt;
+      &lt;li&gt;Get data into the world via RSS, API,…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Words
+    &lt;ul&gt;
+      &lt;li&gt;Document what is needed but nothing else.&lt;/li&gt;
+      &lt;li&gt;Write stories, not details.
+        &lt;ul&gt;
+          &lt;li&gt;Don’t get into the technical/design details, just a quick story&lt;/li&gt;
+          &lt;li&gt;Treat it as a normal conversation&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Use real data if possible, not dummy text all the time -&amp;gt; focus on the UX&lt;/li&gt;
+      &lt;li&gt;What is your product’s personality type?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pricing and signup
+    &lt;ul&gt;
+      &lt;li&gt;Give something for free. Let  people experience and see its usefulness.&lt;/li&gt;
+      &lt;li&gt;Make signup and cancellation easy&lt;/li&gt;
+      &lt;li&gt;Avoid long term contract, signup fee,…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Promotion
+    &lt;ul&gt;
+      &lt;li&gt;Teaser (dropping hints), preview, launch&lt;/li&gt;
+      &lt;li&gt;Build a promo site: overview, tour, screenshots, videos, manifesto, case studies, buzz (customers, press reviews,…), forum, pricing and signup, blog,…&lt;/li&gt;
+      &lt;li&gt;Blogging can be more effective (and cheaper) than advertising. Could write about advices, tips, tricks, links,…&lt;/li&gt;
+      &lt;li&gt;Start collecting emails asap&lt;/li&gt;
+      &lt;li&gt;Share your knowledge. Teaching/educating is a great way to market yourself and your product too.
+        &lt;ul&gt;
+          &lt;li&gt;Blog (as above)&lt;/li&gt;
+          &lt;li&gt;Speak at conferences&lt;/li&gt;
+          &lt;li&gt;Conduct workshops&lt;/li&gt;
+          &lt;li&gt;Give interviews.&lt;/li&gt;
+          &lt;li&gt;Write articles/books&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Track your online present. Leave comments, thank you notes, response to negative ones thoughtfully&lt;/li&gt;
+      &lt;li&gt;Promote upgrade, in-app purchases&lt;/li&gt;
+      &lt;li&gt;Pick an short, catchy, memorable name&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Support
+    &lt;ul&gt;
+      &lt;li&gt;Feel the pain yourself. Don’t outsource. Learn from it.&lt;/li&gt;
+      &lt;li&gt;Use inline help and FAQ instead of giving manual training&lt;/li&gt;
+      &lt;li&gt;Just response quickly even if you don’t have a perfect answer (during business hour)&lt;/li&gt;
+      &lt;li&gt;Also thank them for their input&lt;/li&gt;
+      &lt;li&gt;Be willing to say no&lt;/li&gt;
+      &lt;li&gt;Use forum or chat to let customers help each other&lt;/li&gt;
+      &lt;li&gt;Be open, honest, transparent (yeah bad news)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Post launch
+    &lt;ul&gt;
+      &lt;li&gt;Issue a major update 30 days after launch&lt;/li&gt;
+      &lt;li&gt;Don’t stop blogging: new FAQs, tutorials, news, features, updates, fixes, buzz/pres&lt;/li&gt;
+      &lt;li&gt;Prioritize your bugs&lt;/li&gt;
+      &lt;li&gt;Wait before the storm, 1-2 days after releasing a new feature and hearing complaints, then take action&lt;/li&gt;
+      &lt;li&gt;Know your competitors&lt;/li&gt;
+      &lt;li&gt;More mature doesn’t mean more complicated, as long as you provide valuable services that’s fine.&lt;/li&gt;
+      &lt;li&gt;Be open to new paths and changes in direction&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/books/getting-real&quot;&gt;https://basecamp.com/books/getting-real&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Edmond Lau, The Effective Engineer</title>
