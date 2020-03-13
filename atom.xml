@@ -4,13 +4,119 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-12T22:43:57-04:00</updated>
+ <updated>2020-03-12T23:22:21-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Edmond Lau, The Effective Engineer</title>
+   <link href="/2020/03/12/the-effective-engineer"/>
+   <updated>2020-03-12T00:00:00-04:00</updated>
+   <id>/2020/03/12/the-effective-engineer</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Focus on high-leverage activities
+    &lt;ul&gt;
+      &lt;li&gt;Leverage = impact produced / time invested&lt;/li&gt;
+      &lt;li&gt;80/20 rule - 80% impact comes from 20% work&lt;/li&gt;
+      &lt;li&gt;Focus on not more hours but more value per limited time on the task&lt;/li&gt;
+      &lt;li&gt;Increase leverage by
+        &lt;ul&gt;
+          &lt;li&gt;Reduce the time it takes to complete the activity (default to half-hour meeting instead of one-hour one, automate manual dev process)&lt;/li&gt;
+          &lt;li&gt;Increase the value produced (have a clear agenda beforehand, prioritize tasks based on launch date)&lt;/li&gt;
+          &lt;li&gt;Shift to higher-leverage activities (use email instead of in-person discussion, talk to customer)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Output can be measured by:
+        &lt;ul&gt;
+          &lt;li&gt;Number of projects launched&lt;/li&gt;
+          &lt;li&gt;Bug fixes&lt;/li&gt;
+          &lt;li&gt;Users acquired&lt;/li&gt;
+          &lt;li&gt;Engineers hired&lt;/li&gt;
+          &lt;li&gt;Quality&lt;/li&gt;
+          &lt;li&gt;Revenue generated&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Understand the power of compound interest
+    &lt;ul&gt;
+      &lt;li&gt;Compounding leads to an exponential growth curve&lt;/li&gt;
+      &lt;li&gt;The earlier compounding starts, the sooner it hits the exponential growth, the faster you can reap its benefits&lt;/li&gt;
+      &lt;li&gt;Small deltas in the interest rate can make massive differences in the long run:
+        &lt;ul&gt;
+          &lt;li&gt;Improving by 1% per day makes us 37x better at the end of year&lt;/li&gt;
+          &lt;li&gt;Google idea of 20% where engineers spend about 1 day a week on a side project to make the company better results in successful products such as Gmail , Google News, Adsense,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Optimize for learning because learning compounds
+    &lt;ul&gt;
+      &lt;li&gt;Find fast growing work environment&lt;/li&gt;
+      &lt;li&gt;Take advantage of the resources at your work
+        &lt;ul&gt;
+          &lt;li&gt;Study code from best engineers&lt;/li&gt;
+          &lt;li&gt;Write more code&lt;/li&gt;
+          &lt;li&gt;Go through technical, educational material&lt;/li&gt;
+          &lt;li&gt;Send code views to the harshest critics&lt;/li&gt;
+          &lt;li&gt;Participate in design discussions - don’t wait for invitation&lt;/li&gt;
+          &lt;li&gt;Team with senior engineers&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Invest in other skills too
+        &lt;ul&gt;
+          &lt;li&gt;Invest in skills that are in high demand&lt;/li&gt;
+          &lt;li&gt;Build strong relationships&lt;/li&gt;
+          &lt;li&gt;Read books&lt;/li&gt;
+          &lt;li&gt;Write to teach&lt;/li&gt;
+          &lt;li&gt;Pursue side projects&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prioritize regularly
+    &lt;ul&gt;
+      &lt;li&gt;Track TODO list in a single list&lt;/li&gt;
+      &lt;li&gt;Sort the list frequently by asking yourself on a recurring basis:
+        &lt;ul&gt;
+          &lt;li&gt;Is there anything else I could be doing that’s higher-leverage
+            &lt;ul&gt;
+              &lt;li&gt;focus on what directly produce value (products shipped, user acquired, business metrics moved, sales made)&lt;/li&gt;
+              &lt;li&gt;focus on the important and non-urgent (planning career goals, building relationships, personal development, improving workflow)&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Preserve larger blocks of focused time + learn to say no unimportant activities&lt;/li&gt;
+      &lt;li&gt;Limit the amount of work in progress + resist the urge to work on too many projects at once&lt;/li&gt;
+      &lt;li&gt;Make it a habit&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Iterate quickly to build more and learn faster
+    &lt;ul&gt;
+      &lt;li&gt;Invest in time-saving tools
+        &lt;ul&gt;
+          &lt;li&gt;Bringing the release time down to several minutes helps the team deploy more frequently, 40-50 times a day - skyrockets growth&lt;/li&gt;
+          &lt;li&gt;If it saves you 1 hour a day, it saves 10 people 10 times as much&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Measure the progress frequently&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Validate early and often
+    &lt;ul&gt;
+      &lt;li&gt;A well tested, clean design, scalable product doesn’t deliver much value if users don’t engage or customers don’t buy it&lt;/li&gt;
+      &lt;li&gt;Bounce ideas off teammates&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Define measurable milestones&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>101+ Coding Interview Problems with Detailed Solutions, Test Cases, and Program Analysis</title>
