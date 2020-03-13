@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-13T01:48:28-04:00</updated>
+ <updated>2020-03-13T02:34:23-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -17,7 +17,8 @@
    <link href="/2020/03/13/getting-real"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
    <id>/2020/03/13/getting-real</id>
-   <content type="html">&lt;ul&gt;
+   <content type="html">&lt;p&gt;The Smarter, Faster, Easier Way to Build a Successful Web Application:&lt;/p&gt;
+&lt;ul&gt;
   &lt;li&gt;The starting line
     &lt;ul&gt;
       &lt;li&gt;Build less: less features, options, people, meetings, promises&lt;/li&gt;
@@ -257,7 +258,8 @@
    <link href="/2020/03/12/the-effective-engineer"/>
    <updated>2020-03-12T00:00:00-04:00</updated>
    <id>/2020/03/12/the-effective-engineer</id>
-   <content type="html">&lt;ul&gt;
+   <content type="html">&lt;p&gt;How to Leverage Your Efforts In Software Engineering to Make a Disproportionate and Meaningful Impact:&lt;/p&gt;
+&lt;ul&gt;
   &lt;li&gt;Focus on high-leverage activities
     &lt;ul&gt;
       &lt;li&gt;Leverage = impact produced / time invested&lt;/li&gt;
@@ -360,6 +362,57 @@
 &lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.effectiveengineer.com/book&quot;&gt;https://www.effectiveengineer.com/book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Don't Call Yourself A Programmer</title>
+   <link href="/2020/03/12/dont-call-yourself-a-programmer"/>
+   <updated>2020-03-12T00:00:00-04:00</updated>
+   <id>/2020/03/12/dont-call-yourself-a-programmer</id>
+   <content type="html">&lt;p&gt;This is for fairly bright young engineer with zero knowledge on how the real world actually works:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Software solves business problems. It doesn’t matter if your app has the most elegant architecture, it must create value for the company aka brings in revenue.&lt;/li&gt;
+  &lt;li&gt;Engineers are hired to create business value.
+    &lt;ul&gt;
+      &lt;li&gt;Non-goals: produce the beautiful software, solve complex technical problems, use sexy frameworks&lt;/li&gt;
+      &lt;li&gt;Actual goals: add revenue, reduce costs - “wrote the backend billing code that 97% of Google’s revenue passes through”&lt;/li&gt;
+      &lt;li&gt;That’s why Quants makes more in bonuses in a good year than many talented engineers will earn in a lifetime.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Angel investor is a polite synonym for rich.&lt;/li&gt;
+  &lt;li&gt;Most hiring happens privately.
+    &lt;ul&gt;
+      &lt;li&gt;Resume is not the primary way to get job interviews, but connections do.&lt;/li&gt;
+      &lt;li&gt;Networking means:
+        &lt;ul&gt;
+          &lt;li&gt;Meet people at some point can help you&lt;/li&gt;
+          &lt;li&gt;Make a favorable impression on them&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Strive to help people first so it’s harder for them to refuse to help you later.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Academia is not like the real world.&lt;/li&gt;
+  &lt;li&gt;People who are skilled in negotiation make more than those who are not.
+    &lt;ul&gt;
+      &lt;li&gt;Sell solution to a business need rather than your programming skill.&lt;/li&gt;
+      &lt;li&gt;Learn to negotiate better. (Getting to Yes)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Working at a startup vs megacorp is more of a lifestyle choice.&lt;/li&gt;
+  &lt;li&gt;Your most important professional skill is communication.&lt;/li&gt;
+  &lt;li&gt;Engineers are not hired to create programs. They are hired to create business value. The dominant quality which gets you jobs is the ability to give people the perception that you will create value.  This is not necessarily coextensive with ability to create value.&lt;/li&gt;
+  &lt;li&gt;Try for “It was a privilege to assist my team by leading their efforts with regards to $YOUR_SPECIALTY.” instead of “I owe it all to my team”.&lt;/li&gt;
+  &lt;li&gt;Read Never Eat Alone for some social grooming hack.&lt;/li&gt;
+  &lt;li&gt;Work to live, don’t live to work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/&quot;&gt;https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -3063,7 +3116,8 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
    <link href="/2019/06/06/show-your-work"/>
    <updated>2019-06-06T00:00:00-04:00</updated>
    <id>/2019/06/06/show-your-work</id>
-   <content type="html">&lt;ul&gt;
+   <content type="html">&lt;p&gt;A book for people who hate the very idea of self-promotion:&lt;/p&gt;
+&lt;ul&gt;
   &lt;li&gt;Be an amateur, not afraid to voice your opinion, be willing to share&lt;/li&gt;
   &lt;li&gt;Document your process, start a journal, record it, take photo,…&lt;/li&gt;
   &lt;li&gt;Share/publish something small everyday
