@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-13T02:39:24-04:00</updated>
+ <updated>2020-03-13T13:03:09-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -1398,6 +1398,87 @@ leads us to 1.&lt;/p&gt;
   &lt;p&gt;If you’re interested in getting updates for such content like these, consider
   joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mailing list here →&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Michael Nielsen, Augmenting Long-term Memory</title>
+   <link href="/2019/10/20/augmenting-long-term-memory"/>
+   <updated>2019-10-20T00:00:00-04:00</updated>
+   <id>/2019/10/20/augmenting-long-term-memory</id>
+   <content type="html">&lt;p&gt;Use a system named Anki to remember almost anything:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It’s like a flashcard app but able to manage the review schedule.
+    &lt;ul&gt;
+      &lt;li&gt;If you answer a question correctly, the review time expands.&lt;/li&gt;
+      &lt;li&gt;The better you master the material, the less frequent it appears&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Memories are maximally strengthened if tested when we’re on the verge of forgetting them&lt;/li&gt;
+  &lt;li&gt;Used to learn anything: papers, books, talks, conversations, facts, plans,…&lt;/li&gt;
+  &lt;li&gt;Have desktop client for entering new card, mobile client for reviewing&lt;/li&gt;
+  &lt;li&gt;Read a research paper in an unfamiliar field - AlphaGo paper
+    &lt;ul&gt;
+      &lt;li&gt;Read quickly first, come up with questions that
+        &lt;ul&gt;
+          &lt;li&gt;Identify the most important ideas&lt;/li&gt;
+          &lt;li&gt;Look for basics fact that i could understand easily&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Make several passes this way, each time try to get deeper, continue to ask questions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Make better use of Anki
+    &lt;ul&gt;
+      &lt;li&gt;Make the question more atomic so I could focus on the hard-to-memory details -&amp;gt; asking good questions is very important&lt;/li&gt;
+      &lt;li&gt;Construct your own decks instead of using shared ones -&amp;gt; constructing a card forces you to think through the questions and its answer&lt;/li&gt;
+      &lt;li&gt;avoid yes/no questions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Procedural vs declarative memory
+    &lt;ul&gt;
+      &lt;li&gt;procedural (implicit, unconscious, automatic): habits such as walking, talking,…&lt;/li&gt;
+      &lt;li&gt;declarative (explicit): know your phone number, a fact,…&lt;/li&gt;
+      &lt;li&gt;Basically, there is a difference between remembering a fact and master a process.
+        &lt;ul&gt;
+          &lt;li&gt;Just because you remember a unix command doesn’t mean you can recognize or apply it in a real-world situation&lt;/li&gt;
+          &lt;li&gt;Remembering is not enough. Need to carry out the process. Solve problem with it.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If Anki is so great, why isn’t it widely used?
+    &lt;ul&gt;
+      &lt;li&gt;People prefer last-minute cramming and believe it produces better results, though many studies show it does not&lt;/li&gt;
+      &lt;li&gt;The act if recalling something while we’re on the verge of forgetting is hard, unless one is strongly motivated&lt;/li&gt;
+      &lt;li&gt;Anki is challenging to use well, easy to use poorly&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The importance of long-term memory
+    &lt;ul&gt;
+      &lt;li&gt;A study shows that chess grandmaster has higher memory capacity
+        &lt;ul&gt;
+          &lt;li&gt;Beginner see a series of individual pieces&lt;/li&gt;
+          &lt;li&gt;Master see see a “chunk”-combinations of pieces recognized as a unit -&amp;gt; able to reason much easier at a higher level of abstraction (25k-100k)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;A study shows that the better working memory one has, the higher their IQ and vice versa&lt;/li&gt;
+      &lt;li&gt;Having more chunks memorized in some domain is somewhat like an effective boost to a person’s IQ in that domain&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Distribute practice - why Anki works?
+    &lt;ul&gt;
+      &lt;li&gt;Memory decays through time - we will forget things eventually&lt;/li&gt;
+      &lt;li&gt;Retest/recall will slow the decay - meaning it takes longer after subsequent recalls&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://augmentingcognition.com/ltm.html&quot;&gt;http://augmentingcognition.com/ltm.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  

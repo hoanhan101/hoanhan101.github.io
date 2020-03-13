@@ -26,7 +26,7 @@
             
             
             
-            
+            "tags": ["book","productivity","business"],
             
             "date_published": "2020-03-13T00:00:00-04:00",
             "date_modified": "2020-03-13T00:00:00-04:00",
@@ -50,7 +50,7 @@
             
             
             
-            
+            "tags": ["book","productivity","impact"],
             
             "date_published": "2020-03-12T00:00:00-04:00",
             "date_modified": "2020-03-12T00:00:00-04:00",
@@ -74,7 +74,7 @@
             
             
             
-            
+            "tags": ["blog","business","negotiation"],
             
             "date_published": "2020-03-12T00:00:00-04:00",
             "date_modified": "2020-03-12T00:00:00-04:00",
@@ -294,6 +294,30 @@
             
             "date_published": "2019-11-16T00:00:00-05:00",
             "date_modified": "2019-11-16T00:00:00-05:00",
+            
+                "author":  {
+                "name": "Hoanh An",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
+            "id": "/2019/10/20/augmenting-long-term-memory",
+            "title": "Michael Nielsen, Augmenting Long-term Memory",
+            "summary": null,
+            "content_text": "Use a system named Anki to remember almost anything:  It’s like a flashcard app but able to manage the review schedule.          If you answer a question correctly, the review time expands.      The better you master the material, the less frequent it appears        Memories are maximally strengthened if tested when we’re on the verge of forgetting them  Used to learn anything: papers, books, talks, conversations, facts, plans,…  Have desktop client for entering new card, mobile client for reviewing  Read a research paper in an unfamiliar field - AlphaGo paper          Read quickly first, come up with questions that                  Identify the most important ideas          Look for basics fact that i could understand easily                    Make several passes this way, each time try to get deeper, continue to ask questions        Make better use of Anki          Make the question more atomic so I could focus on the hard-to-memory details -&gt; asking good questions is very important      Construct your own decks instead of using shared ones -&gt; constructing a card forces you to think through the questions and its answer      avoid yes/no questions        Procedural vs declarative memory          procedural (implicit, unconscious, automatic): habits such as walking, talking,…      declarative (explicit): know your phone number, a fact,…      Basically, there is a difference between remembering a fact and master a process.                  Just because you remember a unix command doesn’t mean you can recognize or apply it in a real-world situation          Remembering is not enough. Need to carry out the process. Solve problem with it.                      If Anki is so great, why isn’t it widely used?          People prefer last-minute cramming and believe it produces better results, though many studies show it does not      The act if recalling something while we’re on the verge of forgetting is hard, unless one is strongly motivated      Anki is challenging to use well, easy to use poorly        The importance of long-term memory          A study shows that chess grandmaster has higher memory capacity                  Beginner see a series of individual pieces          Master see see a “chunk”-combinations of pieces recognized as a unit -&gt; able to reason much easier at a higher level of abstraction (25k-100k)                    A study shows that the better working memory one has, the higher their IQ and vice versa      Having more chunks memorized in some domain is somewhat like an effective boost to a person’s IQ in that domain        Distribute practice - why Anki works?          Memory decays through time - we will forget things eventually      Retest/recall will slow the decay - meaning it takes longer after subsequent recalls      References:  http://augmentingcognition.com/ltm.html",
+            "content_html": "<p>Use a system named Anki to remember almost anything:</p><ul>  <li>It’s like a flashcard app but able to manage the review schedule.    <ul>      <li>If you answer a question correctly, the review time expands.</li>      <li>The better you master the material, the less frequent it appears</li>    </ul>  </li>  <li>Memories are maximally strengthened if tested when we’re on the verge of forgetting them</li>  <li>Used to learn anything: papers, books, talks, conversations, facts, plans,…</li>  <li>Have desktop client for entering new card, mobile client for reviewing</li>  <li>Read a research paper in an unfamiliar field - AlphaGo paper    <ul>      <li>Read quickly first, come up with questions that        <ul>          <li>Identify the most important ideas</li>          <li>Look for basics fact that i could understand easily</li>        </ul>      </li>      <li>Make several passes this way, each time try to get deeper, continue to ask questions</li>    </ul>  </li>  <li>Make better use of Anki    <ul>      <li>Make the question more atomic so I could focus on the hard-to-memory details -&gt; asking good questions is very important</li>      <li>Construct your own decks instead of using shared ones -&gt; constructing a card forces you to think through the questions and its answer</li>      <li>avoid yes/no questions</li>    </ul>  </li>  <li>Procedural vs declarative memory    <ul>      <li>procedural (implicit, unconscious, automatic): habits such as walking, talking,…</li>      <li>declarative (explicit): know your phone number, a fact,…</li>      <li>Basically, there is a difference between remembering a fact and master a process.        <ul>          <li>Just because you remember a unix command doesn’t mean you can recognize or apply it in a real-world situation</li>          <li>Remembering is not enough. Need to carry out the process. Solve problem with it.</li>        </ul>      </li>    </ul>  </li>  <li>If Anki is so great, why isn’t it widely used?    <ul>      <li>People prefer last-minute cramming and believe it produces better results, though many studies show it does not</li>      <li>The act if recalling something while we’re on the verge of forgetting is hard, unless one is strongly motivated</li>      <li>Anki is challenging to use well, easy to use poorly</li>    </ul>  </li>  <li>The importance of long-term memory    <ul>      <li>A study shows that chess grandmaster has higher memory capacity        <ul>          <li>Beginner see a series of individual pieces</li>          <li>Master see see a “chunk”-combinations of pieces recognized as a unit -&gt; able to reason much easier at a higher level of abstraction (25k-100k)</li>        </ul>      </li>      <li>A study shows that the better working memory one has, the higher their IQ and vice versa</li>      <li>Having more chunks memorized in some domain is somewhat like an effective boost to a person’s IQ in that domain</li>    </ul>  </li>  <li>Distribute practice - why Anki works?    <ul>      <li>Memory decays through time - we will forget things eventually</li>      <li>Retest/recall will slow the decay - meaning it takes longer after subsequent recalls</li>    </ul>  </li></ul><p><br /><strong>References:</strong></p><ul>  <li><a href=\"http://augmentingcognition.com/ltm.html\">http://augmentingcognition.com/ltm.html</a></li></ul>",
+            "url": "/2019/10/20/augmenting-long-term-memory",
+            
+            
+            
+            "tags": ["blog","memory"],
+            
+            "date_published": "2019-10-20T00:00:00-04:00",
+            "date_modified": "2019-10-20T00:00:00-04:00",
             
                 "author":  {
                 "name": "Hoanh An",
