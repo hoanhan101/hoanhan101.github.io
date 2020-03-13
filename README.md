@@ -1,4 +1,16 @@
 ## [http://hoanhan101.github.io/](http://hoanhan101.github.io/)
 
-Static files generated from
-[https://github.com/hoanhan101/gray](https://github.com/hoanhan101/gray)
+Make a draft post with current date:
+```
+./_scripts/draft [post_name]
+```
+
+Serve locally with drafts:
+```
+./_scripts/serve
+```
+
+Deploy to [http://hoanhan101.github.io](http://hoanhan101.github.io):
+```
+./_scripts/deploy
+```
