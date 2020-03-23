@@ -4,13 +4,112 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-19T06:32:22-04:00</updated>
+ <updated>2020-03-23T15:34:24-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Serverless architecture with AWS Lamda</title>
+   <link href="/2020/03/23/serverless-aws-lamda"/>
+   <updated>2020-03-23T00:00:00-04:00</updated>
+   <id>/2020/03/23/serverless-aws-lamda</id>
+   <content type="html">&lt;p&gt;Serverless architecture with AWS Lamda:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Basic:
+    &lt;ul&gt;
+      &lt;li&gt;Also called function-as-a-service&lt;/li&gt;
+      &lt;li&gt;Let developers focus on writing function/business logic instead of focusing on managing server&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Benefits
+    &lt;ul&gt;
+      &lt;li&gt;Shorter time to market for new features&lt;/li&gt;
+      &lt;li&gt;Reduced operational costs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Notable services: AWS Lamda, Google Cloud Functions&lt;/li&gt;
+  &lt;li&gt;Pricing model:
+    &lt;ul&gt;
+      &lt;li&gt;Pay for actual usage, not reserved capacity - pay none if use none&lt;/li&gt;
+      &lt;li&gt;Depends on
+        &lt;ul&gt;
+          &lt;li&gt;Maximum memory for a task&lt;/li&gt;
+          &lt;li&gt;Time it spent executing one&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;AWS Lamda technical constraints
+    &lt;ul&gt;
+      &lt;li&gt;No session affinity - don’t get to decide about starting up, shutting down instances, or managing states in-memory state between two functions&lt;/li&gt;
+      &lt;li&gt;Non-deterministic latency - some requests will need to wait for a Lamda instance to start&lt;/li&gt;
+      &lt;li&gt;Execution time-limited to 15 minutes&lt;/li&gt;
+      &lt;li&gt;No direct control over processing power&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When to use Lamda
+    &lt;ul&gt;
+      &lt;li&gt;Throughput is critical and tasks parallelize nicely
+        &lt;ul&gt;
+          &lt;li&gt;Requests for dynamic content&lt;/li&gt;
+          &lt;li&gt;Access to backend database&lt;/li&gt;
+          &lt;li&gt;User data manipulation&lt;/li&gt;
+          &lt;li&gt;Automatic email replies or chatbots&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Splittable long-running tasks
+        &lt;ul&gt;
+          &lt;li&gt;File format conversion&lt;/li&gt;
+          &lt;li&gt;Generating previews/thumbnails&lt;/li&gt;
+          &lt;li&gt;Periodic reports&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;High availability tasks
+        &lt;ul&gt;
+          &lt;li&gt;Payment notifications from Stripe, PayPal,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;When not to use
+    &lt;ul&gt;
+      &lt;li&gt;Latency guaranteed tasks
+        &lt;ul&gt;
+          &lt;li&gt;High-frequency trading systems&lt;/li&gt;
+          &lt;li&gt;Near-real-time control systems&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Long-running tasks
+        &lt;ul&gt;
+          &lt;li&gt;Video transcoding for large files&lt;/li&gt;
+          &lt;li&gt;Connecting to a socket and consuming continuous data&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Tasks demanding high processing power
+        &lt;ul&gt;
+          &lt;li&gt;Video rendering&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Tasks requiring no on-demand computation
+        &lt;ul&gt;
+          &lt;li&gt;Serving static web files&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/running-serverless-applications-aws-lambda&quot;&gt;https://www.educative.io/courses/running-serverless-applications-aws-lambda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Clayton Christensen, How Will You Measure Your Life?</title>
