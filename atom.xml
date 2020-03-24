@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-24T15:54:26-04:00</updated>
+ <updated>2020-03-24T15:57:15-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -18,7 +18,7 @@
    <updated>2020-03-24T00:00:00-04:00</updated>
    <id>/2020/03/24/brief-history-scaling-linkedin</id>
    <content type="html">&lt;ul&gt;
-  &lt;li&gt;Started as a single monolithic application, Leo&lt;/li&gt;
+  &lt;li&gt;Started as a single monolithic application, Leo, that hosted various pages, handled business logic and connected to a handful of databases&lt;/li&gt;
   &lt;li&gt;Needed to manage a network of member connections and scale independent of Leo so built a new system for their member graph
     &lt;ul&gt;
       &lt;li&gt;Used Java RPC for communication, Apache Lucene for search capabilities&lt;/li&gt;
