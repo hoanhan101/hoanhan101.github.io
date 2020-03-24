@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-23T15:34:24-04:00</updated>
+ <updated>2020-03-24T15:54:26-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -13,12 +13,80 @@
 
  
  <entry>
+   <title>A Brief History of Scaling LinkedIn</title>
+   <link href="/2020/03/24/brief-history-scaling-linkedin"/>
+   <updated>2020-03-24T00:00:00-04:00</updated>
+   <id>/2020/03/24/brief-history-scaling-linkedin</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Started as a single monolithic application, Leo&lt;/li&gt;
+  &lt;li&gt;Needed to manage a network of member connections and scale independent of Leo so built a new system for their member graph
+    &lt;ul&gt;
+      &lt;li&gt;Used Java RPC for communication, Apache Lucene for search capabilities&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Introduced replica DBs as the site grew
+    &lt;ul&gt;
+      &lt;li&gt;To keep replica DBs in sync, built data capture system, Databus, then open-sourced it&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Observed that Leo was often going down in production, difficult for the team to troubleshoot, recover, release new code
+    &lt;ul&gt;
+      &lt;li&gt;Killed Leo&lt;/li&gt;
+      &lt;li&gt;Broke it up into many small services
+        &lt;ul&gt;
+          &lt;li&gt;Frontend: fetch data models from different domains, presentation logic&lt;/li&gt;
+          &lt;li&gt;Mid-tier: provide API access to data models and add more layer of cache (memcache/couchbase/Voldemort)&lt;/li&gt;
+          &lt;li&gt;Backend: provide consistent access to its database&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Developed data pipelines for streaming and queueing data that later became Apache Kafka
+    &lt;ul&gt;
+      &lt;li&gt;Empowered Hadoop jobs&lt;/li&gt;
+      &lt;li&gt;Built realtime analytics&lt;/li&gt;
+      &lt;li&gt;Improved monitoring and alerting&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;In 2011, kicked off an internal initiative, Inversion
+    &lt;ul&gt;
+      &lt;li&gt;Paused on feature development&lt;/li&gt;
+      &lt;li&gt;Focused on improving tooling and deployment, infrastructure, and developer productivity&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Got rid of Jave RPC because it was inconsistent across team as well as tightly coupled and built Rest.li for a more scalable RESTful architecture&lt;/li&gt;
+  &lt;li&gt;Since fetching many types of different data and making hundreds of downstream calls made the “call graph” difficult to manage, the team grouped multiple services together to allow a single access API
+    &lt;ul&gt;
+      &lt;li&gt;Had a specific team optimize the block&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Scaled to 3 main data centers and multiple PoP around the globe in 2015&lt;/li&gt;
+  &lt;li&gt;Developed an offline workflow using Hadoop to precompute data insights&lt;/li&gt;
+  &lt;li&gt;Rethought frontend approach
+    &lt;ul&gt;
+      &lt;li&gt;Added client template, Dust.js, to the mix&lt;/li&gt;
+      &lt;li&gt;Cached templates in CDNs and browsers&lt;/li&gt;
+      &lt;li&gt;Adapted BigPipe and Play Framework for an async experience&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Introduced multiple tiers of proxies, Apache Traffic Server, HAProxy, to handle load balancing, data center pinning, security, intelligent routing, server side rendering,…&lt;/li&gt;
+  &lt;li&gt;Utilized optimized hardware, advanced memory and system tuning, and newer Java runtimes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin&quot;&gt;https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Serverless architecture with AWS Lamda</title>
    <link href="/2020/03/23/serverless-aws-lamda"/>
    <updated>2020-03-23T00:00:00-04:00</updated>
    <id>/2020/03/23/serverless-aws-lamda</id>
-   <content type="html">&lt;p&gt;Serverless architecture with AWS Lamda:&lt;/p&gt;
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;Basic:
     &lt;ul&gt;
       &lt;li&gt;Also called function-as-a-service&lt;/li&gt;
@@ -112,12 +180,128 @@
  </entry>
  
  <entry>
+   <title>Web Application Architecture 101</title>
+   <link href="/2020/03/22/web-app-architecture-101"/>
+   <updated>2020-03-22T00:00:00-04:00</updated>
+   <id>/2020/03/22/web-app-architecture-101</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Tiers
+    &lt;ul&gt;
+      &lt;li&gt;A tier is a logical separation of components in an application or service - database, backend app, user interface, messaging, caching&lt;/li&gt;
+      &lt;li&gt;Single tier: user interface, backend business logic, database reside in the same machine
+        &lt;ul&gt;
+          &lt;li&gt;Pros: no network latency&lt;/li&gt;
+          &lt;li&gt;Cons: hard to maintain once is shipped&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Two-tier: client (user interface, business logic) &amp;amp; server (database)
+        &lt;ul&gt;
+          &lt;li&gt;Communication happens over the HTTP protocol (request-response model &amp;amp; stateless)&lt;/li&gt;
+          &lt;li&gt;REST API takes advantage of the HTTP methodologies to establish communication between the client and the server&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Three-tier: user interface, application logic, database reside in different machines&lt;/li&gt;
+      &lt;li&gt;N-tier: more than 3 components involved - cache, message queues, load balancers,…
+        &lt;ul&gt;
+          &lt;li&gt;Single Responsibility Principle: a component has only a single responsibility&lt;/li&gt;
+          &lt;li&gt;Separation of concerns: keep components separate, make them reusable&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Scalability
+    &lt;ul&gt;
+      &lt;li&gt;Ability to withstand increased workload without sacrificing the latency&lt;/li&gt;
+      &lt;li&gt;Latency an be divided into 2 parts:
+        &lt;ul&gt;
+          &lt;li&gt;Network latency: amount of time the network takes to send data packet from point A to B&lt;/li&gt;
+          &lt;li&gt;Application latency: amount of time the application takes to process a user request&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Type of scalability
+        &lt;ul&gt;
+          &lt;li&gt;Vertical scaling/scaling up: adding more power to server
+            &lt;ul&gt;
+              &lt;li&gt;Pros: not a lot of overhead on monitoring, operating and maintaining&lt;/li&gt;
+              &lt;li&gt;Cons: single point of failure&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Horizontal scaling/scaling out: adding more hardware to the existing resource pool
+            &lt;ul&gt;
+              &lt;li&gt;Pros: cheaper, better fault-tolerance&lt;/li&gt;
+              &lt;li&gt;Cons: managing server is hard, writing distributed computing program is also challenging&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Common bottlenecks that hurt scalability
+        &lt;ul&gt;
+          &lt;li&gt;Database latency&lt;/li&gt;
+          &lt;li&gt;Poor application architecture&lt;/li&gt;
+          &lt;li&gt;Not caching wisely&lt;/li&gt;
+          &lt;li&gt;Inefficient configuration and load balancing&lt;/li&gt;
+          &lt;li&gt;Adding business logic to the database&lt;/li&gt;
+          &lt;li&gt;Badly written code&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Common strategies to improve and test the scalability
+        &lt;ul&gt;
+          &lt;li&gt;Profiling&lt;/li&gt;
+          &lt;li&gt;Cache wisely&lt;/li&gt;
+          &lt;li&gt;Use a CDN&lt;/li&gt;
+          &lt;li&gt;Compress data&lt;/li&gt;
+          &lt;li&gt;Avoid unnecessary round trips between client and sever&lt;/li&gt;
+          &lt;li&gt;Run load &amp;amp; stress tests&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;High Availability
+    &lt;ul&gt;
+      &lt;li&gt;Ability to stay online despite having failures at the infrastructural level in real-time&lt;/li&gt;
+      &lt;li&gt;Common reasons for system failures
+        &lt;ul&gt;
+          &lt;li&gt;Software crashes&lt;/li&gt;
+          &lt;li&gt;Hardware crashes&lt;/li&gt;
+          &lt;li&gt;Human error&lt;/li&gt;
+          &lt;li&gt;Planned downtime&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;A common way to add more availability is to have redundancy - duplicating the components &amp;amp; keeping them on standby to take over in case the active instances go down&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Monolithic &amp;amp; Microservices
+    &lt;ul&gt;
+      &lt;li&gt;Monolithic: entire application code in a single codebase
+        &lt;ul&gt;
+          &lt;li&gt;Pros: simple to develop, test, deploy as everything resides in one repo&lt;/li&gt;
+          &lt;li&gt;Cons:
+            &lt;ul&gt;
+              &lt;li&gt;Continuous deployment means re-deploying the entire application&lt;/li&gt;
+              &lt;li&gt;Single point of failure&lt;/li&gt;
+              &lt;li&gt;Hard to scale&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/web-application-software-architecture-101&quot;&gt;https://www.educative.io/courses/web-application-software-architecture-101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Clayton Christensen, How Will You Measure Your Life?</title>
    <link href="/2020/03/13/how-will-you-measure-your-life"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
    <id>/2020/03/13/how-will-you-measure-your-life</id>
-   <content type="html">&lt;p&gt;How to be successful and happy in your career, find happiness in relationships, live a life of integrity:&lt;/p&gt;
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;Find happiness in your career
     &lt;ul&gt;
       &lt;li&gt;Motivation theory - hygiene factors vs motivation factors
@@ -207,8 +391,7 @@
    <link href="/2020/03/13/getting-real"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
    <id>/2020/03/13/getting-real</id>
-   <content type="html">&lt;p&gt;The Smarter, Faster, Easier Way to Build a Successful Web Application:&lt;/p&gt;
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;The starting line
     &lt;ul&gt;
       &lt;li&gt;Build less: less features, options, people, meetings, promises&lt;/li&gt;
@@ -448,8 +631,7 @@
    <link href="/2020/03/12/the-effective-engineer"/>
    <updated>2020-03-12T00:00:00-04:00</updated>
    <id>/2020/03/12/the-effective-engineer</id>
-   <content type="html">&lt;p&gt;How to Leverage Your Efforts In Software Engineering to Make a Disproportionate and Meaningful Impact:&lt;/p&gt;
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;Focus on high-leverage activities
     &lt;ul&gt;
       &lt;li&gt;Leverage = impact produced / time invested&lt;/li&gt;
@@ -561,8 +743,7 @@
    <link href="/2020/03/12/dont-call-yourself-a-programmer"/>
    <updated>2020-03-12T00:00:00-04:00</updated>
    <id>/2020/03/12/dont-call-yourself-a-programmer</id>
-   <content type="html">&lt;p&gt;This is for fairly bright young engineer with zero knowledge on how the real world actually works:&lt;/p&gt;
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;Software solves business problems. It doesn’t matter if your app has the most elegant architecture, it must create value for the company aka brings in revenue.&lt;/li&gt;
   &lt;li&gt;Engineers are hired to create business value.
     &lt;ul&gt;
@@ -612,8 +793,7 @@
    <link href="/2020/01/16/diabetes-code"/>
    <updated>2020-01-16T00:00:00-05:00</updated>
    <id>/2020/01/16/diabetes-code</id>
-   <content type="html">&lt;p&gt;Prevent and Reverse Type 2 Diabetes Naturally:&lt;/p&gt;
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;Type 2 diabetes is
     &lt;ul&gt;
       &lt;li&gt;Caused by too much sugar (sugar + refined carbs)&lt;/li&gt;
@@ -653,8 +833,7 @@
    <link href="/2020/01/15/super-human"/>
    <updated>2020-01-15T00:00:00-05:00</updated>
    <id>/2020/01/15/super-human</id>
-   <content type="html">&lt;p&gt;The Bulletproof Plan to Age Backward and Maybe Even Live Forever:&lt;/p&gt;
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;Don’t die
     &lt;ul&gt;
       &lt;li&gt;The 4 killers are heart disease, diabetes, Alzheimer’s, and cancer
