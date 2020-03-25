@@ -4,13 +4,56 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-24T15:57:15-04:00</updated>
+ <updated>2020-03-25T01:50:19-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>How Checking Performance Might Hurt Your Performance</title>
+   <link href="/2020/03/25/reduce-stress-investing"/>
+   <updated>2020-03-25T00:00:00-04:00</updated>
+   <id>/2020/03/25/reduce-stress-investing</id>
+   <content type="html">&lt;p&gt;Paying too much attention to your investments (more than once per quarter) costs more than just your time:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make you more risk-averse
+    &lt;ul&gt;
+      &lt;li&gt;The shorter the time the returns are generated from, the less risk investors are willing to take&lt;/li&gt;
+      &lt;li&gt;You’ll see loss 50% of the time if you check performance daily, 25% if one a year, 1% if 7 years&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mislead about future return
+    &lt;ul&gt;
+      &lt;li&gt;Knowing which stocks performed the best last month won’t tell you which ones will perform the best this month&lt;/li&gt;
+      &lt;li&gt;Even professionals can get caught in this trap&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Increase your risk of performance chasing, which could reduce your returns
+    &lt;ul&gt;
+      &lt;li&gt;Past performance is not necessarily indicative of future results&lt;/li&gt;
+      &lt;li&gt;Performance chasing could cost an investor between 2 to 4% per year&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Make you unhappy
+    &lt;ul&gt;
+      &lt;li&gt;We tend to feel losses more powerfully than we feel gains&lt;/li&gt;
+      &lt;li&gt;Market losses are the one constant that don’t change over time, meaning you’ll see losses most of the time&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Next time, think twice before you feel the urge to check on your performance!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.betterment.com/resources/reduce-stress-investing/&quot;&gt;https://www.betterment.com/resources/reduce-stress-investing/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>A Brief History of Scaling LinkedIn</title>
