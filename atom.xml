@@ -4,13 +4,276 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-25T01:50:19-04:00</updated>
+ <updated>2020-03-26T11:18:19-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Web Application Architecture 101</title>
+   <link href="/2020/03/26/web-app-architecture-101"/>
+   <updated>2020-03-26T00:00:00-04:00</updated>
+   <id>/2020/03/26/web-app-architecture-101</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Tiers
+    &lt;ul&gt;
+      &lt;li&gt;A tier is a logical separation of components in an application or service - database, backend app, user interface, messaging, caching&lt;/li&gt;
+      &lt;li&gt;Single tier: user interface, backend business logic, database reside in the same machine
+        &lt;ul&gt;
+          &lt;li&gt;Pros: no network latency&lt;/li&gt;
+          &lt;li&gt;Cons: hard to maintain once is shipped&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Two-tier: client (user interface, business logic) &amp;amp; server (database)
+        &lt;ul&gt;
+          &lt;li&gt;Communication happens over the HTTP protocol (request-response model &amp;amp; stateless)&lt;/li&gt;
+          &lt;li&gt;REST API takes advantage of the HTTP methodologies to establish communication between the client and the server&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Three-tier: user interface, application logic, database reside in different machines&lt;/li&gt;
+      &lt;li&gt;N-tier: more than 3 components involved - cache, message queues, load balancers,…
+        &lt;ul&gt;
+          &lt;li&gt;Single Responsibility Principle: a component has only a single responsibility&lt;/li&gt;
+          &lt;li&gt;Separation of concerns: keep components separate, make them reusable&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Scalability
+    &lt;ul&gt;
+      &lt;li&gt;Ability to withstand increased workload without sacrificing the latency&lt;/li&gt;
+      &lt;li&gt;Latency an be divided into 2 parts:
+        &lt;ul&gt;
+          &lt;li&gt;Network latency: amount of time the network takes to send data packet from point A to B&lt;/li&gt;
+          &lt;li&gt;Application latency: amount of time the application takes to process a user request&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Type of scalability
+        &lt;ul&gt;
+          &lt;li&gt;Vertical scaling/scaling up: adding more power to server
+            &lt;ul&gt;
+              &lt;li&gt;Pros: not a lot of overhead on monitoring, operating and maintaining&lt;/li&gt;
+              &lt;li&gt;Cons: single point of failure&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Horizontal scaling/scaling out: adding more hardware to the existing resource pool
+            &lt;ul&gt;
+              &lt;li&gt;Pros: cheaper, better fault-tolerance&lt;/li&gt;
+              &lt;li&gt;Cons: managing server is hard, writing distributed computing program is also challenging&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Common bottlenecks that hurt scalability
+        &lt;ul&gt;
+          &lt;li&gt;Database latency&lt;/li&gt;
+          &lt;li&gt;Poor application architecture&lt;/li&gt;
+          &lt;li&gt;Not caching wisely&lt;/li&gt;
+          &lt;li&gt;Inefficient configuration and load balancing&lt;/li&gt;
+          &lt;li&gt;Adding business logic to the database&lt;/li&gt;
+          &lt;li&gt;Badly written code&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Common strategies to improve and test the scalability
+        &lt;ul&gt;
+          &lt;li&gt;Profiling&lt;/li&gt;
+          &lt;li&gt;Cache wisely&lt;/li&gt;
+          &lt;li&gt;Use a CDN&lt;/li&gt;
+          &lt;li&gt;Compress data&lt;/li&gt;
+          &lt;li&gt;Avoid unnecessary round trips between client and sever&lt;/li&gt;
+          &lt;li&gt;Run load &amp;amp; stress tests&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;High Availability
+    &lt;ul&gt;
+      &lt;li&gt;Ability to stay online despite having failures at the infrastructural level in real-time&lt;/li&gt;
+      &lt;li&gt;Common reasons for system failures
+        &lt;ul&gt;
+          &lt;li&gt;Software crashes&lt;/li&gt;
+          &lt;li&gt;Hardware crashes&lt;/li&gt;
+          &lt;li&gt;Human error&lt;/li&gt;
+          &lt;li&gt;Planned downtime&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;A common way to add more availability is to have redundancy - duplicating the components &amp;amp; keeping them on standby to take over in case the active instances go down&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Monolithic &amp;amp; Microservices
+    &lt;ul&gt;
+      &lt;li&gt;Monolithic: entire application code in a single service
+        &lt;ul&gt;
+          &lt;li&gt;Pros: simple to develop, test, deploy as everything resides in one repo&lt;/li&gt;
+          &lt;li&gt;Cons:
+            &lt;ul&gt;
+              &lt;li&gt;Continuous deployment means re-deploying the entire application&lt;/li&gt;
+              &lt;li&gt;Single point of failure&lt;/li&gt;
+              &lt;li&gt;Hard to scale&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Microservices: tasks are split into separate services forming a larger service as a whole
+        &lt;ul&gt;
+          &lt;li&gt;Pros:
+            &lt;ul&gt;
+              &lt;li&gt;No single point of failure&lt;/li&gt;
+              &lt;li&gt;Easier to scale independently&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Cons:
+            &lt;ul&gt;
+              &lt;li&gt;Difficult to manage&lt;/li&gt;
+              &lt;li&gt;No strong consistency&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Database
+    &lt;ul&gt;
+      &lt;li&gt;Forms of data:
+        &lt;ul&gt;
+          &lt;li&gt;Structured: conforms to a certain structure, stored in a normalized fashion&lt;/li&gt;
+          &lt;li&gt;Unstructured: no definite structure, could be text, image, video, multimedia files, machine-generated data&lt;/li&gt;
+          &lt;li&gt;Semi-structured: mix of structured and unstructured data, stored in XML or JSON&lt;/li&gt;
+          &lt;li&gt;User state: user logs and activity on the platform&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Why the need for NoSQL while relational database is still doing fine?
+        &lt;ul&gt;
+          &lt;li&gt;Scaling relational database is not trivial, which requires Sharding or Replicating&lt;/li&gt;
+          &lt;li&gt;NoSQL is fast with read-write and really easy to scale out&lt;/li&gt;
+          &lt;li&gt;Eventual consistency over strong consistency
+            &lt;ul&gt;
+              &lt;li&gt;Eventual consistency: achieve high availability that informally guarantees that, if no new updates are made, return the last updated value for all accesses&lt;/li&gt;
+              &lt;li&gt;Strong consistency: data has to be strongly consistent at all times&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Data analytics&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Polyglot persistence
+        &lt;ul&gt;
+          &lt;li&gt;Use different storage technologies to handle different needs within a given software application&lt;/li&gt;
+          &lt;li&gt;Multi-model databases reduce the operational complexity of using several different database models in an application by supporting multiple data models via a single API&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;CAP theorem
+        &lt;ul&gt;
+          &lt;li&gt;It is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees:
+            &lt;ul&gt;
+              &lt;li&gt;Consistency: every read receives the most recent write&lt;/li&gt;
+              &lt;li&gt;Availability: every request receives a non-error response&lt;/li&gt;
+              &lt;li&gt;Partition tolerance: system continues to operate despite network failures&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Types of databases
+        &lt;ul&gt;
+          &lt;li&gt;Document-oriented: generally semi-structured &amp;amp; stored in a JSON-like format
+            &lt;ul&gt;
+              &lt;li&gt;Use cases:
+                &lt;ul&gt;
+                  &lt;li&gt;Working with semi-structured data&lt;/li&gt;
+                  &lt;li&gt;Need a flexible schema&lt;/li&gt;
+                  &lt;li&gt;Examples are real-time feeds, live sport apps, web-based multiplayer games&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;Real life implementations
+                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/blog/post/sega-hardlight-migrates-to-mongodb-atlas-simplify-ops-improve-experience-mobile-gamers&quot;&gt;SEGA uses Mongo-DB to simply ops and improve gaming experiences&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://www.mongodb.com/customers/coinbase&quot;&gt;Coinbase uses MongoDB to scale from 15k to 1.2 million requests per minute&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Graph: store data in nodes/vertices and edges in the form of relationships
+            &lt;ul&gt;
+              &lt;li&gt;Use cases:
+                &lt;ul&gt;
+                  &lt;li&gt;Maps&lt;/li&gt;
+                  &lt;li&gt;Social graphs&lt;/li&gt;
+                  &lt;li&gt;Recommendation engines&lt;/li&gt;
+                  &lt;li&gt;Storing genetic data&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;Real life implementations
+                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://neo4j.com/case-studies/walmart/&quot;&gt;Walmart uses Neo4J to show product recommendations in real-time&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://neo4j.com/blog/david-meza-chief-knowledge-architect-nasa/&quot;&gt;NASA uses Neo4J to store “lessons learned” data&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Key-value: use a simple key-value method to store and quickly fetch the data
+            &lt;ul&gt;
+              &lt;li&gt;Use cases:
+                &lt;ul&gt;
+                  &lt;li&gt;Caching&lt;/li&gt;
+                  &lt;li&gt;Implementing queue&lt;/li&gt;
+                  &lt;li&gt;Managing real-time data&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;Real life implementations
+                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://redislabs.com/customers/inovonics/&quot;&gt;Inovonics uses Redis to drive real-time analytics on millions of sensor data&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://redislabs.com/docs/microsoft-relies-redis-labs/&quot;&gt;Microsoft uses Redis to handle the traffic spike on its platforms&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://cloud.google.com/appengine/docs/standard/python/memcache/&quot;&gt;Google Cloud uses Memcache to implement caching on their cloud platform&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Time series: optimized for tracking &amp;amp; persisting time series data
+            &lt;ul&gt;
+              &lt;li&gt;Use cases:
+                &lt;ul&gt;
+                  &lt;li&gt;Managing data in real-time &amp;amp; continually over a long period of time&lt;/li&gt;
+                  &lt;li&gt;Managing data for running analytics &amp;amp; monitoring&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;Real life implementations
+                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://www.influxdata.com/customer/ibm/&quot;&gt;IBM uses Influx DB to run analytics for real-time cognitive fraud detection&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://www.influxdata.com/customer/customer_case_study_spiio/&quot;&gt;Spiio uses Influx DB to remotely monitor vertical lining green walls &amp;amp; plant installations&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Wide Column: primarily used to handle massive amounts of data
+            &lt;ul&gt;
+              &lt;li&gt;Use cases:
+                &lt;ul&gt;
+                  &lt;li&gt;Managing big data&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+              &lt;li&gt;Real life implementations
+                &lt;ul&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://netflixtechblog.com/tagged/cassandra&quot;&gt;Netflix uses Cassandra as the backend database for the streaming service&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;https://hbase.apache.org/poweredbyhbase.html&quot;&gt;Adobe uses HBase for processing large amounts of data&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/web-application-software-architecture-101&quot;&gt;https://www.educative.io/courses/web-application-software-architecture-101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>How Checking Performance Might Hurt Your Performance</title>
@@ -218,123 +481,6 @@
 &lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/running-serverless-applications-aws-lambda&quot;&gt;https://www.educative.io/courses/running-serverless-applications-aws-lambda&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Web Application Architecture 101</title>
-   <link href="/2020/03/22/web-app-architecture-101"/>
-   <updated>2020-03-22T00:00:00-04:00</updated>
-   <id>/2020/03/22/web-app-architecture-101</id>
-   <content type="html">&lt;ul&gt;
-  &lt;li&gt;Tiers
-    &lt;ul&gt;
-      &lt;li&gt;A tier is a logical separation of components in an application or service - database, backend app, user interface, messaging, caching&lt;/li&gt;
-      &lt;li&gt;Single tier: user interface, backend business logic, database reside in the same machine
-        &lt;ul&gt;
-          &lt;li&gt;Pros: no network latency&lt;/li&gt;
-          &lt;li&gt;Cons: hard to maintain once is shipped&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Two-tier: client (user interface, business logic) &amp;amp; server (database)
-        &lt;ul&gt;
-          &lt;li&gt;Communication happens over the HTTP protocol (request-response model &amp;amp; stateless)&lt;/li&gt;
-          &lt;li&gt;REST API takes advantage of the HTTP methodologies to establish communication between the client and the server&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Three-tier: user interface, application logic, database reside in different machines&lt;/li&gt;
-      &lt;li&gt;N-tier: more than 3 components involved - cache, message queues, load balancers,…
-        &lt;ul&gt;
-          &lt;li&gt;Single Responsibility Principle: a component has only a single responsibility&lt;/li&gt;
-          &lt;li&gt;Separation of concerns: keep components separate, make them reusable&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Scalability
-    &lt;ul&gt;
-      &lt;li&gt;Ability to withstand increased workload without sacrificing the latency&lt;/li&gt;
-      &lt;li&gt;Latency an be divided into 2 parts:
-        &lt;ul&gt;
-          &lt;li&gt;Network latency: amount of time the network takes to send data packet from point A to B&lt;/li&gt;
-          &lt;li&gt;Application latency: amount of time the application takes to process a user request&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Type of scalability
-        &lt;ul&gt;
-          &lt;li&gt;Vertical scaling/scaling up: adding more power to server
-            &lt;ul&gt;
-              &lt;li&gt;Pros: not a lot of overhead on monitoring, operating and maintaining&lt;/li&gt;
-              &lt;li&gt;Cons: single point of failure&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Horizontal scaling/scaling out: adding more hardware to the existing resource pool
-            &lt;ul&gt;
-              &lt;li&gt;Pros: cheaper, better fault-tolerance&lt;/li&gt;
-              &lt;li&gt;Cons: managing server is hard, writing distributed computing program is also challenging&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Common bottlenecks that hurt scalability
-        &lt;ul&gt;
-          &lt;li&gt;Database latency&lt;/li&gt;
-          &lt;li&gt;Poor application architecture&lt;/li&gt;
-          &lt;li&gt;Not caching wisely&lt;/li&gt;
-          &lt;li&gt;Inefficient configuration and load balancing&lt;/li&gt;
-          &lt;li&gt;Adding business logic to the database&lt;/li&gt;
-          &lt;li&gt;Badly written code&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Common strategies to improve and test the scalability
-        &lt;ul&gt;
-          &lt;li&gt;Profiling&lt;/li&gt;
-          &lt;li&gt;Cache wisely&lt;/li&gt;
-          &lt;li&gt;Use a CDN&lt;/li&gt;
-          &lt;li&gt;Compress data&lt;/li&gt;
-          &lt;li&gt;Avoid unnecessary round trips between client and sever&lt;/li&gt;
-          &lt;li&gt;Run load &amp;amp; stress tests&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;High Availability
-    &lt;ul&gt;
-      &lt;li&gt;Ability to stay online despite having failures at the infrastructural level in real-time&lt;/li&gt;
-      &lt;li&gt;Common reasons for system failures
-        &lt;ul&gt;
-          &lt;li&gt;Software crashes&lt;/li&gt;
-          &lt;li&gt;Hardware crashes&lt;/li&gt;
-          &lt;li&gt;Human error&lt;/li&gt;
-          &lt;li&gt;Planned downtime&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;A common way to add more availability is to have redundancy - duplicating the components &amp;amp; keeping them on standby to take over in case the active instances go down&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Monolithic &amp;amp; Microservices
-    &lt;ul&gt;
-      &lt;li&gt;Monolithic: entire application code in a single codebase
-        &lt;ul&gt;
-          &lt;li&gt;Pros: simple to develop, test, deploy as everything resides in one repo&lt;/li&gt;
-          &lt;li&gt;Cons:
-            &lt;ul&gt;
-              &lt;li&gt;Continuous deployment means re-deploying the entire application&lt;/li&gt;
-              &lt;li&gt;Single point of failure&lt;/li&gt;
-              &lt;li&gt;Hard to scale&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/web-application-software-architecture-101&quot;&gt;https://www.educative.io/courses/web-application-software-architecture-101&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
