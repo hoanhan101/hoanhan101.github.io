@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-28T16:27:28-04:00</updated>
+ <updated>2020-03-28T16:31:47-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -45,7 +45,7 @@
   &lt;li&gt;Scalability
     &lt;ul&gt;
       &lt;li&gt;Ability to withstand increased workload without sacrificing the latency&lt;/li&gt;
-      &lt;li&gt;Latency an be divided into 2 parts:
+      &lt;li&gt;Latency can be divided into 2 parts:
         &lt;ul&gt;
           &lt;li&gt;Network latency: amount of time the network takes to send data packet from point A to B&lt;/li&gt;
           &lt;li&gt;Application latency: amount of time the application takes to process a user request&lt;/li&gt;
