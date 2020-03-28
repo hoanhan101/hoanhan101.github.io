@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-26T12:10:55-04:00</updated>
+ <updated>2020-03-28T16:27:28-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -13,10 +13,10 @@
 
  
  <entry>
-   <title>Web Application Architecture 101</title>
-   <link href="/2020/03/26/web-app-architecture-101"/>
-   <updated>2020-03-26T00:00:00-04:00</updated>
-   <id>/2020/03/26/web-app-architecture-101</id>
+   <title>Modern Web Architectural Components</title>
+   <link href="/2020/03/28/web-architectural-components"/>
+   <updated>2020-03-28T00:00:00-04:00</updated>
+   <id>/2020/03/28/web-architectural-components</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Tiers
     &lt;ul&gt;
@@ -263,6 +263,154 @@
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Caching
+    &lt;ul&gt;
+      &lt;li&gt;Ensure low latency and high throughput&lt;/li&gt;
+      &lt;li&gt;Strategies
+        &lt;ul&gt;
+          &lt;li&gt;Cache Aside:
+            &lt;ul&gt;
+              &lt;li&gt;First look in the cache, return if present, else fetch from the database and update cache&lt;/li&gt;
+              &lt;li&gt;Has a TTL (Time To Live) period to sync up data&lt;/li&gt;
+              &lt;li&gt;Works well for read-heavy workloads like user profile data&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Read-through
+            &lt;ul&gt;
+              &lt;li&gt;Similar to Cache Aside, but the cache is always up-to-date&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Write-through
+            &lt;ul&gt;
+              &lt;li&gt;Cache before writing to database&lt;/li&gt;
+              &lt;li&gt;Works well for write-heavy workloads like MMOs&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Write-back
+            &lt;ul&gt;
+              &lt;li&gt;Similar to Write-through, but add some delay before writing to database&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Message queue
+    &lt;ul&gt;
+      &lt;li&gt;Features:
+        &lt;ul&gt;
+          &lt;li&gt;FI&lt;/li&gt;
+          &lt;li&gt;Facilitate asynchronous behaviour (background processes, tasks, batch jobs)&lt;/li&gt;
+          &lt;li&gt;Facilitate cross-module communication&lt;/li&gt;
+          &lt;li&gt;Provide temporary storage for storing messages until they’re consumed&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Models:
+        &lt;ul&gt;
+          &lt;li&gt;Publish-subscribe (Pub-sub): one to many relationship&lt;/li&gt;
+          &lt;li&gt;Point to point: one to one relationship&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Protocols:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Advanced_Message_Queuing_Protocol&quot;&gt;Advanced Message Queuing Protocol (AMQP)&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Streaming_Text_Oriented_Messaging_Protocol&quot;&gt;Streaming Text Oriented Messaging Protocol (STOMP)&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Real life implementations
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.8bitmen.com/linkedin-real-time-architecture-how-does-linkedin-identify-its-users-online/&quot;&gt;LinkedIn Real-Time Architecture&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://engineering.fb.com/ios/under-the-hood-broadcasting-live-video-to-millions/&quot;&gt;Facebook’s Live Streaming architecture&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Stream processing
+    &lt;ul&gt;
+      &lt;li&gt;Layers of data processing setup:
+        &lt;ul&gt;
+          &lt;li&gt;Data collection/query layer&lt;/li&gt;
+          &lt;li&gt;Data standardization layer&lt;/li&gt;
+          &lt;li&gt;Data processing layer&lt;/li&gt;
+          &lt;li&gt;Data analysis layer&lt;/li&gt;
+          &lt;li&gt;Data visualization layer&lt;/li&gt;
+          &lt;li&gt;Data storage layer&lt;/li&gt;
+          &lt;li&gt;Data security layer&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Ways to ingest data:
+        &lt;ul&gt;
+          &lt;li&gt;Real-time&lt;/li&gt;
+          &lt;li&gt;Batching&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Challenges:
+        &lt;ul&gt;
+          &lt;li&gt;Formatting, standardizing, converting data from multiple resources is a slow and tedious process&lt;/li&gt;
+          &lt;li&gt;It’s resource-intensive&lt;/li&gt;
+          &lt;li&gt;Moving data around is risky&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Use cases:
+        &lt;ul&gt;
+          &lt;li&gt;Moving data into Hadoop&lt;/li&gt;
+          &lt;li&gt;Streaming data to Elastic search&lt;/li&gt;
+          &lt;li&gt;Log processing&lt;/li&gt;
+          &lt;li&gt;Real-time streaming&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Distributed data processing
+        &lt;ul&gt;
+          &lt;li&gt;Diverge large amounts of data to several different nodes for parallel processing
+            &lt;ul&gt;
+              &lt;li&gt;MapReduce – Apache Hadoop&lt;/li&gt;
+              &lt;li&gt;Apache Spark&lt;/li&gt;
+              &lt;li&gt;Apache Storm&lt;/li&gt;
+              &lt;li&gt;Apache Kafka&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Architecture
+        &lt;ul&gt;
+          &lt;li&gt;Lambda leverages both real-time and batching process that consists 3 layers
+            &lt;ul&gt;
+              &lt;li&gt;Batch: deals with results from the batching process&lt;/li&gt;
+              &lt;li&gt;Speed: gets data from the real-time streaming process&lt;/li&gt;
+              &lt;li&gt;Serving: combines the results from the Batch and Speed layers&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Kappa has only a single pipeline and only contains Speed and Serving layers
+            &lt;ul&gt;
+              &lt;li&gt;Preferred if the batch and the streaming analytics results are fairly identical&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Real life implementations
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://netflixtechblog.com/keystone-real-time-stream-processing-platform-a3ee651812a&quot;&gt;Netflix’ Keystone Real-time Stream Processing Platform&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://netflixtechblog.com/keystone-real-time-stream-processing-platform-a3ee651812a&quot;&gt;Netflix’ Migrating Batch ETL to Stream Processing&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Other architectures
+    &lt;ul&gt;
+      &lt;li&gt;Event-driven: capable of handling a big number of concurrent requests with minimal resources&lt;/li&gt;
+      &lt;li&gt;WebHooks: have an event-based mechanism that only fires an HTTP event to consumers whenever new info is available&lt;/li&gt;
+      &lt;li&gt;Share Nothing: every module has its own environment&lt;/li&gt;
+      &lt;li&gt;Hexagonal:
+        &lt;ul&gt;
+          &lt;li&gt;Port: act as an API, interface&lt;/li&gt;
+          &lt;li&gt;Adapter: an implementation of the interface, convert data from Port to be consumed by Domain&lt;/li&gt;
+          &lt;li&gt;Domain: contain business logic&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Peer to Peer: nodes can communicate with each other without the need of a central server&lt;/li&gt;
+      &lt;li&gt;Decentralized social network&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
