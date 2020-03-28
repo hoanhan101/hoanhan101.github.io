@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-28T16:31:47-04:00</updated>
+ <updated>2020-03-28T16:32:49-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -301,7 +301,6 @@
     &lt;ul&gt;
       &lt;li&gt;Features:
         &lt;ul&gt;
-          &lt;li&gt;FI&lt;/li&gt;
           &lt;li&gt;Facilitate asynchronous behaviour (background processes, tasks, batch jobs)&lt;/li&gt;
           &lt;li&gt;Facilitate cross-module communication&lt;/li&gt;
           &lt;li&gt;Provide temporary storage for storing messages until they’re consumed&lt;/li&gt;
@@ -363,9 +362,10 @@
       &lt;/li&gt;
       &lt;li&gt;Distributed data processing
         &lt;ul&gt;
-          &lt;li&gt;Diverge large amounts of data to several different nodes for parallel processing
+          &lt;li&gt;Diverge large amounts of data to several different nodes for parallel processing&lt;/li&gt;
+          &lt;li&gt;Popular frameworks:
             &lt;ul&gt;
-              &lt;li&gt;MapReduce – Apache Hadoop&lt;/li&gt;
+              &lt;li&gt;MapReduce - Apache Hadoop&lt;/li&gt;
               &lt;li&gt;Apache Spark&lt;/li&gt;
               &lt;li&gt;Apache Storm&lt;/li&gt;
               &lt;li&gt;Apache Kafka&lt;/li&gt;
