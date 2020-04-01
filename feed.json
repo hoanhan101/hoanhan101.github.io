@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "/2020/03/31/passivity-mediocrity-mental-illness",
+            "title": "Why Passivity Breeds Mediocrity and Mental Illness",
+            "summary": null,
+            "content_text": "Most people spend their time passively consuming.  “Most people are, in the most ordinary sense, very limited. They pass theirtime, day after day, in idle, passive pursuits, just looking at things – atgames, television, whatever. Or they fill the hours talking, mostly aboutnothing of significance – of comings and goings, of who is doing what, of theweather, of things forgotten almost as soon as they are mentioned. They haveno aspirations for themselves beyond getting through another day doing moreor less what they did yesterday. They walk across the stage of life, leavingeverything about as it was when they entered, achieving nothing, aspiring tonothing, having never a profound or even original thought…This is what iscommon, usual, typical, indeed normal. Relatively few rise above such aplodding existence.” (Richard Taylor, Restoring Pride)According to Colin Wilson, too much inactivity, rather than promoting mental health, tends to breed unhappiness and a plethora of psychological problems.  “When he did not occupy his days with interesting tasks, challenges, andproblems to solve, he discovered that depressive moods would soon wash overhim, fog his perceptions, and cause him to become a pessimist of the humancondition.”Even though Wilson’s situation is not applicable to all, the struggle to cultivatean uncommon virtue or skill, produce work of exceptional worth, do something trulyoriginal and do it well is always worth the effort.  “Some people, no doubt, are born, and destined, to be common, to live outtheir lives to no significant purpose, but that is relatively rare…Mostpeople have the power to be creative, and some have it in a god-likedegree…But many people – perhaps even most – are content with the passingpleasures and satisfactions of the animal side of our nature. Indeed, manypeople will account their lives to be successful if they get through themwith only minimal pain, with pleasant divergence from moment to moment andday-to-day, and the general approval of those around them. And this,notwithstanding that they often have within them the ability to do somethingwhich perhaps no other human being has ever done. Merely to do what othershave done is often safe, and comfortable; but to do something truly original,and do it well, whether it is appreciated by others or not – that is whatbeing human is really all about, and it is alone what justifies the self-lovethat is pride.” (Richard Taylor, Restoring Pride)References:  https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/",
+            "content_html": "<p>Most people spend their time passively consuming.</p><blockquote>  <p>“Most people are, in the most ordinary sense, very limited. They pass theirtime, day after day, in idle, passive pursuits, just looking at things – atgames, television, whatever. Or they fill the hours talking, mostly aboutnothing of significance – of comings and goings, of who is doing what, of theweather, of things forgotten almost as soon as they are mentioned. They haveno aspirations for themselves beyond getting through another day doing moreor less what they did yesterday. They walk across the stage of life, leavingeverything about as it was when they entered, achieving nothing, aspiring tonothing, having never a profound or even original thought…This is what iscommon, usual, typical, indeed normal. Relatively few rise above such aplodding existence.” (Richard Taylor, Restoring Pride)</p></blockquote><p>According to Colin Wilson, too much inactivity, rather than promoting mental health, tends to breed unhappiness and a plethora of psychological problems.</p><blockquote>  <p>“When he did not occupy his days with interesting tasks, challenges, andproblems to solve, he discovered that depressive moods would soon wash overhim, fog his perceptions, and cause him to become a pessimist of the humancondition.”</p></blockquote><p>Even though Wilson’s situation is not applicable to all, the struggle to cultivatean uncommon virtue or skill, produce work of exceptional worth, do something trulyoriginal and do it well is always worth the effort.</p><blockquote>  <p>“Some people, no doubt, are born, and destined, to be common, to live outtheir lives to no significant purpose, but that is relatively rare…Mostpeople have the power to be creative, and some have it in a god-likedegree…But many people – perhaps even most – are content with the passingpleasures and satisfactions of the animal side of our nature. Indeed, manypeople will account their lives to be successful if they get through themwith only minimal pain, with pleasant divergence from moment to moment andday-to-day, and the general approval of those around them. And this,notwithstanding that they often have within them the ability to do somethingwhich perhaps no other human being has ever done. Merely to do what othershave done is often safe, and comfortable; but to do something truly original,and do it well, whether it is appreciated by others or not – that is whatbeing human is really all about, and it is alone what justifies the self-lovethat is pride.” (Richard Taylor, Restoring Pride)</p></blockquote><p><br /><strong>References:</strong></p><ul>  <li><a href=\"https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/\">https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/</a></li></ul>",
+            "url": "/2020/03/31/passivity-mediocrity-mental-illness",
+            
+            
+            
+            "tags": ["blog","passivity","mediocrity","health"],
+            
+            "date_published": "2020-03-31T00:00:00-04:00",
+            "date_modified": "2020-03-31T00:00:00-04:00",
+            
+                "author":  {
+                "name": "Hoanh An",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "/2020/03/28/web-architectural-components",
             "title": "Modern Web Architectural Components",
             "summary": null,
@@ -50,7 +74,7 @@
             
             
             
-            "tags": ["stress","investing"],
+            "tags": ["health","stress","investing"],
             
             "date_published": "2020-03-25T00:00:00-04:00",
             "date_modified": "2020-03-25T00:00:00-04:00",
@@ -170,7 +194,7 @@
             
             
             
-            "tags": ["book","productivity","impact"],
+            "tags": ["book","productivity","impact","compound"],
             
             "date_published": "2020-03-12T00:00:00-04:00",
             "date_modified": "2020-03-12T00:00:00-04:00",
@@ -698,7 +722,7 @@
             
             
             
-            "tags": ["blog","spending","saving","investing","rich"],
+            "tags": ["book","spending","saving","investing","rich","compound"],
             
             "date_published": "2019-08-23T00:00:00-04:00",
             "date_modified": "2019-08-23T00:00:00-04:00",
@@ -846,30 +870,6 @@
             
             "date_published": "2019-06-10T00:00:00-04:00",
             "date_modified": "2019-06-10T00:00:00-04:00",
-            
-                "author":  {
-                "name": "Hoanh An",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "/2019/06/09/scalable-press",
-            "title": "Eric Zhang, Scalable Press, $100m/year",
-            "summary": null,
-            "content_text": "What is the product?Efficient custom printing on demand - lower cost, better quality, betterturnaround time.What is its current revenue?$100 millions a year.What is the business model?Manufacture.How did the founder come up with their idea?  Had a friend, Raymond, who sold T-shirt online. He was a high schoolstudent until he dropped out because he had made $1 millions in revenue.  He did contracts with a Chinese factory at first, but wanted to improvethe product quality and used a US factory instead.  Eric later joined to build their own printing infrastructure to a evenmore automated, cheaper, efficient process.How did they know it was the right one?  The T-shirt space was booming at that time, notably Teespring.  They were doing alright and wanting to do it better,faster, and cheaper with their brand TeepChip.What did it take to get the initial product out the door?  Built the printing API first.  Used profits to reinvest into the business then built the software team.  Every step of the decision was made frugally because they did not have a lotof capital.How did they get their first paying customers?  Had people signed up early for the API, a lot from Hacker News. A lot of themturned into customers.References:  How to Execute Well and Beat the Competition with Eric Zhang of Scalable Press",
-            "content_html": "<h3 id=\"what-is-the-product\">What is the product?</h3><p>Efficient custom printing on demand - lower cost, better quality, betterturnaround time.</p><h3 id=\"what-is-its-current-revenue\">What is its current revenue?</h3><p>$100 millions a year.</p><h3 id=\"what-is-the-business-model\">What is the business model?</h3><p>Manufacture.</p><h3 id=\"how-did-the-founder-come-up-with-their-idea\">How did the founder come up with their idea?</h3><ul>  <li>Had a friend, Raymond, who sold T-shirt online. He was a high schoolstudent until he dropped out because he had made $1 millions in revenue.</li>  <li>He did contracts with a Chinese factory at first, but wanted to improvethe product quality and used a US factory instead.</li>  <li>Eric later joined to build their own printing infrastructure to a evenmore automated, cheaper, efficient process.</li></ul><h3 id=\"how-did-they-know-it-was-the-right-one\">How did they know it was the right one?</h3><ul>  <li>The T-shirt space was booming at that time, notably Teespring.</li>  <li>They were doing alright and wanting to do it better,faster, and cheaper with their brand TeepChip.</li></ul><h3 id=\"what-did-it-take-to-get-the-initial-product-out-the-door\">What did it take to get the initial product out the door?</h3><ul>  <li>Built the printing API first.</li>  <li>Used profits to reinvest into the business then built the software team.</li>  <li>Every step of the decision was made frugally because they did not have a lotof capital.</li></ul><h3 id=\"how-did-they-get-their-first-paying-customers\">How did they get their first paying customers?</h3><ul>  <li>Had people signed up early for the API, a lot from Hacker News. A lot of themturned into customers.</li></ul><p><br /></p><p>References:</p><ul>  <li><a href=\"https://www.indiehackers.com/podcast/101-eric-zhang-of-scalable-press\">How to Execute Well and Beat the Competition with Eric Zhang of Scalable Press</a></li></ul>",
-            "url": "/2019/06/09/scalable-press",
-            
-            
-            
-            "tags": ["early-days","indiehackers"],
-            
-            "date_published": "2019-06-09T00:00:00-04:00",
-            "date_modified": "2019-06-09T00:00:00-04:00",
             
                 "author":  {
                 "name": "Hoanh An",
