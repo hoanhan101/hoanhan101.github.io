@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-03-31T21:25:37-04:00</updated>
+ <updated>2020-04-01T19:32:00-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -13,60 +13,54 @@
 
  
  <entry>
-   <title>Why Passivity Breeds Mediocrity and Mental Illness</title>
-   <link href="/2020/03/31/passivity-mediocrity-mental-illness"/>
+   <title>Nassim Nicholas Taleb, Antifragile</title>
+   <link href="/2020/03/31/antifragile"/>
    <updated>2020-03-31T00:00:00-04:00</updated>
-   <id>/2020/03/31/passivity-mediocrity-mental-illness</id>
-   <content type="html">&lt;p&gt;Most people spend their time passively consuming.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Most people are, in the most ordinary sense, very limited. They pass their
-time, day after day, in idle, passive pursuits, just looking at things – at
-games, television, whatever. Or they fill the hours talking, mostly about
-nothing of significance – of comings and goings, of who is doing what, of the
-weather, of things forgotten almost as soon as they are mentioned. They have
-no aspirations for themselves beyond getting through another day doing more
-or less what they did yesterday. They walk across the stage of life, leaving
-everything about as it was when they entered, achieving nothing, aspiring to
-nothing, having never a profound or even original thought…This is what is
-common, usual, typical, indeed normal. Relatively few rise above such a
-plodding existence.” (Richard Taylor, Restoring Pride)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;According to Colin Wilson, too much inactivity, rather than promoting mental health, tends to breed unhappiness and a plethora of psychological problems.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“When he did not occupy his days with interesting tasks, challenges, and
-problems to solve, he discovered that depressive moods would soon wash over
-him, fog his perceptions, and cause him to become a pessimist of the human
-condition.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Even though Wilson’s situation is not applicable to all, the struggle to cultivate
-an uncommon virtue or skill, produce work of exceptional worth, do something truly
-original and do it well is always worth the effort.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Some people, no doubt, are born, and destined, to be common, to live out
-their lives to no significant purpose, but that is relatively rare…Most
-people have the power to be creative, and some have it in a god-like
-degree…But many people – perhaps even most – are content with the passing
-pleasures and satisfactions of the animal side of our nature. Indeed, many
-people will account their lives to be successful if they get through them
-with only minimal pain, with pleasant divergence from moment to moment and
-day-to-day, and the general approval of those around them. And this,
-notwithstanding that they often have within them the ability to do something
-which perhaps no other human being has ever done. Merely to do what others
-have done is often safe, and comfortable; but to do something truly original,
-and do it well, whether it is appreciated by others or not – that is what
-being human is really all about, and it is alone what justifies the self-love
-that is pride.” (Richard Taylor, Restoring Pride)&lt;/p&gt;
-&lt;/blockquote&gt;
+   <id>/2020/03/31/antifragile</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Fragile things are exposed to volatility, robust things resist it, antifragile things benefit from it
+    &lt;ul&gt;
+      &lt;li&gt;The more you attack it, the stronger it gets&lt;/li&gt;
+      &lt;li&gt;When human bounce back, grow and become better after traumatic accidents, hardships, failures, it shows antifragility&lt;/li&gt;
+      &lt;li&gt;Lifting heavier your body compensates to be able to lift even heavier the next time&lt;/li&gt;
+      &lt;li&gt;Even though The Titanic was a disaster, it made the ship cruising system stronger&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Trying to over-control systems often leads to fragility
+    &lt;ul&gt;
+      &lt;li&gt;Mom who overprotects her children prevents them from developing the ability to bounce back and adapt to future difficulties&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The shorter the time frame you observe an even, the higher the noise you will perceive&lt;/li&gt;
+  &lt;li&gt;Prediction in the modern world is impossible
+    &lt;ul&gt;
+      &lt;li&gt;Instead of trying to predict what is going to happen, position yourself in such a way that you have optionality&lt;/li&gt;
+      &lt;li&gt;The more options you have, the more ways you have to respond to unforeseen events (but too many options)&lt;/li&gt;
+      &lt;li&gt;Prepare for failure scenarios&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The Barbell Strategy suggests to play it safe on one side so that you can take more risks on other side
+    &lt;ul&gt;
+      &lt;li&gt;Cover your downside to protect yourself from extreme harm&lt;/li&gt;
+      &lt;li&gt;Let the upside take care of itself
+        &lt;ul&gt;
+          &lt;li&gt;If the risky part plays out badly, you’re still fine&lt;/li&gt;
+          &lt;li&gt;If a Black Swan event makes the risks pay off big, you profit handsomely&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;In investing, it means putting most of your money in safe investments and 10% in highly lucrative ones&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Invest in people, not business plans&lt;/li&gt;
+  &lt;li&gt;What’s most likely to stick in the future is what has already been around for long&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;
 &lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/&quot;&gt;https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680&quot;&gt;https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thepowermoves.com/antifragile-book-summary/&quot;&gt;https://thepowermoves.com/antifragile-book-summary/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://taylorpearson.me/antifragile-book-notes/&quot;&gt;https://taylorpearson.me/antifragile-book-notes/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -764,11 +758,17 @@ that is pride.” (Richard Taylor, Restoring Pride)&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;The clock of building a fulfilling relationship is ticking from the start&lt;/li&gt;
       &lt;li&gt;Understand what’s the most important to the other person by asking yourself “What job does one most need me to do?”&lt;/li&gt;
-      &lt;li&gt;Children need to do more than learning new skills - they need to be challenged, solve hard problems and develop values&lt;/li&gt;
+      &lt;li&gt;Children need to do more than learning new skills
+        &lt;ul&gt;
+          &lt;li&gt;Allow them to be challenged, let them solve hard problems independently and develop values themselves&lt;/li&gt;
+          &lt;li&gt;Don’t afraid to let them fail&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Stay out of jail
+  &lt;li&gt;Live a life of integrity (or stay out of jail)
     &lt;ul&gt;
+      &lt;li&gt;Integrity requires constant self-awareness&lt;/li&gt;
       &lt;li&gt;The best way to avoid the consequences of uncomfortable moral concessions is to never start making in the first place&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -1340,6 +1340,65 @@ that is pride.” (Richard Taylor, Restoring Pride)&lt;/p&gt;
 &lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Super-Human-Bulletproof-Backward-Forever/dp/0062882821&quot;&gt;https://www.amazon.com/Super-Human-Bulletproof-Backward-Forever/dp/0062882821&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why Passivity Breeds Mediocrity and Mental Illness</title>
+   <link href="/2020/01/10/passivity-mediocrity-mental-illness"/>
+   <updated>2020-01-10T00:00:00-05:00</updated>
+   <id>/2020/01/10/passivity-mediocrity-mental-illness</id>
+   <content type="html">&lt;p&gt;Most people spend their time passively consuming.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Most people are, in the most ordinary sense, very limited. They pass their
+time, day after day, in idle, passive pursuits, just looking at things – at
+games, television, whatever. Or they fill the hours talking, mostly about
+nothing of significance – of comings and goings, of who is doing what, of the
+weather, of things forgotten almost as soon as they are mentioned. They have
+no aspirations for themselves beyond getting through another day doing more
+or less what they did yesterday. They walk across the stage of life, leaving
+everything about as it was when they entered, achieving nothing, aspiring to
+nothing, having never a profound or even original thought…This is what is
+common, usual, typical, indeed normal. Relatively few rise above such a
+plodding existence.” (Richard Taylor, Restoring Pride)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;According to Colin Wilson, too much inactivity, rather than promoting mental health, tends to breed unhappiness and a plethora of psychological problems.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“When he did not occupy his days with interesting tasks, challenges, and
+problems to solve, he discovered that depressive moods would soon wash over
+him, fog his perceptions, and cause him to become a pessimist of the human
+condition.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Even though Wilson’s situation is not applicable to all, the struggle to cultivate
+an uncommon virtue or skill, produce work of exceptional worth, do something truly
+original and do it well is always worth the effort.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Some people, no doubt, are born, and destined, to be common, to live out
+their lives to no significant purpose, but that is relatively rare…Most
+people have the power to be creative, and some have it in a god-like
+degree…But many people – perhaps even most – are content with the passing
+pleasures and satisfactions of the animal side of our nature. Indeed, many
+people will account their lives to be successful if they get through them
+with only minimal pain, with pleasant divergence from moment to moment and
+day-to-day, and the general approval of those around them. And this,
+notwithstanding that they often have within them the ability to do something
+which perhaps no other human being has ever done. Merely to do what others
+have done is often safe, and comfortable; but to do something truly original,
+and do it well, whether it is appreciated by others or not – that is what
+being human is really all about, and it is alone what justifies the self-love
+that is pride.” (Richard Taylor, Restoring Pride)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/&quot;&gt;https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
