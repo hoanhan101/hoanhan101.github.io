@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-04-01T19:32:00-04:00</updated>
+ <updated>2020-04-01T22:39:36-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
@@ -14,15 +14,21 @@
  
  <entry>
    <title>Nassim Nicholas Taleb, Antifragile</title>
-   <link href="/2020/03/31/antifragile"/>
-   <updated>2020-03-31T00:00:00-04:00</updated>
-   <id>/2020/03/31/antifragile</id>
+   <link href="/2020/04/01/antifragile"/>
+   <updated>2020-04-01T00:00:00-04:00</updated>
+   <id>/2020/04/01/antifragile</id>
    <content type="html">&lt;ul&gt;
-  &lt;li&gt;Fragile things are exposed to volatility, robust things resist it, antifragile things benefit from it
+  &lt;li&gt;Fragile things are exposed to volatility, robust things resist it, antifragile things benefit from it&lt;/li&gt;
+  &lt;li&gt;The antifragile system is made up of fragile parts
     &lt;ul&gt;
-      &lt;li&gt;The more you attack it, the stronger it gets&lt;/li&gt;
-      &lt;li&gt;When human bounce back, grow and become better after traumatic accidents, hardships, failures, it shows antifragility&lt;/li&gt;
-      &lt;li&gt;Lifting heavier your body compensates to be able to lift even heavier the next time&lt;/li&gt;
+      &lt;li&gt;The weak one dies in the process while the strong one stays&lt;/li&gt;
+      &lt;li&gt;Individual failure can provide helpful information to strengthen the system as a whole&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Shock and stressors strengthen antifragile system by forcing them to build up capacity
+    &lt;ul&gt;
+      &lt;li&gt;When human bounce back after traumatic accidents, hardships or failures, they become stronger&lt;/li&gt;
+      &lt;li&gt;Lifting heavy puts body to unusual stress and makes muscle stronger&lt;/li&gt;
       &lt;li&gt;Even though The Titanic was a disaster, it made the ship cruising system stronger&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -31,12 +37,32 @@
       &lt;li&gt;Mom who overprotects her children prevents them from developing the ability to bounce back and adapt to future difficulties&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;To take the advantage of antifragility, you don’t need to understand the opportunities you see, just when to seize them
+    &lt;ul&gt;
+      &lt;li&gt;Society put too much value on theoretical or academic knowledge and not too much on practical one&lt;/li&gt;
+      &lt;li&gt;Often the most successful traders don’t know complicated economic theory or finance; they know when to buy and sell&lt;/li&gt;
+      &lt;li&gt;The Industrial Revolution was not instigated by academics but hobbyists&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;The shorter the time frame you observe an even, the higher the noise you will perceive&lt;/li&gt;
   &lt;li&gt;Prediction in the modern world is impossible
     &lt;ul&gt;
-      &lt;li&gt;Instead of trying to predict what is going to happen, position yourself in such a way that you have optionality&lt;/li&gt;
-      &lt;li&gt;The more options you have, the more ways you have to respond to unforeseen events (but too many options)&lt;/li&gt;
-      &lt;li&gt;Prepare for failure scenarios&lt;/li&gt;
+      &lt;li&gt;You can’t predict the future based on the past&lt;/li&gt;
+      &lt;li&gt;An assumption that the worst event we have witnessed must be the worst that could ever happen is simply false&lt;/li&gt;
+      &lt;li&gt;What’s most likely to stick in the future is what has already been around for long&lt;/li&gt;
+      &lt;li&gt;Instead of trying to predict what is going to happen, position yourself in such a way that you have optionality
+        &lt;ul&gt;
+          &lt;li&gt;The more options you have, the more ways you have to respond to unforeseen events (but not too many options)&lt;/li&gt;
+          &lt;li&gt;Prepare for failure scenarios&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Squeeze is a situation where you have no choice but to do it, regardless of the cost
+    &lt;ul&gt;
+      &lt;li&gt;They are opposite of options&lt;/li&gt;
+      &lt;li&gt;The larger something is, the harder the squeeze, the more damage it causes&lt;/li&gt;
+      &lt;li&gt;Still, the larger something is, the harder it will be hit by unexpected events&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;The Barbell Strategy suggests to play it safe on one side so that you can take more risks on other side
@@ -48,11 +74,13 @@
           &lt;li&gt;If a Black Swan event makes the risks pay off big, you profit handsomely&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;In investing, it means putting most of your money in safe investments and 10% in highly lucrative ones&lt;/li&gt;
+      &lt;li&gt;In investing, it means putting most of your money in safe investments and 10% in highly lucrative ones
+        &lt;ul&gt;
+          &lt;li&gt;Invest in people, not business plans&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Invest in people, not business plans&lt;/li&gt;
-  &lt;li&gt;What’s most likely to stick in the future is what has already been around for long&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;
