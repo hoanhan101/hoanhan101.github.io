@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "/2020/04/02/the-intelligent-investor",
+            "title": "Benjamin Graham, The Intelligent Investor",
+            "summary": null,
+            "content_text": "  Focus on long-term value          Don’t fall into the trap of only looking at short-term gains or risky investments in companies that are trending      It’s easy for human to trick themselves into seeing a pattern when there’s actually just randomness      Instead, look at the big picture of the company’s financial history, its current value and future potential        Diversify investments          Never put money on one stock, no matter how promising it appears      Invest in both bonds and common stocks      Buy in low and sell in high      Align your portfolio with well-established funds with a long history of success      Set your investments on autopilot        Aim for safe and steady revenue, not to pull in extraordinary profits and outperform professional brokers          Reflect every six months        Always be prepared for crises          Don’t sell everything at the first sign of danger      Even after the most harmful crashes, the market will recover        Don’t trust the market          It swings back and froth between ups and down      Fluctuations can’t be foreseen      Crises happen from time to time      References:  https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661",
+            "content_html": "<ul>  <li>Focus on long-term value    <ul>      <li>Don’t fall into the trap of only looking at short-term gains or risky investments in companies that are trending</li>      <li>It’s easy for human to trick themselves into seeing a pattern when there’s actually just randomness</li>      <li>Instead, look at the big picture of the company’s financial history, its current value and future potential</li>    </ul>  </li>  <li>Diversify investments    <ul>      <li>Never put money on one stock, no matter how promising it appears</li>      <li>Invest in both bonds and common stocks</li>      <li>Buy in low and sell in high</li>      <li>Align your portfolio with well-established funds with a long history of success</li>      <li>Set your investments on autopilot</li>    </ul>  </li>  <li>Aim for safe and steady revenue, not to pull in extraordinary profits and outperform professional brokers    <ul>      <li>Reflect every six months</li>    </ul>  </li>  <li>Always be prepared for crises    <ul>      <li>Don’t sell everything at the first sign of danger</li>      <li>Even after the most harmful crashes, the market will recover</li>    </ul>  </li>  <li>Don’t trust the market    <ul>      <li>It swings back and froth between ups and down</li>      <li>Fluctuations can’t be foreseen</li>      <li>Crises happen from time to time</li>    </ul>  </li></ul><p><br /><strong>References:</strong></p><ul>  <li><a href=\"https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661\">https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661</a></li></ul>",
+            "url": "/2020/04/02/the-intelligent-investor",
+            
+            
+            
+            "tags": ["book","investing"],
+            
+            "date_published": "2020-04-02T00:00:00-04:00",
+            "date_modified": "2020-04-02T00:00:00-04:00",
+            
+                "author":  {
+                "name": "Hoanh An",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "/2020/04/01/antifragile",
             "title": "Nassim Nicholas Taleb, Antifragile",
             "summary": null,
@@ -846,30 +870,6 @@
             
             "date_published": "2019-06-12T00:00:00-04:00",
             "date_modified": "2019-06-12T00:00:00-04:00",
-            
-                "author":  {
-                "name": "Hoanh An",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "/2019/06/11/gorails",
-            "title": "Chris Oliver, GoRails, $15k/month",
-            "summary": null,
-            "content_text": "What is the product?Education site for Ruby on Rails developers.What is its current revenue?$15k a month.What is the business model?Subscription.How did the founder come up with their idea?  Was working as a Ruby on Rails consultant for many businesses and startups.Got tired of trading my time for money then decided to document Rails practicesand turned them into a product.  Published content for a year before launching paid courses.  Collected email addresses along the way. Also built a forum to ask/answerquestions publicly.How did they know it was the right one?  Generated thousand visitors the first month by documenting some free guideson the blog, then decided to keep going because there was need.What did it take to get the initial product out the door?  Took 5 month to plan, record, edit screencasts for the first 2 courses.  Setup Stripe and Wistia himself.How did they get their first paying customers?  Launched and got 1 sale a week, 9 sales after 2 months.  Decided to use subscription model with weekly screencasts instead. Got 14subscribers the second day.References:  Rails and Revenue: How to Build a Screencast Business",
-            "content_html": "<h3 id=\"what-is-the-product\">What is the product?</h3><p>Education site for Ruby on Rails developers.</p><h3 id=\"what-is-its-current-revenue\">What is its current revenue?</h3><p>$15k a month.</p><h3 id=\"what-is-the-business-model\">What is the business model?</h3><p>Subscription.</p><h3 id=\"how-did-the-founder-come-up-with-their-idea\">How did the founder come up with their idea?</h3><ul>  <li>Was working as a Ruby on Rails consultant for many businesses and startups.Got tired of trading my time for money then decided to document Rails practicesand turned them into a product.</li>  <li>Published content for a year before launching paid courses.</li>  <li>Collected email addresses along the way. Also built a forum to ask/answerquestions publicly.</li></ul><h3 id=\"how-did-they-know-it-was-the-right-one\">How did they know it was the right one?</h3><ul>  <li>Generated thousand visitors the first month by documenting some free guideson the blog, then decided to keep going because there was need.</li></ul><h3 id=\"what-did-it-take-to-get-the-initial-product-out-the-door\">What did it take to get the initial product out the door?</h3><ul>  <li>Took 5 month to plan, record, edit screencasts for the first 2 courses.</li>  <li>Setup Stripe and Wistia himself.</li></ul><h3 id=\"how-did-they-get-their-first-paying-customers\">How did they get their first paying customers?</h3><ul>  <li>Launched and got 1 sale a week, 9 sales after 2 months.</li>  <li>Decided to use subscription model with weekly screencasts instead. Got 14subscribers the second day.</li></ul><p><br /></p><p>References:</p><ul>  <li><a href=\"https://www.indiehackers.com/interview/rails-and-revenue-how-to-build-a-screencast-business-8999c7ac7f\">Rails and Revenue: How to Build a Screencast Business</a></li></ul>",
-            "url": "/2019/06/11/gorails",
-            
-            
-            
-            "tags": ["early-days","indiehackers"],
-            
-            "date_published": "2019-06-11T00:00:00-04:00",
-            "date_modified": "2019-06-11T00:00:00-04:00",
             
                 "author":  {
                 "name": "Hoanh An",

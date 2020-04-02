@@ -4,13 +4,63 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-04-02T12:07:08-04:00</updated>
+ <updated>2020-04-02T13:15:08-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Benjamin Graham, The Intelligent Investor</title>
+   <link href="/2020/04/02/the-intelligent-investor"/>
+   <updated>2020-04-02T00:00:00-04:00</updated>
+   <id>/2020/04/02/the-intelligent-investor</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Focus on long-term value
+    &lt;ul&gt;
+      &lt;li&gt;Don’t fall into the trap of only looking at short-term gains or risky investments in companies that are trending&lt;/li&gt;
+      &lt;li&gt;It’s easy for human to trick themselves into seeing a pattern when there’s actually just randomness&lt;/li&gt;
+      &lt;li&gt;Instead, look at the big picture of the company’s financial history, its current value and future potential&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Diversify investments
+    &lt;ul&gt;
+      &lt;li&gt;Never put money on one stock, no matter how promising it appears&lt;/li&gt;
+      &lt;li&gt;Invest in both bonds and common stocks&lt;/li&gt;
+      &lt;li&gt;Buy in low and sell in high&lt;/li&gt;
+      &lt;li&gt;Align your portfolio with well-established funds with a long history of success&lt;/li&gt;
+      &lt;li&gt;Set your investments on autopilot&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Aim for safe and steady revenue, not to pull in extraordinary profits and outperform professional brokers
+    &lt;ul&gt;
+      &lt;li&gt;Reflect every six months&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Always be prepared for crises
+    &lt;ul&gt;
+      &lt;li&gt;Don’t sell everything at the first sign of danger&lt;/li&gt;
+      &lt;li&gt;Even after the most harmful crashes, the market will recover&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Don’t trust the market
+    &lt;ul&gt;
+      &lt;li&gt;It swings back and froth between ups and down&lt;/li&gt;
+      &lt;li&gt;Fluctuations can’t be foreseen&lt;/li&gt;
+      &lt;li&gt;Crises happen from time to time&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661&quot;&gt;https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Nassim Nicholas Taleb, Antifragile</title>
