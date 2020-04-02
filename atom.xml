@@ -4,63 +4,13 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-04-02T13:15:08-04:00</updated>
+ <updated>2020-04-02T13:44:05-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
- 
- <entry>
-   <title>Benjamin Graham, The Intelligent Investor</title>
-   <link href="/2020/04/02/the-intelligent-investor"/>
-   <updated>2020-04-02T00:00:00-04:00</updated>
-   <id>/2020/04/02/the-intelligent-investor</id>
-   <content type="html">&lt;ul&gt;
-  &lt;li&gt;Focus on long-term value
-    &lt;ul&gt;
-      &lt;li&gt;Don’t fall into the trap of only looking at short-term gains or risky investments in companies that are trending&lt;/li&gt;
-      &lt;li&gt;It’s easy for human to trick themselves into seeing a pattern when there’s actually just randomness&lt;/li&gt;
-      &lt;li&gt;Instead, look at the big picture of the company’s financial history, its current value and future potential&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Diversify investments
-    &lt;ul&gt;
-      &lt;li&gt;Never put money on one stock, no matter how promising it appears&lt;/li&gt;
-      &lt;li&gt;Invest in both bonds and common stocks&lt;/li&gt;
-      &lt;li&gt;Buy in low and sell in high&lt;/li&gt;
-      &lt;li&gt;Align your portfolio with well-established funds with a long history of success&lt;/li&gt;
-      &lt;li&gt;Set your investments on autopilot&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Aim for safe and steady revenue, not to pull in extraordinary profits and outperform professional brokers
-    &lt;ul&gt;
-      &lt;li&gt;Reflect every six months&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Always be prepared for crises
-    &lt;ul&gt;
-      &lt;li&gt;Don’t sell everything at the first sign of danger&lt;/li&gt;
-      &lt;li&gt;Even after the most harmful crashes, the market will recover&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Don’t trust the market
-    &lt;ul&gt;
-      &lt;li&gt;It swings back and froth between ups and down&lt;/li&gt;
-      &lt;li&gt;Fluctuations can’t be foreseen&lt;/li&gt;
-      &lt;li&gt;Crises happen from time to time&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661&quot;&gt;https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
  
  <entry>
    <title>Nassim Nicholas Taleb, Antifragile</title>
@@ -97,7 +47,7 @@
   &lt;li&gt;The shorter the time frame you observe an even, the higher the noise you will perceive&lt;/li&gt;
   &lt;li&gt;Prediction in the modern world is impossible
     &lt;ul&gt;
-      &lt;li&gt;You can’t predict the future based on the past&lt;/li&gt;
+      &lt;li&gt;We always find patterns, causes, explanations in past events, but they are useless for predicting the future&lt;/li&gt;
       &lt;li&gt;An assumption that the worst event we have witnessed must be the worst that could ever happen is simply false&lt;/li&gt;
       &lt;li&gt;What’s most likely to stick in the future is what has already been around for long&lt;/li&gt;
       &lt;li&gt;Instead of trying to predict what is going to happen, position yourself in such a way that you have optionality
@@ -3907,6 +3857,56 @@ these counts to compute each item's index in the final sorted array.
   &lt;p&gt;If you’re interested in getting updates for such content like these, consider
   joining my &lt;a href=&quot;https://tinyletter.com/hoanhan&quot;&gt;mailing list here →&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Benjamin Graham, The Intelligent Investor</title>
+   <link href="/2019/08/08/the-intelligent-investor"/>
+   <updated>2019-08-08T00:00:00-04:00</updated>
+   <id>/2019/08/08/the-intelligent-investor</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Focus on long-term value
+    &lt;ul&gt;
+      &lt;li&gt;Don’t fall into the trap of only looking at short-term gains or risky investments in companies that are trending&lt;/li&gt;
+      &lt;li&gt;It’s easy for human to trick themselves into seeing a pattern when there’s actually just randomness&lt;/li&gt;
+      &lt;li&gt;Instead, look at the big picture of the company’s financial history, its current value and future potential&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Diversify investments
+    &lt;ul&gt;
+      &lt;li&gt;Never put money on one stock, no matter how promising it appears&lt;/li&gt;
+      &lt;li&gt;Invest in both bonds and common stocks&lt;/li&gt;
+      &lt;li&gt;Buy in low and sell in high&lt;/li&gt;
+      &lt;li&gt;Align your portfolio with well-established funds with a long history of success&lt;/li&gt;
+      &lt;li&gt;Set your investments on autopilot&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Aim for safe and steady revenue, not to pull in extraordinary profits and outperform professional brokers
+    &lt;ul&gt;
+      &lt;li&gt;Reflect and readjust your portfolio every six months&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Always be prepared for crises
+    &lt;ul&gt;
+      &lt;li&gt;Don’t sell everything at the first sign of danger&lt;/li&gt;
+      &lt;li&gt;Even after the most harmful crashes, the market will recover&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Don’t trust the market
+    &lt;ul&gt;
+      &lt;li&gt;It swings back and froth between ups and down&lt;/li&gt;
+      &lt;li&gt;Fluctuations can’t be foreseen&lt;/li&gt;
+      &lt;li&gt;Crises happen from time to time&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661&quot;&gt;https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
