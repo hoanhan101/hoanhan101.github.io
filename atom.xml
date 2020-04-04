@@ -4,13 +4,28 @@
  <title>Hoanh An</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2020-04-03T13:31:04-04:00</updated>
+ <updated>2020-04-04T13:40:57-04:00</updated>
  <id></id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmai.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Robert Greene, Mastery</title>
+   <link href="/2020/04/03/mastery"/>
+   <updated>2020-04-03T00:00:00-04:00</updated>
+   <id>/2020/04/03/mastery</id>
+   <content type="html">&lt;p&gt;TODO&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Mastery-Robert-Greene/dp/014312417X&quot;&gt;https://www.amazon.com/Mastery-Robert-Greene/dp/014312417X&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Nassim Nicholas Taleb, Antifragile</title>

@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "/2020/04/03/mastery",
+            "title": "Robert Greene, Mastery",
+            "summary": null,
+            "content_text": "TODOReferences:  https://www.amazon.com/Mastery-Robert-Greene/dp/014312417X",
+            "content_html": "<p>TODO</p><p><br /><strong>References:</strong></p><ul>  <li><a href=\"https://www.amazon.com/Mastery-Robert-Greene/dp/014312417X\">https://www.amazon.com/Mastery-Robert-Greene/dp/014312417X</a></li></ul>",
+            "url": "/2020/04/03/mastery",
+            
+            
+            
+            "tags": ["book","mastery"],
+            
+            "date_published": "2020-04-03T00:00:00-04:00",
+            "date_modified": "2020-04-03T00:00:00-04:00",
+            
+                "author":  {
+                "name": "Hoanh An",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "/2020/04/01/antifragile",
             "title": "Nassim Nicholas Taleb, Antifragile",
             "summary": null,
@@ -846,30 +870,6 @@
             
             "date_published": "2019-06-13T00:00:00-04:00",
             "date_modified": "2019-06-13T00:00:00-04:00",
-            
-                "author":  {
-                "name": "Hoanh An",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "/2019/06/12/instapainting",
-            "title": "Chris Chen, Instapainting, $32k/month",
-            "summary": null,
-            "content_text": "What is the product?Custom painting by actual artists, delivered to your shipping address.What is its current revenue?$32k a month.What is the business model?Direct sale.How did the founder come up with their idea?  Raised money from YC after YC, spent about 2 years pivoting and tryingdifferent ideas. Focused on how to generate revenue immediately because hewas running low on cash.  Saw several sites were doing the same things but with oil paintings.Introduced a more modern, cheaper, mixed media product.How did they know it was the right one?  It generated revenue immediately after trying to sell on r/startupssubreddit.What did it take to get the initial product out the door?  Found one supplier that could do the work.  The very first artists were his roommates.  Had a basic interface for artist to check the order and manually brokered andmanaged transaction. Had to email back and forth because there was nomessaging system in place yet.  Barely managed to ship on time so even had to do the painting himself.  Replied to email in timely fashion. Took great care of customers.How did they get their first paying customers?  Tried to sell on r/startups subreddit, targeting gifts around New Year time.  3 months later got a TechCrunch article, then Hacker News.  Optimized for SEO.  Did some cool content marketing strategies such as: making a robot toreplicate artist’s painting, making a 2-player version of 2048 and havingfeatured on top of Hacker News,…References:  Fueling Growth with SEO and Content Marketing with Chris Chen of Instapainting",
-            "content_html": "<h3 id=\"what-is-the-product\">What is the product?</h3><p>Custom painting by actual artists, delivered to your shipping address.</p><h3 id=\"what-is-its-current-revenue\">What is its current revenue?</h3><p>$32k a month.</p><h3 id=\"what-is-the-business-model\">What is the business model?</h3><p>Direct sale.</p><h3 id=\"how-did-the-founder-come-up-with-their-idea\">How did the founder come up with their idea?</h3><ul>  <li>Raised money from YC after YC, spent about 2 years pivoting and tryingdifferent ideas. Focused on how to generate revenue immediately because hewas running low on cash.</li>  <li>Saw several sites were doing the same things but with oil paintings.Introduced a more modern, cheaper, mixed media product.</li></ul><h3 id=\"how-did-they-know-it-was-the-right-one\">How did they know it was the right one?</h3><ul>  <li>It generated revenue immediately after trying to sell on r/startupssubreddit.</li></ul><h3 id=\"what-did-it-take-to-get-the-initial-product-out-the-door\">What did it take to get the initial product out the door?</h3><ul>  <li>Found one supplier that could do the work.</li>  <li>The very first artists were his roommates.</li>  <li>Had a basic interface for artist to check the order and manually brokered andmanaged transaction. Had to email back and forth because there was nomessaging system in place yet.</li>  <li>Barely managed to ship on time so even had to do the painting himself.</li>  <li>Replied to email in timely fashion. Took great care of customers.</li></ul><h3 id=\"how-did-they-get-their-first-paying-customers\">How did they get their first paying customers?</h3><ul>  <li>Tried to sell on r/startups subreddit, targeting gifts around New Year time.</li>  <li>3 months later got a TechCrunch article, then Hacker News.</li>  <li>Optimized for SEO.</li>  <li>Did some cool content marketing strategies such as: making a robot toreplicate artist’s painting, making a 2-player version of 2048 and havingfeatured on top of Hacker News,…</li></ul><p><br /></p><p>References:</p><ul>  <li><a href=\"https://www.indiehackers.com/podcast/002-chris-chen-of-instapainting\">Fueling Growth with SEO and Content Marketing with Chris Chen of Instapainting</a></li></ul>",
-            "url": "/2019/06/12/instapainting",
-            
-            
-            
-            "tags": ["early-days","indiehackers"],
-            
-            "date_published": "2019-06-12T00:00:00-04:00",
-            "date_modified": "2019-06-12T00:00:00-04:00",
             
                 "author":  {
                 "name": "Hoanh An",
