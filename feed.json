@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "https://hoanhan101.github.io/2020/04/14/unlimited-memory",
+            "title": "Kevin Horsley, Unlimited Memory",
+            "summary": null,
+            "content_text": "  Concentrate:          Do one thing at a time.                  Exceptional work is always associated with periods of deep concentration.                    Have a clear purpose on what you want to learn about.                  What does it matter?          How is it applicable to my life? How can I apply it?          How can it help me achieve my goals?                      Create and connect:          People that learn quickly or have a so-called photographic memory apply their creativity to everything they learn, using the SEE principles.                  S-Senses: the more senses you engage, the more lively the images become, the more memorable they are          E-Exaggeration: exaggerate with humor, make the images illogical, make the learning more fun and easy to memorize          E-Energize: give images action, make a movie, like how Disney does with their objects                    A tip to remember abstract concepts or complex words is to rhyme or break it own to more meaningful concepts. For examples:                  Tiger in Spanish is Tigre, which sounds like tea grey: imagine a tiger drinking grey tea          The capital of Greece is Athens, which sounds like eight hens: imagine them swimming in Greece                    Long-term memory can be used to trap short-term information.                  The car method: use your car image (long-term) and store new information on parts of the car (short-term)          The body method: use parts of your body to store new information          The peg method: use rhyming words to store ordered lists (one-bu, two-shoe, three-tree, four-door, five-hive, six-stick, seven-heaven, eight-gate, nine-vine, ten-hen)                    Linking thoughts, associating concepts, developing a story line are great ways to create a relationship between the known and unknown and strengthen the memory capacity.                  Recall, reinforce, compare different features of what you have already known to what you don’t know                      Continuous use:          Have self-discipline to stick the practice/review sessions.                  Again, have a strong vision and a clear purpose on what you want.          Make it part of your DAILY routine.          Stop listening to your feelings, just do it whether you feel like it or not.                    References:  https://www.amazon.com/Unlimited-Memory-Advanced-Strategies-Productive-ebook/dp/B00I3QS1XQ",
+            "content_html": "<ul>  <li>Concentrate:    <ul>      <li>Do one thing at a time.        <ul>          <li>Exceptional work is always associated with periods of deep concentration.</li>        </ul>      </li>      <li>Have a clear purpose on what you want to learn about.        <ul>          <li>What does it matter?</li>          <li>How is it applicable to my life? How can I apply it?</li>          <li>How can it help me achieve my goals?</li>        </ul>      </li>    </ul>  </li>  <li>Create and connect:    <ul>      <li>People that learn quickly or have a so-called photographic memory apply their creativity to everything they learn, using the SEE principles.        <ul>          <li>S-Senses: the more senses you engage, the more lively the images become, the more memorable they are</li>          <li>E-Exaggeration: exaggerate with humor, make the images illogical, make the learning more fun and easy to memorize</li>          <li>E-Energize: give images action, make a movie, like how Disney does with their objects</li>        </ul>      </li>      <li>A tip to remember abstract concepts or complex words is to rhyme or break it own to more meaningful concepts. For examples:        <ul>          <li>Tiger in Spanish is Tigre, which sounds like tea grey: imagine a tiger drinking grey tea</li>          <li>The capital of Greece is Athens, which sounds like eight hens: imagine them swimming in Greece</li>        </ul>      </li>      <li>Long-term memory can be used to trap short-term information.        <ul>          <li>The car method: use your car image (long-term) and store new information on parts of the car (short-term)</li>          <li>The body method: use parts of your body to store new information</li>          <li>The peg method: use rhyming words to store ordered lists (one-bu, two-shoe, three-tree, four-door, five-hive, six-stick, seven-heaven, eight-gate, nine-vine, ten-hen)</li>        </ul>      </li>      <li>Linking thoughts, associating concepts, developing a story line are great ways to create a relationship between the known and unknown and strengthen the memory capacity.        <ul>          <li>Recall, reinforce, compare different features of what you have already known to what you don’t know</li>        </ul>      </li>    </ul>  </li>  <li>Continuous use:    <ul>      <li>Have self-discipline to stick the practice/review sessions.        <ul>          <li>Again, have a strong vision and a clear purpose on what you want.</li>          <li>Make it part of your DAILY routine.</li>          <li>Stop listening to your feelings, just do it whether you feel like it or not.</li>        </ul>      </li>    </ul>  </li></ul><p><br /><strong>References:</strong></p><ul>  <li><a href=\"https://www.amazon.com/Unlimited-Memory-Advanced-Strategies-Productive-ebook/dp/B00I3QS1XQ\">https://www.amazon.com/Unlimited-Memory-Advanced-Strategies-Productive-ebook/dp/B00I3QS1XQ</a></li></ul>",
+            "url": "https://hoanhan101.github.io/2020/04/14/unlimited-memory",
+            
+            
+            
+            "tags": ["book","memory","productivity"],
+            
+            "date_published": "2020-04-14T00:00:00-04:00",
+            "date_modified": "2020-04-14T00:00:00-04:00",
+            
+                "author":  {
+                "name": "Hoanh An",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "https://hoanhan101.github.io/2020/04/01/antifragile",
             "title": "Nassim Nicholas Taleb, Antifragile",
             "summary": null,
@@ -846,30 +870,6 @@
             
             "date_published": "2019-06-14T00:00:00-04:00",
             "date_modified": "2019-06-14T00:00:00-04:00",
-            
-                "author":  {
-                "name": "Hoanh An",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "https://hoanhan101.github.io/2019/06/13/sifter",
-            "title": "Garrett Dimon, Sifter",
-            "summary": null,
-            "content_text": "What is the product?Bug tracker for small teams and non-technical people.What is the business model?Subscription.How did the founder come up with their idea?  Was doing a lot of consulting work and found one of his biggeststruggles was getting his non-technical clients to participate withthe issue tracking, especially with small teams.  After sharing the ideas around, peopled started expressing interests andencouraged him to do something like that.How did they know it was the right one?  It was clear that people showed interests in the beginning and wanted to usesomething like that.What did it take to get the initial product out the door?  Had a simple Rails MySQL setup, built a billing system himself because Stripewas not there yet and Braintree was not so good. Took 11 months in total.How did they get their first paying customers?  People expressed interests and came to him in the first place.  He kept blogging and sharing.References:  Succeeding in a Crowded Market by Building a Niche Business with GarrettDimon of Sifter",
-            "content_html": "<h3 id=\"what-is-the-product\">What is the product?</h3><p>Bug tracker for small teams and non-technical people.</p><h3 id=\"what-is-the-business-model\">What is the business model?</h3><p>Subscription.</p><h3 id=\"how-did-the-founder-come-up-with-their-idea\">How did the founder come up with their idea?</h3><ul>  <li>Was doing a lot of consulting work and found one of his biggeststruggles was getting his non-technical clients to participate withthe issue tracking, especially with small teams.</li>  <li>After sharing the ideas around, peopled started expressing interests andencouraged him to do something like that.</li></ul><h3 id=\"how-did-they-know-it-was-the-right-one\">How did they know it was the right one?</h3><ul>  <li>It was clear that people showed interests in the beginning and wanted to usesomething like that.</li></ul><h3 id=\"what-did-it-take-to-get-the-initial-product-out-the-door\">What did it take to get the initial product out the door?</h3><ul>  <li>Had a simple Rails MySQL setup, built a billing system himself because Stripewas not there yet and Braintree was not so good. Took 11 months in total.</li></ul><h3 id=\"how-did-they-get-their-first-paying-customers\">How did they get their first paying customers?</h3><ul>  <li>People expressed interests and came to him in the first place.</li>  <li>He kept blogging and sharing.</li></ul><p><br /></p><p>References:</p><ul>  <li><a href=\"https://www.indiehackers.com/podcast/004-garrett-dimon-of-sifter\">Succeeding in a Crowded Market by Building a Niche Business with GarrettDimon of Sifter</a></li></ul>",
-            "url": "https://hoanhan101.github.io/2019/06/13/sifter",
-            
-            
-            
-            "tags": ["early-days","indiehackers"],
-            
-            "date_published": "2019-06-13T00:00:00-04:00",
-            "date_modified": "2019-06-13T00:00:00-04:00",
             
                 "author":  {
                 "name": "Hoanh An",
