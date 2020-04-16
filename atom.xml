@@ -4,13 +4,117 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-04-15T20:42:47-04:00</updated>
+ <updated>2020-04-16T18:04:36-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Object Oriented Design Patterns</title>
+   <link href="https://hoanhan101.github.io/2020/04/16/object-oriented-design"/>
+   <updated>2020-04-16T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/2020/04/16/object-oriented-design</id>
+   <content type="html">&lt;h3 id=&quot;facebook&quot;&gt;Facebook&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Admin: add/modify members&lt;/li&gt;
+  &lt;li&gt;Member: seach for other members, groups, pages, posts, as well as send friend requests, create posts&lt;/li&gt;
+  &lt;li&gt;System: send notifications for new messages, friend requests&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;amazon&quot;&gt;Amazon&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Admin: add/modify products and users&lt;/li&gt;
+  &lt;li&gt;Member: search the catalog, add/remove items to the shopping cart, options to pay&lt;/li&gt;
+  &lt;li&gt;System: send notifications for orders and shipping updates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;linkedin&quot;&gt;LinkedIn&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Member: search for other members, companies or jobs, send requests for connection, create posts&lt;/li&gt;
+  &lt;li&gt;System: send  notifications for new messages, connections invites&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;stack-overflow&quot;&gt;Stack Overflow&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Admin: add/modify members&lt;/li&gt;
+  &lt;li&gt;Member: search/view/add/modify questions, answers, and comments&lt;/li&gt;
+  &lt;li&gt;Moderator: same as member, in addition to which one can close/delete/undelete any question&lt;/li&gt;
+  &lt;li&gt;System: send notifications, assign badges to members&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;library-management-system&quot;&gt;Library Management System&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Librarian: add/modify books and users&lt;/li&gt;
+  &lt;li&gt;Member: search the catalog, check-out, reserve, renew, return books&lt;/li&gt;
+  &lt;li&gt;System: send notifications for overdue books, cancel reservations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;parking-lot&quot;&gt;Parking Lot&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Admin: add/modify parking spots and attendants&lt;/li&gt;
+  &lt;li&gt;Customer: have parking tickets, options to pay&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;movie-ticket-booking&quot;&gt;Movie Ticket Booking&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Admin: add/modify movies, tickets, customers&lt;/li&gt;
+  &lt;li&gt;Customer: view movie schedules, book/cancel tickets&lt;/li&gt;
+  &lt;li&gt;System: send notifications for new movies, bookings, cancellations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;card-game&quot;&gt;Card Game&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dealer: deal cards and game resolution&lt;/li&gt;
+  &lt;li&gt;Player: places bets, accept/decline offered resolution&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hotel-management-system&quot;&gt;Hotel Management System&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Member: search the available rooms, make bookings&lt;/li&gt;
+  &lt;li&gt;Receptionist: add/modify rooms, create room bookings, check-in, and check-out customers&lt;/li&gt;
+  &lt;li&gt;System: send notifications for room booking, cancellation&lt;/li&gt;
+  &lt;li&gt;Manager: add/modify housekeeping/service record of rooms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;restaurant-management-system&quot;&gt;Restaurant Management System&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Receptionist: add/modify tables, layout, reservations&lt;/li&gt;
+  &lt;li&gt;Waiter: take/modify orders&lt;/li&gt;
+  &lt;li&gt;Manager: add/modify the menu&lt;/li&gt;
+  &lt;li&gt;Chef: view/work on an order&lt;/li&gt;
+  &lt;li&gt;Cashier: generate checks and process payments&lt;/li&gt;
+  &lt;li&gt;System: sending notifications, table reservations, cancellations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;stock-brokerage-system&quot;&gt;Stock Brokerage System&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Admin: add/modify members&lt;/li&gt;
+  &lt;li&gt;Member: search the stock inventory, buy/sell stocks&lt;/li&gt;
+  &lt;li&gt;System: send notifications for stock orders&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/grokking-the-object-oriented-design-interview&quot;&gt;https://www.educative.io/courses/grokking-the-object-oriented-design-interview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Kevin Horsley, Unlimited Memory</title>
@@ -76,8 +180,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Unlimited-Memory-Advanced-Strategies-Productive-ebook/dp/B00I3QS1XQ&quot;&gt;https://www.amazon.com/Unlimited-Memory-Advanced-Strategies-Productive-ebook/dp/B00I3QS1XQ&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -165,8 +270,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680&quot;&gt;https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://siimland.com/become-antifragile/&quot;&gt;http://siimland.com/become-antifragile/&lt;/a&gt;&lt;/li&gt;
@@ -577,8 +683,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/web-application-software-architecture-101&quot;&gt;https://www.educative.io/courses/web-application-software-architecture-101&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -620,8 +727,9 @@
 
 &lt;p&gt;Next time, think twice before you feel the urge to check on your performance!&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.betterment.com/resources/reduce-stress-investing/&quot;&gt;https://www.betterment.com/resources/reduce-stress-investing/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -689,8 +797,9 @@
   &lt;li&gt;Utilized optimized hardware, advanced memory and system tuning, and newer Java runtimes&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin&quot;&gt;https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -787,8 +896,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/running-serverless-applications-aws-lambda&quot;&gt;https://www.educative.io/courses/running-serverless-applications-aws-lambda&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -883,8 +993,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/How-Will-Measure-Your-Life/dp/0062102419&quot;&gt;https://www.amazon.com/How-Will-Measure-Your-Life/dp/0062102419&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1124,8 +1235,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://basecamp.com/books/getting-real&quot;&gt;https://basecamp.com/books/getting-real&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1236,8 +1348,9 @@
   &lt;li&gt;Define measurable milestones&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.effectiveengineer.com/book&quot;&gt;https://www.effectiveengineer.com/book&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1286,8 +1399,9 @@
   &lt;li&gt;Work to live, don’t live to work.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/&quot;&gt;https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1326,8 +1440,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Diabetes-Code-Prevent-Reverse-Naturally/dp/1771642653&quot;&gt;https://www.amazon.com/Diabetes-Code-Prevent-Reverse-Naturally/dp/1771642653&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1450,8 +1565,9 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Super-Human-Bulletproof-Backward-Forever/dp/0062882821&quot;&gt;https://www.amazon.com/Super-Human-Bulletproof-Backward-Forever/dp/0062882821&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1509,8 +1625,9 @@ being human is really all about, and it is alone what justifies the self-love
 that is pride.” (Richard Taylor, Restoring Pride)&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/&quot;&gt;https://academyofideas.com/2018/09/passivity-mediocrity-mental-illness/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -4027,8 +4144,9 @@ these counts to compute each item's index in the final sorted array.
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661&quot;&gt;https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -4189,8 +4307,9 @@ these counts to compute each item's index in the final sorted array.
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.themillionairefastlane.com/&quot;&gt;http://www.themillionairefastlane.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -4251,7 +4370,7 @@ building a landing page,…)&lt;/li&gt;
   &lt;li&gt;Later wrote useful, educational content on the blog.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
@@ -4304,7 +4423,7 @@ was not there yet and Braintree was not so good. Took 11 months in total.&lt;/li
   &lt;li&gt;He kept blogging and sharing.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
@@ -4371,7 +4490,7 @@ replicate artist’s painting, making a 2-player version of 2048 and having
 featured on top of Hacker News,…&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
@@ -4430,7 +4549,7 @@ on the blog, then decided to keep going because there was need.&lt;/li&gt;
 subscribers the second day.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
@@ -4490,7 +4609,7 @@ feature their music.&lt;/li&gt;
   &lt;li&gt;Many musicians turned into customers.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
@@ -4552,7 +4671,7 @@ of capital.&lt;/li&gt;
 turned into customers.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
@@ -4609,7 +4728,7 @@ tatics wouldn’t work today. Basically test as many channels as possible, and
 get feedbacks quickly.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
@@ -4672,7 +4791,7 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
   &lt;li&gt;Also launch pre-sale programs.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;p&gt;References:&lt;/p&gt;
 &lt;ul&gt;
@@ -4721,8 +4840,9 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://austinkleon.com/show-your-work/&quot;&gt;https://austinkleon.com/show-your-work/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -4877,8 +4997,9 @@ it. This is the ultimate test.&lt;/li&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Rest-More-Done-When-Work/dp/0465074871&quot;&gt;https://www.amazon.com/Rest-More-Done-When-Work/dp/0465074871&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
