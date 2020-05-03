@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-05-03T14:19:46-04:00</updated>
+ <updated>2020-05-03T14:57:37-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -785,28 +785,28 @@
    <id>https://hoanhan101.github.io/2020/03/25/reduce-stress-investing</id>
    <content type="html">&lt;p&gt;Paying too much attention to your investments (more than once per quarter) costs more than just your time:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Make you more risk-averse
+  &lt;li&gt;Make you more risk-averse.
     &lt;ul&gt;
-      &lt;li&gt;The shorter the time the returns are generated from, the less risk investors are willing to take&lt;/li&gt;
-      &lt;li&gt;You’ll see loss 50% of the time if you check performance daily, 25% if one a year, 1% if 7 years&lt;/li&gt;
+      &lt;li&gt;The shorter the time the returns are generated from, the less risk investors are willing to take.&lt;/li&gt;
+      &lt;li&gt;You’ll see loss 50% of the time if you check performance daily, 25% if one a year, 1% if 7 years.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Mislead about future return
+  &lt;li&gt;Mislead about future return.
     &lt;ul&gt;
-      &lt;li&gt;Knowing which stocks performed the best last month won’t tell you which ones will perform the best this month&lt;/li&gt;
-      &lt;li&gt;Even professionals can get caught in this trap&lt;/li&gt;
+      &lt;li&gt;Knowing which stocks performed the best last month won’t tell you which ones will perform the best this month.&lt;/li&gt;
+      &lt;li&gt;Even professionals can get caught in this trap.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Increase your risk of performance chasing, which could reduce your returns
+  &lt;li&gt;Increase your risk of performance chasing, which could reduce your returns.
     &lt;ul&gt;
-      &lt;li&gt;Past performance is not necessarily indicative of future results&lt;/li&gt;
-      &lt;li&gt;Performance chasing could cost an investor between 2 to 4% per year&lt;/li&gt;
+      &lt;li&gt;Past performance is not necessarily indicative of future results.&lt;/li&gt;
+      &lt;li&gt;Performance chasing could cost an investor between 2 to 4% per year.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Make you unhappy
+  &lt;li&gt;Make you unhappy.
     &lt;ul&gt;
-      &lt;li&gt;We tend to feel losses more powerfully than we feel gains&lt;/li&gt;
-      &lt;li&gt;Market losses are the one constant that don’t change over time, meaning you’ll see losses most of the time&lt;/li&gt;
+      &lt;li&gt;We tend to feel losses more powerfully than we feel gains.&lt;/li&gt;
+      &lt;li&gt;Market losses are the one constant that don’t change over time, meaning you’ll see losses most of the time.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -1336,16 +1336,16 @@
    <updated>2020-03-12T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/03/12/the-effective-engineer</id>
    <content type="html">&lt;ul&gt;
-  &lt;li&gt;Focus on high-leverage activities
+  &lt;li&gt;Focus on high-leverage activities.
     &lt;ul&gt;
-      &lt;li&gt;Leverage = impact produced / time invested&lt;/li&gt;
-      &lt;li&gt;80/20 rule - 80% impact comes from 20% work&lt;/li&gt;
-      &lt;li&gt;Focus on not more hours but more value per limited time on the task&lt;/li&gt;
-      &lt;li&gt;Increase leverage by
+      &lt;li&gt;Leverage: impact produced / time invested.&lt;/li&gt;
+      &lt;li&gt;80/20 rule: 80% impact comes from 20% work.&lt;/li&gt;
+      &lt;li&gt;Focus on not more hours but more value per limited time on the task.&lt;/li&gt;
+      &lt;li&gt;Increase leverage by:
         &lt;ul&gt;
-          &lt;li&gt;Reduce the time it takes to complete the activity (default to half-hour meeting instead of one-hour one, automate manual dev process)&lt;/li&gt;
-          &lt;li&gt;Increase the value produced (have a clear agenda beforehand, prioritize tasks based on launch date)&lt;/li&gt;
-          &lt;li&gt;Shift to higher-leverage activities (use email instead of in-person discussion, talk to customer)&lt;/li&gt;
+          &lt;li&gt;Reduce the time it takes to complete the activity (default to half-hour meeting instead of one-hour one, automate manual dev process).&lt;/li&gt;
+          &lt;li&gt;Increase the value produced (have a clear agenda beforehand, prioritize tasks based on launch date).&lt;/li&gt;
+          &lt;li&gt;Shift to higher-leverage activities (use email instead of in-person discussion, talk to customer).&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;Output can be measured by:
@@ -1360,78 +1360,78 @@
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Understand the power of compound interest
+  &lt;li&gt;Understand the power of compound interest.
     &lt;ul&gt;
-      &lt;li&gt;Compounding leads to an exponential growth curve&lt;/li&gt;
-      &lt;li&gt;The earlier compounding starts, the sooner it hits the exponential growth, the faster you can reap its benefits&lt;/li&gt;
+      &lt;li&gt;Compounding leads to an exponential growth curve.&lt;/li&gt;
+      &lt;li&gt;The earlier compounding starts, the sooner it hits the exponential growth, the faster you can reap its benefits.&lt;/li&gt;
       &lt;li&gt;Small deltas in the interest rate can make massive differences in the long run:
         &lt;ul&gt;
-          &lt;li&gt;Improving by 1% per day makes us 37x better at the end of year&lt;/li&gt;
+          &lt;li&gt;Improving by 1% per day makes us 37x better at the end of year.&lt;/li&gt;
           &lt;li&gt;Google idea of 20% where engineers spend about 1 day a week on a side project to make the company better results in successful products such as Gmail , Google News, Adsense,…&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Optimize for learning because learning compounds
+  &lt;li&gt;Optimize for learning because learning compounds.
     &lt;ul&gt;
-      &lt;li&gt;Find fast growing work environment&lt;/li&gt;
-      &lt;li&gt;Take advantage of the resources at your work
+      &lt;li&gt;Find fast growing work environment.&lt;/li&gt;
+      &lt;li&gt;Take advantage of the resources at your work.
         &lt;ul&gt;
-          &lt;li&gt;Study code from best engineers&lt;/li&gt;
-          &lt;li&gt;Write more code&lt;/li&gt;
-          &lt;li&gt;Go through technical, educational material&lt;/li&gt;
-          &lt;li&gt;Send code views to the harshest critics&lt;/li&gt;
-          &lt;li&gt;Participate in design discussions - don’t wait for invitation&lt;/li&gt;
-          &lt;li&gt;Team with senior engineers&lt;/li&gt;
+          &lt;li&gt;Study code from best engineers.&lt;/li&gt;
+          &lt;li&gt;Write more code.&lt;/li&gt;
+          &lt;li&gt;Go through technical, educational material.&lt;/li&gt;
+          &lt;li&gt;Send code views to the harshest critics.&lt;/li&gt;
+          &lt;li&gt;Participate in design discussions - don’t wait for invitation.&lt;/li&gt;
+          &lt;li&gt;Team with senior engineers.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Invest in other skills too
+      &lt;li&gt;Invest in other skills too.
         &lt;ul&gt;
-          &lt;li&gt;Invest in skills that are in high demand&lt;/li&gt;
-          &lt;li&gt;Build strong relationships&lt;/li&gt;
-          &lt;li&gt;Read books&lt;/li&gt;
-          &lt;li&gt;Write to teach&lt;/li&gt;
-          &lt;li&gt;Pursue side projects&lt;/li&gt;
+          &lt;li&gt;Invest in skills that are in high demand.&lt;/li&gt;
+          &lt;li&gt;Build strong relationships.&lt;/li&gt;
+          &lt;li&gt;Read books.&lt;/li&gt;
+          &lt;li&gt;Write to teach.&lt;/li&gt;
+          &lt;li&gt;Pursue side projects.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Prioritize regularly
+  &lt;li&gt;Prioritize regularly.
     &lt;ul&gt;
-      &lt;li&gt;Track TODO list in a single list&lt;/li&gt;
+      &lt;li&gt;Track TODO list in a single list.&lt;/li&gt;
       &lt;li&gt;Sort the list frequently by asking yourself on a recurring basis:
         &lt;ul&gt;
-          &lt;li&gt;Is there anything else I could be doing that’s higher-leverage
+          &lt;li&gt;Is there anything else I could be doing that’s higher-leverage?
             &lt;ul&gt;
-              &lt;li&gt;Focus on what directly produce value (products shipped, user acquired, business metrics moved, sales made)&lt;/li&gt;
-              &lt;li&gt;Focus on the important and non-urgent (planning career goals, building relationships, personal development, improving workflow)&lt;/li&gt;
+              &lt;li&gt;Focus on what directly produce value (products shipped, user acquired, business metrics moved, sales made).&lt;/li&gt;
+              &lt;li&gt;Focus on the important and non-urgent (planning career goals, building relationships, personal development, improving workflow).&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Preserve larger blocks of focused time + learn to say no unimportant activities&lt;/li&gt;
-      &lt;li&gt;Limit the amount of work in progress + resist the urge to work on too many projects at once&lt;/li&gt;
-      &lt;li&gt;Make it a habit&lt;/li&gt;
+      &lt;li&gt;Preserve larger blocks of focused time + learn to say no unimportant activities.&lt;/li&gt;
+      &lt;li&gt;Limit the amount of work in progress + resist the urge to work on too many projects at once.&lt;/li&gt;
+      &lt;li&gt;Make it a habit.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Iterate quickly to build more and learn faster
+  &lt;li&gt;Iterate quickly to build more and learn faster.
     &lt;ul&gt;
-      &lt;li&gt;Invest in time-saving tools
+      &lt;li&gt;Invest in time-saving tools.
         &lt;ul&gt;
-          &lt;li&gt;Bringing the release time down to several minutes helps the team deploy more frequently, 40-50 times a day - skyrockets growth&lt;/li&gt;
-          &lt;li&gt;If it saves you 1 hour a day, it saves 10 people 10 times as much&lt;/li&gt;
+          &lt;li&gt;Bringing the release time down to several minutes helps the team deploy more frequently, 40-50 times a day - skyrockets growth.&lt;/li&gt;
+          &lt;li&gt;If it saves you 1 hour a day, it saves 10 people 10 times as much.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Measure the progress frequently&lt;/li&gt;
+      &lt;li&gt;Measure the progress frequently.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Validate early and often
+  &lt;li&gt;Validate early and often.
     &lt;ul&gt;
-      &lt;li&gt;A well tested, clean design, scalable product doesn’t deliver much value if users don’t engage or customers don’t buy it&lt;/li&gt;
-      &lt;li&gt;Bounce ideas off teammates&lt;/li&gt;
+      &lt;li&gt;A well tested, clean design, scalable product doesn’t deliver much value if users don’t engage or customers don’t buy it.&lt;/li&gt;
+      &lt;li&gt;Bounce ideas off teammates.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Define measurable milestones&lt;/li&gt;
+  &lt;li&gt;Define measurable milestones.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -1452,8 +1452,8 @@
   &lt;li&gt;Software solves business problems. It doesn’t matter if your app has the most elegant architecture, it must create value for the company aka brings in revenue.&lt;/li&gt;
   &lt;li&gt;Engineers are hired to create business value.
     &lt;ul&gt;
-      &lt;li&gt;Non-goals: produce the beautiful software, solve complex technical problems, use sexy frameworks&lt;/li&gt;
-      &lt;li&gt;Actual goals: add revenue, reduce costs - “wrote the backend billing code that 97% of Google’s revenue passes through”&lt;/li&gt;
+      &lt;li&gt;Non-goals: produce the beautiful software, solve complex technical problems, use sexy frameworks.&lt;/li&gt;
+      &lt;li&gt;Actual goals: add revenue, reduce costs - “wrote the backend billing code that 97% of Google’s revenue passes through”.&lt;/li&gt;
       &lt;li&gt;That’s why Quants makes more in bonuses in a good year than many talented engineers will earn in a lifetime.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -1463,8 +1463,8 @@
       &lt;li&gt;Resume is not the primary way to get job interviews, but connections do.&lt;/li&gt;
       &lt;li&gt;Networking means:
         &lt;ul&gt;
-          &lt;li&gt;Meet people at some point can help you&lt;/li&gt;
-          &lt;li&gt;Make a favorable impression on them&lt;/li&gt;
+          &lt;li&gt;Meet people at some point can help you.&lt;/li&gt;
+          &lt;li&gt;Make a favorable impression on them.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;Strive to help people first so it’s harder for them to refuse to help you later.&lt;/li&gt;
@@ -1599,47 +1599,6 @@
  </entry>
  
  <entry>
-   <title>Jason Fung, The Diabetes Code</title>
-   <link href="https://hoanhan101.github.io/2020/01/16/diabetes-code"/>
-   <updated>2020-01-16T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2020/01/16/diabetes-code</id>
-   <content type="html">&lt;ul&gt;
-  &lt;li&gt;Type 2 diabetes:
-    &lt;ul&gt;
-      &lt;li&gt;Is caused by too much sugar (sugar + refined carbs)&lt;/li&gt;
-      &lt;li&gt;Affects every organ in the body&lt;/li&gt;
-      &lt;li&gt;Is reversible and preventable without medications by simply
-        &lt;ul&gt;
-          &lt;li&gt;Put less sugar in
-            &lt;ul&gt;
-              &lt;li&gt;Don’t add sugar as it has no nutritional value&lt;/li&gt;
-              &lt;li&gt;Eliminate breads, pastas made from while flour, white rice and potatoes&lt;/li&gt;
-              &lt;li&gt;Maintain a moderate but not high protein intake because too much protein makes the liver converts them to glucose&lt;/li&gt;
-              &lt;li&gt;Avoid protein shakes, bars, powders&lt;/li&gt;
-              &lt;li&gt;Eat natural fat - avocados, nuts, olive oil, eggs, butter&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;Burn off remaining sugar
-            &lt;ul&gt;
-              &lt;li&gt;Fasting is the simplest and surest method to force your body to burn sugar&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/en/book/show/38227753&quot;&gt;https://www.goodreads.com/en/book/show/38227753&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
    <title>The Art of Manliness, Testosterone Experiment</title>
    <link href="https://hoanhan101.github.io/2020/01/16/aom-testosterone-experiment"/>
    <updated>2020-01-16T00:00:00-05:00</updated>
@@ -1727,29 +1686,25 @@
    <updated>2020-01-15T00:00:00-05:00</updated>
    <id>https://hoanhan101.github.io/2020/01/15/super-human</id>
    <content type="html">&lt;ul&gt;
-  &lt;li&gt;Don’t die
+  &lt;li&gt;Don’t die.
     &lt;ul&gt;
-      &lt;li&gt;The 4 killers are heart disease, diabetes, Alzheimer’s, and cancer
+      &lt;li&gt;The 4 killers are heart disease, diabetes, Alzheimer’s, and cancer. Maintaining a healthy diet and lifestyle lowers the risk of developing and dying from these.&lt;/li&gt;
+      &lt;li&gt;Food is an anti-aging drug.
         &lt;ul&gt;
-          &lt;li&gt;Maintaining a healthy diet and lifestyle lowers the risk of developing and dying from these&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Food is an anti-aging drug
-        &lt;ul&gt;
-          &lt;li&gt;Stop eating fried, grilled meat&lt;/li&gt;
-          &lt;li&gt;Avoid grains, produce and animal products. Instead, get
+          &lt;li&gt;Stop eating fried, grilled meat.&lt;/li&gt;
+          &lt;li&gt;Avoid grains, produce and animal products. Instead, get:
             &lt;ul&gt;
-              &lt;li&gt;Organic vegetables&lt;/li&gt;
-              &lt;li&gt;Organic fruits&lt;/li&gt;
-              &lt;li&gt;Meat from pastured animals, eggs, wild fish&lt;/li&gt;
+              &lt;li&gt;Organic vegetables.&lt;/li&gt;
+              &lt;li&gt;Organic fruits.&lt;/li&gt;
+              &lt;li&gt;Meat from pastured animals, eggs, wild fish.&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
-          &lt;li&gt;Eat enough protein for tissue repair - 0.5 gram per pound of body weight
+          &lt;li&gt;Eat enough protein for tissue repair - 0.5 gram per pound of body weight.
             &lt;ul&gt;
-              &lt;li&gt;Excess protein causes imflamation&lt;/li&gt;
+              &lt;li&gt;Excess protein causes imflamation.&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
-          &lt;li&gt;Eat the right ratios of fat
+          &lt;li&gt;Eat the right ratios of fat.
             &lt;ul&gt;
               &lt;li&gt;50% saturated - fatty meat, lard, butter, cream, cocounuts)&lt;/li&gt;
               &lt;li&gt;25% monosaturated (olive oil, avocados, nuts)&lt;/li&gt;
@@ -1757,49 +1712,49 @@
               &lt;li&gt;5-10% omega-3 (including EPA, DHA)&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
-          &lt;li&gt;Limit eating window to 8-10 hours a day&lt;/li&gt;
-          &lt;li&gt;Teach your metabolism to be flexible by practicing a ketogenic diet
+          &lt;li&gt;Limit eating window to 8-10 hours a day.&lt;/li&gt;
+          &lt;li&gt;Teach your metabolism to be flexible by practicing a ketogenic diet.
             &lt;ul&gt;
-              &lt;li&gt;Fasting (to clean out damaged cells, regenerate healthier cells)&lt;/li&gt;
-              &lt;li&gt;Avoid carbs for a few days&lt;/li&gt;
-              &lt;li&gt;Add energy fats to your food (coffee)&lt;/li&gt;
+              &lt;li&gt;Fasting (to clean out damaged cells, regenerate healthier cells).&lt;/li&gt;
+              &lt;li&gt;Avoid carbs for a few days.&lt;/li&gt;
+              &lt;li&gt;Add energy fats to your food (coffee).&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
-          &lt;li&gt;Consume more antioxidants to fight of free radicals
+          &lt;li&gt;Consume more antioxidants to fight of free radicals.
             &lt;ul&gt;
-              &lt;li&gt;Berries&lt;/li&gt;
-              &lt;li&gt;Herbs&lt;/li&gt;
-              &lt;li&gt;Spices&lt;/li&gt;
-              &lt;li&gt;Coffee&lt;/li&gt;
-              &lt;li&gt;Tea&lt;/li&gt;
-              &lt;li&gt;Dark chocolate&lt;/li&gt;
+              &lt;li&gt;Berries.&lt;/li&gt;
+              &lt;li&gt;Herbs.&lt;/li&gt;
+              &lt;li&gt;Spices.&lt;/li&gt;
+              &lt;li&gt;Coffee.&lt;/li&gt;
+              &lt;li&gt;Tea.&lt;/li&gt;
+              &lt;li&gt;Dark chocolate.&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Manage stress
+      &lt;li&gt;Manage stress.
         &lt;ul&gt;
-          &lt;li&gt;Mediate&lt;/li&gt;
-          &lt;li&gt;Practice yoga&lt;/li&gt;
-          &lt;li&gt;Get quality sleep&lt;/li&gt;
+          &lt;li&gt;Mediate.&lt;/li&gt;
+          &lt;li&gt;Practice yoga.&lt;/li&gt;
+          &lt;li&gt;Get quality sleep.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Aim for 15-20 minutes of natural sun exposure a day&lt;/li&gt;
-      &lt;li&gt;Supplement &amp;amp; treatment
+      &lt;li&gt;Aim for 15-20 minutes of natural sun exposure a day.&lt;/li&gt;
+      &lt;li&gt;Supplement &amp;amp; treatment.
         &lt;ul&gt;
-          &lt;li&gt;If you have joint pain or blood sugar issues, consider taking glucosamine because it helps
+          &lt;li&gt;If you have joint pain or blood sugar issues, consider taking glucosamine because it helps.
             &lt;ul&gt;
-              &lt;li&gt;Control blood sugar&lt;/li&gt;
-              &lt;li&gt;Extends the life-span of mice (probably human too)&lt;/li&gt;
+              &lt;li&gt;Control blood sugar.&lt;/li&gt;
+              &lt;li&gt;Extends the life-span of mice (probably human too).&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
-          &lt;li&gt;Vitamin D&lt;/li&gt;
-          &lt;li&gt;Try Zona Plus to help with cardiovascular issues&lt;/li&gt;
+          &lt;li&gt;Vitamin D.&lt;/li&gt;
+          &lt;li&gt;Try Zona Plus to help with cardiovascular issues.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Age backward
+  &lt;li&gt;Age backward.
     &lt;ul&gt;
       &lt;li&gt;Stop eating sugar, soy, excess omega-6 fats, refined carbs.
         &lt;ul&gt;
@@ -1808,29 +1763,29 @@
       &lt;/li&gt;
       &lt;li&gt;Exercise intensely 3 times a week to boost testosterone levels.
         &lt;ul&gt;
-          &lt;li&gt;HIIT is real effective&lt;/li&gt;
-          &lt;li&gt;Make sure to recover fully in between sessions&lt;/li&gt;
-          &lt;li&gt;Get plenty of quality sleep&lt;/li&gt;
+          &lt;li&gt;HIIT is real effective.&lt;/li&gt;
+          &lt;li&gt;Make sure to recover fully in between sessions.&lt;/li&gt;
+          &lt;li&gt;Get plenty of quality sleep.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;Consider taking L-tyrosine, vitamin D3, K2, A and zinc to achive healthy hormone levels.&lt;/li&gt;
       &lt;li&gt;Clean up your diet and your mouth.
         &lt;ul&gt;
-          &lt;li&gt;Eliminate sugar&lt;/li&gt;
-          &lt;li&gt;Try oil pulling&lt;/li&gt;
-          &lt;li&gt;Brush occasionally with activated charcoal&lt;/li&gt;
+          &lt;li&gt;Eliminate sugar.&lt;/li&gt;
+          &lt;li&gt;Try oil pulling.&lt;/li&gt;
+          &lt;li&gt;Brush occasionally with activated charcoal.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Up your intake of prebiotic fiber&lt;/li&gt;
+      &lt;li&gt;Up your intake of prebiotic fiber.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Heal like a deity
+  &lt;li&gt;Heal like a deity.
     &lt;ul&gt;
-      &lt;li&gt;Spend more time in nature to enhance your immune system&lt;/li&gt;
-      &lt;li&gt;Make sure your sexual function is that of a young person
+      &lt;li&gt;Spend more time in nature to enhance your immune system.&lt;/li&gt;
+      &lt;li&gt;Make sure your sexual function is that of a young person.
         &lt;ul&gt;
-          &lt;li&gt;Consider GAINSWave treatments&lt;/li&gt;
-          &lt;li&gt;Practice Kegel on a daily basis&lt;/li&gt;
+          &lt;li&gt;Consider GAINSWave treatments.&lt;/li&gt;
+          &lt;li&gt;Practice Kegel on a daily basis.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
@@ -2895,42 +2850,41 @@ leads us to 1.&lt;/p&gt;
    <link href="https://hoanhan101.github.io/2019/10/20/augmenting-long-term-memory"/>
    <updated>2019-10-20T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/10/20/augmenting-long-term-memory</id>
-   <content type="html">&lt;p&gt;Use a system named Anki to remember almost anything:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;It’s like a flashcard app but able to manage the review schedule.
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Anki like a flashcard app but able to manage the review schedule.
     &lt;ul&gt;
       &lt;li&gt;If you answer a question correctly, the review time expands.&lt;/li&gt;
       &lt;li&gt;The better you master the material, the less frequent it appears&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Memories are maximally strengthened if tested when we’re on the verge of forgetting them&lt;/li&gt;
+  &lt;li&gt;Memories are maximally strengthened if tested when we’re on the verge of forgetting them.&lt;/li&gt;
   &lt;li&gt;Used to learn anything: papers, books, talks, conversations, facts, plans,…&lt;/li&gt;
-  &lt;li&gt;Have desktop client for entering new card, mobile client for reviewing&lt;/li&gt;
-  &lt;li&gt;Read a research paper in an unfamiliar field - AlphaGo paper
+  &lt;li&gt;Have desktop client for entering new card, mobile client for reviewing.&lt;/li&gt;
+  &lt;li&gt;Read a research paper in an unfamiliar field - AlphaGo paper.
     &lt;ul&gt;
-      &lt;li&gt;Read quickly first, come up with questions that
+      &lt;li&gt;Read quickly first, come up with questions that:
         &lt;ul&gt;
-          &lt;li&gt;Identify the most important ideas&lt;/li&gt;
-          &lt;li&gt;Look for basics fact that i could understand easily&lt;/li&gt;
+          &lt;li&gt;Identify the most important ideas.&lt;/li&gt;
+          &lt;li&gt;Look for basics fact that I could understand easily.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Make several passes this way, each time try to get deeper, continue to ask questions&lt;/li&gt;
+      &lt;li&gt;Make several passes this way, each time try to get deeper, continue to ask questions.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Make better use of Anki
+  &lt;li&gt;Make better use of Anki:
     &lt;ul&gt;
-      &lt;li&gt;Make the question more atomic so I could focus on the hard-to-memory details -&amp;gt; asking good questions is very important&lt;/li&gt;
-      &lt;li&gt;Construct your own decks instead of using shared ones -&amp;gt; constructing a card forces you to think through the questions and its answer&lt;/li&gt;
-      &lt;li&gt;avoid yes/no questions&lt;/li&gt;
+      &lt;li&gt;Make the question more atomic so I could focus on the hard-to-memory details -&amp;gt; asking good questions is very important.&lt;/li&gt;
+      &lt;li&gt;Construct your own decks instead of using shared ones -&amp;gt; constructing a card forces you to think through the questions and its answer.&lt;/li&gt;
+      &lt;li&gt;Avoid yes/no questions.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Procedural vs declarative memory
+  &lt;li&gt;Procedural vs declarative memory.
     &lt;ul&gt;
-      &lt;li&gt;procedural (implicit, unconscious, automatic): habits such as walking, talking,…&lt;/li&gt;
-      &lt;li&gt;declarative (explicit): know your phone number, a fact,…&lt;/li&gt;
+      &lt;li&gt;Procedural (implicit, unconscious, automatic): habits such as walking, talking,…&lt;/li&gt;
+      &lt;li&gt;Declarative (explicit): know your phone number, a fact,…&lt;/li&gt;
       &lt;li&gt;Basically, there is a difference between remembering a fact and master a process.
         &lt;ul&gt;
-          &lt;li&gt;Just because you remember a unix command doesn’t mean you can recognize or apply it in a real-world situation&lt;/li&gt;
+          &lt;li&gt;Just because you remember a Unix command doesn’t mean you can recognize or apply it in a real-world situation.&lt;/li&gt;
           &lt;li&gt;Remembering is not enough. Need to carry out the process. Solve problem with it.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
@@ -2938,33 +2892,34 @@ leads us to 1.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;If Anki is so great, why isn’t it widely used?
     &lt;ul&gt;
-      &lt;li&gt;People prefer last-minute cramming and believe it produces better results, though many studies show it does not&lt;/li&gt;
-      &lt;li&gt;The act if recalling something while we’re on the verge of forgetting is hard, unless one is strongly motivated&lt;/li&gt;
-      &lt;li&gt;Anki is challenging to use well, easy to use poorly&lt;/li&gt;
+      &lt;li&gt;People prefer last-minute cramming and believe it produces better results, though many studies show it does not.&lt;/li&gt;
+      &lt;li&gt;The act if recalling something while we’re on the verge of forgetting is hard, unless one is strongly motivated.&lt;/li&gt;
+      &lt;li&gt;Anki is challenging to use well, easy to use poorly.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;The importance of long-term memory
+  &lt;li&gt;The importance of long-term memory.
     &lt;ul&gt;
-      &lt;li&gt;A study shows that chess grandmaster has higher memory capacity
+      &lt;li&gt;A study shows that chess grandmaster has higher memory capacity.
         &lt;ul&gt;
-          &lt;li&gt;Beginner see a series of individual pieces&lt;/li&gt;
-          &lt;li&gt;Master see see a “chunk”-combinations of pieces recognized as a unit -&amp;gt; able to reason much easier at a higher level of abstraction (25k-100k)&lt;/li&gt;
+          &lt;li&gt;Beginner see a series of individual pieces.&lt;/li&gt;
+          &lt;li&gt;Master see see a “chunk”-combinations of pieces recognized as a unit -&amp;gt; able to reason much easier at a higher level of abstraction (25k-100k).&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;A study shows that the better working memory one has, the higher their IQ and vice versa&lt;/li&gt;
-      &lt;li&gt;Having more chunks memorized in some domain is somewhat like an effective boost to a person’s IQ in that domain&lt;/li&gt;
+      &lt;li&gt;A study shows that the better working memory one has, the higher their IQ and vice versa.&lt;/li&gt;
+      &lt;li&gt;Having more chunks memorized in some domain is somewhat like an effective boost to a person’s IQ in that domain.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Distribute practice - why Anki works?
     &lt;ul&gt;
-      &lt;li&gt;Memory decays through time - we will forget things eventually&lt;/li&gt;
-      &lt;li&gt;Retest/recall will slow the decay - meaning it takes longer after subsequent recalls&lt;/li&gt;
+      &lt;li&gt;Memory decays through time - we will forget things eventually.&lt;/li&gt;
+      &lt;li&gt;Retest/recall will slow the decay - meaning it takes longer after subsequent recalls.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://augmentingcognition.com/ltm.html&quot;&gt;http://augmentingcognition.com/ltm.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -3923,7 +3878,12 @@ these counts to compute each item's index in the final sorted array.
     &lt;ul&gt;
       &lt;li&gt;Avoid debts.&lt;/li&gt;
       &lt;li&gt;Optimize travelling cost by living close to work or doing remote work.&lt;/li&gt;
-      &lt;li&gt;Don’t buy expensive car.&lt;/li&gt;
+      &lt;li&gt;Don’t buy expensive car.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.mrmoneymustache.com/2011/11/28/new-cars-and-auto-financing-stupid-or-sensible/&quot;&gt;If you don’t even have the money invested somewhere to allow you to pay for a car in cash, you are obviously far too poor to buy that car.&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://www.mrmoneymustache.com/2012/03/19/top-10-cars-for-smart-people/&quot;&gt;Buy good used ones.&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
       &lt;li&gt;Cook at home.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -3950,8 +3910,9 @@ these counts to compute each item's index in the final sorted array.
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/30646587-the-simple-path-to-wealth&quot;&gt;https://www.goodreads.com/book/show/30646587-the-simple-path-to-wealth&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.mrmoneymustache.com/2013/02/22/getting-rich-from-zero-to-hero-in-one-blog-post/&quot;&gt;https://www.mrmoneymustache.com/2013/02/22/getting-rich-from-zero-to-hero-in-one-blog-post/&lt;/a&gt;&lt;/li&gt;
@@ -4220,7 +4181,7 @@ these counts to compute each item's index in the final sorted array.
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;401k vs Roth IRA
+  &lt;li&gt;401k vs Roth IRA.
     &lt;ul&gt;
       &lt;li&gt;401k
         &lt;ul&gt;
@@ -4266,8 +4227,9 @@ these counts to compute each item's index in the final sorted array.
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;
-&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.iwillteachyoutoberich.com/book&quot;&gt;https://www.iwillteachyoutoberich.com/book&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -4380,38 +4342,38 @@ these counts to compute each item's index in the final sorted array.
    <updated>2019-08-08T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/08/08/the-intelligent-investor</id>
    <content type="html">&lt;ul&gt;
-  &lt;li&gt;Focus on long-term value
+  &lt;li&gt;Focus on long-term value.
     &lt;ul&gt;
-      &lt;li&gt;Don’t fall into the trap of only looking at short-term gains or risky investments in companies that are trending&lt;/li&gt;
-      &lt;li&gt;It’s easy for human to trick themselves into seeing a pattern when there’s actually just randomness&lt;/li&gt;
-      &lt;li&gt;Instead, look at the big picture of the company’s financial history, its current value and future potential&lt;/li&gt;
+      &lt;li&gt;Don’t fall into the trap of only looking at short-term gains or risky investments in companies that are trending.&lt;/li&gt;
+      &lt;li&gt;It’s easy for human to trick themselves into seeing a pattern when there’s actually just randomness.&lt;/li&gt;
+      &lt;li&gt;Instead, look at the big picture of the company’s financial history, its current value and future potential.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Diversify investments
+  &lt;li&gt;Diversify investments.
     &lt;ul&gt;
-      &lt;li&gt;Never put money on one stock, no matter how promising it appears&lt;/li&gt;
-      &lt;li&gt;Invest in both bonds and common stocks&lt;/li&gt;
-      &lt;li&gt;Buy in low and sell in high&lt;/li&gt;
-      &lt;li&gt;Align your portfolio with well-established funds with a long history of success&lt;/li&gt;
-      &lt;li&gt;Set your investments on autopilot&lt;/li&gt;
+      &lt;li&gt;Never put money on one stock, no matter how promising it appears.&lt;/li&gt;
+      &lt;li&gt;Invest in both bonds and common stocks.&lt;/li&gt;
+      &lt;li&gt;Buy in low and sell in high.&lt;/li&gt;
+      &lt;li&gt;Align your portfolio with well-established funds with a long history of success.&lt;/li&gt;
+      &lt;li&gt;Set your investments on autopilot.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Aim for safe and steady revenue, not to pull in extraordinary profits and outperform professional brokers
+  &lt;li&gt;Aim for safe and steady revenue, not to pull in extraordinary profits and outperform professional brokers.
     &lt;ul&gt;
-      &lt;li&gt;Reflect and readjust your portfolio every six months&lt;/li&gt;
+      &lt;li&gt;Reflect and readjust your portfolio every six months.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Always be prepared for crises
+  &lt;li&gt;Always be prepared for crises.
     &lt;ul&gt;
-      &lt;li&gt;Don’t sell everything at the first sign of danger&lt;/li&gt;
-      &lt;li&gt;Even after the most harmful crashes, the market will recover&lt;/li&gt;
+      &lt;li&gt;Don’t sell everything at the first sign of danger.&lt;/li&gt;
+      &lt;li&gt;Even after the most harmful crashes, the market will recover.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Don’t trust the market
+  &lt;li&gt;Don’t trust the market.
     &lt;ul&gt;
-      &lt;li&gt;It swings back and froth between ups and down&lt;/li&gt;
-      &lt;li&gt;Fluctuations can’t be foreseen&lt;/li&gt;
-      &lt;li&gt;Crises happen from time to time&lt;/li&gt;
+      &lt;li&gt;It swings back and froth between ups and down.&lt;/li&gt;
+      &lt;li&gt;Fluctuations can’t be foreseen.&lt;/li&gt;
+      &lt;li&gt;Crises happen from time to time.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -5079,11 +5041,11 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
    <id>https://hoanhan101.github.io/2019/06/06/show-your-work</id>
    <content type="html">&lt;p&gt;A book for people who hate the very idea of self-promotion:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Be an amateur, not afraid to voice your opinion, be willing to share&lt;/li&gt;
+  &lt;li&gt;Be an amateur, not afraid to voice your opinion, be willing to share.&lt;/li&gt;
   &lt;li&gt;Document your process, start a journal, record it, take photo,…&lt;/li&gt;
-  &lt;li&gt;Share/publish something small everyday
+  &lt;li&gt;Share/publish something small everyday.
     &lt;ul&gt;
-      &lt;li&gt;Once you finish your work for the day, reflect on it, share some of its process&lt;/li&gt;
+      &lt;li&gt;Once you finish your work for the day, reflect on it, share some of its process.&lt;/li&gt;
       &lt;li&gt;90% of everything is crap. True for your own work. Don’t be afraid to share. Some will find it interesting.&lt;/li&gt;
       &lt;li&gt;Build a good name that people can search through - way to build up your audience.&lt;/li&gt;
     &lt;/ul&gt;
@@ -5092,7 +5054,7 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
     &lt;ul&gt;
       &lt;li&gt;Blog everyday about my work, even if it’s code or things that I find interesting/informative or learn throughout the day.&lt;/li&gt;
       &lt;li&gt;Keep things that inspire you, share other artists’ work.&lt;/li&gt;
-      &lt;li&gt;Tell good stories. Remember Dan Harmon’s story circle, Kurt Vonnegut’s story graph. Gustav Freytag’s pyramid&lt;/li&gt;
+      &lt;li&gt;Tell good stories. Remember Dan Harmon’s story circle, Kurt Vonnegut’s story graph. Gustav Freytag’s pyramid.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Teach what you know, even though you’ve just started.
@@ -5106,8 +5068,8 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
   &lt;li&gt;Don’t be afraid to charge for your work&lt;/li&gt;
   &lt;li&gt;Don’t quit. Keep going. Keep producing one after another. But always remember to take rest
     &lt;ul&gt;
-      &lt;li&gt;Short rest: exercise, take a walk, hike,&lt;/li&gt;
-      &lt;li&gt;Long rest: years off, sabbatical,…anything to help you recharge and ready for a new beginning&lt;/li&gt;
+      &lt;li&gt;Short rest: exercise, take a walk, hike,…&lt;/li&gt;
+      &lt;li&gt;Long rest: years off, sabbatical,…anything to help you recharge and ready for a new beginning.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
