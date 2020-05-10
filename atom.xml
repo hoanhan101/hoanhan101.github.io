@@ -4,13 +4,61 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-05-10T16:20:53-04:00</updated>
+ <updated>2020-05-10T17:08:22-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Jonathan Haidt, The Happiness Hypothesis</title>
+   <link href="https://hoanhan101.github.io/2020/05/10/happiness-hypothesis"/>
+   <updated>2020-05-10T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/2020/05/10/happiness-hypothesis</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Happiness (H) = S (Biological happiness set point) + C (Life conditions) + V (Voluntary activities).
+    &lt;ul&gt;
+      &lt;li&gt;Each person has a characteristic level of happiness that one is born with.&lt;/li&gt;
+      &lt;li&gt;It’s not a set point but more of a range.&lt;/li&gt;
+      &lt;li&gt;The challenge is to understand C and V to push H to the top of the range.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The 2 biggest parts of C are love and pursuing the right goals.
+    &lt;ul&gt;
+      &lt;li&gt;We are social creatures in a sense that we can’t be happy without having friends and secure attachments. To love well is to have good relationships with other people.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/66354.Flow&quot;&gt;The right goals are ones that produce states of flow and engagement.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Once basic needs are met, money cannot buy additional happiness.
+        &lt;ul&gt;
+          &lt;li&gt;According to the adaptation principle, we’re likely to adapt to what we set for ourselves. Luxuries and other goods adapt completely while some other “purchases” are less subject to:
+            &lt;ul&gt;
+              &lt;li&gt;Spending more time with friends and family.&lt;/li&gt;
+              &lt;li&gt;Reducing commuting time even if it means living in smaller houses.&lt;/li&gt;
+              &lt;li&gt;Taking longer vacations even if it means earning less.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;V are things that we choose to do, not that we have to, such as meditation, exercise, learning new things.
+    &lt;ul&gt;
+      &lt;li&gt;We can increase your happiness if we use your strengths, particularly in the service of strengthening connections such as helping friends, expressing gratitude to benefactors.&lt;/li&gt;
+      &lt;li&gt;According to the progress principle, pleasure comes more from making progress toward a goal than from achieving them. That said, we should take the initiative and perform gratifying activities regularly.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/96884.The_Happiness_Hypothesis&quot;&gt;https://www.goodreads.com/book/show/96884.The_Happiness_Hypothesis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://m.signalvnoise.com/the-day-i-became-a-millionaire/&quot;&gt;https://m.signalvnoise.com/the-day-i-became-a-millionaire/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>William Braxton Irvine, A Guide to the Good Life</title>
