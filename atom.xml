@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-05-25T17:11:48-04:00</updated>
+ <updated>2020-05-25T18:28:05-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -13,213 +13,114 @@
 
  
  <entry>
-   <title>Jason Fried, Rework</title>
-   <link href="https://hoanhan101.github.io/2020/05/25/rework"/>
-   <updated>2020-05-25T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/05/25/rework</id>
+   <title>Edmond Lau, The Effective Engineer</title>
+   <link href="https://hoanhan101.github.io/2020/05/16/the-effective-engineer"/>
+   <updated>2020-05-16T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/2020/05/16/the-effective-engineer</id>
    <content type="html">&lt;ul&gt;
-  &lt;li&gt;Takedowns.
+  &lt;li&gt;Focus on high-leverage activities.
     &lt;ul&gt;
-      &lt;li&gt;Today is a new reality where anyone can be in business.
+      &lt;li&gt;Leverage: impact produced / time invested.&lt;/li&gt;
+      &lt;li&gt;80/20 rule: 80% impact comes from 20% work.&lt;/li&gt;
+      &lt;li&gt;Focus on not more hours but more value per limited time on the task.&lt;/li&gt;
+      &lt;li&gt;Increase leverage by:
         &lt;ul&gt;
-          &lt;li&gt;Informations are easy to access and within reach.&lt;/li&gt;
-          &lt;li&gt;It’s easy to work from home or collaborate with others across the globe.&lt;/li&gt;
-          &lt;li&gt;Stuff that was impossible is simple today.&lt;/li&gt;
+          &lt;li&gt;Reduce the time it takes to complete the activity (default to half-hour meeting instead of one-hour one, automate manual dev process).&lt;/li&gt;
+          &lt;li&gt;Increase the value produced (have a clear agenda beforehand, prioritize tasks based on launch date).&lt;/li&gt;
+          &lt;li&gt;Shift to higher-leverage activities (use email instead of in-person discussion, talk to customer).&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Writing a plan makes you feel in control of things you can’t control.
+      &lt;li&gt;Output can be measured by:
         &lt;ul&gt;
-          &lt;li&gt;Plans are guesses.&lt;/li&gt;
-          &lt;li&gt;Don’t be obsess you it. It’s OK to wing.&lt;/li&gt;
-          &lt;li&gt;Figure out what’s the next most important thing and do it.&lt;/li&gt;
+          &lt;li&gt;Number of projects launched&lt;/li&gt;
+          &lt;li&gt;Bug fixes&lt;/li&gt;
+          &lt;li&gt;Users acquired&lt;/li&gt;
+          &lt;li&gt;Engineers hired&lt;/li&gt;
+          &lt;li&gt;Quality&lt;/li&gt;
+          &lt;li&gt;Revenue generated&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Don’t be insecure about aiming to be a small business. As long as it’s sustainable and profitable, you should be proud.&lt;/li&gt;
-      &lt;li&gt;Working more doesn’t mean you get more done.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Go.
+  &lt;li&gt;Understand the power of compound interest.
     &lt;ul&gt;
-      &lt;li&gt;If you’re going to do something, do something that matters.
+      &lt;li&gt;Compounding leads to an exponential growth curve.&lt;/li&gt;
+      &lt;li&gt;The earlier compounding starts, the sooner it hits the exponential growth, the faster you can reap its benefits.&lt;/li&gt;
+      &lt;li&gt;Small deltas in the interest rate can make massive differences in the long run:
         &lt;ul&gt;
-          &lt;li&gt;To do great work, you need to feel you’re making a different, putting a meaningful dent in the universe, that you’re part of something important. You don’t have to cure cancer. You want your customer say it makes their lives better.&lt;/li&gt;
-          &lt;li&gt;You should feel an urgency too as you don’t live forever. Don’t wait for someone to make the changes you want to see.&lt;/li&gt;
+          &lt;li&gt;Improving by 1% per day makes us 37x better at the end of year.&lt;/li&gt;
+          &lt;li&gt;Google idea of 20% where engineers spend about 1 day a week on a side project to make the company better results in successful products such as Gmail , Google News, Adsense,…&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;The easiest way to create a product/service is to make something you want to use.
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Optimize for learning because learning compounds.
+    &lt;ul&gt;
+      &lt;li&gt;Find fast growing work environment.&lt;/li&gt;
+      &lt;li&gt;Take advantage of the resources at your work.
         &lt;ul&gt;
-          &lt;li&gt;Solve your own problem first as you know what you need the most.&lt;/li&gt;
+          &lt;li&gt;Study code from best engineers.&lt;/li&gt;
+          &lt;li&gt;Write more code.&lt;/li&gt;
+          &lt;li&gt;Go through technical, educational material.&lt;/li&gt;
+          &lt;li&gt;Send code views to the harshest critics.&lt;/li&gt;
+          &lt;li&gt;Participate in design discussions - don’t wait for invitation.&lt;/li&gt;
+          &lt;li&gt;Team with senior engineers.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Having the idea has nothing to do with actually making it.
+      &lt;li&gt;Invest in other skills too.
         &lt;ul&gt;
-          &lt;li&gt;Start creating.&lt;/li&gt;
-          &lt;li&gt;Ideas are cheap, how you execute them are what matters.&lt;/li&gt;
+          &lt;li&gt;Invest in skills that are in high demand.&lt;/li&gt;
+          &lt;li&gt;Build strong relationships.&lt;/li&gt;
+          &lt;li&gt;Read books.&lt;/li&gt;
+          &lt;li&gt;Write to teach.&lt;/li&gt;
+          &lt;li&gt;Pursue side projects.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Perfect time never comes as you’re always too busy doing something else. Do it now.&lt;/li&gt;
-      &lt;li&gt;Always know why you’re doing what you’re doing. Stand for something and be proud of it.&lt;/li&gt;
-      &lt;li&gt;Avoid outside funding as much as you can.
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prioritize regularly.
+    &lt;ul&gt;
+      &lt;li&gt;Track TODO list in a single list.&lt;/li&gt;
+      &lt;li&gt;Sort the list frequently by asking yourself on a recurring basis:
         &lt;ul&gt;
-          &lt;li&gt;Service businesses don’t require much capital to bootstrap anyway.&lt;/li&gt;
-          &lt;li&gt;Taking people money means you have less control of your business and more human problem.&lt;/li&gt;
-          &lt;li&gt;You need less than you think. Stay lean. Be frugal.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Think about profit from day one.&lt;/li&gt;
-      &lt;li&gt;Think about commitment strategy (how to grow and succeed), not exit strategy. Focus on getting customers to love you, not about worrying who’s going to buy you.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Progress.
-    &lt;ul&gt;
-      &lt;li&gt;Focus on the core product itself, ignore the details early on.&lt;/li&gt;
-      &lt;li&gt;Don’t wait for the perfect solution. Do it and reflect.&lt;/li&gt;
-      &lt;li&gt;Stick to the essential. Cut out unnecessary details, simplify, sort out what truly matters.&lt;/li&gt;
-      &lt;li&gt;Once your product does what it needs to do at the minimum, get it out there.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Productivity.
-    &lt;ul&gt;
-      &lt;li&gt;Start making something real. Anything else is just a distraction.&lt;/li&gt;
-      &lt;li&gt;Ensure that you’re doing work that matters?
-        &lt;ul&gt;
-          &lt;li&gt;Why are you doing this?&lt;/li&gt;
-          &lt;li&gt;What is the problem, exactly?&lt;/li&gt;
-          &lt;li&gt;Is it actually useful?&lt;/li&gt;
-          &lt;li&gt;Is it adding value at all?&lt;/li&gt;
-          &lt;li&gt;Is there an easier way?&lt;/li&gt;
-          &lt;li&gt;What could you be doing instead?&lt;/li&gt;
-          &lt;li&gt;Is this really worth it?&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Interruption is the enemy of productivity.&lt;/li&gt;
-      &lt;li&gt;Avoid meetings as they’re unproductive most of the time. Only meet when:
-        &lt;ul&gt;
-          &lt;li&gt;Have a set time.&lt;/li&gt;
-          &lt;li&gt;Invite as few people as possible.&lt;/li&gt;
-          &lt;li&gt;Have a clear agenda.&lt;/li&gt;
-          &lt;li&gt;Begin with a specific problem.&lt;/li&gt;
-          &lt;li&gt;End with a solution and implementation plan.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;When good enough gets the job done, go for it. You can usually turn good enough to great later.&lt;/li&gt;
-      &lt;li&gt;Build momentum by accomplishing small wins regularly.&lt;/li&gt;
-      &lt;li&gt;Have enough sleep everyday.&lt;/li&gt;
-      &lt;li&gt;Break your time frames into smaller chunks and estimate accordingly.&lt;/li&gt;
-      &lt;li&gt;Use a small todo list.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Competitors.
-    &lt;ul&gt;
-      &lt;li&gt;Don’t copy competitors since you don’t know their why. Instead, believe your way.&lt;/li&gt;
-      &lt;li&gt;Instead of trying to win a competitor, focus on quality (really good basic features) instead of quantities (more features).&lt;/li&gt;
-      &lt;li&gt;Don’t spend too much time worrying about competitors. Focus on improving yourself instead.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Evolution.
-    &lt;ul&gt;
-      &lt;li&gt;Learn to say no.&lt;/li&gt;
-      &lt;li&gt;Ask for feedbacks and ideas with enthusiasm but always evaluate the priority with a calm mind.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Promotion.
-    &lt;ul&gt;
-      &lt;li&gt;When it’s early, it’s easier to take risks without worrying about embarrassing yourself.&lt;/li&gt;
-      &lt;li&gt;Build an audience.
-        &lt;ul&gt;
-          &lt;li&gt;Speak, write, blog, tweet, make videos, and so on.&lt;/li&gt;
-          &lt;li&gt;Share valuable information and slowly grow your fan.&lt;/li&gt;
-          &lt;li&gt;Get people interested in what you have to say.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Teaching/sharing educational content is one of the best marketing tactics.&lt;/li&gt;
-      &lt;li&gt;Be genuine. Be transparent.&lt;/li&gt;
-      &lt;li&gt;Have personal, meaningful press releases instead of vague and generic ones.&lt;/li&gt;
-      &lt;li&gt;As long you have something to sell, don’t be afraid to give things away for free.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Hiring.
-    &lt;ul&gt;
-      &lt;li&gt;Do it yourself first to understand what it takes.&lt;/li&gt;
-      &lt;li&gt;Hire when you can’t do it no more.&lt;/li&gt;
-      &lt;li&gt;Pass on hiring people you don’t need.&lt;/li&gt;
-      &lt;li&gt;Hire slowly.&lt;/li&gt;
-      &lt;li&gt;How long someone’s been doing it is overrated. What matters is how well.&lt;/li&gt;
-      &lt;li&gt;Hire the best talent, regardless where it is.&lt;/li&gt;
-      &lt;li&gt;Best way to test-drive applicants is to see them work. Hire for a mini project and go from there.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/2020/03/13/getting-real&quot;&gt;Getting real.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/books/rework&quot;&gt;https://basecamp.com/books/rework&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Martin Kleppmann, Designing Data-Intensive Applications</title>
-   <link href="https://hoanhan101.github.io/2020/05/25/design-data-intensive-apps"/>
-   <updated>2020-05-25T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/05/25/design-data-intensive-apps</id>
-   <content type="html">&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications&quot;&gt;https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Jonathan Haidt, The Happiness Hypothesis</title>
-   <link href="https://hoanhan101.github.io/2020/05/10/happiness-hypothesis"/>
-   <updated>2020-05-10T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/05/10/happiness-hypothesis</id>
-   <content type="html">&lt;ul&gt;
-  &lt;li&gt;Happiness (H) = S (Biological happiness set point) + C (Life conditions) + V (Voluntary activities).
-    &lt;ul&gt;
-      &lt;li&gt;Each person has a characteristic level of happiness that each is born with.&lt;/li&gt;
-      &lt;li&gt;It’s not a set point but a range.&lt;/li&gt;
-      &lt;li&gt;The challenge is to understand C and V in order to push H to the top of the range.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;The 2 biggest parts of C are love and pursuing the right goals.
-    &lt;ul&gt;
-      &lt;li&gt;We are social creatures in a sense that we can’t be happy without having friends and secure attachments. To love well is to have good relationships with other people.&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/66354.Flow&quot;&gt;The right goals are ones that produce states of flow and engagement.&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Once basic needs are met, money cannot buy additional happiness.
-        &lt;ul&gt;
-          &lt;li&gt;According to the adaptation principle, we’re likely to adapt to what we set for ourselves. Luxuries and other goods adapt completely while some other “purchases” are less subject to:
+          &lt;li&gt;Is there anything else I could be doing that’s higher-leverage?
             &lt;ul&gt;
-              &lt;li&gt;Spending more time with friends and family.&lt;/li&gt;
-              &lt;li&gt;Reducing commuting time even if it means living in smaller houses.&lt;/li&gt;
-              &lt;li&gt;Taking longer vacations even if it means earning less.&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;https://m.signalvnoise.com/the-day-i-became-a-millionaire/&quot;&gt;Programming Ruby, building Basecamp, writing for Signal v Noise, taking pictures, and enjoying all the same avenues of learning and entertainment my already privileged lifestyle had afforded me for years in advance.&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;Focus on what directly produce value (products shipped, user acquired, business metrics moved, sales made).&lt;/li&gt;
+              &lt;li&gt;Focus on the important and non-urgent (planning career goals, building relationships, personal development, improving workflow).&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
+      &lt;li&gt;Preserve larger blocks of focused time + learn to say no unimportant activities.&lt;/li&gt;
+      &lt;li&gt;Limit the amount of work in progress + resist the urge to work on too many projects at once.&lt;/li&gt;
+      &lt;li&gt;Make it a habit.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;V are things that we choose to do, not that we have to, such as meditation, exercise, learning new things and so on.
+  &lt;li&gt;Iterate quickly to build more and learn faster.
     &lt;ul&gt;
-      &lt;li&gt;We can increase our happiness if we use your strengths, particularly in the service of strengthening connections such as helping friends, expressing gratitude to benefactors.&lt;/li&gt;
-      &lt;li&gt;According to the progress principle, pleasure comes more from making progress toward a goal than from achieving them. That said, we should take the initiative and perform gratifying activities regularly.&lt;/li&gt;
+      &lt;li&gt;Invest in time-saving tools.
+        &lt;ul&gt;
+          &lt;li&gt;Bringing the release time down to several minutes helps the team deploy more frequently, 40-50 times a day - skyrockets growth.&lt;/li&gt;
+          &lt;li&gt;If it saves you 1 hour a day, it saves 10 people 10 times as much.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Measure the progress frequently.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;Validate early and often.
+    &lt;ul&gt;
+      &lt;li&gt;A well tested, clean design, scalable product doesn’t deliver much value if users don’t engage or customers don’t buy it.&lt;/li&gt;
+      &lt;li&gt;Bounce ideas off teammates.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Define measurable milestones.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/96884.The_Happiness_Hypothesis&quot;&gt;https://www.goodreads.com/book/show/96884.The_Happiness_Hypothesis&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://m.signalvnoise.com/the-day-i-became-a-millionaire/&quot;&gt;https://m.signalvnoise.com/the-day-i-became-a-millionaire/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.effectiveengineer.com/book&quot;&gt;https://www.effectiveengineer.com/book&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -410,6 +311,57 @@
 &lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life&quot;&gt;https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Patrick McKenzie, Don't Call Yourself A Programmer</title>
+   <link href="https://hoanhan101.github.io/2020/04/16/dont-call-yourself-a-programmer"/>
+   <updated>2020-04-16T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/2020/04/16/dont-call-yourself-a-programmer</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Software solves business problems. It doesn’t matter if your app has the most elegant architecture, it must create value for the company aka brings in revenue.&lt;/li&gt;
+  &lt;li&gt;Engineers are hired to create business value.
+    &lt;ul&gt;
+      &lt;li&gt;Non-goals: produce the beautiful software, solve complex technical problems, use sexy frameworks.&lt;/li&gt;
+      &lt;li&gt;Actual goals: add revenue, reduce costs - “wrote the backend billing code that 97% of Google’s revenue passes through”.&lt;/li&gt;
+      &lt;li&gt;That’s why Quants makes more in bonuses in a good year than many talented engineers will earn in a lifetime.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Angel investor is a polite synonym for rich.&lt;/li&gt;
+  &lt;li&gt;Most hiring happens privately.
+    &lt;ul&gt;
+      &lt;li&gt;Resume is not the primary way to get job interviews, but connections do.&lt;/li&gt;
+      &lt;li&gt;Networking means:
+        &lt;ul&gt;
+          &lt;li&gt;Meet people at some point can help you.&lt;/li&gt;
+          &lt;li&gt;Make a favorable impression on them.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Strive to help people first so it’s harder for them to refuse to help you later.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Academia is not like the real world.&lt;/li&gt;
+  &lt;li&gt;People who are skilled in negotiation make more than those who are not.
+    &lt;ul&gt;
+      &lt;li&gt;Sell solution to a business need rather than your programming skill.&lt;/li&gt;
+      &lt;li&gt;Learn to negotiate better. (Getting to Yes)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Working at a startup vs megacorp is more of a lifestyle choice.&lt;/li&gt;
+  &lt;li&gt;Your most important professional skill is communication.&lt;/li&gt;
+  &lt;li&gt;Engineers are not hired to create programs. They are hired to create business value. The dominant quality which gets you jobs is the ability to give people the perception that you will create value.  This is not necessarily coextensive with ability to create value.&lt;/li&gt;
+  &lt;li&gt;Try for “It was a privilege to assist my team by leading their efforts with regards to $YOUR_SPECIALTY.” instead of “I owe it all to my team”.&lt;/li&gt;
+  &lt;li&gt;Read Never Eat Alone for some social grooming hack.&lt;/li&gt;
+  &lt;li&gt;Work to live, don’t live to work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/&quot;&gt;https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
@@ -1204,6 +1156,155 @@
  </entry>
  
  <entry>
+   <title>Jason Fried, Rework</title>
+   <link href="https://hoanhan101.github.io/2020/03/13/rework"/>
+   <updated>2020-03-13T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/2020/03/13/rework</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Takedowns.
+    &lt;ul&gt;
+      &lt;li&gt;Today is a new reality where anyone can be in business.
+        &lt;ul&gt;
+          &lt;li&gt;Informations are easy to access and within reach.&lt;/li&gt;
+          &lt;li&gt;It’s easy to work from home or collaborate with others across the globe.&lt;/li&gt;
+          &lt;li&gt;Stuff that was impossible is simple today.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Writing a plan makes you feel in control of things you can’t control.
+        &lt;ul&gt;
+          &lt;li&gt;Plans are guesses.&lt;/li&gt;
+          &lt;li&gt;Don’t be obsess you it. It’s OK to wing.&lt;/li&gt;
+          &lt;li&gt;Figure out what’s the next most important thing and do it.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Don’t be insecure about aiming to be a small business. As long as it’s sustainable and profitable, you should be proud.&lt;/li&gt;
+      &lt;li&gt;Working more doesn’t mean you get more done.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Go.
+    &lt;ul&gt;
+      &lt;li&gt;If you’re going to do something, do something that matters.
+        &lt;ul&gt;
+          &lt;li&gt;To do great work, you need to feel you’re making a different, putting a meaningful dent in the universe, that you’re part of something important. You don’t have to cure cancer. You want your customer say it makes their lives better.&lt;/li&gt;
+          &lt;li&gt;You should feel an urgency too as you don’t live forever. Don’t wait for someone to make the changes you want to see.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;The easiest way to create a product/service is to make something you want to use.
+        &lt;ul&gt;
+          &lt;li&gt;Solve your own problem first as you know what you need the most.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Having the idea has nothing to do with actually making it.
+        &lt;ul&gt;
+          &lt;li&gt;Start creating.&lt;/li&gt;
+          &lt;li&gt;Ideas are cheap, how you execute them are what matters.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Perfect time never comes as you’re always too busy doing something else. Do it now.&lt;/li&gt;
+      &lt;li&gt;Always know why you’re doing what you’re doing. Stand for something and be proud of it.&lt;/li&gt;
+      &lt;li&gt;Avoid outside funding as much as you can.
+        &lt;ul&gt;
+          &lt;li&gt;Service businesses don’t require much capital to bootstrap anyway.&lt;/li&gt;
+          &lt;li&gt;Taking people money means you have less control of your business and more human problem.&lt;/li&gt;
+          &lt;li&gt;You need less than you think. Stay lean. Be frugal.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Think about profit from day one.&lt;/li&gt;
+      &lt;li&gt;Think about commitment strategy (how to grow and succeed), not exit strategy. Focus on getting customers to love you, not about worrying who’s going to buy you.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Progress.
+    &lt;ul&gt;
+      &lt;li&gt;Focus on the core product itself, ignore the details early on.&lt;/li&gt;
+      &lt;li&gt;Don’t wait for the perfect solution. Do it and reflect.&lt;/li&gt;
+      &lt;li&gt;Stick to the essential. Cut out unnecessary details, simplify, sort out what truly matters.&lt;/li&gt;
+      &lt;li&gt;Once your product does what it needs to do at the minimum, get it out there.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Productivity.
+    &lt;ul&gt;
+      &lt;li&gt;Start making something real. Anything else is just a distraction.&lt;/li&gt;
+      &lt;li&gt;Ensure that you’re doing work that matters?
+        &lt;ul&gt;
+          &lt;li&gt;Why are you doing this?&lt;/li&gt;
+          &lt;li&gt;What is the problem, exactly?&lt;/li&gt;
+          &lt;li&gt;Is it actually useful?&lt;/li&gt;
+          &lt;li&gt;Is it adding value at all?&lt;/li&gt;
+          &lt;li&gt;Is there an easier way?&lt;/li&gt;
+          &lt;li&gt;What could you be doing instead?&lt;/li&gt;
+          &lt;li&gt;Is this really worth it?&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Interruption is the enemy of productivity.&lt;/li&gt;
+      &lt;li&gt;Avoid meetings as they’re unproductive most of the time. Only meet when:
+        &lt;ul&gt;
+          &lt;li&gt;Have a set time.&lt;/li&gt;
+          &lt;li&gt;Invite as few people as possible.&lt;/li&gt;
+          &lt;li&gt;Have a clear agenda.&lt;/li&gt;
+          &lt;li&gt;Begin with a specific problem.&lt;/li&gt;
+          &lt;li&gt;End with a solution and implementation plan.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;When good enough gets the job done, go for it. You can usually turn good enough to great later.&lt;/li&gt;
+      &lt;li&gt;Build momentum by accomplishing small wins regularly.&lt;/li&gt;
+      &lt;li&gt;Have enough sleep everyday.&lt;/li&gt;
+      &lt;li&gt;Break your time frames into smaller chunks and estimate accordingly.&lt;/li&gt;
+      &lt;li&gt;Use a small todo list.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Competitors.
+    &lt;ul&gt;
+      &lt;li&gt;Don’t copy competitors since you don’t know their why. Instead, believe your way.&lt;/li&gt;
+      &lt;li&gt;Instead of trying to win a competitor, focus on quality (really good basic features) instead of quantities (more features).&lt;/li&gt;
+      &lt;li&gt;Don’t spend too much time worrying about competitors. Focus on improving yourself instead.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Evolution.
+    &lt;ul&gt;
+      &lt;li&gt;Learn to say no.&lt;/li&gt;
+      &lt;li&gt;Ask for feedbacks and ideas with enthusiasm but always evaluate the priority with a calm mind.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Promotion.
+    &lt;ul&gt;
+      &lt;li&gt;When it’s early, it’s easier to take risks without worrying about embarrassing yourself.&lt;/li&gt;
+      &lt;li&gt;Build an audience.
+        &lt;ul&gt;
+          &lt;li&gt;Speak, write, blog, tweet, make videos, and so on.&lt;/li&gt;
+          &lt;li&gt;Share valuable information and slowly grow your fan.&lt;/li&gt;
+          &lt;li&gt;Get people interested in what you have to say.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Teaching/sharing educational content is one of the best marketing tactics.&lt;/li&gt;
+      &lt;li&gt;Be genuine. Be transparent.&lt;/li&gt;
+      &lt;li&gt;Have personal, meaningful press releases instead of vague and generic ones.&lt;/li&gt;
+      &lt;li&gt;As long you have something to sell, don’t be afraid to give things away for free.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Hiring.
+    &lt;ul&gt;
+      &lt;li&gt;Do it yourself first to understand what it takes.&lt;/li&gt;
+      &lt;li&gt;Hire when you can’t do it no more.&lt;/li&gt;
+      &lt;li&gt;Pass on hiring people you don’t need.&lt;/li&gt;
+      &lt;li&gt;Hire slowly.&lt;/li&gt;
+      &lt;li&gt;How long someone’s been doing it is overrated. What matters is how well.&lt;/li&gt;
+      &lt;li&gt;Hire the best talent, regardless where it is.&lt;/li&gt;
+      &lt;li&gt;Best way to test-drive applicants is to see them work. Hire for a mini project and go from there.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/2020/03/13/getting-real&quot;&gt;Getting real.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://basecamp.com/books/rework&quot;&gt;https://basecamp.com/books/rework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Clayton Christensen, How Will You Measure Your Life?</title>
    <link href="https://hoanhan101.github.io/2020/03/13/how-will-you-measure-your-life"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
@@ -1543,170 +1644,6 @@
  </entry>
  
  <entry>
-   <title>Edmond Lau, The Effective Engineer</title>
-   <link href="https://hoanhan101.github.io/2020/03/12/the-effective-engineer"/>
-   <updated>2020-03-12T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/12/the-effective-engineer</id>
-   <content type="html">&lt;ul&gt;
-  &lt;li&gt;Focus on high-leverage activities.
-    &lt;ul&gt;
-      &lt;li&gt;Leverage: impact produced / time invested.&lt;/li&gt;
-      &lt;li&gt;80/20 rule: 80% impact comes from 20% work.&lt;/li&gt;
-      &lt;li&gt;Focus on not more hours but more value per limited time on the task.&lt;/li&gt;
-      &lt;li&gt;Increase leverage by:
-        &lt;ul&gt;
-          &lt;li&gt;Reduce the time it takes to complete the activity (default to half-hour meeting instead of one-hour one, automate manual dev process).&lt;/li&gt;
-          &lt;li&gt;Increase the value produced (have a clear agenda beforehand, prioritize tasks based on launch date).&lt;/li&gt;
-          &lt;li&gt;Shift to higher-leverage activities (use email instead of in-person discussion, talk to customer).&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Output can be measured by:
-        &lt;ul&gt;
-          &lt;li&gt;Number of projects launched&lt;/li&gt;
-          &lt;li&gt;Bug fixes&lt;/li&gt;
-          &lt;li&gt;Users acquired&lt;/li&gt;
-          &lt;li&gt;Engineers hired&lt;/li&gt;
-          &lt;li&gt;Quality&lt;/li&gt;
-          &lt;li&gt;Revenue generated&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Understand the power of compound interest.
-    &lt;ul&gt;
-      &lt;li&gt;Compounding leads to an exponential growth curve.&lt;/li&gt;
-      &lt;li&gt;The earlier compounding starts, the sooner it hits the exponential growth, the faster you can reap its benefits.&lt;/li&gt;
-      &lt;li&gt;Small deltas in the interest rate can make massive differences in the long run:
-        &lt;ul&gt;
-          &lt;li&gt;Improving by 1% per day makes us 37x better at the end of year.&lt;/li&gt;
-          &lt;li&gt;Google idea of 20% where engineers spend about 1 day a week on a side project to make the company better results in successful products such as Gmail , Google News, Adsense,…&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Optimize for learning because learning compounds.
-    &lt;ul&gt;
-      &lt;li&gt;Find fast growing work environment.&lt;/li&gt;
-      &lt;li&gt;Take advantage of the resources at your work.
-        &lt;ul&gt;
-          &lt;li&gt;Study code from best engineers.&lt;/li&gt;
-          &lt;li&gt;Write more code.&lt;/li&gt;
-          &lt;li&gt;Go through technical, educational material.&lt;/li&gt;
-          &lt;li&gt;Send code views to the harshest critics.&lt;/li&gt;
-          &lt;li&gt;Participate in design discussions - don’t wait for invitation.&lt;/li&gt;
-          &lt;li&gt;Team with senior engineers.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Invest in other skills too.
-        &lt;ul&gt;
-          &lt;li&gt;Invest in skills that are in high demand.&lt;/li&gt;
-          &lt;li&gt;Build strong relationships.&lt;/li&gt;
-          &lt;li&gt;Read books.&lt;/li&gt;
-          &lt;li&gt;Write to teach.&lt;/li&gt;
-          &lt;li&gt;Pursue side projects.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Prioritize regularly.
-    &lt;ul&gt;
-      &lt;li&gt;Track TODO list in a single list.&lt;/li&gt;
-      &lt;li&gt;Sort the list frequently by asking yourself on a recurring basis:
-        &lt;ul&gt;
-          &lt;li&gt;Is there anything else I could be doing that’s higher-leverage?
-            &lt;ul&gt;
-              &lt;li&gt;Focus on what directly produce value (products shipped, user acquired, business metrics moved, sales made).&lt;/li&gt;
-              &lt;li&gt;Focus on the important and non-urgent (planning career goals, building relationships, personal development, improving workflow).&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Preserve larger blocks of focused time + learn to say no unimportant activities.&lt;/li&gt;
-      &lt;li&gt;Limit the amount of work in progress + resist the urge to work on too many projects at once.&lt;/li&gt;
-      &lt;li&gt;Make it a habit.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Iterate quickly to build more and learn faster.
-    &lt;ul&gt;
-      &lt;li&gt;Invest in time-saving tools.
-        &lt;ul&gt;
-          &lt;li&gt;Bringing the release time down to several minutes helps the team deploy more frequently, 40-50 times a day - skyrockets growth.&lt;/li&gt;
-          &lt;li&gt;If it saves you 1 hour a day, it saves 10 people 10 times as much.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Measure the progress frequently.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Validate early and often.
-    &lt;ul&gt;
-      &lt;li&gt;A well tested, clean design, scalable product doesn’t deliver much value if users don’t engage or customers don’t buy it.&lt;/li&gt;
-      &lt;li&gt;Bounce ideas off teammates.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Define measurable milestones.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.effectiveengineer.com/book&quot;&gt;https://www.effectiveengineer.com/book&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Patrick McKenzie, Don't Call Yourself A Programmer</title>
-   <link href="https://hoanhan101.github.io/2020/03/12/dont-call-yourself-a-programmer"/>
-   <updated>2020-03-12T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/12/dont-call-yourself-a-programmer</id>
-   <content type="html">&lt;ul&gt;
-  &lt;li&gt;Software solves business problems. It doesn’t matter if your app has the most elegant architecture, it must create value for the company aka brings in revenue.&lt;/li&gt;
-  &lt;li&gt;Engineers are hired to create business value.
-    &lt;ul&gt;
-      &lt;li&gt;Non-goals: produce the beautiful software, solve complex technical problems, use sexy frameworks.&lt;/li&gt;
-      &lt;li&gt;Actual goals: add revenue, reduce costs - “wrote the backend billing code that 97% of Google’s revenue passes through”.&lt;/li&gt;
-      &lt;li&gt;That’s why Quants makes more in bonuses in a good year than many talented engineers will earn in a lifetime.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Angel investor is a polite synonym for rich.&lt;/li&gt;
-  &lt;li&gt;Most hiring happens privately.
-    &lt;ul&gt;
-      &lt;li&gt;Resume is not the primary way to get job interviews, but connections do.&lt;/li&gt;
-      &lt;li&gt;Networking means:
-        &lt;ul&gt;
-          &lt;li&gt;Meet people at some point can help you.&lt;/li&gt;
-          &lt;li&gt;Make a favorable impression on them.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Strive to help people first so it’s harder for them to refuse to help you later.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Academia is not like the real world.&lt;/li&gt;
-  &lt;li&gt;People who are skilled in negotiation make more than those who are not.
-    &lt;ul&gt;
-      &lt;li&gt;Sell solution to a business need rather than your programming skill.&lt;/li&gt;
-      &lt;li&gt;Learn to negotiate better. (Getting to Yes)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Working at a startup vs megacorp is more of a lifestyle choice.&lt;/li&gt;
-  &lt;li&gt;Your most important professional skill is communication.&lt;/li&gt;
-  &lt;li&gt;Engineers are not hired to create programs. They are hired to create business value. The dominant quality which gets you jobs is the ability to give people the perception that you will create value.  This is not necessarily coextensive with ability to create value.&lt;/li&gt;
-  &lt;li&gt;Try for “It was a privilege to assist my team by leading their efforts with regards to $YOUR_SPECIALTY.” instead of “I owe it all to my team”.&lt;/li&gt;
-  &lt;li&gt;Read Never Eat Alone for some social grooming hack.&lt;/li&gt;
-  &lt;li&gt;Work to live, don’t live to work.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/&quot;&gt;https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Object Oriented Design Patterns</title>
    <link href="https://hoanhan101.github.io/2020/02/10/object-oriented-design"/>
    <updated>2020-02-10T00:00:00-05:00</updated>
@@ -1806,6 +1743,55 @@
 &lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.educative.io/courses/grokking-the-object-oriented-design-interview&quot;&gt;https://www.educative.io/courses/grokking-the-object-oriented-design-interview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jonathan Haidt, The Happiness Hypothesis</title>
+   <link href="https://hoanhan101.github.io/2020/02/10/happiness-hypothesis"/>
+   <updated>2020-02-10T00:00:00-05:00</updated>
+   <id>https://hoanhan101.github.io/2020/02/10/happiness-hypothesis</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Happiness (H) = S (Biological happiness set point) + C (Life conditions) + V (Voluntary activities).
+    &lt;ul&gt;
+      &lt;li&gt;Each person has a characteristic level of happiness that each is born with.&lt;/li&gt;
+      &lt;li&gt;It’s not a set point but a range.&lt;/li&gt;
+      &lt;li&gt;The challenge is to understand C and V in order to push H to the top of the range.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The 2 biggest parts of C are love and pursuing the right goals.
+    &lt;ul&gt;
+      &lt;li&gt;We are social creatures in a sense that we can’t be happy without having friends and secure attachments. To love well is to have good relationships with other people.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/66354.Flow&quot;&gt;The right goals are ones that produce states of flow and engagement.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Once basic needs are met, money cannot buy additional happiness.
+        &lt;ul&gt;
+          &lt;li&gt;According to the adaptation principle, we’re likely to adapt to what we set for ourselves. Luxuries and other goods adapt completely while some other “purchases” are less subject to:
+            &lt;ul&gt;
+              &lt;li&gt;Spending more time with friends and family.&lt;/li&gt;
+              &lt;li&gt;Reducing commuting time even if it means living in smaller houses.&lt;/li&gt;
+              &lt;li&gt;Taking longer vacations even if it means earning less.&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;https://m.signalvnoise.com/the-day-i-became-a-millionaire/&quot;&gt;Programming Ruby, building Basecamp, writing for Signal v Noise, taking pictures, and enjoying all the same avenues of learning and entertainment my already privileged lifestyle had afforded me for years in advance.&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;V are things that we choose to do, not that we have to, such as meditation, exercise, learning new things and so on.
+    &lt;ul&gt;
+      &lt;li&gt;We can increase our happiness if we use your strengths, particularly in the service of strengthening connections such as helping friends, expressing gratitude to benefactors.&lt;/li&gt;
+      &lt;li&gt;According to the progress principle, pleasure comes more from making progress toward a goal than from achieving them. That said, we should take the initiative and perform gratifying activities regularly.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/96884.The_Happiness_Hypothesis&quot;&gt;https://www.goodreads.com/book/show/96884.The_Happiness_Hypothesis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://m.signalvnoise.com/the-day-i-became-a-millionaire/&quot;&gt;https://m.signalvnoise.com/the-day-i-became-a-millionaire/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
