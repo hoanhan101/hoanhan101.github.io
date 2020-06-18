@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-06-17T13:21:30-04:00</updated>
+ <updated>2020-06-17T22:15:02-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>Edmond Lau, The Effective Engineer</title>
+   <title>Summary: The Effective Engineer by Edmond Lau</title>
    <link href="https://hoanhan101.github.io/2020/05/16/the-effective-engineer"/>
    <updated>2020-05-16T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/05/16/the-effective-engineer</id>
@@ -126,7 +126,7 @@
  </entry>
  
  <entry>
-   <title>William Braxton Irvine, A Guide to the Good Life</title>
+   <title>Summary: A Guide to the Good Life by William Braxton Irvine</title>
    <link href="https://hoanhan101.github.io/2020/04/26/guide-to-the-good-life"/>
    <updated>2020-04-26T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/04/26/guide-to-the-good-life</id>
@@ -316,7 +316,7 @@
  </entry>
  
  <entry>
-   <title>Patrick McKenzie, Don't Call Yourself A Programmer</title>
+   <title>Summary: Don't Call Yourself A Programmer by Patrick McKenzie</title>
    <link href="https://hoanhan101.github.io/2020/04/16/dont-call-yourself-a-programmer"/>
    <updated>2020-04-16T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/04/16/dont-call-yourself-a-programmer</id>
@@ -367,7 +367,7 @@
  </entry>
  
  <entry>
-   <title>Kevin Horsley, Unlimited Memory</title>
+   <title>Summary: Unlimited Memory by Kevin Horsley</title>
    <link href="https://hoanhan101.github.io/2020/04/14/unlimited-memory"/>
    <updated>2020-04-14T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/04/14/unlimited-memory</id>
@@ -440,7 +440,7 @@
  </entry>
  
  <entry>
-   <title>Nassim Nicholas Taleb, Antifragile</title>
+   <title>Summary: Antifragile by Nassim Nicholas Taleb</title>
    <link href="https://hoanhan101.github.io/2020/04/01/antifragile"/>
    <updated>2020-04-01T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/04/01/antifragile</id>
@@ -943,7 +943,7 @@
  </entry>
  
  <entry>
-   <title>How Checking Performance Might Hurt Your Performance</title>
+   <title>Summary: How Checking Performance Might Hurt Your Performance</title>
    <link href="https://hoanhan101.github.io/2020/03/25/reduce-stress-investing"/>
    <updated>2020-03-25T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/03/25/reduce-stress-investing</id>
@@ -1156,7 +1156,7 @@
  </entry>
  
  <entry>
-   <title>Jason Fried, Rework</title>
+   <title>Summary: Rework by Jason Fried</title>
    <link href="https://hoanhan101.github.io/2020/03/13/rework"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/03/13/rework</id>
@@ -1305,7 +1305,7 @@
  </entry>
  
  <entry>
-   <title>Clayton Christensen, How Will You Measure Your Life?</title>
+   <title>Summary: How Will You Measure Your Life? by Clayton Christensen</title>
    <link href="https://hoanhan101.github.io/2020/03/13/how-will-you-measure-your-life"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/03/13/how-will-you-measure-your-life</id>
@@ -1402,7 +1402,7 @@
  </entry>
  
  <entry>
-   <title>Jason Fried, Getting Real</title>
+   <title>Summary: Getting Real by Jason Fried</title>
    <link href="https://hoanhan101.github.io/2020/03/13/getting-real"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2020/03/13/getting-real</id>
@@ -1748,7 +1748,7 @@
  </entry>
  
  <entry>
-   <title>Jonathan Haidt, The Happiness Hypothesis</title>
+   <title>Summary: The Happiness Hypothesis by Jonathan Haidt</title>
    <link href="https://hoanhan101.github.io/2020/02/10/happiness-hypothesis"/>
    <updated>2020-02-10T00:00:00-05:00</updated>
    <id>https://hoanhan101.github.io/2020/02/10/happiness-hypothesis</id>
@@ -1797,7 +1797,7 @@
  </entry>
  
  <entry>
-   <title>The Art of Manliness, Testosterone Experiment</title>
+   <title>Summary: Testosterone Experiment by The Art of Manliness</title>
    <link href="https://hoanhan101.github.io/2020/01/16/aom-testosterone-experiment"/>
    <updated>2020-01-16T00:00:00-05:00</updated>
    <id>https://hoanhan101.github.io/2020/01/16/aom-testosterone-experiment</id>
@@ -1879,7 +1879,7 @@
  </entry>
  
  <entry>
-   <title>Dave Asprey, Super Human</title>
+   <title>Summary: Super Human Dave Asprey</title>
    <link href="https://hoanhan101.github.io/2020/01/15/super-human"/>
    <updated>2020-01-15T00:00:00-05:00</updated>
    <id>https://hoanhan101.github.io/2020/01/15/super-human</id>
@@ -2000,7 +2000,7 @@
  </entry>
  
  <entry>
-   <title>Why Passivity Breeds Mediocrity and Mental Illness</title>
+   <title>Summary: Why Passivity Breeds Mediocrity and Mental Illness</title>
    <link href="https://hoanhan101.github.io/2020/01/10/passivity-mediocrity-mental-illness"/>
    <updated>2020-01-10T00:00:00-05:00</updated>
    <id>https://hoanhan101.github.io/2020/01/10/passivity-mediocrity-mental-illness</id>
@@ -3044,7 +3044,7 @@ leads us to 1.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Michael Nielsen, Augmenting Long-term Memory</title>
+   <title>Summary: Augmenting Long-term Memory by Michael Nielsen</title>
    <link href="https://hoanhan101.github.io/2019/10/20/augmenting-long-term-memory"/>
    <updated>2019-10-20T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/10/20/augmenting-long-term-memory</id>
@@ -4066,7 +4066,7 @@ these counts to compute each item's index in the final sorted array.
  </entry>
  
  <entry>
-   <title>Nathan Barry, Authority</title>
+   <title>Summary: Authority by Nathan Barry</title>
    <link href="https://hoanhan101.github.io/2019/08/31/authority"/>
    <updated>2019-08-31T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/08/31/authority</id>
@@ -4199,7 +4199,7 @@ these counts to compute each item's index in the final sorted array.
  </entry>
  
  <entry>
-   <title>JL Collins, The Simple Path to Wealth</title>
+   <title>Summary: The Simple Path to Wealth by JL Collins</title>
    <link href="https://hoanhan101.github.io/2019/08/26/simple-path-to-wealth"/>
    <updated>2019-08-26T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/08/26/simple-path-to-wealth</id>
@@ -4437,7 +4437,7 @@ these counts to compute each item's index in the final sorted array.
  </entry>
  
  <entry>
-   <title>Ramit Sethi, I Will Teach You to Be Rich</title>
+   <title>Summary: I Will Teach You to Be Rich by Ramit Sethi</title>
    <link href="https://hoanhan101.github.io/2019/08/23/i-will-teach-you-to-be-rich"/>
    <updated>2019-08-23T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/08/23/i-will-teach-you-to-be-rich</id>
@@ -4668,7 +4668,7 @@ these counts to compute each item's index in the final sorted array.
  </entry>
  
  <entry>
-   <title>Benjamin Graham, The Intelligent Investor</title>
+   <title>Summary: The Intelligent Investor by Benjamin Graham</title>
    <link href="https://hoanhan101.github.io/2019/08/08/the-intelligent-investor"/>
    <updated>2019-08-08T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/08/08/the-intelligent-investor</id>
@@ -4719,7 +4719,7 @@ these counts to compute each item's index in the final sorted array.
  </entry>
  
  <entry>
-   <title>MJ DeMarco, The Millionaire Fastlane</title>
+   <title>Summary: The Millionaire Fastlane by MJ DeMarco</title>
    <link href="https://hoanhan101.github.io/2019/07/17/millionaire-fastlane"/>
    <updated>2019-07-17T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/07/17/millionaire-fastlane</id>
@@ -5366,7 +5366,7 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
  </entry>
  
  <entry>
-   <title>Austin Kleon, Show Your Work!</title>
+   <title>Summary: Show Your Work by Austin Kleon</title>
    <link href="https://hoanhan101.github.io/2019/06/06/show-your-work"/>
    <updated>2019-06-06T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2019/06/06/show-your-work</id>
@@ -5469,7 +5469,7 @@ it. This is the ultimate test.&lt;/li&gt;
  </entry>
  
  <entry>
-   <title>Alex Soojung-Kim Pang, Rest</title>
+   <title>Summary: Rest by Alex Soojung-Kim Pang</title>
    <link href="https://hoanhan101.github.io/2018/08/08/rest"/>
    <updated>2018-08-08T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/2018/08/08/rest</id>
