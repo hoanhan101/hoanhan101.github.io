@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-07-05T19:37:13-04:00</updated>
+ <updated>2020-07-07T12:14:26-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -41,7 +41,7 @@
               &lt;li&gt;Decouple the places where people make the most mistake.&lt;/li&gt;
               &lt;li&gt;Automate testing: unit test, integration test, end-to-end test.&lt;/li&gt;
               &lt;li&gt;Allow quick recovery rollback strategy.&lt;/li&gt;
-              &lt;li&gt;Set up detials monitoring&lt;/li&gt;
+              &lt;li&gt;Set up details monitoring&lt;/li&gt;
             &lt;/ul&gt;
           &lt;/li&gt;
         &lt;/ul&gt;
@@ -514,7 +514,7 @@
           &lt;li&gt;You can even build fresh views onto existing data by starting from scratch and consuming the log of changes from the beginning all the way to the present.&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;Stream processing has long been used for monitoring purposes, where an organiza‐ tion wants to be alerted if certain things happen. However, other uses of stream processing have also emerged over time.
+      &lt;li&gt;Stream processing has long been used for monitoring purposes, where an organization wants to be alerted if certain things happen. However, other uses of stream processing have also emerged over time.
         &lt;ul&gt;
           &lt;li&gt;Complex event processing (CEP) allows you to specify rules to search for certain patterns of events in a stream.&lt;/li&gt;
           &lt;li&gt;Analytics that are more oriented towards aggregations and statistical metrics over a large number of events are also used.&lt;/li&gt;
