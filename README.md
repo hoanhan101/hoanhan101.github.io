@@ -1,8 +1,9 @@
 # [gray](https://github.com/hoanhan101/gray)
 
-A Jekyll source code for my personal blog at <https://hoanhan101.github.io/>.
+A Jekyll source code for my personal website at <https://hoanhan101.github.io/>.
 
 ## Developing
+
 Make a draft with the current date:
 ```
 ./_scripts/draft [post_name]
