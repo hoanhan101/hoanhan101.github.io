@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-07-24T16:17:08-04:00</updated>
+ <updated>2020-07-24T16:27:21-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Designing Data-Intensive Applications by Martin Kleppmann</title>
-   <link href="https://hoanhan101.github.io/2020/07/05/design-data-intensive-apps"/>
+   <link href="https://hoanhan101.github.io/design-data-intensive-apps"/>
    <updated>2020-07-05T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/07/05/design-data-intensive-apps</id>
+   <id>https://hoanhan101.github.io/design-data-intensive-apps</id>
    <content type="html">&lt;h2 id=&quot;i-4-fundamental-ideas-that-we-need-in-order-to-design-data-intensive-applications&quot;&gt;I. 4 fundamental ideas that we need in order to design data-intensive applications.&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -546,9 +546,173 @@
  
  <entry>
    <title>The Mom Test by Rob Fitzpatrick</title>
-   <link href="https://hoanhan101.github.io/2020/06/23/the-mom-test"/>
+   <link href="https://hoanhan101.github.io/the-mom-test"/>
+   <updated>2020-06-24T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/the-mom-test</id>
+   <content type="html">&lt;ul&gt;
+  &lt;li&gt;Taking to customer is hard.
+    &lt;ul&gt;
+      &lt;li&gt;Conversations take time and easy to screw up.&lt;/li&gt;
+      &lt;li&gt;Bad conversations give you a false positive which convince you that you’re on the right path when you’re not.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You shouldn’t ask your mom or anyone whether your business is a good idea because it’s a bad question and invites everyone to lie to you at least a little.&lt;/li&gt;
+  &lt;li&gt;The Mom Test is a set of 3 simple rules for crating good questions that even your mom can’t lie about:
+    &lt;ul&gt;
+      &lt;li&gt;Talk about their lives instead of your idea.&lt;/li&gt;
+      &lt;li&gt;Ask about specifics in the past instead of generics or opinions about the future.&lt;/li&gt;
+      &lt;li&gt;Talk less and listen more.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fix a bad question.
+    &lt;ul&gt;
+      &lt;li&gt;“Do you think it’s a good idea?”
+        &lt;ul&gt;
+          &lt;li&gt;Only the market can tell you if your idea is good. Everything else is just opinion.&lt;/li&gt;
+          &lt;li&gt;Instead, ask how they currently do it, which parts they love and hate, which solutions they tried before settling in this one, are they actively seeking for replacement, why and why not,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;“Would you buy a product which did X?”
+        &lt;ul&gt;
+          &lt;li&gt;You’re asking overly optimistic people who want to make you happy by always answering “Yes”.&lt;/li&gt;
+          &lt;li&gt;Instead, ask how they currently solve X, how much it costs to do so, how much time it takes, talk through what happened last time X came up, why and why not, are they seeking for better solutions,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;“How much would you pay for X”
+        &lt;ul&gt;
+          &lt;li&gt;Similar to the last one, except the number makes it feel truthy.&lt;/li&gt;
+          &lt;li&gt;Instead, ask how much does the problem cost them, how much do they currently pay to solve it, how big is their budget,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;“Would you pay X for a product which did Y?”
+        &lt;ul&gt;
+          &lt;li&gt;As always, ask what they currently do now, not what they believe they might do in the future.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;None of good these questions are about what you should build but customers’ problems, cares and goals. People don’t know what they want in a product, it’s your job to gather good information, come up with a solution and verify it.
+    &lt;ul&gt;
+      &lt;li&gt;“What would your dream product do?” and ask follow-up questions to try to understand why they want these features as well.&lt;/li&gt;
+      &lt;li&gt;“Why do you bother?” to dig down into their goals, pain points and motivations.&lt;/li&gt;
+      &lt;li&gt;“What are the implications of that?” to distinguishes between I-will-pay-to-solve-that problems and thats-kind-of-annoying-but-I-can-deal-with-it problem since some problems don’t matter or worth spending time with.&lt;/li&gt;
+      &lt;li&gt;“Talk me through the last time that happened” to learn through their &lt;strong&gt;actions&lt;/strong&gt; instead of their opinions.&lt;/li&gt;
+      &lt;li&gt;“What else have you tried?”, “How are you dealing with it now?”,  what they love/hate, how much does it cost, how much would those fixes be worth, how big of a pain would it be for them to switch to a new solution.&lt;/li&gt;
+      &lt;li&gt;“Where does the money come from?”, whose budget the purchase will come from, who holds the power to seal the deal.&lt;/li&gt;
+      &lt;li&gt;End every conversation with “Who else should I talk to?”, “Is there anything else I should have asked?” can lead to more deals.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Avoiding 3 types of bad data.
+    &lt;ul&gt;
+      &lt;li&gt;Compliments.
+        &lt;ul&gt;
+          &lt;li&gt;They don’t give you any meaningful data.&lt;/li&gt;
+          &lt;li&gt;Try to be more specific. Why did that person like the idea, how much money would it save him, what else has he tried which failed to solve his problem,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Fluff: generics (“usually”, “always”, “never”), hypotheticals (“might”, “could”), and the future (“would”, “will”).
+        &lt;ul&gt;
+          &lt;li&gt;Be more specific.&lt;/li&gt;
+          &lt;li&gt;Ask when it last happened, talk through it, how they solved it, what else they tried.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Ideas.
+        &lt;ul&gt;
+          &lt;li&gt;Take a moment to dig into the &lt;strong&gt;motivations&lt;/strong&gt; behind the idea/feature request.&lt;/li&gt;
+          &lt;li&gt;Why do you want that? What would that let you do? How are you coping without it? Do you think we could push back the launch to add that feature? How would that fit into your day?&lt;/li&gt;
+          &lt;li&gt;Tell me more about that. That seems to really bug you. What makes it so aweful? Why haven’t you been able to fix it already? Is this a big deal? Why so happy?&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Keeping it casual.
+    &lt;ul&gt;
+      &lt;li&gt;Strip all the formality from the process.&lt;/li&gt;
+      &lt;li&gt;Make it a quick and casual chat.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Commitment and advancement.
+    &lt;ul&gt;
+      &lt;li&gt;A meeting has succeeded when it ends with a commitment to advance to the next step.&lt;/li&gt;
+      &lt;li&gt;Commitment can either be time, reputation risk, or fiance.
+        &lt;ul&gt;
+          &lt;li&gt;Time commitment include: having a clear next meeting with known goals, sitting down to give feedback, using a trial.&lt;/li&gt;
+          &lt;li&gt;Reputation risk include: intro to peers/team or a decision maker (boss, lawyer), giving a public testimonial or case study.&lt;/li&gt;
+          &lt;li&gt;Financial commitment include: letter of intent to purchase, pre-order, deposit.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;A bad meeting can be saved just pushing for a commitment at the end.
+        &lt;ul&gt;
+          &lt;li&gt;“That’s so cool. I love it!”: deflect the compliment and get back to business.&lt;/li&gt;
+          &lt;li&gt;“Looks great. Let me know when it launches.”: look for a commitment I could ask for today.&lt;/li&gt;
+          &lt;li&gt;“There are a couple people I can intro you to when you’re ready.”: ask who they want to introduce you to, what “ready” means, why he can’t make the intro now,…&lt;/li&gt;
+          &lt;li&gt;“I would definitely buy that.”: ask for a letter of intent/a pre-purchase/deposit/intros to other decision makers and team members,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you already know your customers, go talk to them. If you don’t know, how to find these conversations?
+    &lt;ul&gt;
+      &lt;li&gt;Cold calls are hard, though having only one to start the train.
+        &lt;ul&gt;
+          &lt;li&gt;Try to keep it informal. Don’t even need to mention you have a business. Have a good conversation. Be interested in other people’s problems.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Instead of reaching out to them, what can you offer what will make them want to talk to you?
+        &lt;ul&gt;
+          &lt;li&gt;Organize meetups, give talks at conferences, host workshops, teach through videos, blogging,…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Reach out to general audiences and ask for references. Everyone knows someone. We just need to ask.&lt;/li&gt;
+      &lt;li&gt;Find advisors, including industry experts as well as professors.&lt;/li&gt;
+      &lt;li&gt;Find investors.&lt;/li&gt;
+      &lt;li&gt;5 key elements of a good reach-out:
+        &lt;ul&gt;
+          &lt;li&gt;You’re trying to solve problem X. Don’t mention your idea.&lt;/li&gt;
+          &lt;li&gt;Mention what stage you’re at and you don’t have anything to sell.&lt;/li&gt;
+          &lt;li&gt;Mention specific problems you need their help on.&lt;/li&gt;
+          &lt;li&gt;Show them how much they can help.&lt;/li&gt;
+          &lt;li&gt;Ask for help.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;For example:
+        &lt;ul&gt;
+          &lt;li&gt;“Hey Scott, I run a startup trying to make advertising more playful and ultimately effective.”&lt;/li&gt;
+          &lt;li&gt;“We’re having a load of trouble figuring out how all the pieces of the industry fit together and where we can best fit into it (weakness). You know more about this industry than anyone and could really save us from a ton of mistakes (pedestal).”&lt;/li&gt;
+          &lt;li&gt;“We’re funded and have a couple products out already, but this is in no way a sales meeting – we’re just moving into a new area and could really use some of your expertise (framing).”&lt;/li&gt;
+          &lt;li&gt;“Can you spare a bit of time in the next week to help point us in the right direction over a coffee? (ask)”&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Talking to a lot of different people leads to confusing signals and overwhelming options and feedbacks that hard to make sense of. How do you choose then?
+    &lt;ul&gt;
+      &lt;li&gt;Categorize customers in different group and evaluate which group seems most profitable, easy to read and rewarding for us.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Running the process.
+    &lt;ul&gt;
+      &lt;li&gt;Before the conversation: decide 3 big learning goals, guess what they care about so that we can compare with our notes later.&lt;/li&gt;
+      &lt;li&gt;During the conversation: keep it casual, ask good questions, take good notes, press for commitment and next steps.&lt;/li&gt;
+      &lt;li&gt;After the conversation: review notes with team, transfer to a permanent storage that is searchable.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://momtestbook.com/&quot;&gt;http://momtestbook.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Mom Test by Rob Fitzpatrick</title>
+   <link href="https://hoanhan101.github.io/the-mom-test"/>
    <updated>2020-06-23T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/06/23/the-mom-test</id>
+   <id>https://hoanhan101.github.io/the-mom-test</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Taking to customer is hard.
     &lt;ul&gt;
@@ -710,9 +874,9 @@
  
  <entry>
    <title>The Effective Engineer by Edmond Lau</title>
-   <link href="https://hoanhan101.github.io/2020/05/16/the-effective-engineer"/>
+   <link href="https://hoanhan101.github.io/the-effective-engineer"/>
    <updated>2020-05-16T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/05/16/the-effective-engineer</id>
+   <id>https://hoanhan101.github.io/the-effective-engineer</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Focus on high-leverage activities.
     &lt;ul&gt;
@@ -823,9 +987,9 @@
  
  <entry>
    <title>A Guide to the Good Life by William Braxton Irvine</title>
-   <link href="https://hoanhan101.github.io/2020/04/26/guide-to-the-good-life"/>
+   <link href="https://hoanhan101.github.io/guide-to-the-good-life"/>
    <updated>2020-04-26T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/04/26/guide-to-the-good-life</id>
+   <id>https://hoanhan101.github.io/guide-to-the-good-life</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;What is a good life according to Stoicism?
     &lt;ul&gt;
@@ -1013,9 +1177,9 @@
  
  <entry>
    <title>Don't Call Yourself A Programmer by Patrick McKenzie</title>
-   <link href="https://hoanhan101.github.io/2020/04/16/dont-call-yourself-a-programmer"/>
+   <link href="https://hoanhan101.github.io/dont-call-yourself-a-programmer"/>
    <updated>2020-04-16T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/04/16/dont-call-yourself-a-programmer</id>
+   <id>https://hoanhan101.github.io/dont-call-yourself-a-programmer</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Software solves business problems. It doesn’t matter if your app has the most elegant architecture, it must create value for the company aka brings in revenue.&lt;/li&gt;
   &lt;li&gt;Engineers are hired to create business value.
@@ -1064,9 +1228,9 @@
  
  <entry>
    <title>Unlimited Memory by Kevin Horsley</title>
-   <link href="https://hoanhan101.github.io/2020/04/14/unlimited-memory"/>
+   <link href="https://hoanhan101.github.io/unlimited-memory"/>
    <updated>2020-04-14T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/04/14/unlimited-memory</id>
+   <id>https://hoanhan101.github.io/unlimited-memory</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Concentrate:
     &lt;ul&gt;
@@ -1137,9 +1301,9 @@
  
  <entry>
    <title>Antifragile by Nassim Nicholas Taleb</title>
-   <link href="https://hoanhan101.github.io/2020/04/01/antifragile"/>
+   <link href="https://hoanhan101.github.io/antifragile"/>
    <updated>2020-04-01T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/04/01/antifragile</id>
+   <id>https://hoanhan101.github.io/antifragile</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Fragile things are exposed to volatility, robust things resist it, antifragile things benefit from it.&lt;/li&gt;
   &lt;li&gt;The antifragile system is made up of fragile parts.
@@ -1228,9 +1392,9 @@
  
  <entry>
    <title>Modern Web Architectural Components</title>
-   <link href="https://hoanhan101.github.io/2020/03/28/web-architectural-components"/>
+   <link href="https://hoanhan101.github.io/web-architectural-components"/>
    <updated>2020-03-28T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/28/web-architectural-components</id>
+   <id>https://hoanhan101.github.io/web-architectural-components</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Tiers
     &lt;ul&gt;
@@ -1640,9 +1804,9 @@
  
  <entry>
    <title>How Checking Performance Might Hurt Your Performance</title>
-   <link href="https://hoanhan101.github.io/2020/03/25/reduce-stress-investing"/>
+   <link href="https://hoanhan101.github.io/reduce-stress-investing"/>
    <updated>2020-03-25T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/25/reduce-stress-investing</id>
+   <id>https://hoanhan101.github.io/reduce-stress-investing</id>
    <content type="html">&lt;p&gt;Paying too much attention to your investments (more than once per quarter) costs more than just your time:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Make you more risk-averse.
@@ -1684,9 +1848,9 @@
  
  <entry>
    <title>A Brief History of Scaling LinkedIn</title>
-   <link href="https://hoanhan101.github.io/2020/03/24/brief-history-scaling-linkedin"/>
+   <link href="https://hoanhan101.github.io/brief-history-scaling-linkedin"/>
    <updated>2020-03-24T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/24/brief-history-scaling-linkedin</id>
+   <id>https://hoanhan101.github.io/brief-history-scaling-linkedin</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Started as a single monolithic application, Leo, that hosted various pages, handled business logic and connected to a handful of databases&lt;/li&gt;
   &lt;li&gt;Needed to manage a network of member connections and scale independent of Leo so built a new system for their member graph
@@ -1754,9 +1918,9 @@
  
  <entry>
    <title>Serverless architecture with AWS Lamda</title>
-   <link href="https://hoanhan101.github.io/2020/03/23/serverless-aws-lamda"/>
+   <link href="https://hoanhan101.github.io/serverless-aws-lamda"/>
    <updated>2020-03-23T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/23/serverless-aws-lamda</id>
+   <id>https://hoanhan101.github.io/serverless-aws-lamda</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Basic:
     &lt;ul&gt;
@@ -1853,9 +2017,9 @@
  
  <entry>
    <title>Rework by Jason Fried</title>
-   <link href="https://hoanhan101.github.io/2020/03/13/rework"/>
+   <link href="https://hoanhan101.github.io/rework"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/13/rework</id>
+   <id>https://hoanhan101.github.io/rework</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Takedowns.
     &lt;ul&gt;
@@ -1988,7 +2152,7 @@
       &lt;li&gt;Best way to test-drive applicants is to see them work. Hire for a mini project and go from there.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;/2020/03/13/getting-real&quot;&gt;Getting real.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/getting-real&quot;&gt;Getting real.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -2002,9 +2166,9 @@
  
  <entry>
    <title>How Will You Measure Your Life? by Clayton Christensen</title>
-   <link href="https://hoanhan101.github.io/2020/03/13/how-will-you-measure-your-life"/>
+   <link href="https://hoanhan101.github.io/how-will-you-measure-your-life"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/13/how-will-you-measure-your-life</id>
+   <id>https://hoanhan101.github.io/how-will-you-measure-your-life</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Find happiness in your career:
     &lt;ul&gt;
@@ -2099,9 +2263,9 @@
  
  <entry>
    <title>Getting Real by Jason Fried</title>
-   <link href="https://hoanhan101.github.io/2020/03/13/getting-real"/>
+   <link href="https://hoanhan101.github.io/getting-real"/>
    <updated>2020-03-13T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2020/03/13/getting-real</id>
+   <id>https://hoanhan101.github.io/getting-real</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;The starting line:
     &lt;ul&gt;
@@ -2341,9 +2505,9 @@
  
  <entry>
    <title>Object Oriented Design Patterns</title>
-   <link href="https://hoanhan101.github.io/2020/02/10/object-oriented-design"/>
+   <link href="https://hoanhan101.github.io/object-oriented-design"/>
    <updated>2020-02-10T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2020/02/10/object-oriented-design</id>
+   <id>https://hoanhan101.github.io/object-oriented-design</id>
    <content type="html">&lt;h3 id=&quot;facebook&quot;&gt;Facebook&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -2445,9 +2609,9 @@
  
  <entry>
    <title>The Happiness Hypothesis by Jonathan Haidt</title>
-   <link href="https://hoanhan101.github.io/2020/02/10/happiness-hypothesis"/>
+   <link href="https://hoanhan101.github.io/happiness-hypothesis"/>
    <updated>2020-02-10T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2020/02/10/happiness-hypothesis</id>
+   <id>https://hoanhan101.github.io/happiness-hypothesis</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Happiness (H) = S (Biological happiness set point) + C (Life conditions) + V (Voluntary activities).
     &lt;ul&gt;
@@ -2494,9 +2658,9 @@
  
  <entry>
    <title>Testosterone Experiment by The Art of Manliness</title>
-   <link href="https://hoanhan101.github.io/2020/01/16/aom-testosterone-experiment"/>
+   <link href="https://hoanhan101.github.io/aom-testosterone-experiment"/>
    <updated>2020-01-16T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2020/01/16/aom-testosterone-experiment</id>
+   <id>https://hoanhan101.github.io/aom-testosterone-experiment</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;How testosterone is made:
     &lt;ul&gt;
@@ -2576,9 +2740,9 @@
  
  <entry>
    <title>Super Human Dave Asprey</title>
-   <link href="https://hoanhan101.github.io/2020/01/15/super-human"/>
+   <link href="https://hoanhan101.github.io/super-human"/>
    <updated>2020-01-15T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2020/01/15/super-human</id>
+   <id>https://hoanhan101.github.io/super-human</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Don’t die.
     &lt;ul&gt;
@@ -2697,9 +2861,9 @@
  
  <entry>
    <title>Why Passivity Breeds Mediocrity and Mental Illness</title>
-   <link href="https://hoanhan101.github.io/2020/01/10/passivity-mediocrity-mental-illness"/>
+   <link href="https://hoanhan101.github.io/passivity-mediocrity-mental-illness"/>
    <updated>2020-01-10T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2020/01/10/passivity-mediocrity-mental-illness</id>
+   <id>https://hoanhan101.github.io/passivity-mediocrity-mental-illness</id>
    <content type="html">&lt;p&gt;Most people spend their time passively consuming.&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -2757,9 +2921,9 @@ that is pride.” (Richard Taylor, Restoring Pride)&lt;/p&gt;
  
  <entry>
    <title>101+ Coding Interview Problems with Detailed Solutions, Test Cases, and Program Analysis</title>
-   <link href="https://hoanhan101.github.io/2020/01/06/101-challenges"/>
+   <link href="https://hoanhan101.github.io/101-challenges"/>
    <updated>2020-01-06T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2020/01/06/101-challenges</id>
+   <id>https://hoanhan101.github.io/101-challenges</id>
    <content type="html">&lt;p&gt;Hi friends,&lt;/p&gt;
 
 &lt;p&gt;4 months ago, I made a &lt;a href=&quot;https://www.reddit.com/r/learnprogramming/comments/ctyvbc/is_anyone_interested_in_weekly_coding_interview/&quot;&gt;reddit
@@ -2792,9 +2956,9 @@ list here →&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Grokking the Coding Interview's Tree Breath First Search</title>
-   <link href="https://hoanhan101.github.io/2019/12/24/gtci-tree-bfs"/>
+   <link href="https://hoanhan101.github.io/gtci-tree-bfs"/>
    <updated>2019-12-24T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2019/12/24/gtci-tree-bfs</id>
+   <id>https://hoanhan101.github.io/gtci-tree-bfs</id>
    <content type="html">&lt;h3 id=&quot;1-given-a-binary-tree-populate-the-values-of-all-nodes-of-each-level-from-left-to-right-in-separate-sub-arrays&quot;&gt;1. Given a binary tree, populate the values of all nodes of each level from left to right in separate sub-arrays.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -2972,9 +3136,9 @@ list here →&lt;/a&gt;&lt;/p&gt;
  
  <entry>
    <title>Grokking the Coding Interview's Cyclic Sort</title>
-   <link href="https://hoanhan101.github.io/2019/12/22/gtci-cyclic-sort"/>
+   <link href="https://hoanhan101.github.io/gtci-cyclic-sort"/>
    <updated>2019-12-22T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2019/12/22/gtci-cyclic-sort</id>
+   <id>https://hoanhan101.github.io/gtci-cyclic-sort</id>
    <content type="html">&lt;h3 id=&quot;1-cyclic-sort&quot;&gt;1. Cyclic sort&lt;/h3&gt;
 
 &lt;p&gt;Given an array containing n objects where each object, when created,
@@ -3113,9 +3277,9 @@ number in O(n) and without any extra space.&lt;/p&gt;
  
  <entry>
    <title>Grokking the Coding Interview's Merge Intervals</title>
-   <link href="https://hoanhan101.github.io/2019/12/20/gtci-merge-intervals"/>
+   <link href="https://hoanhan101.github.io/gtci-merge-intervals"/>
    <updated>2019-12-20T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2019/12/20/gtci-merge-intervals</id>
+   <id>https://hoanhan101.github.io/gtci-merge-intervals</id>
    <content type="html">&lt;h3 id=&quot;1-given-a-list-of-intervals-merge-all-the-overlapping-intervals-to-produce-a-list-that-has-only-mutually-exclusive-intervals&quot;&gt;1. Given a list of intervals, merge all the overlapping intervals to produce a list that has only mutually exclusive intervals.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -3214,9 +3378,9 @@ number in O(n) and without any extra space.&lt;/p&gt;
  
  <entry>
    <title>Grokking the Coding Interview's Fast and Slow Pointers</title>
-   <link href="https://hoanhan101.github.io/2019/12/18/gtci-fast-slow-pointers"/>
+   <link href="https://hoanhan101.github.io/gtci-fast-slow-pointers"/>
    <updated>2019-12-18T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2019/12/18/gtci-fast-slow-pointers</id>
+   <id>https://hoanhan101.github.io/gtci-fast-slow-pointers</id>
    <content type="html">&lt;h3 id=&quot;1-given-the-head-of-a-singly-linked-list-write-a-function-to-determine-if-it-contains-a-cycle&quot;&gt;1. Given the head of a singly linked list, write a function to determine if it contains a cycle.&lt;/h3&gt;
 
 &lt;p&gt;Approach:&lt;/p&gt;
@@ -3330,9 +3494,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>Grokking the Coding Interview's Two Pointers</title>
-   <link href="https://hoanhan101.github.io/2019/12/16/gtci-two-pointers"/>
+   <link href="https://hoanhan101.github.io/gtci-two-pointers"/>
    <updated>2019-12-16T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2019/12/16/gtci-two-pointers</id>
+   <id>https://hoanhan101.github.io/gtci-two-pointers</id>
    <content type="html">&lt;h3 id=&quot;1-given-an-array-of-sorted-numbers-and-a-target-sum-find-a-pair-in-the-array-whose-sum-is-equal-to-the-given-target&quot;&gt;1. Given an array of sorted numbers and a target sum, find a pair in the array whose sum is equal to the given target.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -3430,9 +3594,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>Grokking the Coding Interview's Sliding Window</title>
-   <link href="https://hoanhan101.github.io/2019/12/15/gtci-sliding-window"/>
+   <link href="https://hoanhan101.github.io/gtci-sliding-window"/>
    <updated>2019-12-15T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2019/12/15/gtci-sliding-window</id>
+   <id>https://hoanhan101.github.io/gtci-sliding-window</id>
    <content type="html">&lt;h3 id=&quot;1-given-an-array-find-the-average-of-all-contiguous-subarrays-of-size-k&quot;&gt;1. Given an array, find the average of all contiguous subarrays of size k.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -3564,9 +3728,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>LeetCode's Binary tree</title>
-   <link href="https://hoanhan101.github.io/2019/12/05/leetcode-binary-tree"/>
+   <link href="https://hoanhan101.github.io/leetcode-binary-tree"/>
    <updated>2019-12-05T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2019/12/05/leetcode-binary-tree</id>
+   <id>https://hoanhan101.github.io/leetcode-binary-tree</id>
    <content type="html">&lt;h3 id=&quot;1-given-a-binary-tree-determine-if-it-is-a-valid-binary-search-tree&quot;&gt;1. Given a binary tree, determine if it is a valid binary search tree.&lt;/h3&gt;
 
 &lt;p&gt;Approach:&lt;/p&gt;
@@ -3659,9 +3823,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>LeetCode's Linked List</title>
-   <link href="https://hoanhan101.github.io/2019/11/16/leetcode-linked-list"/>
+   <link href="https://hoanhan101.github.io/leetcode-linked-list"/>
    <updated>2019-11-16T00:00:00-05:00</updated>
-   <id>https://hoanhan101.github.io/2019/11/16/leetcode-linked-list</id>
+   <id>https://hoanhan101.github.io/leetcode-linked-list</id>
    <content type="html">&lt;h3 id=&quot;1-merge-two-sorted-linked-lists-and-return-it-as-a-new-list&quot;&gt;1. Merge two sorted linked lists and return it as a new list.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -3741,9 +3905,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>Augmenting Long-term Memory by Michael Nielsen</title>
-   <link href="https://hoanhan101.github.io/2019/10/20/augmenting-long-term-memory"/>
+   <link href="https://hoanhan101.github.io/augmenting-long-term-memory"/>
    <updated>2019-10-20T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/10/20/augmenting-long-term-memory</id>
+   <id>https://hoanhan101.github.io/augmenting-long-term-memory</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Anki like a flashcard app but able to manage the review schedule.
     &lt;ul&gt;
@@ -3822,9 +3986,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>LeetCode's Math</title>
-   <link href="https://hoanhan101.github.io/2019/10/18/leetcode-math"/>
+   <link href="https://hoanhan101.github.io/leetcode-math"/>
    <updated>2019-10-18T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/10/18/leetcode-math</id>
+   <id>https://hoanhan101.github.io/leetcode-math</id>
    <content type="html">&lt;h3 id=&quot;1-given-a-64-bit-integer-reverse-its-digits&quot;&gt;1. Given a 64-bit integer, reverse its digits.&lt;/h3&gt;
 
 &lt;p&gt;Assumption:&lt;/p&gt;
@@ -3922,9 +4086,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>LeetCode's Array/String</title>
-   <link href="https://hoanhan101.github.io/2019/10/08/leetcode-array-string"/>
+   <link href="https://hoanhan101.github.io/leetcode-array-string"/>
    <updated>2019-10-08T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/10/08/leetcode-array-string</id>
+   <id>https://hoanhan101.github.io/leetcode-array-string</id>
    <content type="html">&lt;h3 id=&quot;1-given-an-array-of-integers-return-indices-of-the-two-numbers-such-that-they-add-up-to-a-specific-target&quot;&gt;1. Given an array of integers, return indices of the two numbers such that they add up to a specific target.&lt;/h3&gt;
 
 &lt;p&gt;You may assume that each input would have exactly one solution, and you may not use the same element twice.&lt;/p&gt;
@@ -4113,9 +4277,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>Interview Cake's Linked Lists</title>
-   <link href="https://hoanhan101.github.io/2019/10/01/interviewcake-linked-list"/>
+   <link href="https://hoanhan101.github.io/interviewcake-linked-list"/>
    <updated>2019-10-01T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/10/01/interviewcake-linked-list</id>
+   <id>https://hoanhan101.github.io/interviewcake-linked-list</id>
    <content type="html">&lt;h3 id=&quot;1-delete-a-node-from-a-singly-linked-list-given-only-a-pointer-to-that-node&quot;&gt;1. Delete a node from a singly-linked list, given only a pointer to that node.&lt;/h3&gt;
 
 &lt;p&gt;Approach:&lt;/p&gt;
@@ -4190,9 +4354,9 @@ leads us to 1.&lt;/p&gt;
  
  <entry>
    <title>7 sorting algorithms</title>
-   <link href="https://hoanhan101.github.io/2019/09/24/7-sorting-algorithms"/>
+   <link href="https://hoanhan101.github.io/7-sorting-algorithms"/>
    <updated>2019-09-24T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/09/24/7-sorting-algorithms</id>
+   <id>https://hoanhan101.github.io/7-sorting-algorithms</id>
    <content type="html">&lt;p&gt;Here are 7 sorting algorithms implementations in Go that we are going to cover in this post:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Bubble Sort&lt;/li&gt;
@@ -4539,9 +4703,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>Interview Cake's Queues and Stacks</title>
-   <link href="https://hoanhan101.github.io/2019/09/17/interviewcake-queue-stack"/>
+   <link href="https://hoanhan101.github.io/interviewcake-queue-stack"/>
    <updated>2019-09-17T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/09/17/interviewcake-queue-stack</id>
+   <id>https://hoanhan101.github.io/interviewcake-queue-stack</id>
    <content type="html">&lt;h3 id=&quot;1-implement-a-stack-with-a-method-getmax-that-returns-the-largest-element-in-the-stack-in-o1-time&quot;&gt;1. Implement a stack with a method getMax() that returns the largest element in the stack in O(1) time.&lt;/h3&gt;
 
 &lt;p&gt;Approach:&lt;/p&gt;
@@ -4626,9 +4790,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>Interview Cake's Trees and Graphs</title>
-   <link href="https://hoanhan101.github.io/2019/08/31/interviewcake-tree-graph"/>
+   <link href="https://hoanhan101.github.io/interviewcake-tree-graph"/>
    <updated>2019-08-31T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/08/31/interviewcake-tree-graph</id>
+   <id>https://hoanhan101.github.io/interviewcake-tree-graph</id>
    <content type="html">&lt;h3 id=&quot;1-given-a-binary-tree-determine-if-it-is-superbalanced---the-difference-between-the-depths-of-any-two-leaf-nodes-is-no-greater-than-1&quot;&gt;1. Given a binary tree, determine if it is “superbalanced” - the difference between the depths of any two leaf nodes is no greater than 1.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -4763,9 +4927,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>Authority by Nathan Barry</title>
-   <link href="https://hoanhan101.github.io/2019/08/31/authority"/>
+   <link href="https://hoanhan101.github.io/authority"/>
    <updated>2019-08-31T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/08/31/authority</id>
+   <id>https://hoanhan101.github.io/authority</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;On writing:
     &lt;ul&gt;
@@ -4896,9 +5060,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>The Simple Path to Wealth by JL Collins</title>
-   <link href="https://hoanhan101.github.io/2019/08/26/simple-path-to-wealth"/>
+   <link href="https://hoanhan101.github.io/simple-path-to-wealth"/>
    <updated>2019-08-26T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/08/26/simple-path-to-wealth</id>
+   <id>https://hoanhan101.github.io/simple-path-to-wealth</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;The pursuit of financial independence is not about retirement, but about having options, having enough money and the freedom it provides.&lt;/li&gt;
   &lt;li&gt;Save at least 50% of your income.
@@ -4949,9 +5113,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>Interview Cake's Greedy algorithms</title>
-   <link href="https://hoanhan101.github.io/2019/08/24/interviewcake-greedy-algorithms"/>
+   <link href="https://hoanhan101.github.io/interviewcake-greedy-algorithms"/>
    <updated>2019-08-24T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/08/24/interviewcake-greedy-algorithms</id>
+   <id>https://hoanhan101.github.io/interviewcake-greedy-algorithms</id>
    <content type="html">&lt;h3 id=&quot;1-given-a-list-of-stock-prices-integer-in-chronological-order-return-the-max-profit-from-buying-at-earlier-time-and-selling-at-later-time&quot;&gt;1. Given a list of stock prices (integer) in chronological order, return the max profit from buying at earlier time and selling at later time.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -5040,9 +5204,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>Interview Cake's Hashing problems</title>
-   <link href="https://hoanhan101.github.io/2019/08/23/interview-cake-hashing-problems"/>
+   <link href="https://hoanhan101.github.io/interview-cake-hashing-problems"/>
    <updated>2019-08-23T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/08/23/interview-cake-hashing-problems</id>
+   <id>https://hoanhan101.github.io/interview-cake-hashing-problems</id>
    <content type="html">&lt;h3 id=&quot;1-given-a-list-of-movie-lengths-and-a-total-flight-length-determine-if-there-exist-two-movies-that-add-up-to-the-total-length&quot;&gt;1. Given a list of movie lengths and a total flight length, determine if there exist two movies that add up to the total length.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -5134,9 +5298,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>I Will Teach You to Be Rich by Ramit Sethi</title>
-   <link href="https://hoanhan101.github.io/2019/08/23/i-will-teach-you-to-be-rich"/>
+   <link href="https://hoanhan101.github.io/i-will-teach-you-to-be-rich"/>
    <updated>2019-08-23T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/08/23/i-will-teach-you-to-be-rich</id>
+   <id>https://hoanhan101.github.io/i-will-teach-you-to-be-rich</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;When it comes to weight loss, the keys are to eat less and exercise more. But instead of focusing on these 2 fundamental things, we discuss trans fat, supplements,…&lt;/li&gt;
   &lt;li&gt;It’s the same with personal finance. There are only 3 key points:
@@ -5265,9 +5429,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>Interview Cake's Array and string manipulation</title>
-   <link href="https://hoanhan101.github.io/2019/08/21/interviewcake-array-string-manipulation"/>
+   <link href="https://hoanhan101.github.io/interviewcake-array-string-manipulation"/>
    <updated>2019-08-21T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/08/21/interviewcake-array-string-manipulation</id>
+   <id>https://hoanhan101.github.io/interviewcake-array-string-manipulation</id>
    <content type="html">&lt;h3 id=&quot;1-given-a-list-of-unsorted-independent-meetings-returns-a-list-of-a-merged-one&quot;&gt;1. Given a list of unsorted, independent meetings, returns a list of a merged one.&lt;/h3&gt;
 
 &lt;p&gt;Example:&lt;/p&gt;
@@ -5365,9 +5529,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>The Intelligent Investor by Benjamin Graham</title>
-   <link href="https://hoanhan101.github.io/2019/08/08/the-intelligent-investor"/>
+   <link href="https://hoanhan101.github.io/the-intelligent-investor"/>
    <updated>2019-08-08T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/08/08/the-intelligent-investor</id>
+   <id>https://hoanhan101.github.io/the-intelligent-investor</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Focus on long-term value.
     &lt;ul&gt;
@@ -5416,9 +5580,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>The Millionaire Fastlane by MJ DeMarco</title>
-   <link href="https://hoanhan101.github.io/2019/07/17/millionaire-fastlane"/>
+   <link href="https://hoanhan101.github.io/millionaire-fastlane"/>
    <updated>2019-07-17T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/07/17/millionaire-fastlane</id>
+   <id>https://hoanhan101.github.io/millionaire-fastlane</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;The Slowlane is to get a good job, invest in the stock market, max out your 401k and be rich by 65.
     &lt;ul&gt;
@@ -5596,9 +5760,9 @@ these counts to compute each item's index in the final sorted array.
  
  <entry>
    <title>Josh Pigford, Baremetrics, $70k/month</title>
-   <link href="https://hoanhan101.github.io/2019/06/14/baremetrics"/>
+   <link href="https://hoanhan101.github.io/baremetrics"/>
    <updated>2019-06-14T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/14/baremetrics</id>
+   <id>https://hoanhan101.github.io/baremetrics</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Subscription analytics and insights.&lt;/p&gt;
@@ -5659,9 +5823,9 @@ building a landing page,…)&lt;/li&gt;
  
  <entry>
    <title>Garrett Dimon, Sifter</title>
-   <link href="https://hoanhan101.github.io/2019/06/13/sifter"/>
+   <link href="https://hoanhan101.github.io/sifter"/>
    <updated>2019-06-13T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/13/sifter</id>
+   <id>https://hoanhan101.github.io/sifter</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Bug tracker for small teams and non-technical people.&lt;/p&gt;
@@ -5713,9 +5877,9 @@ Dimon of Sifter&lt;/a&gt;&lt;/li&gt;
  
  <entry>
    <title>Chris Chen, Instapainting, $32k/month</title>
-   <link href="https://hoanhan101.github.io/2019/06/12/instapainting"/>
+   <link href="https://hoanhan101.github.io/instapainting"/>
    <updated>2019-06-12T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/12/instapainting</id>
+   <id>https://hoanhan101.github.io/instapainting</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Custom painting by actual artists, delivered to your shipping address.&lt;/p&gt;
@@ -5779,9 +5943,9 @@ featured on top of Hacker News,…&lt;/li&gt;
  
  <entry>
    <title>Chris Oliver, GoRails, $15k/month</title>
-   <link href="https://hoanhan101.github.io/2019/06/11/gorails"/>
+   <link href="https://hoanhan101.github.io/gorails"/>
    <updated>2019-06-11T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/11/gorails</id>
+   <id>https://hoanhan101.github.io/gorails</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Education site for Ruby on Rails developers.&lt;/p&gt;
@@ -5838,9 +6002,9 @@ subscribers the second day.&lt;/li&gt;
  
  <entry>
    <title>Jason Grishkoff, SubmitHub, $50k/month</title>
-   <link href="https://hoanhan101.github.io/2019/06/10/submithub"/>
+   <link href="https://hoanhan101.github.io/submithub"/>
    <updated>2019-06-10T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/10/submithub</id>
+   <id>https://hoanhan101.github.io/submithub</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Allow musicians to connect with industry professionals.&lt;/p&gt;
@@ -5898,9 +6062,9 @@ feature their music.&lt;/li&gt;
  
  <entry>
    <title>Eric Zhang, Scalable Press, $100m/year</title>
-   <link href="https://hoanhan101.github.io/2019/06/09/scalable-press"/>
+   <link href="https://hoanhan101.github.io/scalable-press"/>
    <updated>2019-06-09T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/09/scalable-press</id>
+   <id>https://hoanhan101.github.io/scalable-press</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Efficient custom printing on demand - lower cost, better quality, better
@@ -5960,9 +6124,9 @@ turned into customers.&lt;/li&gt;
  
  <entry>
    <title>David Hauser, Grasshopper, $32m/year</title>
-   <link href="https://hoanhan101.github.io/2019/06/08/grasshopper"/>
+   <link href="https://hoanhan101.github.io/grasshopper"/>
    <updated>2019-06-08T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/08/grasshopper</id>
+   <id>https://hoanhan101.github.io/grasshopper</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Virtual phone system.&lt;/p&gt;
@@ -6017,9 +6181,9 @@ get feedbacks quickly.&lt;/li&gt;
  
  <entry>
    <title>Nathan Barry, ConvertKit, $600k/month</title>
-   <link href="https://hoanhan101.github.io/2019/06/07/convertkit"/>
+   <link href="https://hoanhan101.github.io/convertkit"/>
    <updated>2019-06-07T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/07/convertkit</id>
+   <id>https://hoanhan101.github.io/convertkit</id>
    <content type="html">&lt;h3 id=&quot;what-is-the-product&quot;&gt;What is the product?&lt;/h3&gt;
 
 &lt;p&gt;Email marketing tool for bloggers and content creators.&lt;/p&gt;
@@ -6080,9 +6244,9 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
  
  <entry>
    <title>Show Your Work by Austin Kleon</title>
-   <link href="https://hoanhan101.github.io/2019/06/06/show-your-work"/>
+   <link href="https://hoanhan101.github.io/show-your-work"/>
    <updated>2019-06-06T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/06/show-your-work</id>
+   <id>https://hoanhan101.github.io/show-your-work</id>
    <content type="html">&lt;p&gt;A book for people who hate the very idea of self-promotion:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Be an amateur, not afraid to voice your opinion, be willing to share.&lt;/li&gt;
@@ -6129,9 +6293,9 @@ feedbacks, though only made 1 purchase though they all said yes.&lt;/li&gt;
  
  <entry>
    <title>Early days of profitable internet businesses</title>
-   <link href="https://hoanhan101.github.io/2019/06/06/earlyday"/>
+   <link href="https://hoanhan101.github.io/earlyday"/>
    <updated>2019-06-06T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/06/earlyday</id>
+   <id>https://hoanhan101.github.io/earlyday</id>
    <content type="html">&lt;p&gt;I am interested in starting a company in the near future. I think the best way
 to learn how to do so is to look at the early days of different profitable businesses,
 not when they’re already successful so that one can see how the founders
@@ -6162,9 +6326,9 @@ topic everyweek. They should all have the tag &lt;a href=&quot;/tag/early-days&q
  
  <entry>
    <title>Early days of profitable internet businesses's summary</title>
-   <link href="https://hoanhan101.github.io/2019/06/06/earlyday-summary"/>
+   <link href="https://hoanhan101.github.io/earlyday-summary"/>
    <updated>2019-06-06T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2019/06/06/earlyday-summary</id>
+   <id>https://hoanhan101.github.io/earlyday-summary</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Dive deep into the industry and take advantage of your domain expertise to identify
 the “right” problems to work on.&lt;/li&gt;
@@ -6183,9 +6347,9 @@ it. This is the ultimate test.&lt;/li&gt;
  
  <entry>
    <title>Rest by Alex Soojung-Kim Pang</title>
-   <link href="https://hoanhan101.github.io/2018/08/08/rest"/>
+   <link href="https://hoanhan101.github.io/rest"/>
    <updated>2018-08-08T00:00:00-04:00</updated>
-   <id>https://hoanhan101.github.io/2018/08/08/rest</id>
+   <id>https://hoanhan101.github.io/rest</id>
    <content type="html">&lt;ul&gt;
   &lt;li&gt;Rest and work complements each other.
     &lt;ul&gt;
