@@ -4,13 +4,58 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-08-24T10:26:17-04:00</updated>
+ <updated>2020-08-25T15:05:44-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>The Ultimate Go Book</title>
+   <link href="https://hoanhan101.github.io/the-ultimate-go-book"/>
+   <updated>2020-08-25T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/the-ultimate-go-book</id>
+   <content type="html">&lt;p&gt;Hi friends,&lt;/p&gt;
+
+&lt;p&gt;Almost a year ago, in August 2019, I shared one of my projects called Ultimate Go on GitHub,
+&lt;a href=&quot;https://github.com/hoanhan101/ultimate-go&quot;&gt;https://github.com/hoanhan101/ultimate-go&lt;/a&gt;, and surprisingly, it got a lot of attention from
+the community. Fast forward to August 2020, it now has over 11K stars, 900 folks with the help
+of more than 20 contributors.&lt;/p&gt;
+
+&lt;p&gt;The project is a collection of my notes while learning Go programming language. Different people
+have different learning styles. For me, I learn best by doing and walking through examples.
+That said, I take notes carefully, comment directly on the source code to make sure that I
+understand every single line of code as I am reading and also be mindful of the theories behind the scene.&lt;/p&gt;
+
+&lt;p&gt;As Ultimate Go keeps growing, there’s one issue that keeps coming up. That’s about the format
+of the project. Specifically, many people have requested an ebook version where the content
+is more streamlined and they can read it at their convenience.&lt;/p&gt;
+
+&lt;p&gt;That’s when The Ultimate Go Book is born. For the last 3 months or so, I have spent most of
+my free time putting together everything from Ultimate Go into a 200-page book. Other than all
+the good stuff from Ultimate Go, two new and better things in this version are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Follow-along code input and output.&lt;/li&gt;
+  &lt;li&gt;Diagrams.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hope it makes your journey of learning Go a bit easier. And again, thank you all for your support.
+I really appreciate it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s the link for the book: &lt;a href=&quot;https://gum.co/bpUYF&quot;&gt;https://gum.co/bpUYF&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that I’ve made it free, though I would really appreciate your support.
+Regardless, you will receive the book in 2 different formats: PDF and ePub.&lt;/p&gt;
+
+&lt;p&gt;Happy reading!&lt;/p&gt;
+
+&lt;p&gt;Best,&lt;/p&gt;
+
+&lt;p&gt;Hoanh&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Designing Data-Intensive Applications by Martin Kleppmann</title>
