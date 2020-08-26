@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-08-25T15:05:44-04:00</updated>
+ <updated>2020-08-26T11:32:33-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -24,8 +24,12 @@
 the community. Fast forward to August 2020, it now has over 11K stars, 900 folks with the help
 of more than 20 contributors.&lt;/p&gt;
 
-&lt;p&gt;The project is a collection of my notes while learning Go programming language. Different people
-have different learning styles. For me, I learn best by doing and walking through examples.
+&lt;p&gt;The project is a collection of my notes while learning Go programming language from Ardan Labs’s Ultimate Go course.
+Honestly, I couldn’t thank Bill Kennedy and the Ardan Labs team enough for open-sourcing this
+wonderful material. They’ve done such great jobs putting together their knowledge, insights
+into their courses, and making them available to the public.&lt;/p&gt;
+
+&lt;p&gt;Different people have different learning styles. For me, I learn best by doing and walking through examples.
 That said, I take notes carefully, comment directly on the source code to make sure that I
 understand every single line of code as I am reading and also be mindful of the theories behind the scene.&lt;/p&gt;
 
