@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-08-27T11:39:35-04:00</updated>
+ <updated>2020-08-27T11:48:31-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -17,8 +17,8 @@
    <link href="https://hoanhan101.github.io/the-ultimate-go-study-guide"/>
    <updated>2020-08-25T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/the-ultimate-go-study-guide</id>
-   <content type="html">&lt;p&gt;A year ago, in August 2019, I shared this Ultimate Go Study Guide project on GitHub, and surprisingly, it got a lot of attention from the community.
-Fast forward to August 2020, it now has over 11K stars, 900 folks with the help of more than 20 contributors.&lt;/p&gt;
+   <content type="html">&lt;p&gt;A year ago, in August 2019, I shared this &lt;a href=&quot;https://github.com/hoanhan101/ultimate-go&quot;&gt;Ultimate Go Study Guide project on GitHub&lt;/a&gt;, and surprisingly, it got a lot of attention from the community.
+Fast forward to August 2020, it now has over 11K stars, 900 forks with the help of more than 20 contributors.&lt;/p&gt;
 
 &lt;p&gt;The project is a collection of my notes while learning Go programming language from &lt;a href=&quot;https://www.oreilly.com/library/view/ultimate-go-programming/9780134757476/&quot;&gt;Ardan Labs’s Ultimate Go course&lt;/a&gt;.
 Honestly, I couldn’t thank Bill Kennedy and the Ardan Labs team enough for open-sourcing this wonderful material. They’ve done such great jobs putting together their knowledge, insights into their courses and making them available to the public.&lt;/p&gt;
