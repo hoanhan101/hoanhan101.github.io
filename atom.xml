@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-10-20T11:12:56-04:00</updated>
+ <updated>2020-10-23T10:56:04-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -4176,16 +4176,16 @@ leads us to 1.&lt;/p&gt;
    <updated>2019-10-20T00:00:00-04:00</updated>
    <id>https://hoanhan101.github.io/augmenting-long-term-memory</id>
    <content type="html">&lt;ul&gt;
-  &lt;li&gt;Anki like a flashcard app but able to manage the review schedule.
+  &lt;li&gt;Anki works like a flashcard app but also has the ability to manage the review schedule.
     &lt;ul&gt;
       &lt;li&gt;If you answer a question correctly, the review time expands.&lt;/li&gt;
-      &lt;li&gt;The better you master the material, the less frequent it appears&lt;/li&gt;
+      &lt;li&gt;The better you master the material, the less frequent it appears.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Memories are maximally strengthened if tested when we’re on the verge of forgetting them.&lt;/li&gt;
-  &lt;li&gt;Used to learn anything: papers, books, talks, conversations, facts, plans,…&lt;/li&gt;
-  &lt;li&gt;Have desktop client for entering new card, mobile client for reviewing.&lt;/li&gt;
-  &lt;li&gt;Read a research paper in an unfamiliar field - AlphaGo paper.
+  &lt;li&gt;Anki is used to learn anything: papers, books, talks, conversations, facts, plans,… A common way to use Anki is to use
+its desktop client for entering new card, mobile client for reviewing.&lt;/li&gt;
+  &lt;li&gt;Author’s workflow for reading a research paper in an unfamiliar field (AlphaGo paper).
     &lt;ul&gt;
       &lt;li&gt;Read quickly first, come up with questions that:
         &lt;ul&gt;
@@ -4198,8 +4198,8 @@ leads us to 1.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;Make better use of Anki:
     &lt;ul&gt;
-      &lt;li&gt;Make the question more atomic so I could focus on the hard-to-memory details -&amp;gt; asking good questions is very important.&lt;/li&gt;
-      &lt;li&gt;Construct your own decks instead of using shared ones -&amp;gt; constructing a card forces you to think through the questions and its answer.&lt;/li&gt;
+      &lt;li&gt;Make the question more atomic so I could focus on the hard-to-memory details → asking good questions is very important.&lt;/li&gt;
+      &lt;li&gt;Construct your own decks instead of using shared ones → constructing a card forces you to think through the questions and its answer.&lt;/li&gt;
       &lt;li&gt;Avoid yes/no questions.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
@@ -4227,7 +4227,7 @@ leads us to 1.&lt;/p&gt;
       &lt;li&gt;A study shows that chess grandmaster has higher memory capacity.
         &lt;ul&gt;
           &lt;li&gt;Beginner see a series of individual pieces.&lt;/li&gt;
-          &lt;li&gt;Master see see a “chunk”-combinations of pieces recognized as a unit -&amp;gt; able to reason much easier at a higher level of abstraction (25k-100k).&lt;/li&gt;
+          &lt;li&gt;Master see see a “chunk”-combinations of pieces recognized as a unit → able to reason much easier at a higher level of abstraction (25k-100k).&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
       &lt;li&gt;A study shows that the better working memory one has, the higher their IQ and vice versa.&lt;/li&gt;
