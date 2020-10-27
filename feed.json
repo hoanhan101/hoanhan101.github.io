@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "https://hoanhan101.github.io/2-minute-rule",
+            "title": "Get started with 2-minute rule",
+            "summary": null,
+            "content_text": "Whenever you find it hard to get started on a task, consider scaling it down into a 2-minute version. For example,  Read a book → Read one page  Write an essay → Write one sentence  Run 10 miles → Wear my running shoes  Do 100 push-ups → Do 1 push up  Eat more vegetables → Eat an apple  Study for interview → Skim through my notesThe idea is to make it super easy to get started. Once you pass the starting point, which is arguably the hardest step,you start to gain momentum to keep doing the task itself:  Read one page → Read 10 pages → Finish the first chapter  Write one sentence → Write an opening paragraph → Write the body  Wear my running shoes → Walk for 5 minutes → Run for 5 minutesAs you can see, once you start, it is much easier to continue doing it. Sometimes, you’ll find yourself completing thetask even before you even notice it.  For more insights on system planning and goal setting, feel free to check out Motion →References:  https://jamesclear.com/how-to-stop-procrastinating  https://www.lifehack.org/articles/productivity/how-stop-procrastinating-and-stick-good-habits-using-the-2-minute-rule.html",
+            "content_html": "<p>Whenever you find it hard to get started on a task, consider scaling it down into a 2-minute version. For example,</p><ul>  <li>Read a book → Read one page</li>  <li>Write an essay → Write one sentence</li>  <li>Run 10 miles → Wear my running shoes</li>  <li>Do 100 push-ups → Do 1 push up</li>  <li>Eat more vegetables → Eat an apple</li>  <li>Study for interview → Skim through my notes</li></ul><p>The idea is to make it super easy to get started. Once you pass the starting point, which is arguably the hardest step,you start to gain momentum to keep doing the task itself:</p><ul>  <li>Read one page → Read 10 pages → Finish the first chapter</li>  <li>Write one sentence → Write an opening paragraph → Write the body</li>  <li>Wear my running shoes → Walk for 5 minutes → Run for 5 minutes</li></ul><p>As you can see, once you start, it is much easier to continue doing it. Sometimes, you’ll find yourself completing thetask even before you even notice it.</p><blockquote>  <p>For more insights on system planning and goal setting, feel free to check out <a href=\"/motion\">Motion →</a></p></blockquote><hr /><p><strong>References:</strong></p><ul>  <li><a href=\"https://jamesclear.com/how-to-stop-procrastinating\">https://jamesclear.com/how-to-stop-procrastinating</a></li>  <li><a href=\"https://www.lifehack.org/articles/productivity/how-stop-procrastinating-and-stick-good-habits-using-the-2-minute-rule.html\">https://www.lifehack.org/articles/productivity/how-stop-procrastinating-and-stick-good-habits-using-the-2-minute-rule.html</a></li></ul>",
+            "url": "https://hoanhan101.github.io/2-minute-rule",
+            
+            
+            
+            "tags": ["motion.hoanhan.co","consistency","start"],
+            
+            "date_published": "2020-10-27T00:00:00-04:00",
+            "date_modified": "2020-10-27T00:00:00-04:00",
+            
+                "author":  {
+                "name": "Hoanh An",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "https://hoanhan101.github.io/what-sacrifices-you-need-achive-your-goal",
             "title": "What sacrifices do you need to take in order to achieve your goal?",
             "summary": null,
@@ -846,30 +870,6 @@
             
             "date_published": "2019-10-20T00:00:00-04:00",
             "date_modified": "2019-10-20T00:00:00-04:00",
-            
-                "author":  {
-                "name": "Hoanh An",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "https://hoanhan101.github.io/leetcode-math",
-            "title": "LeetCode's Math",
-            "summary": null,
-            "content_text": "1. Given a 64-bit integer, reverse its digits.Assumption:- Negative numbers are also valid.- Must handle the case where the reversed integer is overflow.Example:- Input: 123  Output: 321- Input: -123  Output: -321- Input: 8085774586302733229 Output: 0  Explanation: The reversed integer 9223372036854775808 overflows by 1 so we return 0.Approach:- Use modulo by 10 to get a digit at ones' place of the input and  dividing by 10 to shift it to the right (eliminate the ones' place).Cost:- O(m) time, O(1) space, where m is log10 of the input.Link to solution →2. Given a number represented as an array of digits, plus one to the number.Assumption:- The input are non-negative.- The digits are stored such that the most significant digit is at the head of the list.- The number does not contain leading zeros.Example:- Input: []int{1, 2, 5}  Output: []int{1, 2, 6}- Input: []int{1, 2, 9}  Output: []int{1, 3, 0}- Input: []int{1, 9, 9}  Output: []int{2, 0, 0}Approach:- Iterate through the list from right to left and add 1 to the current digit accordingly.  - If the current digit is less than 9, add 1 and update it.  - Otherwise, set it to 0.- If all the digits are 9, append an 0 in the end and update the first digit to 1.Cost:- O(n) time, O(1) space, where n is the length of the list.Link to solution →3. Determine whether an integer is a palindrome.Assumption:- Do this without extra space.- Define negative integers as non-palindrome.Example:- Input: 101  Output: true- Input: 106  Output: falseApproach:- Use two-pointer approach where one starts at the first digit and one starts  at the last digit, have them walk toward the middle and compare them at each  step.Cost:- O(n) time, O(1) space.Link to solution →  For more coding problems, please visit  https://github.com/hoanhan101/algo.",
-            "content_html": "<h3 id=\"1-given-a-64-bit-integer-reverse-its-digits\">1. Given a 64-bit integer, reverse its digits.</h3><p>Assumption:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- Negative numbers are also valid.- Must handle the case where the reversed integer is overflow.</code></pre></div></div><p>Example:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- Input: 123  Output: 321- Input: -123  Output: -321- Input: 8085774586302733229 Output: 0  Explanation: The reversed integer 9223372036854775808 overflows by 1 so we return 0.</code></pre></div></div><p>Approach:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- Use modulo by 10 to get a digit at ones' place of the input and  dividing by 10 to shift it to the right (eliminate the ones' place).</code></pre></div></div><p>Cost:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- O(m) time, O(1) space, where m is log10 of the input.</code></pre></div></div><p><a href=\"https://github.com/hoanhan101/algo/blob/master/leetcode/reverse_integer_test.go\">Link to solution →</a></p><h3 id=\"2-given-a-number-represented-as-an-array-of-digits-plus-one-to-the-number\">2. Given a number represented as an array of digits, plus one to the number.</h3><p>Assumption:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- The input are non-negative.- The digits are stored such that the most significant digit is at the head of the list.- The number does not contain leading zeros.</code></pre></div></div><p>Example:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- Input: []int{1, 2, 5}  Output: []int{1, 2, 6}- Input: []int{1, 2, 9}  Output: []int{1, 3, 0}- Input: []int{1, 9, 9}  Output: []int{2, 0, 0}</code></pre></div></div><p>Approach:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- Iterate through the list from right to left and add 1 to the current digit accordingly.  - If the current digit is less than 9, add 1 and update it.  - Otherwise, set it to 0.- If all the digits are 9, append an 0 in the end and update the first digit to 1.</code></pre></div></div><p>Cost:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- O(n) time, O(1) space, where n is the length of the list.</code></pre></div></div><p><a href=\"https://github.com/hoanhan101/algo/blob/master/leetcode/plus_one_test.go\">Link to solution →</a></p><h3 id=\"3-determine-whether-an-integer-is-a-palindrome\">3. Determine whether an integer is a palindrome.</h3><p>Assumption:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- Do this without extra space.- Define negative integers as non-palindrome.</code></pre></div></div><p>Example:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- Input: 101  Output: true- Input: 106  Output: false</code></pre></div></div><p>Approach:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- Use two-pointer approach where one starts at the first digit and one starts  at the last digit, have them walk toward the middle and compare them at each  step.</code></pre></div></div><p>Cost:</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>- O(n) time, O(1) space.</code></pre></div></div><p><a href=\"https://github.com/hoanhan101/algo/blob/master/leetcode/palindrome_number_test.go\">Link to solution →</a></p><blockquote>  <p>For more coding problems, please visit  <a href=\"https://github.com/hoanhan101/algo\">https://github.com/hoanhan101/algo</a>.</p></blockquote>",
-            "url": "https://hoanhan101.github.io/leetcode-math",
-            
-            
-            
-            "tags": ["leetcode","algorithm"],
-            
-            "date_published": "2019-10-18T00:00:00-04:00",
-            "date_modified": "2019-10-18T00:00:00-04:00",
             
                 "author":  {
                 "name": "Hoanh An",

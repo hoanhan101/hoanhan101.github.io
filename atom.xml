@@ -4,13 +4,53 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-10-23T10:56:04-04:00</updated>
+ <updated>2020-10-27T16:02:46-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Get started with 2-minute rule</title>
+   <link href="https://hoanhan101.github.io/2-minute-rule"/>
+   <updated>2020-10-27T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/2-minute-rule</id>
+   <content type="html">&lt;p&gt;Whenever you find it hard to get started on a task, consider scaling it down into a 2-minute version. For example,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Read a book → Read one page&lt;/li&gt;
+  &lt;li&gt;Write an essay → Write one sentence&lt;/li&gt;
+  &lt;li&gt;Run 10 miles → Wear my running shoes&lt;/li&gt;
+  &lt;li&gt;Do 100 push-ups → Do 1 push up&lt;/li&gt;
+  &lt;li&gt;Eat more vegetables → Eat an apple&lt;/li&gt;
+  &lt;li&gt;Study for interview → Skim through my notes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The idea is to make it super easy to get started. Once you pass the starting point, which is arguably the hardest step,
+you start to gain momentum to keep doing the task itself:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Read one page → Read 10 pages → Finish the first chapter&lt;/li&gt;
+  &lt;li&gt;Write one sentence → Write an opening paragraph → Write the body&lt;/li&gt;
+  &lt;li&gt;Wear my running shoes → Walk for 5 minutes → Run for 5 minutes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you can see, once you start, it is much easier to continue doing it. Sometimes, you’ll find yourself completing the
+task even before you even notice it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For more insights on system planning and goal setting, feel free to check out &lt;a href=&quot;/motion&quot;&gt;Motion →&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jamesclear.com/how-to-stop-procrastinating&quot;&gt;https://jamesclear.com/how-to-stop-procrastinating&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.lifehack.org/articles/productivity/how-stop-procrastinating-and-stick-good-habits-using-the-2-minute-rule.html&quot;&gt;https://www.lifehack.org/articles/productivity/how-stop-procrastinating-and-stick-good-habits-using-the-2-minute-rule.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>What sacrifices do you need to take in order to achieve your goal?</title>
