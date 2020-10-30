@@ -17,6 +17,30 @@
 "items": [
     
         {
+            "id": "https://hoanhan101.github.io/shutdown-motion",
+            "title": "Moving forward with Motion",
+            "summary": null,
+            "content_text": "Hi friend,I’m here to tell you that Motion was shut down at 5 P.M. EST today. Thank you so much for your supportover the past months. It means a lot to me.The reason that I built Motion in the first place was to make it easier for me and you to achieve our goals.However, after using it myself for the last month and asking people for feedback, I came to the conclusionthat it was not as useful as I thought it would be. Now, there are many features that could make it betterthough it’s becoming harder and harder for me to support it alone, considering that I do have a 9-5 job anda family that I need to take care of. That said, even though it’s a hard decision to make, I have to makethis trade-off to discontinue Motion.In the meantime, I’m still writing on this blog. If you have additional questions or concerns, feel free tocontact me here and I’ll do my best to help.Best,Hoanh",
+            "content_html": "<p>Hi friend,</p><p>I’m here to tell you that <a href=\"/motion\">Motion</a> was shut down at 5 P.M. EST today. Thank you so much for your supportover the past months. It means a lot to me.</p><p>The reason that I built Motion in the first place was to make it easier for me and you to achieve our goals.However, after using it myself for the last month and asking people for feedback, I came to the conclusionthat it was not as useful as I thought it would be. Now, there are many features that could make it betterthough it’s becoming harder and harder for me to support it alone, considering that I do have a 9-5 job anda family that I need to take care of. That said, even though it’s a hard decision to make, I have to makethis trade-off to discontinue Motion.</p><p>In the meantime, I’m still writing on this blog. If you have additional questions or concerns, feel free tocontact me here and I’ll do my best to help.</p><p>Best,</p><p>Hoanh</p>",
+            "url": "https://hoanhan101.github.io/shutdown-motion",
+            
+            
+            
+            
+            
+            "date_published": "2020-10-30T00:00:00-04:00",
+            "date_modified": "2020-10-30T00:00:00-04:00",
+            
+                "author":  {
+                "name": "Hoanh An",
+                "url": null,
+                "avatar": null
+                }
+                
+            
+        },
+    
+        {
             "id": "https://hoanhan101.github.io/2-minute-rule",
             "title": "Get started with 2-minute rule",
             "summary": null,
@@ -846,30 +870,6 @@
             
             "date_published": "2019-11-16T00:00:00-05:00",
             "date_modified": "2019-11-16T00:00:00-05:00",
-            
-                "author":  {
-                "name": "Hoanh An",
-                "url": null,
-                "avatar": null
-                }
-                
-            
-        },
-    
-        {
-            "id": "https://hoanhan101.github.io/augmenting-long-term-memory",
-            "title": "Augmenting Long-term Memory by Michael Nielsen",
-            "summary": null,
-            "content_text": "  Anki works like a flashcard app but also has the ability to manage the review schedule.          If you answer a question correctly, the review time expands.      The better you master the material, the less frequent it appears.        Memories are maximally strengthened if tested when we’re on the verge of forgetting them.  Anki is used to learn anything: papers, books, talks, conversations, facts, plans,… A common way to use Anki is to useits desktop client for entering new card, mobile client for reviewing.  Author’s workflow for reading a research paper in an unfamiliar field (AlphaGo paper).          Read quickly first, come up with questions that:                  Identify the most important ideas.          Look for basics fact that I could understand easily.                    Make several passes this way, each time try to get deeper, continue to ask questions.        Make better use of Anki:          Make the question more atomic so I could focus on the hard-to-memory details → asking good questions is very important.      Construct your own decks instead of using shared ones → constructing a card forces you to think through the questions and its answer.      Avoid yes/no questions.        Procedural vs declarative memory.          Procedural (implicit, unconscious, automatic): habits such as walking, talking,…      Declarative (explicit): know your phone number, a fact,…      Basically, there is a difference between remembering a fact and master a process.                  Just because you remember a Unix command doesn’t mean you can recognize or apply it in a real-world situation.          Remembering is not enough. Need to carry out the process. Solve problem with it.                      If Anki is so great, why isn’t it widely used?          People prefer last-minute cramming and believe it produces better results, though many studies show it does not.      The act if recalling something while we’re on the verge of forgetting is hard, unless one is strongly motivated.      Anki is challenging to use well, easy to use poorly.        The importance of long-term memory.          A study shows that chess grandmaster has higher memory capacity.                  Beginner see a series of individual pieces.          Master see see a “chunk”-combinations of pieces recognized as a unit → able to reason much easier at a higher level of abstraction (25k-100k).                    A study shows that the better working memory one has, the higher their IQ and vice versa.      Having more chunks memorized in some domain is somewhat like an effective boost to a person’s IQ in that domain.        Distribute practice - why Anki works?          Memory decays through time - we will forget things eventually.      Retest/recall will slow the decay - meaning it takes longer after subsequent recalls.      References:  http://augmentingcognition.com/ltm.html",
-            "content_html": "<ul>  <li>Anki works like a flashcard app but also has the ability to manage the review schedule.    <ul>      <li>If you answer a question correctly, the review time expands.</li>      <li>The better you master the material, the less frequent it appears.</li>    </ul>  </li>  <li>Memories are maximally strengthened if tested when we’re on the verge of forgetting them.</li>  <li>Anki is used to learn anything: papers, books, talks, conversations, facts, plans,… A common way to use Anki is to useits desktop client for entering new card, mobile client for reviewing.</li>  <li>Author’s workflow for reading a research paper in an unfamiliar field (AlphaGo paper).    <ul>      <li>Read quickly first, come up with questions that:        <ul>          <li>Identify the most important ideas.</li>          <li>Look for basics fact that I could understand easily.</li>        </ul>      </li>      <li>Make several passes this way, each time try to get deeper, continue to ask questions.</li>    </ul>  </li>  <li>Make better use of Anki:    <ul>      <li>Make the question more atomic so I could focus on the hard-to-memory details → asking good questions is very important.</li>      <li>Construct your own decks instead of using shared ones → constructing a card forces you to think through the questions and its answer.</li>      <li>Avoid yes/no questions.</li>    </ul>  </li>  <li>Procedural vs declarative memory.    <ul>      <li>Procedural (implicit, unconscious, automatic): habits such as walking, talking,…</li>      <li>Declarative (explicit): know your phone number, a fact,…</li>      <li>Basically, there is a difference between remembering a fact and master a process.        <ul>          <li>Just because you remember a Unix command doesn’t mean you can recognize or apply it in a real-world situation.</li>          <li>Remembering is not enough. Need to carry out the process. Solve problem with it.</li>        </ul>      </li>    </ul>  </li>  <li>If Anki is so great, why isn’t it widely used?    <ul>      <li>People prefer last-minute cramming and believe it produces better results, though many studies show it does not.</li>      <li>The act if recalling something while we’re on the verge of forgetting is hard, unless one is strongly motivated.</li>      <li>Anki is challenging to use well, easy to use poorly.</li>    </ul>  </li>  <li>The importance of long-term memory.    <ul>      <li>A study shows that chess grandmaster has higher memory capacity.        <ul>          <li>Beginner see a series of individual pieces.</li>          <li>Master see see a “chunk”-combinations of pieces recognized as a unit → able to reason much easier at a higher level of abstraction (25k-100k).</li>        </ul>      </li>      <li>A study shows that the better working memory one has, the higher their IQ and vice versa.</li>      <li>Having more chunks memorized in some domain is somewhat like an effective boost to a person’s IQ in that domain.</li>    </ul>  </li>  <li>Distribute practice - why Anki works?    <ul>      <li>Memory decays through time - we will forget things eventually.</li>      <li>Retest/recall will slow the decay - meaning it takes longer after subsequent recalls.</li>    </ul>  </li></ul><hr /><p><strong>References:</strong></p><ul>  <li><a href=\"http://augmentingcognition.com/ltm.html\">http://augmentingcognition.com/ltm.html</a></li></ul>",
-            "url": "https://hoanhan101.github.io/augmenting-long-term-memory",
-            
-            
-            
-            "tags": ["blog","memory"],
-            
-            "date_published": "2019-10-20T00:00:00-04:00",
-            "date_modified": "2019-10-20T00:00:00-04:00",
             
                 "author":  {
                 "name": "Hoanh An",

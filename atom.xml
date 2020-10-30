@@ -4,13 +4,39 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-10-27T18:10:42-04:00</updated>
+ <updated>2020-10-30T17:56:55-04:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Moving forward with Motion</title>
+   <link href="https://hoanhan101.github.io/shutdown-motion"/>
+   <updated>2020-10-30T00:00:00-04:00</updated>
+   <id>https://hoanhan101.github.io/shutdown-motion</id>
+   <content type="html">&lt;p&gt;Hi friend,&lt;/p&gt;
+
+&lt;p&gt;I’m here to tell you that &lt;a href=&quot;/motion&quot;&gt;Motion&lt;/a&gt; was shut down at 5 P.M. EST today. Thank you so much for your support
+over the past months. It means a lot to me.&lt;/p&gt;
+
+&lt;p&gt;The reason that I built Motion in the first place was to make it easier for me and you to achieve our goals.
+However, after using it myself for the last month and asking people for feedback, I came to the conclusion
+that it was not as useful as I thought it would be. Now, there are many features that could make it better
+though it’s becoming harder and harder for me to support it alone, considering that I do have a 9-5 job and
+a family that I need to take care of. That said, even though it’s a hard decision to make, I have to make
+this trade-off to discontinue Motion.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, I’m still writing on this blog. If you have additional questions or concerns, feel free to
+contact me here and I’ll do my best to help.&lt;/p&gt;
+
+&lt;p&gt;Best,&lt;/p&gt;
+
+&lt;p&gt;Hoanh&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Get started with 2-minute rule</title>
