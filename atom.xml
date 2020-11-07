@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-10-30T17:56:55-04:00</updated>
+ <updated>2020-11-07T16:43:40-05:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -479,7 +479,11 @@ Personally, I think it’s a super clean, simple, yet effective way to set bette
   &lt;li&gt;Finally, &lt;strong&gt;only by measuring and clear tracking can you verify if you’re getting better&lt;/strong&gt;. For example, if your goal is to run 10 miles after 2 months and your system is to run every day, you can &lt;a href=&quot;/2-minute-rule&quot;&gt;start with a version that is incredibly easy&lt;/a&gt;, which is to run for 5 miles. Each time, you increase it in an incredibly small way such as 5.1 miles, then 5.2 miles, and so on. If you’re able to increase 0.1 miles each time, by the second months, you could cross out your goal to run 10 miles easily. &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;For the longest time, I’ve been using the above method on a piece a paper or a spreadsheet. Until recently I came up with the idea of putting together an app that helps me keep track of them better.&lt;/p&gt;
+&lt;p&gt;For the longest time, I’ve been using the above method on a piece a paper or a spreadsheet. Until recently I came up with the idea of putting together an app that helps me keep track of them better. Below are several screenshots of what the app looks like and how it works.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/motion_focus_on_systems.png&quot; alt=&quot;Focus on systems&quot; /&gt;
+&lt;img src=&quot;/assets/images/motion_dont_break_the_chain.png&quot; alt=&quot;Don't break the chain&quot; /&gt;
+&lt;img src=&quot;/assets/images/motion_chartjs.png&quot; alt=&quot;Chartjs&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://motion.hoanhan.co/goals/hoanhan&quot;&gt;You can see my actual progress day by day here&lt;/a&gt;&lt;/strong&gt;. For more information on how it works, feel free to check it out at &lt;a href=&quot;https://motion.hoanhan.co&quot;&gt;Motion&lt;/a&gt;.&lt;/p&gt;
 
