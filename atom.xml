@@ -4,13 +4,124 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-11-30T16:07:00-05:00</updated>
+ <updated>2020-12-13T16:38:23-05:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>12 Things about Product/Market Fit by Tren Griffin</title>
+   <link href="https://hoanhan101.github.io/12-things-about-product-market-fit"/>
+   <updated>2020-12-13T00:00:00-05:00</updated>
+   <id>https://hoanhan101.github.io/12-things-about-product-market-fit</id>
+   <content type="html">&lt;h2&gt; Table of Contents &lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#why-market-matters-more-than-anything&quot; id=&quot;markdown-toc-why-market-matters-more-than-anything&quot;&gt;Why market matters more than anything&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-is-productmarket-fit&quot; id=&quot;markdown-toc-what-is-productmarket-fit&quot;&gt;What is product/market fit?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-process-behind-productmarket-fit&quot; id=&quot;markdown-toc-the-process-behind-productmarket-fit&quot;&gt;The process behind product/market fit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-to-tell-if-you-do-have-productmarket-fit&quot; id=&quot;markdown-toc-how-to-tell-if-you-do-have-productmarket-fit&quot;&gt;How to tell if you do have product/market fit&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#being-in-a-good-market-matters-more-than-having-a-product-that-can-satisfy-the-market&quot; id=&quot;markdown-toc-being-in-a-good-market-matters-more-than-having-a-product-that-can-satisfy-the-market&quot;&gt;Being in a good market matters more than having a product that can satisfy the market.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#you-have-fit-if-your-product-grows-exponentially-with-no-marketing&quot; id=&quot;markdown-toc-you-have-fit-if-your-product-grows-exponentially-with-no-marketing&quot;&gt;You have fit if your product grows exponentially with no marketing.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#the-number-one-problem-for-startups-is-when-they-dont-actually-have-productmarket-fit-but-they-think-they-do&quot; id=&quot;markdown-toc-the-number-one-problem-for-startups-is-when-they-dont-actually-have-productmarket-fit-but-they-think-they-do&quot;&gt;The number one problem for startups is when they don’t actually have product/market fit but they think they do.&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#correct-common-misconceptions&quot; id=&quot;markdown-toc-correct-common-misconceptions&quot;&gt;Correct common misconceptions&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#first-to-market-seldom-matters-rather-first-to-productmarket-fit-is-almost-always-the-long-term-winner&quot; id=&quot;markdown-toc-first-to-market-seldom-matters-rather-first-to-productmarket-fit-is-almost-always-the-long-term-winner&quot;&gt;First to market seldom matters. Rather, first to product/market fit is almost always the long-term winner.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#once-you-achieve-productmarket-fit-its-possible-that-you-can-lose-it&quot; id=&quot;markdown-toc-once-you-achieve-productmarket-fit-its-possible-that-you-can-lose-it&quot;&gt;Once you achieve product/market fit, it’s possible that you can lose it.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#one-of-the-most-common-ways-that-startups-die-is-premature-scaling&quot; id=&quot;markdown-toc-one-of-the-most-common-ways-that-startups-die-is-premature-scaling&quot;&gt;One of the most common ways that startups die is premature scaling.&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#how-to-get-there&quot; id=&quot;markdown-toc-how-to-get-there&quot;&gt;How to get there&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#in-the-early-days-of-a-product-dont-focus-on-making-it-robust-instead-find-productmarket-fit-first-then-harden&quot; id=&quot;markdown-toc-in-the-early-days-of-a-product-dont-focus-on-making-it-robust-instead-find-productmarket-fit-first-then-harden&quot;&gt;In the early days of a product, don’t focus on making it robust. Instead, find product/market fit first, then harden.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#before-you-get-productmarket-fit-focus-obsessively-on-getting-to-productmarket-fit&quot; id=&quot;markdown-toc-before-you-get-productmarket-fit-focus-obsessively-on-getting-to-productmarket-fit&quot;&gt;Before you get product/market fit, focus obsessively on getting to product/market fit.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#founders-have-to-choose-a-market-long-before-they-have-any-idea-whether-they-will-reach-productmarket-fit&quot; id=&quot;markdown-toc-founders-have-to-choose-a-market-long-before-they-have-any-idea-whether-they-will-reach-productmarket-fit&quot;&gt;Founders have to choose a market long before they have any idea whether they will reach product/market fit.&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;why-market-matters-more-than-anything&quot;&gt;Why market matters more than anything&lt;/h2&gt;
+
+&lt;p&gt;3 important factors that are required for building a successful business are people, markets, and products. While different people weight each of these differently at different times, Don Valentine believes that the marketplace always comes first because you can’t change that, but you can change the people if needed to later on. Also, Rachleff observes that the most successful startups didn’t have the world’s best management teams in the very early days, but happened to have conceived an idea that addresses an amazing point of pain around which consumers where desperate for a solution.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-productmarket-fit&quot;&gt;What is product/market fit?&lt;/h2&gt;
+
+&lt;p&gt;Identifying a compelling reasons/assumptions that underlies why a customer is likely to use your product is finding product/market fit. This helps you identify the features you need to build, the audience that’s likely to care, and the business model required to entice a customer to buy your product.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“If you address a market that really wants your product, if the dogs are eating the dog food, then you can screw up almost everything in the company and you will succeed. Conversely, if you’re really good at execution but the dogs don’t want to eat the dog food, you have no chance of winning.” - Andy Rachleff&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;the-process-behind-productmarket-fit&quot;&gt;The process behind product/market fit&lt;/h2&gt;
+
+&lt;p&gt;Even though serendipity plays a role in finding product/market fit, there is a consistent process. You want to apply the scientific method just like scientists do: start with a hypothesis, test it, prove it, move on or further iterate on the hypothesis.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;What are you going to build?&lt;/li&gt;
+  &lt;li&gt;Who is desperate for it?&lt;/li&gt;
+  &lt;li&gt;What is the business model you are going to use to deliver it?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Start with the product then try to find the market, no the other way around. The iteration is more about the market and the business model than the product itself.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-tell-if-you-do-have-productmarket-fit&quot;&gt;How to tell if you do have product/market fit&lt;/h2&gt;
+
+&lt;h3 id=&quot;being-in-a-good-market-matters-more-than-having-a-product-that-can-satisfy-the-market&quot;&gt;Being in a good market matters more than having a product that can satisfy the market.&lt;/h3&gt;
+
+&lt;p&gt;According to Andreessen, assuming that you have the best product in the world and a killer team, you’re going to fail if you are in a terrible market. However, if you’re in a good market, you can have a buggy product and a OK team, success can happen quickly. Of course it won’t last until the product is fixed but at least it has a wonderful start.&lt;/p&gt;
+
+&lt;h3 id=&quot;you-have-fit-if-your-product-grows-exponentially-with-no-marketing&quot;&gt;You have fit if your product grows exponentially with no marketing.&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“You can always feel when product/market fit isn’t happening. The customers aren’t quite getting value out of the product, word of mouth isn’t spreading, usage isn’t growing that fast, press reviews are kind of ‘blah’, the sales cycle takes too long, and lots of deals never close. And you can always feel product/market fit when it’s happening. The customers are buying the product just as fast as you can make it — or usage is growing just as fast as you can add more servers. Money from customers is piling up in your company checking account. You’re hiring sales and customer support staff as fast as you can. Reporters are calling because they’ve heard about your hot new thing and they want to talk to you about it. You start getting entrepreneur of the year awards from Harvard Business School. Investment bankers are staking out your house. You could eat free for a year at Buck’s.” - Marc Andreessen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-number-one-problem-for-startups-is-when-they-dont-actually-have-productmarket-fit-but-they-think-they-do&quot;&gt;The number one problem for startups is when they don’t actually have product/market fit but they think they do.&lt;/h3&gt;
+
+&lt;p&gt;Again, a good way to know when you reach product/market fit is to verify if your product is growing without any advertising spending.&lt;/p&gt;
+
+&lt;h2 id=&quot;correct-common-misconceptions&quot;&gt;Correct common misconceptions&lt;/h2&gt;
+
+&lt;h3 id=&quot;first-to-market-seldom-matters-rather-first-to-productmarket-fit-is-almost-always-the-long-term-winner&quot;&gt;First to market seldom matters. Rather, first to product/market fit is almost always the long-term winner.&lt;/h3&gt;
+
+&lt;p&gt;Intuit, Apple, Google, and Facebook are examples of how being the first mover isn’t necessarily the advantage. After all, the winner is the first company to deliver the food the dogs want to eat.&lt;/p&gt;
+
+&lt;h3 id=&quot;once-you-achieve-productmarket-fit-its-possible-that-you-can-lose-it&quot;&gt;Once you achieve product/market fit, it’s possible that you can lose it.&lt;/h3&gt;
+
+&lt;p&gt;Markets and competitors are always changing. Constant adaptation is therefore required to retain product/market fit. A good way to do so as Steve Blank observes is to have tight fact-based data/metrics feedback loop to help you make/reverse decisions.&lt;/p&gt;
+
+&lt;h3 id=&quot;one-of-the-most-common-ways-that-startups-die-is-premature-scaling&quot;&gt;One of the most common ways that startups die is premature scaling.&lt;/h3&gt;
+
+&lt;p&gt;Steve Bank believes that a business is “scaling prematurely” if it is spending significant amounts of money on growth before it has discovered and developed product/market fit. This happens more often than we think, about 70% of startups according to Startup Genome. That said, startups needs 2-3 times longer to validate their market before focusing on growth than most founders expect.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-get-there&quot;&gt;How to get there&lt;/h2&gt;
+
+&lt;h3 id=&quot;in-the-early-days-of-a-product-dont-focus-on-making-it-robust-instead-find-productmarket-fit-first-then-harden&quot;&gt;In the early days of a product, don’t focus on making it robust. Instead, find product/market fit first, then harden.&lt;/h3&gt;
+
+&lt;p&gt;There is no value in hardening something that customers don’t want to buy. At first, the product doesn’t need to be great; it just needs to work.&lt;/p&gt;
+
+&lt;h3 id=&quot;before-you-get-productmarket-fit-focus-obsessively-on-getting-to-productmarket-fit&quot;&gt;Before you get product/market fit, focus obsessively on getting to product/market fit.&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Do whatever is required to get to product/market fit. Including changing out people, rewriting your product, moving into a different market, telling customers no when you don’t want to, telling customers yes when you don’t want to, raising that fourth round of highly dilutive venture capital — whatever is required. When you get right down to it, you can ignore almost everything else. I’m not suggesting that you do ignore everything else — just that judging from what I’ve seen in successful startups, you can.” - Andreessen&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;founders-have-to-choose-a-market-long-before-they-have-any-idea-whether-they-will-reach-productmarket-fit&quot;&gt;Founders have to choose a market long before they have any idea whether they will reach product/market fit.&lt;/h3&gt;
+
+&lt;p&gt;Some venture capitalists would rather buy a business with product-market fit than try to predict whether a founder will find it. They want to have founders do the heavy lifting and think carefully before they get involved in the first place.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://a16z.com/2017/02/18/12-things-about-product-market-fit/&quot;&gt;https://a16z.com/2017/02/18/12-things-about-product-market-fit/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>How To Be Successful by Sam Altman</title>
