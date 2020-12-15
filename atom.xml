@@ -4,13 +4,304 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-12-13T16:38:23-05:00</updated>
+ <updated>2020-12-15T17:20:56-05:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>How to grow and level up as a software engineer</title>
+   <link href="https://hoanhan101.github.io/circleci-engineering-competency-matrix"/>
+   <updated>2020-12-15T00:00:00-05:00</updated>
+   <id>https://hoanhan101.github.io/circleci-engineering-competency-matrix</id>
+   <content type="html">&lt;h2&gt; Table of Contents &lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#guidelines&quot; id=&quot;markdown-toc-guidelines&quot;&gt;Guidelines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#technical-skills&quot; id=&quot;markdown-toc-technical-skills&quot;&gt;Technical skills&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#writing-code&quot; id=&quot;markdown-toc-writing-code&quot;&gt;Writing code&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#testing&quot; id=&quot;markdown-toc-testing&quot;&gt;Testing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#debugging&quot; id=&quot;markdown-toc-debugging&quot;&gt;Debugging&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#observability&quot; id=&quot;markdown-toc-observability&quot;&gt;Observability&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#understanding-code&quot; id=&quot;markdown-toc-understanding-code&quot;&gt;Understanding code&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#software-architecture&quot; id=&quot;markdown-toc-software-architecture&quot;&gt;Software architecture&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#security&quot; id=&quot;markdown-toc-security&quot;&gt;Security&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#delivery&quot; id=&quot;markdown-toc-delivery&quot;&gt;Delivery&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#work-breakdown&quot; id=&quot;markdown-toc-work-breakdown&quot;&gt;Work breakdown&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#prioritisation&quot; id=&quot;markdown-toc-prioritisation&quot;&gt;Prioritisation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dealing-with-ambiguity&quot; id=&quot;markdown-toc-dealing-with-ambiguity&quot;&gt;Dealing with ambiguity&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#reliability&quot; id=&quot;markdown-toc-reliability&quot;&gt;Reliability&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#economic-thinking&quot; id=&quot;markdown-toc-economic-thinking&quot;&gt;Economic thinking&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#feedback-communication-collaboration&quot; id=&quot;markdown-toc-feedback-communication-collaboration&quot;&gt;Feedback, communication, collaboration&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#deliveringseeking-feedback&quot; id=&quot;markdown-toc-deliveringseeking-feedback&quot;&gt;Delivering/seeking feedback&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#effective-communication&quot; id=&quot;markdown-toc-effective-communication&quot;&gt;Effective communication&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#knowledge-sharing&quot; id=&quot;markdown-toc-knowledge-sharing&quot;&gt;Knowledge sharing&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#team-work&quot; id=&quot;markdown-toc-team-work&quot;&gt;Team work&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#relationship-building&quot; id=&quot;markdown-toc-relationship-building&quot;&gt;Relationship building&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#handling-disagreement&quot; id=&quot;markdown-toc-handling-disagreement&quot;&gt;Handling disagreement&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#leadership&quot; id=&quot;markdown-toc-leadership&quot;&gt;Leadership&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#decision-making&quot; id=&quot;markdown-toc-decision-making&quot;&gt;Decision making&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#driving-alignment&quot; id=&quot;markdown-toc-driving-alignment&quot;&gt;Driving alignment&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#process-thinking&quot; id=&quot;markdown-toc-process-thinking&quot;&gt;Process thinking&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#facilitation&quot; id=&quot;markdown-toc-facilitation&quot;&gt;Facilitation&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mentoring&quot; id=&quot;markdown-toc-mentoring&quot;&gt;Mentoring&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#strategic-impact&quot; id=&quot;markdown-toc-strategic-impact&quot;&gt;Strategic impact&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#business-acumen&quot; id=&quot;markdown-toc-business-acumen&quot;&gt;Business acumen&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#strategic-work&quot; id=&quot;markdown-toc-strategic-work&quot;&gt;Strategic work&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#product-thinking&quot; id=&quot;markdown-toc-product-thinking&quot;&gt;Product thinking&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;guidelines&quot;&gt;Guidelines&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Junior-Senior levels generally focus on engineers executing works while Staff-Principal levels focus on mentoring and guiding others in their work.&lt;/li&gt;
+  &lt;li&gt;Competencies scale through impact: task → project → milestone → team → across teams → organization.&lt;/li&gt;
+  &lt;li&gt;Competencies also scale through increased frequency: sometimes → usually → always.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technical-skills&quot;&gt;Technical skills&lt;/h2&gt;
+
+&lt;h3 id=&quot;writing-code&quot;&gt;Writing code&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Consistently writes code that are testable, easily understood by other developers.&lt;/li&gt;
+  &lt;li&gt;Document effectively.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;testing&quot;&gt;Testing&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Understands the testing pyramid (unit test, integration test, end-to-end test) and ensures that they are in good places.&lt;/li&gt;
+  &lt;li&gt;Understands the team testing approach, works to recommend solutions accordingly.&lt;/li&gt;
+  &lt;li&gt;Works with other teams to recommend solutions&lt;/li&gt;
+  &lt;li&gt;Drives the company wide testing strategy.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;debugging&quot;&gt;Debugging&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Uses a systematic approach to debug issues located within a single device.&lt;/li&gt;
+  &lt;li&gt;Proficient at using systematic debugging to diagnose cross services issues.&lt;/li&gt;
+  &lt;li&gt;Leads incident response across the organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;observability&quot;&gt;Observability&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Is aware of the team monitoring philosophy.&lt;/li&gt;
+  &lt;li&gt;Uses it as a basis for suggesting stability and performance improvements.&lt;/li&gt;
+  &lt;li&gt;Drives monitoring works&lt;/li&gt;
+  &lt;li&gt;Fosters a culture of observability across several teams and organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;understanding-code&quot;&gt;Understanding code&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Understands a portion of the team domain, knows how to work productively within it.&lt;/li&gt;
+  &lt;li&gt;Understands the team’s domain at a high level, has expertise in a portion.&lt;/li&gt;
+  &lt;li&gt;Has expertise in the team’s domain, including the breadth of services, how they interact, and data flows between systems.&lt;/li&gt;
+  &lt;li&gt;Has expertise in a set of related teams’ domains and organization’s architecture.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;software-architecture&quot;&gt;Software architecture&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Designs functions what are aligned with the overall architecture.&lt;/li&gt;
+  &lt;li&gt;Utilizes abstractions and code isolation effectively.&lt;/li&gt;
+  &lt;li&gt;Architects scalable services and systems, makes design decisions, weights trade-offs.&lt;/li&gt;
+  &lt;li&gt;Guides several teams to foster a culture of scalable architecture.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;security&quot;&gt;Security&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Approaches all engineering work with a security lens, actively looks for vulnerabilities both in code and peer reviews.&lt;/li&gt;
+  &lt;li&gt;Fosters a security first mindset across the teams/organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;delivery&quot;&gt;Delivery&lt;/h2&gt;
+
+&lt;h3 id=&quot;work-breakdown&quot;&gt;Work breakdown&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Review tasks critically and ensures that they’re appropriately scoped for continuous integration and incremental delivery.&lt;/li&gt;
+  &lt;li&gt;Reviews epics and projects and ensures that they’re broken down, prioritized properly and well understood by the team.&lt;/li&gt;
+  &lt;li&gt;Reviews cross-team works and ensures that they’re well understood by all teams.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;prioritisation&quot;&gt;Prioritisation&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ensures that tasks are prioritised and dependencies are noted correctly.&lt;/li&gt;
+  &lt;li&gt;Works within team to foster a culture of priority setting and urgency in alignment with organizational strategy.&lt;/li&gt;
+  &lt;li&gt;Identifies dependencies across organization and work with individual team to resolve them before they become an issue.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;dealing-with-ambiguity&quot;&gt;Dealing with ambiguity&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Handles risk and uncertainty within your personal scope responsibly and effectively.&lt;/li&gt;
+  &lt;li&gt;Effectively handles risk within the team.&lt;/li&gt;
+  &lt;li&gt;Effectively handles risk within the across several teams and organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;reliability&quot;&gt;Reliability&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Understands the priorities and deliver upon them accordingly.&lt;/li&gt;
+  &lt;li&gt;Anticipates and communicates blockers, delays before they require escalation.&lt;/li&gt;
+  &lt;li&gt;Ensures expectations with the team and external stakeholders are clarified.&lt;/li&gt;
+  &lt;li&gt;Successfully manages cross-team commitments, progress, and roadmap to delivery.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;economic-thinking&quot;&gt;Economic thinking&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;When taking action, weighs cost and value in order to make the most economic action.&lt;/li&gt;
+  &lt;li&gt;Uses this well and make suggestion to teammates.&lt;/li&gt;
+  &lt;li&gt;Fosters a culture within their team where people apply economic thinking to make timely decisions.&lt;/li&gt;
+  &lt;li&gt;Fosters a culture across several teams and within the organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;feedback-communication-collaboration&quot;&gt;Feedback, communication, collaboration&lt;/h2&gt;
+
+&lt;h3 id=&quot;deliveringseeking-feedback&quot;&gt;Delivering/seeking feedback&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Delivers praise and constructive feedback to their team, teammates, and manager in a useful manner.&lt;/li&gt;
+  &lt;li&gt;Delivers feedback to their team’s business stakeholders when opportunities arise.&lt;/li&gt;
+  &lt;li&gt;Fosters a culture of delivering praise and constructive feedback within the team, across several teams and organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;effective-communication&quot;&gt;Effective communication&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Communicates effectively, clearly, concisely in written and verbal form both technical and non technical subjects.&lt;/li&gt;
+  &lt;li&gt;Is able to communicate effectively with a diverse team, set of team, across the organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;knowledge-sharing&quot;&gt;Knowledge sharing&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Understand your domain, share your knowledge and contribute to the team’s documentation frequently.&lt;/li&gt;
+  &lt;li&gt;Fosters a culture of documentation and knowledge sharing within the team, across team and organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;team-work&quot;&gt;Team work&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Consistently helps their teammates overcome obstacles, resolve blockers, and complete work tasks.&lt;/li&gt;
+  &lt;li&gt;Consistently works across the organization to enable teams to support each other.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;relationship-building&quot;&gt;Relationship building&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Works to build strong relationships with teammates, manager, and senior engineers across the organization.&lt;/li&gt;
+  &lt;li&gt;Works to build strong relationships across the organization and leverage those to better plan for the engineering organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;handling-disagreement&quot;&gt;Handling disagreement&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Approaches disagreement with teammates non-defensively and uses contradictory opinions as a basis for constructive, productive conversations.&lt;/li&gt;
+  &lt;li&gt;Encourages teammates to do the same.&lt;/li&gt;
+  &lt;li&gt;Foster a culture where people are encouraged to share opinions and contribute to discussions in a respectful manner.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;leadership&quot;&gt;Leadership&lt;/h2&gt;
+
+&lt;h3 id=&quot;decision-making&quot;&gt;Decision making&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Strives to be objective, reflects on your own biases, and holds yourself accountable for decision and outcomes.&lt;/li&gt;
+  &lt;li&gt;Takes ownership of decisions made in their team by helping teammates make clear decisions in alignment with organizational goals, backing decisions made, and taking responsibility for their success.&lt;/li&gt;
+  &lt;li&gt;Takes ownership of decisions made across teams and organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;driving-alignment&quot;&gt;Driving alignment&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Strongly oriented towards goals and ensures the team is continuously working towards shared goals.&lt;/li&gt;
+  &lt;li&gt;Fosters a culture within the team of having conversations based on organizational strategy and principles to create alignment.&lt;/li&gt;
+  &lt;li&gt;Fosters a culture across several teams and organization.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;process-thinking&quot;&gt;Process thinking&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Regularly thinks about team practices and processes and discusses improvements with team.&lt;/li&gt;
+  &lt;li&gt;Thinks about practices and processes that affect several teams, discusses improvements with appropriate parties, and drives implementation.&lt;/li&gt;
+  &lt;li&gt;Takes ownership and responsibility for organizational practices and processes and their continuous improvement.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;facilitation&quot;&gt;Facilitation&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Facilitates discussions within the team, ensuring that everyone has an opportunity to share their opinion and be heard, and no one person dominates the conversation.&lt;/li&gt;
+  &lt;li&gt;Facilitates discussions across teams, guides discussions toward decisions, clarifies and gets buy-in.&lt;/li&gt;
+  &lt;li&gt;Facilitates organization-wide discussions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;mentoring&quot;&gt;Mentoring&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Seeks out mentorship to grow their own experience.&lt;/li&gt;
+  &lt;li&gt;Seeks out mentoring opportunities specifically to create team redundancy and backfill ability.&lt;/li&gt;
+  &lt;li&gt;Mentors across teams and organization in an open, respectful, flexible, empathetic manner.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;strategic-impact&quot;&gt;Strategic impact&lt;/h2&gt;
+
+&lt;h3 id=&quot;business-acumen&quot;&gt;Business acumen&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Has a thorough understanding of their team’s domain, and how it contributes to overall business strategy.&lt;/li&gt;
+  &lt;li&gt;Has a thorough understanding of adjacent teams’ strategies and how they map to their team and interaction points.&lt;/li&gt;
+  &lt;li&gt;Has a thorough understanding of the entire business, including individual domains, and how they contribute to overall business strategy.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;strategic-work&quot;&gt;Strategic work&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Understands the organization’s engineering strategy.&lt;/li&gt;
+  &lt;li&gt;Collaborates and decides on their team’s engineering work based on organization’s engineering strategy.&lt;/li&gt;
+  &lt;li&gt;Leads cross-team and organization strategic efforts, influencing decisions to achieve cross-team alignment on major goals.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;product-thinking&quot;&gt;Product thinking&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Understands product area of focus, how it fits into the overall business.&lt;/li&gt;
+  &lt;li&gt;Looks for opportunities to simplify product &amp;amp; technical design.&lt;/li&gt;
+  &lt;li&gt;Evaluates and creates new product features in collaboration with the product team.&lt;/li&gt;
+  &lt;li&gt;Recognizes product opportunities and differentiators in relation to the competition.&lt;/li&gt;
+  &lt;li&gt;Actively seeks to create or redefine roadmaps across the organization with product &amp;amp; business counterparts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1mtn4QTvqCiS_sf6uxtCiexTo03FVjSbnwbZXE46NdQE/edit?usp=sharing&quot;&gt;https://docs.google.com/spreadsheets/d/1mtn4QTvqCiS_sf6uxtCiexTo03FVjSbnwbZXE46NdQE/edit?usp=sharing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
  
  <entry>
    <title>12 Things about Product/Market Fit by Tren Griffin</title>
