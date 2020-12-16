@@ -4,7 +4,7 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2020-12-15T17:20:56-05:00</updated>
+ <updated>2020-12-16T10:14:38-05:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
@@ -69,7 +69,8 @@
 &lt;h2 id=&quot;guidelines&quot;&gt;Guidelines&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Junior-Senior levels generally focus on engineers executing works while Staff-Principal levels focus on mentoring and guiding others in their work.&lt;/li&gt;
+  &lt;li&gt;A numbered list is used for each theme, where the higher the number is, the higher seniority level one has. Usually, each is built on top of the previous one.&lt;/li&gt;
+  &lt;li&gt;Junior-Senior levels generally focus on engineers executing works (number 1 and 2) while Staff-Principal levels focus on mentoring and guiding others in their work (number 3 and above).&lt;/li&gt;
   &lt;li&gt;Competencies scale through impact: task → project → milestone → team → across teams → organization.&lt;/li&gt;
   &lt;li&gt;Competencies also scale through increased frequency: sometimes → usually → always.&lt;/li&gt;
 &lt;/ul&gt;
