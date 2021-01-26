@@ -4,82 +4,13 @@
  <title>Hoanh An</title>
  <link href="https://hoanhan101.github.io/atom.xml" rel="self"/>
  <link href="https://hoanhan101.github.io/"/>
- <updated>2021-01-25T21:24:55-05:00</updated>
+ <updated>2021-01-26T10:15:30-05:00</updated>
  <id>https://hoanhan101.github.io</id>
  <author>
    <name>Hoanh An</name>
    <email>hoanhan101@gmail.com</email>
  </author>
 
- 
- <entry>
-   <title></title>
-   <link href="https://hoanhan101.github.io/2020-12-27-startup-ideas-pg"/>
-   <updated>2021-01-25T21:24:55-05:00</updated>
-   <id>https://hoanhan101.github.io/2020-12-27-startup-ideas-pg</id>
-   <content type="html">&lt;h2&gt; Table of Contents &lt;/h2&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#solve-your-own-problems&quot; id=&quot;markdown-toc-solve-your-own-problems&quot;&gt;Solve your own problems&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#live-in-the-future-then-build-whats-missing-or-what-seems-interesting&quot; id=&quot;markdown-toc-live-in-the-future-then-build-whats-missing-or-what-seems-interesting&quot;&gt;Live in the future, then build what’s missing or what seems interesting&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#dont-fear-competition&quot; id=&quot;markdown-toc-dont-fear-competition&quot;&gt;Don’t fear competition&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#turn-off-the-schlep-filter&quot; id=&quot;markdown-toc-turn-off-the-schlep-filter&quot;&gt;Turn off the schlep filter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;solve-your-own-problems&quot;&gt;Solve your own problems&lt;/h2&gt;
-
-&lt;p&gt;The most common mistake startups make is to solve problems that no one has. Why? Because they try hard to think of startup ideas and fool themselves into working on them while paying no attention to the market or users. Now, in order to ensure that a problem exists, look within yourself, find problems that you have yourself and work on that. This way, you know that you, as an user, will use it and hopefully others will too.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;For example, a social network for pet owners sounds reasonable. Millions of people have pets and invest a tons in them so maybe they would like a site where they could talk to other pet owners. The danger of an idea like this is that when you run it by your friends with pets, they don’t say “I would never use this.” They say “Yeah, maybe I could see using something like that.” Even when the startup launches, it will sound plausible to a lot of people. They don’t want to use it themselves, at least not right now, but they could imagine other people wanting it. Sum that reaction across the entire population, and you have zero users.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;When a startup launches, there must be some users who &lt;strong&gt;really want&lt;/strong&gt; what you’re making, not those who could see themselves using it one day. Initially, this group of people is small but that’s okay. You want to build something a small number of people want a large amount, not the other way around. Microsoft made Altair Basic when there were only a couple of thousand Altair owners, but without this software they were programming in machine language. Facebook used to be exclusively for Harvard students but those wanted it a lot.&lt;/p&gt;
-
-&lt;h2 id=&quot;live-in-the-future-then-build-whats-missing-or-what-seems-interesting&quot;&gt;Live in the future, then build what’s missing or what seems interesting&lt;/h2&gt;
-
-&lt;p&gt;The way to have good organic startup ideas is to become the sort of person who has them. It means to live in the future, being at the leading edge of a rapid changing field, look for things that seem to be missing, pay particular attention to things that chafe/annoy you and ask a lot of questions, take note of gaps and anomalies, and be prepare to grasp the opportunities as they present.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The way successful founders have had their ideas, it’s generally the result of some external stimulus hitting a prepared mind. Bill Gates and Paul Allen hear about the Altair and think “I bet we could write a Basic interpreter for it.” Drew Houston realizes he’s forgotten his USB stick and thinks “I really need to make my files live online.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Work on projects that seem like they’d be cool if exist. But don’t feel like you have to build things that will become startups. That’s premature optimization. Until you have some users to measure, you’re optimizing based on guesses. Just build things. Microcomputers seemed like toys when Apple and Microsoft started working on them. Facebook was just a way for undergrads to stalk one another.&lt;/p&gt;
-
-&lt;p&gt;While the real recipe is to live in the future and build what seems interesting, here are some tricks to come up with not-so organic ideas:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Look in areas where you have some expertise.&lt;/li&gt;
-  &lt;li&gt;Ask what you wish someone else would build, so that you could use it.&lt;/li&gt;
-  &lt;li&gt;Discover the needs while working on different ideas.&lt;/li&gt;
-  &lt;li&gt;Unmet need of someone else. Talking to people about the gaps they find in the world. What’s missing? What would they like to do that they can’t? What’s tedious or annoying, particularly in their work? Understand them deeply and make them your own.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;dont-fear-competition&quot;&gt;Don’t fear competition&lt;/h2&gt;
-
-&lt;p&gt;Competition is one of the signs of a good idea. A crowded market is another. Either case, it means that there’s demand and that none of the existing solutions are good enough.&lt;/p&gt;
-
-&lt;p&gt;When you have one good idea, you’ll tend to feel that you’re late. Don’t. It’s rarely for startups to be killed by competitors. If you’re uncertain, just ask users.&lt;/p&gt;
-
-&lt;h2 id=&quot;turn-off-the-schlep-filter&quot;&gt;Turn off the schlep filter&lt;/h2&gt;
-
-&lt;p&gt;Most people prefer not to deal with tedious, unpleasant problems or get involved in messy ways with the real world. Let’s take Stripe for example. For years, thousands of people who had to process payments online knew how painful the experience was and yet when they started startups, they decided to build recipe sites, or aggregators for local events.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Though the idea of fixing payments was right there in plain sight, they never saw it, because their unconscious mind shrank from the complications involved. You’d have to make deals with banks. How do you do that? Plus you’re moving money, so you’re going to have to deal with fraud, and people trying to break into your servers. Plus there are probably all sorts of regulations to comply with. It’s a lot more intimidating to start a startup like this than a recipe site.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;It’s an extremely hard problem and that scariness makes ambitious ideas doubly valuable. That said, turn off the schlep filter.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.paulgraham.com/startupideas.html&quot;&gt;http://www.paulgraham.com/startupideas.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
  
  <entry>
    <title>The Psychology of Money by Morgan Housel</title>
@@ -684,6 +615,75 @@
 &lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.paulgraham.com/wealth.html&quot;&gt;http://www.paulgraham.com/wealth.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>How To Get Startup Ideas by Paul Graham</title>
+   <link href="https://hoanhan101.github.io/startup-ideas-pg"/>
+   <updated>2020-12-27T00:00:00-05:00</updated>
+   <id>https://hoanhan101.github.io/startup-ideas-pg</id>
+   <content type="html">&lt;h2&gt; Table of Contents &lt;/h2&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#solve-your-own-problems&quot; id=&quot;markdown-toc-solve-your-own-problems&quot;&gt;Solve your own problems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#live-in-the-future-then-build-whats-missing-or-what-seems-interesting&quot; id=&quot;markdown-toc-live-in-the-future-then-build-whats-missing-or-what-seems-interesting&quot;&gt;Live in the future, then build what’s missing or what seems interesting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#dont-fear-competition&quot; id=&quot;markdown-toc-dont-fear-competition&quot;&gt;Don’t fear competition&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#turn-off-the-schlep-filter&quot; id=&quot;markdown-toc-turn-off-the-schlep-filter&quot;&gt;Turn off the schlep filter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;solve-your-own-problems&quot;&gt;Solve your own problems&lt;/h2&gt;
+
+&lt;p&gt;The most common mistake startups make is to solve problems that no one has. Why? Because they try hard to think of startup ideas and fool themselves into working on them while paying no attention to the market or users. Now, in order to ensure that a problem exists, look within yourself, find problems that you have yourself and work on that. This way, you know that you, as an user, will use it and hopefully others will too.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For example, a social network for pet owners sounds reasonable. Millions of people have pets and invest a tons in them so maybe they would like a site where they could talk to other pet owners. The danger of an idea like this is that when you run it by your friends with pets, they don’t say “I would never use this.” They say “Yeah, maybe I could see using something like that.” Even when the startup launches, it will sound plausible to a lot of people. They don’t want to use it themselves, at least not right now, but they could imagine other people wanting it. Sum that reaction across the entire population, and you have zero users.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When a startup launches, there must be some users who &lt;strong&gt;really want&lt;/strong&gt; what you’re making, not those who could see themselves using it one day. Initially, this group of people is small but that’s okay. You want to build something a small number of people want a large amount, not the other way around. Microsoft made Altair Basic when there were only a couple of thousand Altair owners, but without this software they were programming in machine language. Facebook used to be exclusively for Harvard students but those wanted it a lot.&lt;/p&gt;
+
+&lt;h2 id=&quot;live-in-the-future-then-build-whats-missing-or-what-seems-interesting&quot;&gt;Live in the future, then build what’s missing or what seems interesting&lt;/h2&gt;
+
+&lt;p&gt;The way to have good organic startup ideas is to become the sort of person who has them. It means to live in the future, being at the leading edge of a rapid changing field, look for things that seem to be missing, pay particular attention to things that chafe/annoy you and ask a lot of questions, take note of gaps and anomalies, and be prepare to grasp the opportunities as they present.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The way successful founders have had their ideas, it’s generally the result of some external stimulus hitting a prepared mind. Bill Gates and Paul Allen hear about the Altair and think “I bet we could write a Basic interpreter for it.” Drew Houston realizes he’s forgotten his USB stick and thinks “I really need to make my files live online.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Work on projects that seem like they’d be cool if exist. But don’t feel like you have to build things that will become startups. That’s premature optimization. Until you have some users to measure, you’re optimizing based on guesses. Just build things. Microcomputers seemed like toys when Apple and Microsoft started working on them. Facebook was just a way for undergrads to stalk one another.&lt;/p&gt;
+
+&lt;p&gt;While the real recipe is to live in the future and build what seems interesting, here are some tricks to come up with not-so organic ideas:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Look in areas where you have some expertise.&lt;/li&gt;
+  &lt;li&gt;Ask what you wish someone else would build, so that you could use it.&lt;/li&gt;
+  &lt;li&gt;Discover the needs while working on different ideas.&lt;/li&gt;
+  &lt;li&gt;Unmet need of someone else. Talking to people about the gaps they find in the world. What’s missing? What would they like to do that they can’t? What’s tedious or annoying, particularly in their work? Understand them deeply and make them your own.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dont-fear-competition&quot;&gt;Don’t fear competition&lt;/h2&gt;
+
+&lt;p&gt;Competition is one of the signs of a good idea. A crowded market is another. Either case, it means that there’s demand and that none of the existing solutions are good enough.&lt;/p&gt;
+
+&lt;p&gt;When you have one good idea, you’ll tend to feel that you’re late. Don’t. It’s rarely for startups to be killed by competitors. If you’re uncertain, just ask users.&lt;/p&gt;
+
+&lt;h2 id=&quot;turn-off-the-schlep-filter&quot;&gt;Turn off the schlep filter&lt;/h2&gt;
+
+&lt;p&gt;Most people prefer not to deal with tedious, unpleasant problems or get involved in messy ways with the real world. Let’s take Stripe for example. For years, thousands of people who had to process payments online knew how painful the experience was and yet when they started startups, they decided to build recipe sites, or aggregators for local events.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Though the idea of fixing payments was right there in plain sight, they never saw it, because their unconscious mind shrank from the complications involved. You’d have to make deals with banks. How do you do that? Plus you’re moving money, so you’re going to have to deal with fraud, and people trying to break into your servers. Plus there are probably all sorts of regulations to comply with. It’s a lot more intimidating to start a startup like this than a recipe site.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s an extremely hard problem and that scariness makes ambitious ideas doubly valuable. That said, turn off the schlep filter.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.paulgraham.com/startupideas.html&quot;&gt;http://www.paulgraham.com/startupideas.html&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
